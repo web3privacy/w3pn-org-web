@@ -1,0 +1,67 @@
+headerImageUrl: /images/events/items/m25rom/header/m25rom.webp
+heroBackgroundImageUrl: /images/events/items/m25rom/header/m25rom-cover.webp
+shortDescription: Rome meetup during ETHRome on open source, public goods, and grassroots movements.
+timeRange: 15:00 - 21:00
+contributors:
+  enabled: true
+  items:
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - name: Federico
+      role: Web3Privacy Now
+      handle: BabyBitProd
+      avatar: /images/site-shared/profiles/frederico.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/8jv4odjn
+location:
+  address: Free University of Cinema, CAE- città dell'altra economia, Largo Dino Frisullo, 00153 Roma RM, Italy
+  city: Rome
+  country: IT
+  name: Free University of Cinema
+  website: https://maps.app.goo.gl/ZzxfRaD83vqgHH9p7?g_st=ipc
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: false
+speakers:
+  - avatar: /images/events/shared/header/migle-rakitaite.webp
+    id: migle-rakitaite
+    name: Migle Rakitaite
+    role: Win Privacy / Glitch Armour
+    twitter: https://x.com/rakymnft
+  - avatar: /images/events/shared/header/vaclav-pavlin.webp
+    id: vaclav-pavlin
+    name: Vaclav Pavlin
+    role: Logos / Waku
+    twitter: https://x.com/vpavlin
+  - avatar: /images/events/items/m25rom/header/shirly-valge.webp
+    id: shirly-valge
+    name: Shirly Valge
+    role: Nomos
+    twitter: https://x.com/shirlyvalge
+  - avatar: /images/events/items/m25rom/header/anton-paisov.webp
+    id: anton-paisov
+    name: Anton Paisov
+    role: Calimero
+    twitter: https://x.com/antonpaisov
+topics:
+  content: >-
+    Shaping and Defending the Techno-Political Evolution: Open Source, Public Goods, and Grassroots
+    Movements. This Rome meetup during ETHRome brought together open source advocates, public goods
+    builders, internet freedom defenders, and grassroots communities, with talks followed by
+    aperitivo on the UrbeHub terrace.
+  enabled: true

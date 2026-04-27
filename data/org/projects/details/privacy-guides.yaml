@@ -1,0 +1,56 @@
+hero:
+  logo: /images/projects/items/privacy-guides/icon/project-privacy-guides.webp
+  title: Privacy Guides
+  tagline: Curated guides for building and evaluating privacy. Learn best practices.
+  ctaLabel: READ GUIDES
+  ctaHref: https://docs.web3privacy.info/research/privacy-guides
+  metrics:
+    - value: Guides
+      label: CURATED
+    - value: GitHub
+      label: SOURCE
+mission:
+  text: |
+    Privacy Guides offer curated documentation for building and evaluating privacy-preserving
+    technologies. Contribute on GitHub.
+  readMoreHref: https://docs.web3privacy.info/research/privacy-guides
+links:
+  docs: https://docs.web3privacy.info/research/privacy-guides
+  github: https://github.com/web3privacy/guides
+features:
+  - title: Privacy guides
+    description: Curated docs for building and evaluating privacy.
+    link: https://docs.web3privacy.info/research/privacy-guides
+    linkLabel: Read
+  - title: GitHub
+    description: Contribute on GitHub.
+    link: https://github.com/web3privacy/guides
+    linkLabel: Contribute
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: true
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: false
+  partners: false
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: The EU’s GDPR update could kill public blockchains (unless we act now)
+    date: 2024-09-12
+    excerpt: >-
+      Policy framing on GDPR changes, public ledgers, and why coordinated advocacy matters for open blockchain
+      infrastructure.
+    href: https://paragraph.com/@web3privacy-now/the-eu-s-gdpr-update-could-kill-public-blockchains-unless-we-act-now
+    thumbnail: /images/projects/items/privacy-guides/articles/the-eu-s-gdpr-update-could-kill-public-blockchains-unless-we-act-now.webp
+contribute:
+  text: Contribute guides on GitHub.
+  ctaLabel: READ GUIDES
+  ctaHref: https://docs.web3privacy.info/research/privacy-guides
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Guides]

@@ -1,0 +1,38 @@
+headerImageUrl: /images/events/items/m26ams/header/m26ams.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/sixp297m
+location:
+  address: Amsterdam, Netherlands
+  city: Amsterdam
+  country: NL
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+shortDescription: Amsterdam half-day meetup on open source, public goods, and grassroots movements.
+timeRange: 15:00 - 20:00
+topics:
+  content: >-
+    Shaping and Defending the Techno-Political Evolution: Open Source, Public Goods, and Grassroots
+    Movements. An Amsterdam meetup for open source advocates, public goods builders, internet freedom
+    defenders, and grassroots communities.
+  enabled: true

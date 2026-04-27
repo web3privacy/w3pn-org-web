@@ -1,0 +1,65 @@
+hero:
+  logo: /images/projects/items/gitcoin-privacy-round/icon/project-gitcoin-privacy-round.webp
+  title: Gitcoin Privacy Round
+  tagline: A quadratic funding round supporting privacy-focused public goods.
+  ctaLabel: OPEN INITIATIVE
+  ctaHref: https://gitcoin.privote.live
+  metrics: []
+mission:
+  text: |
+    The project behind gitcoin.privote.live was the GG24 Privacy Round, a funding round focused on privacy public goods. It was created to address a simple problem: privacy projects are often valuable, but hard to fund through standard crypto or venture channels. The goal was to test whether funding for this sector could be allocated through a process that was itself more privacy-preserving.
+
+    The round used quadratic funding together with private voting. Builders working on privacy research, infrastructure, dApps, and education could apply, and the allocation process was shaped by community participation. Voting was run through Privote and MACI, with Human Passport used to verify that participants were real people.
+
+    The round received 121 applications, accepted 93 projects, and recorded 7,427 votes. A total of 35.41 WETH was distributed, alongside around $13,000 in community donations. The result was not only a funded set of projects, but also a real-world test of private grant coordination at ecosystem scale.
+  readMoreHref: https://gitcoin.privote.live
+links:
+  url: https://gitcoin.privote.live
+contribute:
+  text: Support the round, share it with aligned contributors, and help channel sustainable funding toward privacy public goods.
+  links:
+    - label: Website
+      href: https://gitcoin.privote.live
+  ctaLabel: OPEN INITIATIVE
+  ctaHref: https://gitcoin.privote.live
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Gitcoin Privacy Round]
+screenshots:
+  - src: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-1.webp
+    alt: Gitcoin Privacy Round hero view
+    caption: Round overview and timeline
+    previewSrc: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-1--preview.webp
+    thumbnailSrc: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-1--thumb.webp
+  - src: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-2.webp
+    alt: Gitcoin Privacy Round projects view
+    caption: Projects and applications
+    previewSrc: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-2--preview.webp
+    thumbnailSrc: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-2--thumb.webp
+  - src: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-3.webp
+    alt: Gitcoin Privacy Round results view
+    caption: Results and leaderboard
+    previewSrc: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-3--preview.webp
+    thumbnailSrc: /images/projects/items/gitcoin-privacy-round/gallery/gitcoin-privacy-round-3--thumb.webp
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: true
+  features: false
+  articles: false
+  roadmap: false
+  testimonials: false
+  contribute: false
+  feedback: false
+  team: true
+  partners: false
+team:
+  - name: Mykola Siusko
+    role: Executive Director
+    avatar: /images/events/shared/header/mykola.webp
+  - name: Peter
+    role: Marketing
+    avatar: /images/projects/shared/team/peter.webp
+  - name: Jensei
+    role: Project Manager
+    avatar: /images/events/shared/header/jensei.webp

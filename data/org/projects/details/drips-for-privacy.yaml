@@ -1,0 +1,66 @@
+hero:
+  logo: /images/projects/items/drips-for-privacy/icon/project-drips-for-privacy.webp
+  title: Drips for Privacy
+  tagline: A continuous funding stream for privacy projects built on the Drips protocol.
+  ctaLabel: OPEN INITIATIVE
+  ctaHref: https://optimism.drips.network/app/drip-lists/46441013481627019632859175771245733399752255312769848791334977723541
+  metrics: []
+mission:
+  text: |-
+    Drips for Privacy was created to transform the Privacy Proof 2024 Awards into a more durable funding mechanism for privacy projects. Rather than ending with a one-time round, it introduced a way to keep supporting recognized projects over a longer period.
+
+    Built on Drips and deployed on Optimism, the initiative organized selected nominees into three lists: Favourite Pro-Privacy Project, Exciting Innovation, and Major News or Key Event. Projects could claim their repositories, define maintainers and dependencies, and receive funds through a recurring onchain distribution model.
+
+    The campaign covered more than 70 GitHub repositories and 6 Ethereum wallet addresses. Its main result was the creation of a continuous funding rail for privacy-focused open-source work, designed to distribute support over time instead of through a single payout.
+  readMoreHref: https://optimism.drips.network/app/drip-lists/46441013481627019632859175771245733399752255312769848791334977723541
+links:
+  url: https://optimism.drips.network/app/drip-lists/46441013481627019632859175771245733399752255312769848791334977723541
+contribute:
+  text: Follow the funding stream, support listed projects, and help build more durable financing for privacy public goods.
+  links:
+    - label: Website
+      href: https://optimism.drips.network/app/drip-lists/46441013481627019632859175771245733399752255312769848791334977723541
+  ctaLabel: OPEN INITIATIVE
+  ctaHref: https://optimism.drips.network/app/drip-lists/46441013481627019632859175771245733399752255312769848791334977723541
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Drips for Privacy]
+screenshots:
+  - src: /images/projects/items/drips-for-privacy/gallery/drips-for-privacy-1.webp
+    alt: Drips for Privacy overview
+    caption: Continuous funding overview
+    previewSrc: /images/projects/items/drips-for-privacy/gallery/drips-for-privacy-1--preview.webp
+    thumbnailSrc: /images/projects/items/drips-for-privacy/gallery/drips-for-privacy-1--thumb.webp
+  - src: /images/projects/items/drips-for-privacy/gallery/drips-for-privacy-2.webp
+    alt: Drips for Privacy list view
+    caption: Projects and distribution lists
+    previewSrc: /images/projects/items/drips-for-privacy/gallery/drips-for-privacy-2--preview.webp
+    thumbnailSrc: /images/projects/items/drips-for-privacy/gallery/drips-for-privacy-2--thumb.webp
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: true
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: false
+  feedback: false
+  team: true
+  partners: false
+team:
+  - name: Jensei
+    role: Project Manager
+    avatar: /images/events/shared/header/jensei.webp
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Drips for Privacy — give back to privacy projects
+    date: 2024-11-12T00:00:00.000Z
+    excerpt: Presents a model for continuous funding of privacy public goods through Drips, linking ecosystem values to a practical support mechanism.
+    href: https://paragraph.com/@web3privacy-now/drips-for-privacy-give-back-to-privacy-projects
+    thumbnail: /images/projects/items/drips-for-privacy/articles/drips-for-privacy-give-back-to-privacy-projects.webp
+  - title: Can privacy be a public good and still survive?
+    date: 2024-11-20T00:00:00.000Z
+    excerpt: Essay on sustaining privacy infrastructure as a commons — incentives, funding rails, and long-term viability beyond one-off grants.
+    href: https://paragraph.com/@web3privacy-now/can-privacy-be-a-public-good-and-still-survive
+    thumbnail: /images/projects/items/drips-for-privacy/articles/can-privacy-be-a-public-good-and-still-survive.webp

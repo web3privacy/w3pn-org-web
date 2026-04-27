@@ -1,0 +1,44 @@
+headerImageUrl: /images/events/items/m26clj/header/m26clj.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Robert
+      role: Web3Privacy Now
+      handle: robdotrego
+      avatar: /images/events/shared/header/robert.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/zttuflbr
+location:
+  name: Insomnia
+  address: Insomnia, Str. Universității 2, 400091 Cluj-Napoca, Romania
+  city: Cluj-Napoca
+  country: RO
+  website: https://www.google.com/maps/search/?api=1&query=Insomnia%2C+Str.+Universit%C4%83%C8%9Bii+2%2C+400091+Cluj-Napoca%2C+Romania
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+shortDescription: Cluj half-day meetup on open source, public goods, and grassroots movements.
+timeRange: 16:00 - 19:00
+topics:
+  content: >-
+    Shaping and Defending the Techno-Political Evolution: Open Source, Public Goods, and Grassroots
+    Movements. A Cluj gathering for open source and human rights advocates, public goods developers,
+    internet freedom defenders, and grassroots communities.
+  enabled: true

@@ -1,0 +1,123 @@
+hero:
+  logo: /images/projects/items/privacy-tech-awards/icon/project-privacy-tech-awards.webp
+  title: Privacy Tech Awards
+  tagline: An annual initiative recognizing impactful privacy projects and contributors.
+  ctaLabel: OPEN INITIATIVE
+  ctaHref: https://awards.web3privacy.info/
+  metrics: []
+mission:
+  text: >-
+    Privacy Tech Awards is an annual initiative recognizing impactful projects, contributors, and innovations in the
+    privacy ecosystem.
+
+
+    It combines community nominations with expert evaluation, helping surface meaningful work and strengthen visibility
+    across the space.
+  readMoreHref: https://awards.web3privacy.info/
+links:
+  url: https://awards.web3privacy.info/
+contribute:
+  desktopOnly: true
+  text: Nominate impactful work, amplify the shortlist, and help celebrate the people and projects pushing privacy forward.
+  links:
+    - label: Website
+      href: https://awards.web3privacy.info/
+  ctaLabel: OPEN INITIATIVE
+  ctaHref: https://awards.web3privacy.info/
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Tech Awards]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: false
+  partners: false
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Annual Privacy Tech Poll 2023 (PrivacyProof)
+    date: 2023-11-18
+    excerpt: Community poll kicking off the annual PrivacyProof recognition cycle for privacy projects and contributors.
+    href: https://paragraph.com/@web3privacy-now/annual-privacy-tech-poll-2023privacyproof
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/annual-privacy-tech-poll-2023privacyproof.webp
+  - title: Annual Privacy Tech Poll — longlist update
+    date: 2023-11-22
+    excerpt: Update on the longlist and how nominations progressed for PrivacyProof 2023.
+    href: https://paragraph.com/@web3privacy-now/annual-privacy-tech-poll-longlist-update
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/annual-privacy-tech-poll-longlist-update.webp
+  - title: 2023 PrivacyProof — longlist selection announced
+    date: 2023-11-28
+    excerpt: Official announcement of which projects advanced in the PrivacyProof 2023 longlist phase.
+    href: https://paragraph.com/@web3privacy-now/2023privacyproof-longlist-selection-announced
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/2023privacyproof-longlist-selection-announced.webp
+  - title: 2023 PrivacyProof — finalists announced
+    date: 2023-12-02
+    excerpt: Meet the finalists across PrivacyProof categories before the final community and jury stages.
+    href: https://paragraph.com/@web3privacy-now/2023privacyproof-finalists-announced
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/2023privacyproof-finalists-announced.webp
+  - title: Pro-privacy projects of the year (2023 PrivacyProof)
+    date: 2023-12-08
+    excerpt: Spotlight on pro-privacy projects recognised in the 2023 PrivacyProof program.
+    href: https://paragraph.com/@web3privacy-now/pro-privacy-projects-of-the-year-2023privacyproof
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/pro-privacy-projects-of-the-year-2023privacyproof.webp
+  - title: Major news & events in ’23 — privacy (2023 PrivacyProof)
+    date: 2023-12-10
+    excerpt: Year-in-review lens on major news and events that shaped privacy in Web3 during 2023.
+    href: https://paragraph.com/@web3privacy-now/major-news-events-in-23-privacy-2023privacyproof
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/major-news-events-in-23-privacy-2023privacyproof.webp
+  - title: Exciting innovation in privacy (2023 PrivacyProof)
+    date: 2023-12-12
+    excerpt: Innovation category highlights from PrivacyProof 2023 — experiments, tooling, and culture.
+    href: https://paragraph.com/@web3privacy-now/exciting-innovation-in-privacy-2023privacyproof
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/exciting-innovation-in-privacy-2023privacyproof.webp
+  - title: Doxxer of the year (2023 PrivacyProof)
+    date: 2023-12-14
+    excerpt: The satirical “doxxer of the year” category — calling out harmful surveillance culture with humour and critique.
+    href: https://paragraph.com/@web3privacy-now/doxxer-of-the-year-2023privacyproof
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/doxxer-of-the-year-2023privacyproof.webp
+  - title: PrivacyProof Awards ’24 — projects category longlist
+    date: 2024-10-15
+    excerpt: Longlist announcement for the 2024 PrivacyProof projects category.
+    href: https://paragraph.com/@web3privacy-now/privacy-proof-awards-24-projects-category-longlist
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/privacy-proof-awards-24-projects-category-longlist.webp
+  - title: PrivacyProof Awards ’24 — innovation category longlist
+    date: 2024-10-16
+    excerpt: Longlist for the innovation category in PrivacyProof 2024.
+    href: https://paragraph.com/@web3privacy-now/privacy-proof-awards-24-innovation-category-longlist
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/privacy-proof-awards-24-innovation-category-longlist.webp
+  - title: PrivacyProof Awards ’24 — doxxer category longlist
+    date: 2024-10-17
+    excerpt: Longlist for the doxxer category in PrivacyProof 2024.
+    href: https://paragraph.com/@web3privacy-now/privacy-proof-awards-24-doxxer-category-longlist
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/privacy-proof-awards-24-doxxer-category-longlist.webp
+  - title: PrivacyProof Awards ’24 — news & events category longlist
+    date: 2024-10-18
+    excerpt: Longlist for news and events that defined the privacy conversation in 2024.
+    href: https://paragraph.com/@web3privacy-now/privacy-proof-awards-24-news-events-category-longlist
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/privacy-proof-awards-24-news-events-category-longlist.webp
+  - title: PrivacyProof 2024 — projects category winners
+    date: 2024-12-01
+    excerpt: Winners in the projects category for PrivacyProof 2024.
+    href: https://paragraph.com/@web3privacy-now/privacyproof-2024-awards-projects-category-winners
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/privacyproof-2024-awards-projects-category-winners.webp
+  - title: PrivacyProof 2024 — exciting innovation category winners
+    date: 2024-12-02
+    excerpt: Winners in the innovation category for PrivacyProof 2024.
+    href: https://paragraph.com/@web3privacy-now/privacyproof-2024-awards-exciting-innovation-category-winners
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/privacyproof-2024-awards-exciting-innovation-category-winners.webp
+  - title: PrivacyProof 2024 — news & events category winners
+    date: 2024-12-03
+    excerpt: Winners highlighting the year’s most impactful privacy news and events.
+    href: https://paragraph.com/@web3privacy-now/privacyproof-2024-awards-news-events-category-winners
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/privacyproof-2024-awards-news-events-category-winners.webp
+  - title: PrivacyProof 2024 — doxxer category winners
+    date: 2024-12-04
+    excerpt: Winners in the doxxer category for PrivacyProof 2024.
+    href: https://paragraph.com/@web3privacy-now/privacyproof-2024-awards-doxxer-category-winners
+    thumbnail: /images/projects/items/privacy-tech-awards/articles/privacyproof-2024-awards-doxxer-category-winners.webp

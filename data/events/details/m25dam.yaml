@@ -1,0 +1,83 @@
+headerImageUrl: /images/events/items/m25dam/header/m25dam.webp
+heroBackgroundImageUrl: /images/events/items/m25dam/header/m25dam-cover.webp
+contributors:
+  enabled: true
+  items:
+    - name: Mf
+      role: Web3Privacy Now
+      handle: 0x_m_f
+      avatar: /images/events/shared/header/mf.jpg
+    - handle: alinalatinina
+      name: Alina
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/alina.jpg
+    - name: Robert
+      role: Web3Privacy Now
+      handle: robdotrego
+      avatar: /images/events/shared/header/robert.webp
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/73go30ij
+location:
+  address: Sarphatipark 116 BG, 1073 ED Amsterdam, Netherlands
+  city: Amsterdam
+  country: NL
+  name: Studio Sarphaat
+  website: https://luma.com/73go30ij
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+speakers:
+  - avatar: /images/events/shared/header/s-el-damaty.webp
+    id: shady-el-damaty
+    name: Shady El Damaty
+    role: Human Tech
+    twitter: https://x.com/hebbianloop
+  - avatar: /images/events/shared/header/ameen-soleimani.webp
+    id: ameen-soleimani
+    name: Ameen Soleimani
+    role: 0xbow / Privacy Pools / Reflexer / MolochDAO
+    twitter: https://x.com/ameensol
+  - id: tien
+    name: Tien
+    role: Frontline Activist
+  - avatar: /images/events/shared/header/sandi-fatic.webp
+    id: sandi-fatic
+    name: Sandi Fatic
+    role: Calimero Network
+    twitter: https://x.com/chefsale
+  - avatar: /images/events/shared/header/qj.webp
+    id: qj
+    name: QJ
+    role: Ethereum Community Fund
+    twitter: https://x.com/QJ_ECF
+  - avatar: /images/events/items/m25dam/header/nanak-nihal-khalsa.webp
+    id: nanak-nihal-khalsa
+    name: Nanak Nihal Khalsa
+    role: Human Tech
+    twitter: https://x.com/NanakNihal
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - oJtdw8v_Ytw
+    - xwgTfo39u4M
+    - ZYsiidDiuPM
+topics:
+  content: >-
+    This meetup took place in Amsterdam during ETHDam. Speakers included Shady El Damaty, Ameen Soleimani, Tien, and
+    Sandi Fatic. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and
+    the Ethereum ecosystem.
+  enabled: true

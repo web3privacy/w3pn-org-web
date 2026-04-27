@@ -1,0 +1,90 @@
+/**
+ * Runtime mirror of the canonical W3PN brand tokens.
+ *
+ * Keep this file aligned with:
+ * - ../../../../W3PN-DESIGN-SYSTEM/design-tokens.css
+ * - PRIVACY-PORTAL/packages/portal-ui/design-tokens.css
+ *
+ * `--w3pn-*` variables are the canonical design-system API.
+ * Legacy aliases remain for existing app CSS and Tailwind mappings.
+ */
+
+:root {
+  /* Layout */
+  --w3pn-layout-content-max: 1280px;
+
+  /* Spacing */
+  --w3pn-space-1: 4px;
+  --w3pn-space-2: 8px;
+  --w3pn-space-3: 12px;
+  --w3pn-space-4: 16px;
+  --w3pn-space-5: 20px;
+  --w3pn-space-6: 24px;
+  --w3pn-space-8: 32px;
+  --w3pn-space-10: 40px;
+  --w3pn-space-12: 48px;
+  --w3pn-space-16: 64px;
+
+  /* Radius */
+  --w3pn-radius-sm: 6px;
+  --w3pn-radius-md: 10px;
+  --w3pn-radius-lg: 12px;
+  --w3pn-radius-xl: 16px;
+  --w3pn-radius-full: 999px;
+
+  /* Typography */
+  --w3pn-font-sans: "Archivo", "Avenir Next", "Helvetica Neue", sans-serif;
+  --w3pn-font-serif: "Domine", "Iowan Old Style", "Palatino Linotype", serif;
+
+  /* Brand */
+  --w3pn-color-accent: #70ff88;
+  --w3pn-color-accent-foreground: #122014;
+
+  /* Dark-first org-web mood */
+  --w3pn-color-canvas: #0f1318;
+  --w3pn-color-surface: #181d25;
+  --w3pn-color-surface-2: #1f252e;
+  --w3pn-color-surface-3: #2a3039;
+  --w3pn-color-text: #f2f4f6;
+  --w3pn-color-text-muted: #a7b0bd;
+  --w3pn-color-border: #303640;
+  --w3pn-color-input: #3b4048;
+  --w3pn-color-ring: #808896;
+
+  /* Light companion palette */
+  --w3pn-color-light-canvas: #ffffff;
+  --w3pn-color-light-surface: #efefef;
+  --w3pn-color-light-surface-2: #e8e8e8;
+  --w3pn-color-light-surface-3: #dfdfdf;
+  --w3pn-color-light-text: #121212;
+  --w3pn-color-light-text-muted: #616161;
+  --w3pn-color-light-border: #d6d6d6;
+  --w3pn-color-light-input: #d6d6d6;
+  --w3pn-color-light-ring: #7a7a7a;
+
+  /* Semantic helpers */
+  --w3pn-color-danger: #b42318;
+  --w3pn-color-danger-on-dark: #ff8b80;
+  --w3pn-overlay-soft: rgba(255, 255, 255, 0.06);
+  --w3pn-overlay-strong: rgba(0, 0, 0, 0.5);
+  --w3pn-shadow-card: 0 16px 40px rgba(0, 0, 0, 0.16);
+  --w3pn-shadow-elevated: 0 24px 60px rgba(0, 0, 0, 0.28);
+
+  /* Motion */
+  --w3pn-motion-fast: 0.2s;
+  --w3pn-motion-base: 0.36s;
+  --w3pn-motion-slow: 0.44s;
+  --w3pn-ease-standard: ease;
+
+  /* Legacy aliases */
+  --content-max: var(--w3pn-layout-content-max);
+  --radius-sm: var(--w3pn-radius-sm);
+  --radius-md: var(--w3pn-radius-md);
+  --radius-lg: var(--w3pn-radius-lg);
+  --radius-xl: var(--w3pn-radius-xl);
+  --radius-full: var(--w3pn-radius-full);
+  --font-sans: var(--w3pn-font-sans);
+  --font-serif: var(--w3pn-font-serif);
+  --color-accent: var(--w3pn-color-accent);
+  --color-accent-foreground: var(--w3pn-color-accent-foreground);
+}

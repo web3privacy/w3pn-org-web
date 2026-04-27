@@ -1,0 +1,46 @@
+hero:
+  logo: /images/projects/items/privacy-audits/icon/project-privacy-audits.webp
+  title: Privacy-Focused Audit
+  tagline: A research initiative exploring how privacy guarantees can be evaluated in Web3 systems.
+  ctaLabel: OPEN RESEARCH NOTE
+  ctaHref: https://hackmd.io/2IRrRsLcQyKo1XOwAFABBA
+  metrics: []
+mission:
+  text: >-
+    Privacy-Focused Audit is a research initiative exploring how privacy guarantees can be evaluated in Web3 systems.
+
+
+    It aims to extend traditional security audits by introducing methodologies for assessing privacy properties and
+    identifying potential weaknesses.
+  readMoreHref: https://hackmd.io/2IRrRsLcQyKo1XOwAFABBA
+links:
+  docs: https://hackmd.io/2IRrRsLcQyKo1XOwAFABBA
+contribute:
+  desktopOnly: true
+  text: >-
+    Review the methodology, provide feedback on the framework, and help sharpen how privacy properties are evaluated in
+    practice.
+  links:
+    - label: Documentation
+      href: https://hackmd.io/2IRrRsLcQyKo1XOwAFABBA
+  ctaLabel: OPEN RESEARCH NOTE
+  ctaHref: https://hackmd.io/2IRrRsLcQyKo1XOwAFABBA
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy-Focused Audit]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: false
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+team:
+  - name: Mykola
+    role: Contributor
+    avatar: /images/events/shared/header/mykola.webp

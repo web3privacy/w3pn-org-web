@@ -1,0 +1,94 @@
+hero:
+  logo: /projects/portal.png
+  title: Join in Privacy
+  tagline: >-
+    We are a community of people dedicated to building improved privacy solutions for the web3 ecosystem. Join our
+    Telegram chats.
+  ctaLabel: JOIN TELEGRAM
+  ctaHref: https://t.me/web3privacy
+  metrics:
+    - value: Community
+      label: DRIVEN
+    - value: Telegram
+      label: CHATS
+mission:
+  text: |
+    Join in Privacy connects builders, researchers, and enthusiasts in Web3 privacy.
+    Share ideas, get feedback, and collaborate on privacy-focused solutions.
+  readMoreHref: https://t.me/web3privacy
+links:
+  url: https://t.me/web3privacy
+features:
+  - title: Telegram Chats
+    description: Join topic-specific Telegram groups.
+    link: https://t.me/web3privacy
+    linkLabel: Join
+  - title: Community Events
+    description: Participate in meetups and congresses.
+    link: https://web3privacy.info
+    linkLabel: Events
+articles:
+  - href: https://web3privacy.info/news
+    title: Join in Privacy – Latest Updates
+    date: '2025'
+    excerpt: Curated privacy news and ecosystem updates.
+    thumbnail: https://picsum.photos/400/200?random=art1
+  - href: https://web3privacy.info/news
+    title: Privacy Ecosystem Report
+    date: '2024'
+    excerpt: Annual report on Web3 privacy trends and projects.
+    thumbnail: https://picsum.photos/400/200?random=art2
+roadmap:
+  - quarter: Q1 2026
+    title: New features
+    description: Expanding Join in Privacy with community feedback.
+  - quarter: Q2 2026
+    title: Integration
+    description: Extended integrations and documentation.
+  - quarter: Q3 2026
+    title: Ecosystem growth
+    description: Partnerships and community tools.
+testimonials:
+  - name: Community Member
+    role: Privacy Advocate
+    quote: Join in Privacy is a valuable resource for the privacy community.
+    avatar: https://i.pravatar.cc/120?img=6
+  - name: Developer
+    role: Web3 Builder
+    quote: Essential tool for privacy-focused development.
+    avatar: https://i.pravatar.cc/120?img=7
+contribute:
+  text: Join the Web3Privacy community. Share ideas, contribute to projects, or simply stay updated.
+  links:
+    - label: Telegram
+      href: https://t.me/web3privacy
+    - label: Community
+      href: https://web3privacy.info
+  ctaLabel: JOIN TELEGRAM
+  ctaHref: https://t.me/web3privacy
+team:
+  - name: Core Contributor
+    role: Lead
+    avatar: https://i.pravatar.cc/120?img=8
+  - name: Community Lead
+    role: Operations
+    avatar: https://i.pravatar.cc/120?img=9
+partners:
+  - name: Web3 Privacy Now
+    logo: /projects/portal.png
+    href: https://web3privacy.info
+    description: Community partner
+  - name: Ethereum Foundation
+    logo: /projects/portal.png
+    href: https://ethereum.org
+    description: Ecosystem partner
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Join in Privacy]
+screenshots:
+  - src: https://picsum.photos/800/450?random=proj1
+    alt: Screenshot
+    caption: Project overview
+  - src: https://picsum.photos/800/450?random=proj2
+    alt: Screenshot
+    caption: Features

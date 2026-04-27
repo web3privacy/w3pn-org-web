@@ -1,0 +1,238 @@
+headerImageUrl: /images/events/items/c26mum/header/c26mum.webp
+heroBackgroundImageUrl: /images/events/items/c26mum/header/c26mum-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+experience:
+  cards:
+    - description: Open-source AI, harmful neo-colonial agentic practices, and a better vision of AI commons.
+      icon: shield
+      title: Democratising AI
+    - description: Internet shutdowns, mesh networks, cross-border digital currencies, and practical FOSS under repression.
+      icon: shield
+      title: Internet censorship
+    - description: Interactive experiences oriented toward collective socio-technical and political imagination.
+      icon: shield
+      title: Positive freedom
+    - description: Privacy and data-protection challenges around Aadhaar, UPI, DigiLocker, and related public infrastructure.
+      icon: shield
+      title: Digital Public Infrastructure
+    - description: Digital activism through encryption, communal care, and default privacy accessible to non-technical people.
+      icon: shield
+      title: Neo-cypherpunk
+    - description: How protocols, activists, and public-goods funders can sustain privacy tech and FOSS.
+      icon: shield
+      title: Sustainable privacy economy
+  enabled: true
+  themes:
+    - The Ancestral Fork
+    - Global South digital rights
+    - AI commons
+    - Internet shutdown resilience
+    - Digital public infrastructure
+    - Neo-cypherpunk practice
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/spsnos9t
+    - label: Event Website
+      url: https://congress.web3privacy.info/
+    - label: Event Page
+      url: https://web3privacy.info/event/c26mum/
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: true
+  faq: false
+  gallery: false
+  location: false
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: true
+  topicsLinks: true
+  videos: false
+tickets:
+  enabled: true
+  buyUrl: https://luma.com/spsnos9t
+speakers:
+  - avatar: /images/events/shared/header/kurt-opsahl.webp
+    id: kurt-opsahl
+    name: Kurt Opsahl
+    role: Filecoin Foundation
+    twitter: https://x.com/kurtopsahl
+  - avatar: /images/events/shared/header/isabela-fernandes.webp
+    id: isabela-fernandes
+    name: Isabela Fernandes
+    role: Tor Project
+    twitter: https://x.com/torproject
+  - avatar: /images/events/shared/header/ahmed-ghappour.webp
+    id: ahmed-ghappour
+    name: Ahmed Ghappour
+    role: Flashbots
+    twitter: https://x.com/ghappour
+  - avatar: /images/events/shared/header/amir-taaki.webp
+    id: amir-taaki
+    name: Amir Taaki
+    role: DarkFi
+    twitter: https://x.com/Narodism
+  - avatar: /images/events/items/c26mum/header/danny-o-brien.webp
+    id: danny-o-brien
+    name: Danny O'Brien
+    role: Filecoin Foundation / EFF
+    twitter: https://x.com/mala
+  - avatar: /images/events/items/c26mum/header/vijay-krishnavanshi.webp
+    id: vijay-krishnavanshi
+    name: Vijay Krishnavanshi
+    role: Fileverse
+    twitter: https://x.com/vkrishnavanshi
+  - avatar: /images/events/shared/header/jaromil.webp
+    id: jaromil
+    name: Denis "Jaromil" Roio
+    role: Dyne.org
+    twitter: https://x.com/jaromil
+  - avatar: /images/events/items/c26mum/header/justin-drake.webp
+    id: justin-drake
+    name: Justin Drake
+    role: Ethereum Foundation
+    twitter: https://x.com/drakefjustin
+  - avatar: /images/events/items/c26mum/header/andy-guzman.webp
+    id: andy-guzman
+    name: Andy Guzman
+    role: Privacy Stewards of Ethereum
+    twitter: https://x.com/andyguzmanethx
+  - avatar: /images/events/items/c26mum/header/jordi-baylina.webp
+    id: jordi-baylina
+    name: Jordi Baylina
+    role: Zisk
+    twitter: https://x.com/jbaylina
+  - avatar: /images/events/items/c26mum/header/kyle-den-hartog.webp
+    id: kyle-den-hartog
+    name: Kyle Den Hartog
+    role: Brave
+    twitter: https://x.com/kyledenhartog
+  - avatar: /images/events/shared/header/harry-halpin.webp
+    id: harry-halpin
+    name: Harry Halpin
+    role: Nym
+    twitter: https://x.com/harryhalpin
+  - avatar: /images/events/items/c26mum/header/ying-tong-lai.webp
+    id: ying-tong-lai
+    name: Ying Tong Lai
+    role: Independent
+    twitter: https://x.com/therealyingtong
+  - avatar: /images/events/items/c26mum/header/ml-sudo.webp
+    id: ml-sudo
+    name: ml_sudo
+    role: Ethereum Foundation's Silviculture
+    twitter: https://x.com/ml_sudo
+  - avatar: /images/events/shared/header/auryn-mcmillan.webp
+    id: auryn-mcmillan
+    name: Auryn McMillan
+    role: Enclave
+    twitter: https://x.com/auryn_macmillan
+  - avatar: /images/events/shared/header/juan-benet.webp
+    id: juan-benet
+    name: Juan Benet
+    role: Protocol Labs
+    twitter: https://x.com/juanbenet
+  - avatar: /images/events/shared/header/sebastian-burgel.webp
+    id: sebastian-burgel
+    name: Sebastian Bürgel
+    role: Gnosis / HOPR
+    twitter: https://x.com/SCBuergel
+  - avatar: /images/events/shared/header/bob-summerwill.webp
+    id: bob-summerwill
+    name: Bob Summerwill
+    role: Strato
+    twitter: https://x.com/bobsummerwill
+  - avatar: /images/events/items/c26mum/header/miroyato.webp
+    id: miroyato
+    name: Miroyato
+    role: Fileverse
+    twitter: https://x.com/miroyato
+  - avatar: /images/events/items/c26mum/header/chris-mccabe.webp
+    id: chris-mccabe
+    name: Chris McCabe
+    role: Session
+    twitter: https://x.com/mccabe
+  - avatar: /images/events/items/c26mum/header/nico-consigny.webp
+    id: nico-consigny
+    name: Nico Consigny
+    role: Ethereum Foundation
+    twitter: https://x.com/ncsgy
+  - avatar: /images/events/shared/header/peter-van-valkenburgh.webp
+    id: peter-van-valkenburgh
+    name: Peter Van Valkenburgh
+    role: Coin Center
+    twitter: https://x.com/valkenburgh
+  - avatar: /images/events/shared/header/fatemeh-fannizadeh.webp
+    id: fatemeh-fannizadeh
+    name: Fatemeh Fannizadeh
+    role: Independent
+    twitter: https://x.com/Fatalmeh
+  - avatar: /images/events/shared/header/mario-havel.webp
+    id: mario-havel
+    name: Mario Havel
+    role: Ethereum Foundation / BORDEL
+    twitter: https://x.com/TMIYChao
+  - avatar: /images/events/shared/header/oskarth.webp
+    id: oskarth
+    name: Oskarth
+    role: Ethereum Foundation / IPTF
+    twitter: https://x.com/oskarth
+  - avatar: /images/events/items/c26mum/header/pol-lanski.webp
+    id: pol-lanski
+    name: Pol Lanski
+    role: Dappnode
+    twitter: https://x.com/pol_lanski
+  - avatar: /images/events/shared/header/will-scott.webp
+    id: will-scott
+    name: Will Scott
+    role: Filecoin Foundation
+    twitter: https://x.com/willscott
+  - avatar: /images/events/items/c26mum/header/loring-harkness.webp
+    id: loring-harkness
+    name: Loring Harkness
+    role: Shutter Network
+    twitter: https://x.com/loringharkness
+  - avatar: /images/events/shared/header/viktor-tr-n.webp
+    id: viktor-tr-n
+    name: Viktor Trón
+    role: Swarm
+    twitter: https://x.com/zeligf
+  - avatar: /images/events/items/c26mum/header/antonio-seveso.webp
+    id: antonio-seveso
+    name: Antonio Seveso
+    role: Fluidkey
+    twitter: https://x.com/xMeTony
+  - avatar: /images/events/shared/header/kieran-mesquita.webp
+    id: kieran-mesquita
+    name: Kieran Mesquita
+    role: Railgun
+    twitter: https://x.com/mesquka
+  - id: daniel-knobelsdorf
+    name: Daniel Knobelsdorf
+    role: Infinite Garden
+  - avatar: /images/events/shared/header/s-el-damaty.webp
+    id: shady-el-damaty
+    name: Shady El Damaty
+    role: Human.tech
+    twitter: https://x.com/hebbianloop
+topics:
+  content: >-
+    Third Ethereum Cypherpunk Congress in Mumbai, positioned as a large-scale cypherpunk and human-rights gathering
+    during Devcon week.
+  enabled: true
+shortDescription: >-
+  Cypherpunk congress exploring digital rights, AI commons, and internet resilience — a large-scale gathering during
+  Devcon in Mumbai.

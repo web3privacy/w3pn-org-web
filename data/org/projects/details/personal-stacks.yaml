@@ -1,0 +1,67 @@
+hero:
+  logo: /images/projects/items/personal-stacks/icon/project-personal-stacks.webp
+  backgroundImage: /images/projects/items/personal-stacks/detail/personal-stacks-hero-bg.webp
+  title: Personal Stacks
+  tagline: A collection of real-world privacy tool setups used by experts.
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://stacks.web3privacy.info
+  metrics: []
+mission:
+  text: |-
+    Personal Stacks documents the actual privacy setups used by experts, showcasing how different tools are combined in real-world scenarios. It shifts the focus from abstract recommendations to practical implementation.
+
+    By exposing these configurations, the project helps users understand how privacy tools interact and how to construct their own operational stack based on proven practices.
+  readMoreHref: https://stacks.web3privacy.info
+links:
+  url: https://stacks.web3privacy.info
+  Add your stack: https://tally.so/r/mKv6WV
+contribute:
+  text: Share your setup, compare approaches with others, and help document practical privacy workflows that people can learn from.
+  links:
+    - label: Add your stack
+      href: https://tally.so/r/mKv6WV
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://stacks.web3privacy.info
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Personal Stacks]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: true
+  features: false
+  articles: false
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+screenshots:
+  - src: /images/projects/items/personal-stacks/gallery/personal-stacks-1.webp
+    alt: Personal Stacks screenshot 1
+    caption: Stack overview and featured experts.
+    previewSrc: /images/projects/items/personal-stacks/gallery/personal-stacks-1--preview.webp
+    thumbnailSrc: /images/projects/items/personal-stacks/gallery/personal-stacks-1--thumb.webp
+  - src: /images/projects/items/personal-stacks/gallery/personal-stacks-2.webp
+    alt: Personal Stacks screenshot 2
+    caption: Individual stack detail view.
+    previewSrc: /images/projects/items/personal-stacks/gallery/personal-stacks-2--preview.webp
+    thumbnailSrc: /images/projects/items/personal-stacks/gallery/personal-stacks-2--thumb.webp
+  - src: /images/projects/items/personal-stacks/gallery/personal-stacks-3.webp
+    alt: Personal Stacks screenshot 3
+    caption: Messaging stack and tool preferences.
+    previewSrc: /images/projects/items/personal-stacks/gallery/personal-stacks-3--preview.webp
+    thumbnailSrc: /images/projects/items/personal-stacks/gallery/personal-stacks-3--thumb.webp
+team:
+  - name: Mykola Siusko
+    role: Executive Director
+    avatar: /images/events/shared/header/mykola.webp
+  - name: Max
+    role: Contributor
+    avatar: https://github.com/Ma-xvx.png?size=240
+    href: https://github.com/Ma-xvx
+  - name: Agonist
+    role: Contributor
+    avatar: https://github.com/agonist.png?size=240
+    href: https://github.com/agonist

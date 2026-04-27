@@ -1,0 +1,83 @@
+hero:
+  logo: /projects/usecase-db.png
+  title: Privacy Use-Cases DB
+  tagline: Database of privacy use-cases for research and development. Structured, searchable.
+  ctaLabel: EXPLORE DB
+  ctaHref: https://docs.web3privacy.info/research/usecase-db
+  metrics:
+    - value: 100+
+      label: USE CASES
+    - value: Research
+      label: READY
+mission:
+  text: |
+    The Use-Cases DB is a structured collection of privacy use cases for research,
+    hackathons, and product ideation.
+  readMoreHref: https://docs.web3privacy.info/research/usecase-db
+links:
+  docs: https://docs.web3privacy.info/research/usecase-db
+features:
+  - title: Use-cases DB
+    description: Structured privacy use cases for research and hackathons.
+    link: https://docs.web3privacy.info/research/usecase-db
+    linkLabel: Explore
+articles:
+  - href: https://web3privacy.info/news
+    title: Privacy Use-Cases DB – Latest Updates
+    date: '2025'
+    excerpt: Curated privacy news and ecosystem updates.
+    thumbnail: https://picsum.photos/400/200?random=art1
+  - href: https://web3privacy.info/news
+    title: Privacy Ecosystem Report
+    date: '2024'
+    excerpt: Annual report on Web3 privacy trends and projects.
+    thumbnail: https://picsum.photos/400/200?random=art2
+roadmap:
+  - quarter: Q1 2026
+    title: New features
+    description: Expanding Privacy Use-Cases DB with community feedback.
+  - quarter: Q2 2026
+    title: Integration
+    description: Extended integrations and documentation.
+  - quarter: Q3 2026
+    title: Ecosystem growth
+    description: Partnerships and community tools.
+testimonials:
+  - name: Community Member
+    role: Privacy Advocate
+    quote: Privacy Use-Cases DB is a valuable resource for the privacy community.
+    avatar: https://i.pravatar.cc/120?img=6
+  - name: Developer
+    role: Web3 Builder
+    quote: Essential tool for privacy-focused development.
+    avatar: https://i.pravatar.cc/120?img=7
+contribute:
+  text: Contribute use cases to the database.
+  ctaLabel: EXPLORE DB
+  ctaHref: https://docs.web3privacy.info/research/usecase-db
+team:
+  - name: Core Contributor
+    role: Lead
+    avatar: https://i.pravatar.cc/120?img=8
+  - name: Community Lead
+    role: Operations
+    avatar: https://i.pravatar.cc/120?img=9
+partners:
+  - name: Web3 Privacy Now
+    logo: /projects/portal.png
+    href: https://web3privacy.info
+    description: Community partner
+  - name: Ethereum Foundation
+    logo: /projects/portal.png
+    href: https://ethereum.org
+    description: Ecosystem partner
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Use-Cases DB]
+screenshots:
+  - src: https://picsum.photos/800/450?random=proj1
+    alt: Screenshot
+    caption: Project overview
+  - src: https://picsum.photos/800/450?random=proj2
+    alt: Screenshot
+    caption: Features

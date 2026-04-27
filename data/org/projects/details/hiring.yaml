@@ -1,0 +1,83 @@
+hero:
+  logo: /projects/hiring.png
+  title: Privacy Projects Hiring
+  tagline: Research on hiring trends and opportunities in privacy projects. Find talent, find roles.
+  ctaLabel: READ RESEARCH
+  ctaHref: https://docs.web3privacy.info/research/hiring
+  metrics:
+    - value: Research
+      label: FOCUS
+    - value: Trends
+      label: INSIGHTS
+mission:
+  text: |
+    Privacy Projects Hiring research explores hiring trends, open positions, and talent needs
+    across the privacy ecosystem.
+  readMoreHref: https://docs.web3privacy.info/research/hiring
+links:
+  docs: https://docs.web3privacy.info/research/hiring
+features:
+  - title: Hiring research
+    description: Trends and insights on privacy hiring.
+    link: https://docs.web3privacy.info/research/hiring
+    linkLabel: Read
+articles:
+  - href: https://web3privacy.info/news
+    title: Privacy Projects Hiring – Latest Updates
+    date: '2025'
+    excerpt: Curated privacy news and ecosystem updates.
+    thumbnail: https://picsum.photos/400/200?random=art1
+  - href: https://web3privacy.info/news
+    title: Privacy Ecosystem Report
+    date: '2024'
+    excerpt: Annual report on Web3 privacy trends and projects.
+    thumbnail: https://picsum.photos/400/200?random=art2
+roadmap:
+  - quarter: Q1 2026
+    title: New features
+    description: Expanding Privacy Projects Hiring with community feedback.
+  - quarter: Q2 2026
+    title: Integration
+    description: Extended integrations and documentation.
+  - quarter: Q3 2026
+    title: Ecosystem growth
+    description: Partnerships and community tools.
+testimonials:
+  - name: Community Member
+    role: Privacy Advocate
+    quote: Privacy Projects Hiring is a valuable resource for the privacy community.
+    avatar: https://i.pravatar.cc/120?img=6
+  - name: Developer
+    role: Web3 Builder
+    quote: Essential tool for privacy-focused development.
+    avatar: https://i.pravatar.cc/120?img=7
+contribute:
+  text: Share hiring insights or open roles.
+  ctaLabel: READ RESEARCH
+  ctaHref: https://docs.web3privacy.info/research/hiring
+team:
+  - name: Core Contributor
+    role: Lead
+    avatar: https://i.pravatar.cc/120?img=8
+  - name: Community Lead
+    role: Operations
+    avatar: https://i.pravatar.cc/120?img=9
+partners:
+  - name: Web3 Privacy Now
+    logo: /projects/portal.png
+    href: https://web3privacy.info
+    description: Community partner
+  - name: Ethereum Foundation
+    logo: /projects/portal.png
+    href: https://ethereum.org
+    description: Ecosystem partner
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Projects Hiring]
+screenshots:
+  - src: https://picsum.photos/800/450?random=proj1
+    alt: Screenshot
+    caption: Project overview
+  - src: https://picsum.photos/800/450?random=proj2
+    alt: Screenshot
+    caption: Features

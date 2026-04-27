@@ -1,0 +1,121 @@
+[
+  { "label": "Introduction", "link": "" },
+  {
+    "label": "About us",
+    "items": [
+      { "label": "Culture", "link": "about-us/culture" },
+      { "label": "Manifesto", "link": "about-us/manifesto" },
+      { "label": "Roadmap", "link": "about-us/roadmap" },
+      { "label": "History", "link": "about-us/history" },
+      { "label": "Brand", "link": "about-us/brand" },
+      { "label": "Contact us", "link": "about-us/contact-us" },
+      { "label": "Follow us", "link": "about-us/follow-us" }
+    ]
+  },
+  {
+    "label": "Research",
+    "items": [
+      { "label": "Research introduction", "link": "research/index" },
+      { "label": "Privacy Annual Report", "link": "research/annual-report" },
+      { "label": "Ethereum Privacy Ecosystem", "link": "research/ethereum-privacy-ecosystem" },
+      { "label": "Grants", "link": "research/grants" },
+      { "label": "Hackathon Pack", "link": "research/hackathon-pack" },
+      { "label": "Privacy Projects Hiring", "link": "research/hiring" },
+      { "label": "Pagency Framework", "link": "research/pagency" },
+      { "label": "Personal stack", "link": "research/personal-stack" },
+      { "label": "Privacy Guides", "link": "research/privacy-guides" },
+      { "label": "Privacy proof 2024", "link": "research/privacy-proof24" },
+      { "label": "Privacy Services DB", "link": "research/privacy-services-db" },
+      { "label": "Scoring model", "link": "research/scoring-model" },
+      { "label": "Use-case DB", "link": "research/usecase-db" },
+      { "label": "ZK Solutions DB", "link": "research/zk-solutions" }
+    ]
+  },
+  {
+    "label": "Events",
+    "items": [
+      { "label": "Events introduction", "link": "events/index" },
+      { "label": "Seasons", "link": "events/seasons" },
+      { "label": "Event types", "link": "events/types" },
+      { "label": "Formats", "link": "events/formats" },
+      { "label": "Call for Proposals (CfP)", "link": "events/cfp" },
+      { "label": "Production", "link": "events/production" },
+      { "label": "Recording", "link": "events/recording" }
+    ]
+  },
+  {
+    "label": "Projects",
+    "items": [
+      { "label": "Privacy Explorer", "link": "projects/privacy-explorer" },
+      { "label": "Week in the Privacy", "link": "news/week-in-the-privacy" },
+      { "label": "Privacy Tech Awards", "link": "projects/privacy-tech-awards" },
+      { "label": "Privacy Academy", "link": "projects/privacy-academy" },
+      { "label": "Privacy Idea Generator", "link": "projects/privacy-idea-generator" },
+      { "label": "Women in Privacy", "link": "projects/women-in-privacy" },
+      { "label": "Privacy Cases", "link": "projects/privacy-cases" }
+    ]
+  },
+  {
+    "label": "Get Involved",
+    "items": [
+      { "label": "Introduction", "link": "get-involved/index" },
+      { "label": "Ecosystem", "link": "get-involved/partnership" },
+      { "label": "Code of Conduct", "link": "get-involved/code-of-conduct" },
+      { "label": "Membership x Organisations", "link": "get-involved/org-benefits" },
+      { "label": "Membership x Individuals", "link": "get-involved/personal-benefits" },
+      { "label": "Donate", "link": "get-involved/donate" }
+    ]
+  },
+  {
+    "label": "For contributors",
+    "items": [
+      { "label": "Contributors guide", "link": "contributors/index" },
+      { "label": "Workgroups", "link": "contributors/workgroups" },
+      { "label": "Git repositories", "link": "contributors/git" },
+      { "label": "Guide: add entry to docs", "link": "contributors/add-entry-to-docs" },
+      { "label": "Guide: add event to website", "link": "contributors/add-event-to-website" },
+      { "label": "Guide: add speaker to data", "link": "contributors/add-speaker-to-data" },
+      { "label": "Guide: gen-img front-end", "link": "contributors/gen-img-front-end" },
+      { "label": "Guide: deploy events website", "link": "contributors/deploy-event-website" }
+    ]
+  },
+  {
+    "label": "Shared resources",
+    "items": [
+      { "label": "Developers", "link": "resources/developers" },
+      { "label": "Community outreach", "link": "resources/outreach" },
+      { "label": "Funding", "link": "resources/funding" },
+      { "label": "Design", "link": "resources/design" },
+      { "label": "IT Infrastructure", "link": "resources/it-infrastructure" },
+      { "label": "Partners", "link": "resources/partners" },
+      { "label": "Training and Education", "link": "resources/training-education" },
+      { "label": "Legal assistance", "link": "resources/legal-assistance" }
+    ]
+  },
+  {
+    "label": "Governance",
+    "items": [
+      { "label": "Structure", "link": "governance/governance" },
+      { "label": "Core Team", "link": "governance/core-team" },
+      { "label": "Core Contributors", "link": "governance/core-contributors" },
+      { "label": "Communication tools", "link": "governance/communication" },
+      { "label": "Treasury", "link": "governance/treasury" }
+    ]
+  },
+  {
+    "label": "News",
+    "items": [
+      { "label": "Week in the Privacy News", "link": "news/week-in-the-privacy" }
+    ]
+  },
+  {
+    "label": "Portal & Org Web",
+    "items": [
+      { "label": "Overview", "link": "portal-and-org-web/index" },
+      { "label": "Data structure", "link": "portal-and-org-web/data-structure" },
+      { "label": "Running locally", "link": "portal-and-org-web/running-locally" },
+      { "label": "Testing", "link": "portal-and-org-web/testing" },
+      { "label": "Dependencies", "link": "portal-and-org-web/dependencies" }
+    ]
+  }
+]

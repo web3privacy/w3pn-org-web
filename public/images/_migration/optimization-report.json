@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-04-23T22:26:24.520Z",
+  "rasterFiles": 1484,
+  "nonRasterFiles": 18,
+  "sourceRasterBytes": 113029412,
+  "sourceRasterHuman": "107.79 MB",
+  "targetRasterBytes": 86972877,
+  "targetRasterHuman": "82.94 MB",
+  "rasterSavedBytes": 26056535,
+  "rasterSavedHuman": "24.85 MB",
+  "rasterSavedRatio": "23.1%",
+  "sourceTotalBytes": 124160566,
+  "sourceTotalHuman": "118.41 MB",
+  "targetTotalBytes": 98104031,
+  "targetTotalHuman": "93.56 MB",
+  "totalSavedBytes": 26056535,
+  "totalSavedHuman": "24.85 MB",
+  "totalSavedRatio": "21.0%",
+  "sourceFormats": [
+    {
+      "format": "webp",
+      "count": 757,
+      "bytes": 44584873,
+      "bytesHuman": "42.52 MB"
+    },
+    {
+      "format": "jpg",
+      "count": 430,
+      "bytes": 42618890,
+      "bytesHuman": "40.64 MB"
+    },
+    {
+      "format": "png",
+      "count": 297,
+      "bytes": 25825649,
+      "bytesHuman": "24.63 MB"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+# Activities section (hero projects grid). Overrides defaultContent.activities when loaded.
+# Admin-editable: categories with title, section image, and cards (logo, text, link).
+
+ctaText: VIEW ALL PROJECTS
+ctaLink: '#projects'
+
+categories:
+  - title: RESEARCH
+    titleImage: /images/home/sections/activities/assets/research-section.webp
+    cards:
+      - title: EXPLORER
+        text: 800+ Projects organized for comprehension of the privacy space.
+        logo: /images/home/sections/activities/assets/projects/explorer-logo.webp
+        image: /images/home/sections/activities/assets/projects/card-bg-a.svg
+        linkText: Browse projects
+        linkHref: '#projects'
+      - title: PRIVACY AWARDS
+        text: Community and leaders voting about the solutions and active practices.
+        logo: /images/home/sections/activities/assets/projects/privacy-awards-logo.webp
+        image: /images/home/sections/activities/assets/projects/card-bg-b.svg
+        linkText: See 2025 Winners
+        linkHref: '#projects'
+
+  - title: EDUCATE
+    titleImage: /images/home/sections/activities/assets/educate-section.webp
+    cards:
+      - title: ACADEMY
+        text: 30+ in Online Academy Lectures at Universities and high schools
+        logo: /images/home/sections/activities/assets/projects/academy-logo.webp
+        image: /images/home/sections/activities/assets/projects/card-bg-a.svg
+        linkText: Choose course
+        linkHref: '#projects'
+      - title: PERSONAL STACKS
+        text: 100+ experts app choices for a better web
+        logo: /images/home/sections/activities/assets/projects/personal-stacks-logo.webp
+        image: /images/home/sections/activities/assets/projects/card-bg-b.svg
+        linkText: Browse Stacks
+        linkHref: '#projects'
+
+  - title: ACTIVATE
+    titleImage: /images/home/sections/activities/assets/activate-section.webp
+    cards:
+      - title: EVENTS
+        text: 30+ in Online Academy Lectures at Universities and high schools
+        logo: /images/home/sections/activities/assets/projects/events-logo.webp
+        image: /images/home/sections/activities/assets/projects/card-bg-a.svg
+        linkText: See event list
+        linkHref: /events
+      - title: HACKATHON PACK
+        text: List of best practices to build privacy app, Used on largest events.
+        logo: /images/home/sections/activities/assets/projects/hackathon-pack-logo.webp
+        image: /images/home/sections/activities/assets/projects/card-bg-b.svg
+        linkText: See hackathon pack
+        linkHref: '#projects'
+
+  - title: BUILD
+    titleImage: /images/home/sections/activities/assets/build-section.webp
+    cards:
+      - title: PORTAL
+        text: 30+ in Online Academy Lectures at Universities and high schools
+        logo: /images/home/sections/activities/assets/projects/portal-logo.webp
+        image: /images/home/sections/activities/assets/projects/card-bg-a.svg
+        linkText: See event list
+        linkHref: '#projects'
+      - title: ACCELERATOR
+        text: List of best practices to build privacy app, Used on largest events.
+        logo: /images/home/sections/activities/assets/projects/accelerator-logo.png
+        image: /images/home/sections/activities/assets/projects/card-bg-b.svg
+        linkText: See hackathon pack
+        linkHref: '#projects'

@@ -1,0 +1,73 @@
+# Our Work – use-case cards (About page)
+# Edit this file to add/remove cards. Structure is merged into defaultContent.about.work
+# when building the site from YAML-backed org content.
+#
+# Assets (logos, backgrounds) live in public/images/about-us/sections/about/assets/work/ for easy editing.
+#
+# Each item:
+#   title       - use-case name (large heading)
+#   logo        - logo image URL, 96x96px in card (e.g. /images/about-us/sections/about/assets/work/meetups-logo.webp)
+#   highlights  - optional array of 3 short strings (displayed in bordered boxes)
+#   description - body text
+#   image       - background image URL (shown with gradient overlay)
+#   orientation - "left" | "right" – which side the image is on
+#   backgroundColor - optional CSS color (e.g. "#050505") for the text panel
+#   testimonial - optional: avatar, name, role, quote
+#   ctaLabel    - link text (e.g. "READ FULL REPORT"); displayed without underline
+#   ctaHref     - link URL
+
+title: Our Work
+
+items:
+  - title: Meetups & Summits
+    logo: /images/about-us/sections/about/assets/work/meetups-logo.webp
+    highlights:
+      - "3 DAYS"
+      - "100 WEB LEADERS"
+      - "WEB2 + WEB3 TOGETHER"
+    description: >
+      A technical retreat for builders, researchers, and advocates developing
+      the next generation of privacy and security infrastructure. Cypherpunk
+      Retreat brings together a small, high-trust group to work.
+    image: /images/about-us/sections/about/assets/work/meetups-bg.webp
+    orientation: right
+    backgroundColor: "#050505"
+    ctaLabel: READ FULL REPORT
+    ctaHref: https://web3privacy.info
+
+  - title: Cypherpunk Retreat
+    logo: /images/about-us/sections/about/assets/work/cypherpunk-retreat-logo.webp
+    highlights:
+      - "3 DAYS"
+      - "100 WEB LEADERS"
+      - "WEB2 + WEB3 TOGETHER"
+    description: >
+      A technical retreat for builders, researchers, and advocates developing
+      the next generation of privacy and security infrastructure. Cypherpunk
+      Retreat brings together a small, high-trust group to work.
+    image: /images/about-us/sections/about/assets/work/cypherpunk-retreat-bg.webp
+    orientation: left
+    backgroundColor: "#0d2818"
+    testimonial:
+      avatar: /images/site-shared/misc/assets/profile-vitalik.webp
+      name: Kyle Den Hartog
+      role: Cryptographic Engineer @ Brave
+      quote: "The connections made at their events always help to really cut through the noise and meet the right people to make progress on making privacy the default as we evolve the Web ecosystem."
+    ctaLabel: READ FULL REPORT
+    ctaHref: https://web3privacy.info
+
+  - title: Privacy Congress
+    logo: /images/about-us/sections/about/assets/work/privacy-congress-logo.webp
+    highlights:
+      - "3 DAYS"
+      - "100 WEB LEADERS"
+      - "WEB2 + WEB3 TOGETHER"
+    description: >
+      A technical retreat for builders, researchers, and advocates developing
+      the next generation of privacy and security infrastructure. Cypherpunk
+      Retreat brings together a small, high-trust group to work.
+    image: /images/about-us/sections/about/assets/work/privacy-congress-bg.webp
+    orientation: right
+    backgroundColor: "#1a1520"
+    ctaLabel: READ FULL REPORT
+    ctaHref: https://web3privacy.info

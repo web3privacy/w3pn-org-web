@@ -1,0 +1,84 @@
+hero:
+  logo: /images/projects/items/hackathon-pack/icon/project-hackathon-pack.webp
+  title: Builder Pack
+  tagline: A framework helping developers build meaningful privacy-focused projects.
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://build.web3privacy.info
+  metrics: []
+mission:
+  text: |-
+    The Builder Pack is a framework designed to support developers in creating privacy-focused applications, particularly in hackathon and early-stage environments. It provides structured guidance, resources, and use-case inspiration.
+
+    It connects ideation with execution, helping builders move from initial concepts to more meaningful and viable privacy solutions aligned with real ecosystem needs.
+  readMoreHref: https://build.web3privacy.info
+links:
+  url: https://build.web3privacy.info
+contribute:
+  text: Use the framework in your next build, contribute examples, and help expand the resources available to privacy-focused builders.
+  links:
+    - label: GitHub
+      href: https://github.com/web3privacy/privacy-builder-pack
+  ctaLabel: VIEW ON GITHUB
+  ctaHref: https://github.com/web3privacy/privacy-builder-pack
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Builder Pack]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: true
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Cypherpunk hacker class 2.0
+    date: 2024-08-12T00:00:00.000Z
+    excerpt: A builder-oriented take on cypherpunk practice — skills, ethics, and how to ship privacy-preserving work in real hackathon settings.
+    href: https://paragraph.com/@web3privacy-now/cypherpunk-hacker-class-2-0
+    thumbnail: /images/projects/shared/articles/cypherpunk-hacker-class-2-0.webp
+  - title: Getting serious about Ethereum privacy
+    date: 2025-06-14T00:00:00.000Z
+    excerpt: Why Ethereum needs stronger privacy defaults and what teams can prototype during focused build weeks.
+    href: https://paragraph.com/@web3privacy-now/getting-serious-about-ethereum-privacy
+    thumbnail: /images/projects/shared/articles/getting-serious-about-ethereum-privacy.webp
+screenshots:
+  - src: /images/projects/items/hackathon-pack/gallery/hackathon-pack-1.webp
+    alt: Builder Pack screenshot 1
+    caption: Builder Pack overview and tools.
+    previewSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-1--preview.webp
+    thumbnailSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-1--thumb.webp
+  - src: /images/projects/items/hackathon-pack/gallery/hackathon-pack-2.webp
+    alt: Builder Pack screenshot 2
+    caption: Framework summaries and categories.
+    previewSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-2--preview.webp
+    thumbnailSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-2--thumb.webp
+  - src: /images/projects/items/hackathon-pack/gallery/hackathon-pack-3.webp
+    alt: Builder Pack screenshot 3
+    caption: Cases, tools, and stack explorer views.
+    previewSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-3--preview.webp
+    thumbnailSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-3--thumb.webp
+  - src: /images/projects/items/hackathon-pack/gallery/hackathon-pack-4.webp
+    alt: Builder Pack screenshot 4
+    caption: Development tools directory.
+    previewSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-4--preview.webp
+    thumbnailSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-4--thumb.webp
+  - src: /images/projects/items/hackathon-pack/gallery/hackathon-pack-5.webp
+    alt: Builder Pack screenshot 5
+    caption: Local-first privacy cases.
+    previewSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-5--preview.webp
+    thumbnailSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-5--thumb.webp
+  - src: /images/projects/items/hackathon-pack/gallery/hackathon-pack-6.webp
+    alt: Builder Pack screenshot 6
+    caption: Glossary and framework views.
+    previewSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-6--preview.webp
+    thumbnailSrc: /images/projects/items/hackathon-pack/gallery/hackathon-pack-6--thumb.webp
+team:
+  - name: Jensei
+    role: Project Manager
+    avatar: /images/events/shared/header/jensei.webp

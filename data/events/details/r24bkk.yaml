@@ -1,0 +1,36 @@
+headerImageUrl: /images/events/items/r24bkk/header/r24bkk.webp
+heroBackgroundImageUrl: /images/events/items/r24bkk/header/r24bkk-cover.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/gqmn3nsl
+contributors:
+  enabled: true
+  items:
+    - name: Mf
+      role: Web3Privacy Now
+      handle: 0x_m_f
+      avatar: /images/events/shared/header/mf.jpg
+    - name: Migle
+      role: Web3Privacy Now
+      handle: rakymnft
+      avatar: /images/events/shared/header/migle-rakitaite.jpg
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: false
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+topics:
+  content: >-
+    This rave took place in Register to see address, Bangkok during Devcon. It extended the event season into a cultural
+    and social gathering shaped by cypherpunk aesthetics and community ritual.
+  enabled: true

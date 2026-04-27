@@ -1,0 +1,3004 @@
+- id: c26mum
+  type: congress
+  date: '2026-11-02'
+  city: Mumbai
+  country: in
+  place: '[TBA](https://congress.web3privacy.info)'
+  place-address: Mumbai, Maharashtra, India
+  confirmed: true
+  coincidence: Devcon
+  status: upcoming
+  lead: Mykola
+  links:
+    rsvp: https://luma.com/spsnos9t
+    web: https://congress.web3privacy.info/
+    page: https://web3privacy.info/event/c26mum/
+  speakers:
+  - name: Kurt Opsahl
+    affiliation: Filecoin Foundation
+    refs:
+      x: https://x.com/kurtopsahl
+    twitter-handle: kurtopsahl
+    avatarUrl: https://unavatar.io/x/kurtopsahl
+  - name: Isabela Fernandes
+    affiliation: Tor Project
+    twitter-handle: torproject
+    refs:
+      x: https://x.com/torproject
+    avatarUrl: https://unavatar.io/x/torproject
+    social-source: official_event_page_org_account
+  - name: Ahmed Ghappour
+    affiliation: Flashbots
+    refs:
+      x: https://x.com/ghappour
+    twitter-handle: ghappour
+    avatarUrl: https://unavatar.io/x/ghappour
+  - name: Amir Taaki
+    affiliation: DarkFi
+    refs:
+      x: https://x.com/Narodism
+    twitter-handle: Narodism
+    avatarUrl: https://unavatar.io/x/Narodism
+    imageUrl: https://web3privacy.info/core-contributors/amir-taaki.png
+  - name: Danny O'Brien
+    affiliation: Filecoin Foundation / EFF
+    twitter-handle: mala
+    refs:
+      x: https://x.com/mala
+    avatarUrl: https://unavatar.io/x/mala
+  - name: Vijay Krishnavanshi
+    affiliation: Fileverse
+    twitter-handle: vkrishnavanshi
+    refs:
+      x: https://x.com/vkrishnavanshi
+    avatarUrl: https://unavatar.io/x/vkrishnavanshi
+    social-source: user_provided_manual_resolution
+  - name: Denis "Jaromil" Roio
+    slug: jaromil
+    affiliation: Dyne.org
+    twitter-handle: jaromil
+    refs:
+      x: https://x.com/jaromil
+    avatarUrl: https://unavatar.io/x/jaromil
+  - name: Justin Drake
+    affiliation: Ethereum Foundation
+    twitter-handle: drakefjustin
+    refs:
+      x: https://x.com/drakefjustin
+    avatarUrl: https://unavatar.io/x/drakefjustin
+    social-source: known_public_profile
+  - name: Andy Guzman
+    affiliation: Privacy Stewards of Ethereum
+    twitter-handle: andyguzmanethx
+    refs:
+      x: https://x.com/andyguzmanethx
+    avatarUrl: https://unavatar.io/x/andyguzmanethx
+    social-source: luma_event_page
+  - name: Jordi Baylina
+    affiliation: Zisk
+    twitter-handle: jbaylina
+    refs:
+      x: https://x.com/jbaylina
+    avatarUrl: https://unavatar.io/x/jbaylina
+  - name: Kyle Den Hartog
+    affiliation: Brave
+    twitter-handle: kyledenhartog
+    refs:
+      x: https://x.com/kyledenhartog
+    avatarUrl: https://unavatar.io/x/kyledenhartog
+    social-source: name_search_guess
+  - name: Harry Halpin
+    affiliation: Nym
+    twitter-handle: harryhalpin
+    refs:
+      x: https://x.com/harryhalpin
+    avatarUrl: https://unavatar.io/x/harryhalpin
+  - name: Ying Tong Lai
+    affiliation: Independent
+    twitter-handle: therealyingtong
+    refs:
+      x: https://x.com/therealyingtong
+    avatarUrl: https://unavatar.io/x/therealyingtong
+  - name: ml_sudo
+    affiliation: Ethereum Foundation's Silviculture
+    twitter-handle: ml_sudo
+    refs:
+      x: https://x.com/ml_sudo
+    avatarUrl: https://unavatar.io/x/ml_sudo
+    social-source: luma_event_page
+  - name: Auryn McMillan
+    affiliation: Enclave
+    twitter-handle: auryn_macmillan
+    refs:
+      x: https://x.com/auryn_macmillan
+    avatarUrl: https://unavatar.io/x/auryn_macmillan
+  - name: Juan Benet
+    affiliation: Protocol Labs
+    twitter-handle: juanbenet
+    refs:
+      x: https://x.com/juanbenet
+    avatarUrl: https://unavatar.io/x/juanbenet
+  - name: Sebastian Bürgel
+    slug: sebastian-burgel
+    affiliation: Gnosis / HOPR
+    refs:
+      x: https://x.com/SCBuergel
+    twitter-handle: SCBuergel
+    avatarUrl: https://unavatar.io/x/SCBuergel
+  - name: Bob Summerwill
+    affiliation: Strato
+    twitter-handle: bobsummerwill
+    refs:
+      x: https://x.com/bobsummerwill
+    avatarUrl: https://unavatar.io/x/bobsummerwill
+  - name: Miroyato
+    affiliation: Fileverse
+    refs:
+      x: https://x.com/miroyato
+    twitter-handle: miroyato
+    avatarUrl: https://unavatar.io/x/miroyato
+  - name: Chris McCabe
+    affiliation: Session
+    twitter-handle: mccabe
+    refs:
+      x: https://x.com/mccabe
+    avatarUrl: https://unavatar.io/x/mccabe
+    social-source: name_search_guess
+  - name: Nico Consigny
+    affiliation: Ethereum Foundation
+    twitter-handle: ncsgy
+    refs:
+      x: https://x.com/ncsgy
+    avatarUrl: https://unavatar.io/x/ncsgy
+  - name: Peter Van Valkenburgh
+    affiliation: Coin Center
+    twitter-handle: valkenburgh
+    refs:
+      x: https://x.com/valkenburgh
+    avatarUrl: https://unavatar.io/x/valkenburgh
+  - name: Fatemeh Fannizadeh
+    affiliation: Independent
+    twitter-handle: Fatalmeh
+    refs:
+      x: https://x.com/Fatalmeh
+    avatarUrl: https://unavatar.io/x/Fatalmeh
+    social-source: official_event_page_spanish
+  - name: Mario Havel
+    slug: mario-havel
+    affiliation: Ethereum Foundation / BORDEL
+    refs:
+      x: https://x.com/TMIYChao
+    twitter-handle: TMIYChao
+    avatarUrl: https://unavatar.io/x/TMIYChao
+  - name: Oskarth
+    affiliation: Ethereum Foundation / IPTF
+    refs:
+      x: https://x.com/oskarth
+    twitter-handle: oskarth
+    avatarUrl: https://unavatar.io/x/oskarth
+  - name: Pol Lanski
+    affiliation: Dappnode
+    twitter-handle: pol_lanski
+    refs:
+      x: https://x.com/pol_lanski
+    avatarUrl: https://unavatar.io/x/pol_lanski
+    social-source: luma_event_page
+  - name: Will Scott
+    affiliation: Filecoin Foundation
+    twitter-handle: willscott
+    refs:
+      x: https://x.com/willscott
+    avatarUrl: https://unavatar.io/x/willscott
+  - name: Loring Harkness
+    affiliation: Shutter Network
+    twitter-handle: loringharkness
+    refs:
+      x: https://x.com/loringharkness
+    avatarUrl: https://unavatar.io/x/loringharkness
+    social-source: user_provided_manual_resolution
+  - name: Viktor Trón
+    affiliation: Swarm
+    twitter-handle: zeligf
+    refs:
+      x: https://x.com/zeligf
+    avatarUrl: https://unavatar.io/x/zeligf
+    social-source: secondary_profile_aggregator
+  - name: Antonio Seveso
+    affiliation: Fluidkey
+    twitter-handle: xMeTony
+    refs:
+      x: https://x.com/xMeTony
+    avatarUrl: https://unavatar.io/x/xMeTony
+    social-source: luma_event_page
+  - name: Kieran Mesquita
+    affiliation: Railgun
+    refs:
+      x: https://x.com/mesquka
+    twitter-handle: mesquka
+    avatarUrl: https://unavatar.io/x/mesquka
+  - name: Daniel Knobelsdorf
+    affiliation: Infinite Garden
+  - name: Shady El Damaty
+    affiliation: Human.tech
+    twitter-handle: hebbianloop
+    refs:
+      x: https://x.com/hebbianloop
+    avatarUrl: https://unavatar.io/x/hebbianloop
+  speakers-source:
+    kind: website
+    url: https://congress.web3privacy.info/
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  description: Third Ethereum Cypherpunk Congress in Mumbai, positioned as a large-scale cypherpunk and human-rights gathering during Devcon week.
+  speakers-count: 33
+  program-outline:
+  - title: Democratising AI
+    description: Open-source AI, harmful neo-colonial agentic practices, and a better vision of AI commons.
+  - title: Internet censorship
+    description: Internet shutdowns, mesh networks, cross-border digital currencies, and practical FOSS under repression.
+  - title: Positive freedom
+    description: Interactive experiences oriented toward collective socio-technical and political imagination.
+  - title: Digital Public Infrastructure
+    description: Privacy and data-protection challenges around Aadhaar, UPI, DigiLocker, and related public infrastructure.
+  - title: Neo-cypherpunk
+    description: Digital activism through encryption, communal care, and default privacy accessible to non-technical people.
+  - title: Sustainable privacy economy
+    description: How protocols, activists, and public-goods funders can sustain privacy tech and FOSS.
+  themes:
+  - The Ancestral Fork
+  - Global South digital rights
+  - AI commons
+  - Internet shutdown resilience
+  - Digital public infrastructure
+  - Neo-cypherpunk practice
+- id: m26tyo
+  type: meetup
+  date: '2026-09-18'
+  city: Tokyo
+  country: jp
+  title: Web3Privacy now Tokyo meetup
+  place-address: Tokyo, Japan
+  confirmed: true
+  status: upcoming
+  lead: mykola
+  links:
+    rsvp: https://luma.com/ispxo30p
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/ispxo30p
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Robert
+    affiliation: Web3Privacy Now
+  description: Upcoming Tokyo meetup focused on open source, public goods, and grassroots movements.
+  speakers-count: 0
+- id: m26ams
+  type: meetup
+  date: '2026-09-01'
+  city: Amsterdam
+  country: nl
+  title: Web3Privacy now Amsterdam meetup
+  place-address: Amsterdam, Netherlands
+  confirmed: true
+  status: upcoming
+  lead: mykola
+  links:
+    rsvp: https://luma.com/sixp297m
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/sixp297m
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  description: Upcoming Amsterdam meetup focused on open source, public goods, and grassroots movements.
+  speakers-count: 0
+- id: s26ber
+  type: summit
+  date: '2026-06-14'
+  city: Berlin
+  country: de
+  place: '[Funkhaus](https://s26ber.web3privacy.info/)'
+  place-address: Funkhaus Berlin, Berlin, Germany
+  confirmed: true
+  coincidence: Berlin Blockchain Week
+  status: upcoming
+  lead: beth
+  links:
+    rsvp: https://luma.com/f47k4xnd
+    web: https://s26ber.web3privacy.info/
+    page: https://web3privacy.info/event/s26ber/
+  speakers:
+  - name: Jaromil Roio
+    slug: jaromil
+    affiliation: Dyne.org
+    twitter-handle: jaromil
+    refs:
+      x: https://x.com/jaromil
+    avatarUrl: https://unavatar.io/x/jaromil
+  - name: Juan Benet
+    affiliation: Protocol Labs
+    twitter-handle: juanbenet
+    refs:
+      x: https://x.com/juanbenet
+    avatarUrl: https://unavatar.io/x/juanbenet
+  - name: Xavier Damman
+    affiliation: Open Collective
+    twitter-handle: xdamman
+    refs:
+      x: https://x.com/xdamman
+    avatarUrl: https://unavatar.io/x/xdamman
+  - name: Isabela Fernandes
+    affiliation: Tor Project
+    twitter-handle: torproject
+    refs:
+      x: https://x.com/torproject
+    avatarUrl: https://unavatar.io/x/torproject
+    social-source: official_event_page_org_account
+  - name: Jarrad Hope
+    affiliation: Logos
+    refs:
+      x: https://x.com/jarradhope_
+    twitter-handle: jarradhope_
+    avatarUrl: https://unavatar.io/x/jarradhope_
+  - name: Eleftherios
+    affiliation: Radicle / Drips
+    twitter-handle: lftherios
+    refs:
+      x: https://x.com/lftherios
+    avatarUrl: https://unavatar.io/x/lftherios
+    social-source: official_event_page
+  - name: Amir Taaki
+    affiliation: DarkFi
+    refs:
+      x: https://x.com/Narodism
+    twitter-handle: Narodism
+    avatarUrl: https://unavatar.io/x/Narodism
+    imageUrl: https://web3privacy.info/core-contributors/amir-taaki.png
+  - name: Calle
+    affiliation: bitchat / Cashu
+    twitter-handle: callebtc
+    refs:
+      x: https://x.com/callebtc
+    avatarUrl: https://unavatar.io/x/callebtc
+    social-source: official_event_page
+  - name: Paul Dylan-Ennis
+    affiliation: University College Dublin
+    refs:
+      x: https://x.com/pdennis
+    twitter-handle: pdennis
+    avatarUrl: https://unavatar.io/x/pdennis
+  - name: Migle Rakitaite
+    affiliation: Swarm Foundation / WinPrivacy
+    twitter-handle: rakymnft
+    refs:
+      x: https://x.com/rakymnft
+    avatarUrl: https://unavatar.io/x/rakymnft
+    social-source: official_event_page
+  - name: Tara Merk
+    affiliation: BlockchainGov / Metagov
+    twitter-handle: mpg_dd
+    refs:
+      x: https://x.com/mpg_dd
+    avatarUrl: https://unavatar.io/x/mpg_dd
+    social-source: official_event_page
+  - name: Brett Scott
+    affiliation: Author
+    twitter-handle: Suitpossum
+    refs:
+      x: https://x.com/Suitpossum
+    avatarUrl: https://unavatar.io/x/Suitpossum
+    social-source: official_event_page
+  - name: Julio Linares
+    affiliation: Poetic Technologies
+    twitter-handle: Julio_Linares_
+    refs:
+      x: https://x.com/Julio_Linares_
+    avatarUrl: https://unavatar.io/x/Julio_Linares_
+    social-source: official_event_page
+  - name: Ahmed Ghappour
+    affiliation: Flashbots
+    refs:
+      x: https://x.com/ghappour
+    twitter-handle: ghappour
+    avatarUrl: https://unavatar.io/x/ghappour
+  - name: Will Scott
+    affiliation: Protocol Labs
+    twitter-handle: willscott
+    refs:
+      x: https://x.com/willscott
+    avatarUrl: https://unavatar.io/x/willscott
+  - name: Robin Berjon
+    affiliation: IPFS Foundation
+    twitter-handle: robinberjon
+    refs:
+      x: https://x.com/robinberjon
+    avatarUrl: https://unavatar.io/x/robinberjon
+    social-source: known_public_profile
+  - name: Kate Stapleton
+    affiliation: Fhenix
+    twitter-handle: Kate_stapes
+    refs:
+      x: https://x.com/Kate_stapes
+    avatarUrl: https://unavatar.io/x/Kate_stapes
+    social-source: official_event_page
+  - name: Daniel Calderón
+    affiliation: Independent Researcher
+  - name: Florian Glatz
+    affiliation: Freedom Browser / EUCI
+    twitter-handle: heckerhut
+    refs:
+      x: https://x.com/heckerhut
+    avatarUrl: https://unavatar.io/x/heckerhut
+    social-source: official_event_page
+  - name: Josh Dávila
+    affiliation: Bread Coop
+    twitter-handle: TBSocialist
+    refs:
+      x: https://x.com/TBSocialist
+    avatarUrl: https://unavatar.io/x/TBSocialist
+    social-source: official_event_page
+  - name: Rachel-Rose O'Leary
+    slug: rachel-rose-oleary
+    affiliation: DarkFi
+    refs:
+      x: https://x.com/lunar_mining
+    twitter-handle: lunar_mining
+    avatarUrl: https://unavatar.io/x/lunar_mining
+  - name: Marina Markezic
+    affiliation: EUCI
+    twitter-handle: MarinaMarkezic
+    refs:
+      x: https://x.com/MarinaMarkezic
+    avatarUrl: https://unavatar.io/x/MarinaMarkezic
+    social-source: official_event_page
+  - name: Alessandro Longo
+    affiliation: Reincantamento
+    twitter-handle: 1yunglong
+    refs:
+      x: https://x.com/1yunglong
+    avatarUrl: https://unavatar.io/x/1yunglong
+    social-source: official_event_page
+  - name: Mario Havel
+    slug: mario-havel
+    affiliation: Ethereum Foundation
+    refs:
+      x: https://x.com/TMIYChao
+    twitter-handle: TMIYChao
+    avatarUrl: https://unavatar.io/x/TMIYChao
+  - name: Mate Soos
+    affiliation: Argot Collective
+    twitter-handle: SoosMate
+    refs:
+      x: https://x.com/SoosMate
+    avatarUrl: https://unavatar.io/x/SoosMate
+    social-source: official_event_page
+  - name: Nick Almond
+    slug: nick-almond
+    affiliation: Jito
+    refs:
+      x: https://x.com/DrNickA
+    twitter-handle: DrNickA
+    avatarUrl: https://unavatar.io/x/DrNickA
+  - name: Aris Komporozos-Athanasiou
+    affiliation: UCL Centre for Capitalism Studies
+    twitter-handle: ariskomporozos
+    refs:
+      x: https://x.com/ariskomporozos
+    avatarUrl: https://unavatar.io/x/ariskomporozos
+    social-source: official_event_page
+  - name: Adam Burns
+    affiliation: free2air / Dyne
+    twitter-handle: AdamPeterBurns
+    refs:
+      x: https://x.com/AdamPeterBurns
+    avatarUrl: https://unavatar.io/x/AdamPeterBurns
+    social-source: official_event_page
+  - name: Arturo Filastò
+    slug: arturo-filasto
+    affiliation: OONI
+    twitter-handle: hellais
+    refs:
+      x: https://x.com/hellais
+    avatarUrl: https://unavatar.io/x/hellais
+  - name: Max Hampshire
+    slug: max-hampshire
+    affiliation: Nym
+    twitter-handle: _wjth
+    refs:
+      x: https://x.com/_wjth
+    avatarUrl: https://unavatar.io/x/_wjth
+    social-source: official_event_page
+  - name: Joan Arús
+    affiliation: Sentinel Alliance
+    twitter-handle: Joan_Arus
+    refs:
+      x: https://x.com/Joan_Arus
+    avatarUrl: https://unavatar.io/x/Joan_Arus
+  - name: Daniel Vasquez
+    affiliation: Nym
+  - name: polymutex
+    affiliation: Walletbeat
+    twitter-handle: polymutex
+    refs:
+      x: https://x.com/polymutex
+    avatarUrl: https://unavatar.io/x/polymutex
+    social-source: user_provided_manual_resolution
+  - name: Vlad Costea
+    affiliation: Bitcoin Takeover Podcast
+    twitter-handle: TheVladCostea
+    refs:
+      x: https://x.com/TheVladCostea
+    avatarUrl: https://unavatar.io/x/TheVladCostea
+    social-source: official_event_page
+  - name: Michael
+    affiliation: Brevis
+    twitter-handle: no89thkey
+    refs:
+      x: https://x.com/no89thkey
+    avatarUrl: https://unavatar.io/x/no89thkey
+    social-source: official_event_page
+  - name: Cyp
+    affiliation: Status
+    twitter-handle: 0xcyp
+    refs:
+      x: https://x.com/0xcyp
+    avatarUrl: https://unavatar.io/x/0xcyp
+    social-source: official_event_page
+  - name: Tobias Vogel
+    affiliation: Consensys Diligence
+    twitter-handle: T_Birb
+    refs:
+      x: https://x.com/T_Birb
+    avatarUrl: https://unavatar.io/x/T_Birb
+    social-source: official_event_page
+  - name: Sandi Fatic
+    affiliation: Calimero Network
+    twitter-handle: chefsale
+    refs:
+      x: https://x.com/chefsale
+    avatarUrl: https://unavatar.io/x/chefsale
+    social-source: official_event_page
+  - name: hoobi.eth
+    affiliation: L2Beat
+    twitter-handle: hubkotl
+    refs:
+      x: https://x.com/hubkotl
+    avatarUrl: https://unavatar.io/x/hubkotl
+    social-source: official_event_page
+  - name: Ramy Raoof Halim
+    affiliation: ex-Tor / Amnesty International / Open Technology Fund
+    twitter-handle: RamyRaoof
+    refs:
+      x: https://x.com/RamyRaoof
+    avatarUrl: https://unavatar.io/x/RamyRaoof
+  - name: Jaya Klara Brekke
+    slug: jaya-klara-brekke
+    affiliation: Nym
+    twitter-handle: jayapapaya
+    refs:
+      x: https://x.com/jayapapaya
+    avatarUrl: https://unavatar.io/x/jayapapaya
+  speakers-source:
+    kind: website
+    url: https://s26ber.web3privacy.info/
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Beth McCarthy
+    slug: beth
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  - name: Teresa
+    affiliation: Web3Privacy Now
+  - name: Daniel Shavit
+    affiliation: Web3Privacy Now
+  description: Neo-cypherpunk summit in Berlin focused on activist culture, digital rights, free software sustainability, and privacy-preserving technology.
+  speakers-count: 41
+  schedule:
+  - start: '10:00'
+    end: '18:00'
+    title: Neocypherpunk Summit
+    note: Full-day summit at Funkhaus Berlin
+  program-outline:
+  - title: Dialogue
+    description: Discourse to identify and bridge gaps in knowledge, alignment, values and vision.
+  - title: Knowledge Exchange
+    description: Skill-sharing on hacking, organizing, advocacy, and practical privacy tactics.
+  - title: Rituals
+    description: Participatory activations exploring privacy through creativity and play.
+  - title: Field Building
+    description: Cross-disciplinary community weaving around privacy, power, and civic infrastructure.
+  - title: Showcases
+    description: Presentations of projects, protocols, and experiments shaping the future.
+  - title: Debates
+    description: Public arguments and critical discussion on the systems and norms that shape the internet.
+  themes:
+  - Cryptography as Civic Infrastructure
+  - Resistance Networks
+  - Open Protocols & Digital Autonomy
+  - Digital Rights & Legal Defense
+  - Privacy for the Commons
+- id: m26clj
+  type: meetup
+  date: '2026-05-12'
+  city: Cluj-Napoca
+  country: ro
+  title: Web3Privacy now Cluj meetup
+  place: '[Insomnia](https://www.google.com/maps/search/?api=1&query=Insomnia%2C+Str.+Universit%C4%83%C8%9Bii+2%2C+400091+Cluj-Napoca%2C+Romania)'
+  place-address: Insomnia, Str. Universității 2, 400091 Cluj-Napoca, Romania
+  confirmed: true
+  status: upcoming
+  lead: mykola
+  links:
+    rsvp: https://luma.com/zttuflbr
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/zttuflbr
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Robert
+    affiliation: Web3Privacy Now
+  description: Upcoming Cluj meetup at Insomnia focused on open source, public goods, and grassroots movements.
+  speakers-count: 0
+  design:
+    image: /images/events/items/m26clj/header/m26clj.webp
+- id: m26rom
+  type: meetup
+  date: '2026-05-08'
+  city: Rome
+  country: it
+  title: Web3Privacy now Rome meetup
+  place: '[Urbe Hub](https://www.google.com/maps/search/?api=1&query=Urbe+Hub%2C+Largo+Dino+Frisullo%2C+00153+Roma+RM%2C+Italy)'
+  place-address: Urbe Hub, Largo Dino Frisullo, 00153 Roma RM, Italy
+  confirmed: true
+  status: upcoming
+  lead: mykola
+  links:
+    rsvp: https://luma.com/q1sdbqf3
+  speakers:
+  - Denis Jaromil Roio
+  - Ying Tong
+  - Sterlin Lujan
+  - alpeh_v
+  - Piergiorgio Catti De Gasperi
+  speakers-source:
+    kind: luma
+    url: https://luma.com/q1sdbqf3
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Federico
+    affiliation: Web3Privacy Now
+  description: Upcoming Rome meetup at Urbe Hub focused on cryptography, open source, and public goods.
+  speakers-count: 5
+- id: m26prg
+  type: meetup
+  date: '2026-05-07'
+  city: Prague
+  country: cz
+  title: Web3Privacy now Prague meetup
+  place: '[Kampus Hybernska / Circular Hub](https://www.google.com/maps/search/?api=1&query=Kampus+Hybernska%2C+Hybernsk%C3%A1+998%2F4%2C+Nov%C3%A9+M%C4%9Bsto%2C+110+00+Praha-Praha+1%2C+Czechia)'
+  place-address: Kampus Hybernska, Hybernská 998/4, Nové Město, 110 00 Praha-Praha 1, Czechia
+  confirmed: true
+  coincidence: ETHPrague
+  status: upcoming
+  lead: mykola
+  links:
+    rsvp: https://luma.com/98pzi0jh
+  speakers:
+  - Mario Havel
+  - Jaya Klara Brekke
+  - Nicolas Consigny
+  - Cheeky-Gorilla
+  - Paul Dylan-Ennis
+  - Kevin Jones
+  - Gavin Birch
+  - Mykola Siusko
+  - Ais Connoly
+  - Lukáš Pohanka
+  speakers-source:
+    kind: luma
+    url: https://luma.com/98pzi0jh
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  - name: Max
+    affiliation: Web3Privacy Now
+  description: Upcoming Prague meetup during ETHPrague focused on open source, public goods, and grassroots movements.
+  speakers-count: 10
+- id: m26mum
+  type: meetup
+  title: Mumbai meetup
+  date: '2026-04-04'
+  city: Mumbai
+  country: in
+  place: '[Lumos Cowork](https://www.google.com/maps/search/?api=1&query=Lumos+Cowork%2C+B+Wing%2C+Vasudev+Chamber%2C+CRESCENT+GRANDE%2C+5th%2C+Old+Nagardas+Rd%2C+Mogra+Village%2C+Andheri+East%2C+Mumbai%2C+Maharashtra+400069%2C+India)'
+  place-address: Lumos Cowork, B Wing, Lumos cowork, Vasudev Chamber, CRESCENT GRANDE, 5th, Old Nagardas Rd, Mogra Village, Mogra Pada, Natwar Nagar, Andheri East, Mumbai, Maharashtra 400069, India
+  confirmed: true
+  status: past
+  lead: mykola
+  links:
+    rsvp: https://luma.com/go5h5mod
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/go5h5mod
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  description: This meetup took place in Mumbai as a road-to-Cypherpunk Congress gathering. It focused on CROPS values, free software principles, local and global collaboration, and how the Mumbai congress could benefit the local community.
+  speakers-count: 0
+- id: co26can
+  type: collab
+  title: Occupy EthCC
+  date: '2026-03-31'
+  city: Cannes
+  country: fr
+  place: '[Parc Méro](https://www.google.com/maps/search/?api=1&query=parc+mero%2C+Square+M%C3%A9ro%2C+06400+Cannes%2C+France)'
+  place-address: parc mero, Square Méro, 06400 Cannes, France
+  confirmed: true
+  coincidence: EthCC
+  status: past
+  lead: mykola
+  links:
+    rsvp: https://luma.com/l3hxaaii
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/l3hxaaii
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Migle
+    affiliation: Womxn in web3 Privacy
+  - name: Peter
+    affiliation: Web3Privacy Now
+  description: This collaboration took place in Cannes during EthCC. It centered on public-space gathering, anti-elitist coordination, privacy culture, solidarity, and human-centric community building.
+  speakers-count: 0
+- id: c25bue
+  type: congress
+  date: '2025-11-16'
+  city: Buenos Aires
+  country: ar
+  place: '[TBA](https://congress.web3privacy.info)'
+  place-address: TBA
+  confirmed: true
+  coincidence: Devconnect
+  status: past
+  lead: robert
+  links:
+    rsvp: https://lu.ma/u2sw5kpv
+    web: https://congress.web3privacy.info/
+    page: https://web3privacy.info/event/c25bue/
+  speakers:
+  - name: Zac Williamson
+    affiliation: Aztec
+    twitter-handle: Zac_Aztec
+    refs:
+      x: https://x.com/Zac_Aztec
+    avatarUrl: https://unavatar.io/x/Zac_Aztec
+  - name: Peter Van Valkenburgh
+    affiliation: Coin Center
+    twitter-handle: valkenburgh
+    refs:
+      x: https://x.com/valkenburgh
+    avatarUrl: https://unavatar.io/x/valkenburgh
+  - name: Nick Almond
+    slug: nick-almond
+    affiliation: FactoryDAO
+    refs:
+      x: https://x.com/DrNickA
+    twitter-handle: DrNickA
+    avatarUrl: https://unavatar.io/x/DrNickA
+  - name: Santiago Siri
+    affiliation: Democracy Earth
+    twitter-handle: santisiri
+    refs:
+      x: https://x.com/santisiri
+    avatarUrl: https://unavatar.io/x/santisiri
+  - name: Ameen Soleimani
+    slug: ameen-soleimani
+    affiliation: 0xbow
+    refs:
+      x: https://x.com/ameensol
+    twitter-handle: ameensol
+    avatarUrl: https://unavatar.io/x/ameensol
+  - name: Kurt Opsahl
+    affiliation: Filecoin Foundation
+    refs:
+      x: https://x.com/kurtopsahl
+    twitter-handle: kurtopsahl
+    avatarUrl: https://unavatar.io/x/kurtopsahl
+  - name: Lasha Antadze
+    affiliation: Rarimo
+    twitter-handle: LashaAntadze
+    refs:
+      x: https://x.com/LashaAntadze
+    avatarUrl: https://unavatar.io/x/LashaAntadze
+  - name: Paul-Dylan Ennis
+    affiliation: Absolute Essentials of Ethereum
+    twitter-handle: pdennis
+    refs:
+      x: https://x.com/pdennis
+    avatarUrl: https://unavatar.io/x/pdennis
+  - name: Michael
+    affiliation: Brevis
+    twitter-handle: no89thkey
+    refs:
+      x: https://x.com/no89thkey
+    avatarUrl: https://unavatar.io/x/no89thkey
+    social-source: official_event_page
+  - name: Sebastian Bürgel
+    slug: sebastian-burgel
+    affiliation: GnosisDAO
+    refs:
+      x: https://x.com/SCBuergel
+    twitter-handle: SCBuergel
+    avatarUrl: https://unavatar.io/x/SCBuergel
+  - name: Auryn McMillan
+    affiliation: Enclave / Gnosis Guild
+    twitter-handle: auryn_macmillan
+    refs:
+      x: https://x.com/auryn_macmillan
+    avatarUrl: https://unavatar.io/x/auryn_macmillan
+  - name: Alan Scott
+    slug: alan-scott
+    affiliation: Railgun
+    refs:
+      x: https://x.com/tsu_kareta
+    twitter-handle: tsu_kareta
+    avatarUrl: https://unavatar.io/x/tsu_kareta
+  - name: Andreas
+    affiliation: Fileverse
+    twitter-handle: miroyato
+    refs:
+      x: https://x.com/miroyato
+    avatarUrl: https://unavatar.io/x/miroyato
+    social-source: official_event_page
+  - name: Oskarth
+    affiliation: Independent
+    refs:
+      x: https://x.com/oskarth
+    twitter-handle: oskarth
+    avatarUrl: https://unavatar.io/x/oskarth
+  - name: Amir Taaki
+    affiliation: DarkFi
+    refs:
+      x: https://x.com/Narodism
+    twitter-handle: Narodism
+    avatarUrl: https://unavatar.io/x/Narodism
+    imageUrl: https://web3privacy.info/core-contributors/amir-taaki.png
+  - name: Josh Swihart
+    affiliation: Electric Coin Co
+    twitter-handle: jswihart
+    refs:
+      x: https://x.com/jswihart
+    avatarUrl: https://unavatar.io/x/jswihart
+  - name: Fatemeh Fannizadeh
+    affiliation: Anoma Foundation
+    twitter-handle: Fatalmeh
+    refs:
+      x: https://x.com/Fatalmeh
+    avatarUrl: https://unavatar.io/x/Fatalmeh
+    social-source: official_event_page_spanish
+  - name: Andrew Miller
+    affiliation: teleport.best
+    twitter-handle: socrates1024
+    refs:
+      x: https://x.com/socrates1024
+    avatarUrl: https://unavatar.io/x/socrates1024
+  - name: Silke Noa
+    affiliation: AssangeDAO
+    twitter-handle: silkenoa
+    refs:
+      x: https://x.com/silkenoa
+    avatarUrl: https://unavatar.io/x/silkenoa
+  - name: Daira-Emma Hopwood
+    affiliation: Zcash
+    twitter-handle: feministPLT
+    refs:
+      x: https://x.com/feministPLT
+    avatarUrl: https://unavatar.io/x/feministPLT
+  - name: Ahmed Ghappour
+    affiliation: Flashbots
+    refs:
+      x: https://x.com/ghappour
+    twitter-handle: ghappour
+    avatarUrl: https://unavatar.io/x/ghappour
+  - name: Wei Dai
+    affiliation: 1kx
+    twitter-handle: _weidai
+    refs:
+      x: https://x.com/_weidai
+    avatarUrl: https://unavatar.io/x/_weidai
+  - name: Seth For Privacy
+    affiliation: Freedom.tech
+    twitter-handle: sethforprivacy
+    refs:
+      x: https://x.com/sethforprivacy
+    avatarUrl: https://unavatar.io/x/sethforprivacy
+  - name: Jarrad Hope
+    affiliation: Logos / Status
+    refs:
+      x: https://x.com/jarradhope_
+    twitter-handle: jarradhope_
+    avatarUrl: https://unavatar.io/x/jarradhope_
+  - name: Naomi Brockwell
+    affiliation: NBTV / Ludlow Institute
+    twitter-handle: naomibrockwell
+    refs:
+      x: https://x.com/naomibrockwell
+    avatarUrl: https://unavatar.io/x/naomibrockwell
+  - name: Luke Mulks
+    affiliation: Brave
+    twitter-handle: lukemulks
+    refs:
+      x: https://x.com/lukemulks
+    avatarUrl: https://unavatar.io/x/lukemulks
+  speakers-source:
+    kind: luma
+    url: https://luma.com/u2sw5kpv
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Robert
+    affiliation: Web3Privacy Now
+  - name: Lucila
+    affiliation: Web3Privacy Now
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  - name: Beth McCarthy
+    slug: beth
+    affiliation: Web3Privacy Now
+  - name: Federico
+    affiliation: Web3Privacy Now
+  description: This congress took place in Buenos Aires during Devconnect. Speakers included Zac Williamson, Peter Van Valkenburgh, Nick Almond, and Santiago Siri. It was framed as a larger field-building event around privacy culture, movement strategy, and the practical adoption of freedom technologies.
+  speakers-count: 26
+- id: eps25bue
+  type: collab
+  title: Ethereum Privacy Stack
+  date: '2025-11-21'
+  city: Buenos Aires
+  country: ar
+  place: '[La Rural](https://www.google.com/maps/search/?api=1&query=La+Rural%2C+Av.+Sarmiento+2704%2C+C1425+Cdad.+Aut%C3%B3noma+de+Buenos+Aires%2C+Argentina)'
+  place-address: La Rural, Av. Sarmiento 2704, C1425 Cdad. Autónoma de Buenos Aires, Argentina
+  confirmed: true
+  coincidence: Devconnect
+  status: past
+  lead: mykola
+  description: Core privacy-focused event during Devconnect Buenos Aires, centered on transactional privacy, application privacy, institutional privacy, public goods, and the broader community role in Ethereum privacy.
+  links:
+    rsvp: https://luma.com/dvxblpgp
+    web: https://eps25.web3privacy.info/
+    page: https://web3privacy.info/event/eps25bue/
+  speakers:
+  - name: Andy Guzman
+    affiliation: Privacy Stewards of Ethereum
+    twitter-handle: andyguzmanethx
+    refs:
+      x: https://x.com/andyguzmanethx
+    avatarUrl: https://unavatar.io/x/andyguzmanethx
+  - name: Ameen Soleimani
+    affiliation: 0xbow
+    refs:
+      x: https://x.com/ameensol
+    twitter-handle: ameensol
+    avatarUrl: https://unavatar.io/x/ameensol
+  - name: Vitalik Buterin
+    affiliation: Ethereum
+    refs:
+      x: https://x.com/VitalikButerin
+    twitter-handle: VitalikButerin
+    avatarUrl: https://unavatar.io/x/VitalikButerin
+  - name: Roger Dingledine
+    affiliation: Tor Project
+  - name: Andreas Tsamados
+    affiliation: Fileverse
+    refs:
+      x: https://x.com/miroyato
+    twitter-handle: miroyato
+    avatarUrl: https://unavatar.io/x/miroyato
+  - name: Lefteris Karapetsas
+    affiliation: Rotki
+    refs:
+      x: https://x.com/LefterisJP
+    twitter-handle: LefterisJP
+    avatarUrl: https://unavatar.io/x/LefterisJP
+  - name: Nicolas Consigny
+    affiliation: Ethereum Foundation
+    refs:
+      x: https://x.com/ncsgy
+    twitter-handle: ncsgy
+    avatarUrl: https://unavatar.io/x/ncsgy
+  speakers-source:
+    kind: luma
+    url: https://luma.com/dvxblpgp
+  speakers-count: 50
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Lucila
+    affiliation: Web3Privacy Now
+  - name: Beth McCarthy
+    slug: beth
+    affiliation: Web3Privacy Now
+- id: m25rom
+  type: meetup
+  title: Rome Meetup x ETHRome 2025
+  date: '2025-10-16'
+  city: Rome
+  country: it
+  place: '[Free University of Cinema](https://maps.app.goo.gl/ZzxfRaD83vqgHH9p7?g_st=ipc)'
+  place-address: Free University of Cinema, CAE- città dell'altra economia, Largo Dino Frisullo, 00153 Roma RM, Italy
+  confirmed: true
+  coincidence: ETHRome
+  status: past
+  lead: pg
+  links:
+    rsvp: https://luma.com/8jv4odjn
+  speakers:
+  - name: Migle Rakitaite
+    affiliation: Win Privacy / Glitch Armour
+    twitter-handle: rakymnft
+    refs:
+      x: https://x.com/rakymnft
+    avatarUrl: https://unavatar.io/x/rakymnft
+    social-source: official_event_page
+  - name: Vaclav Pavlin
+    slug: vaclav-pavlin
+    affiliation: Logos / Waku
+    refs:
+      x: https://x.com/vpavlin
+    twitter-handle: vpavlin
+    avatarUrl: https://unavatar.io/x/vpavlin
+  - name: Shirly Valge
+    affiliation: Nomos
+    twitter-handle: shirlyvalge
+    refs:
+      x: https://x.com/shirlyvalge
+    avatarUrl: https://unavatar.io/x/shirlyvalge
+    social-source: user_provided_manual_resolution
+  - name: Anton Paisov
+    affiliation: Calimero
+    twitter-handle: antonpaisov
+    refs:
+      x: https://x.com/antonpaisov
+    avatarUrl: https://unavatar.io/x/antonpaisov
+    social-source: user_provided_manual_resolution
+  speakers-source:
+    kind: luma
+    url: https://luma.com/8jv4odjn
+  hosts:
+  - name: Babybit
+    affiliation: ETHRome
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Federico
+    affiliation: Web3Privacy Now
+  description: This meetup took place in Rome during ETHRome. It focused on open source, public goods, and grassroots movements, with talks and discussions followed by aperitivo on the UrbeHub terrace.
+  speakers-count: 4
+- id: m25tok
+  type: meetup
+  date: '2025-09-11'
+  city: Tokyo
+  country: jp
+  place: Register to see address
+  place-address: Tokyo
+  confirmed: true
+  coincidence: Japan Blockchain Week
+  status: past
+  lead: mykola
+  links:
+    rsvp: https://luma.com/k71p60cb
+  speakers:
+  - name: Vitalik Buterin
+    affiliation: Ethereum
+    refs:
+      x: https://x.com/VitalikButerin
+    twitter-handle: VitalikButerin
+    avatarUrl: https://unavatar.io/x/VitalikButerin
+  - name: Alan Scott
+    slug: alan-scott
+    affiliation: Railgun
+    refs:
+      x: https://x.com/tsu_kareta
+    twitter-handle: tsu_kareta
+    avatarUrl: https://unavatar.io/x/tsu_kareta
+  - name: Leona Hioki
+    affiliation: Intmax
+    twitter-handle: HiokiLeona
+    refs:
+      x: https://x.com/HiokiLeona
+    avatarUrl: https://unavatar.io/x/HiokiLeona
+  - name: Yudai Suzuki
+    affiliation: Fracton Ventures
+    twitter-handle: yudaisuzuki
+    refs:
+      x: https://x.com/yudaisuzuki
+    avatarUrl: https://unavatar.io/x/yudaisuzuki
+    social-source: user_provided_manual_resolution
+  - name: Aki
+    affiliation: Micelium
+    twitter-handle: aki_?
+    refs:
+      x: https://x.com/aki_?
+    avatarUrl: https://unavatar.io/x/aki_?
+    social-source: unresolved
+  speakers-source:
+    kind: luma
+    url: https://luma.com/k71p60cb
+  hosts:
+  - name: Robert
+    affiliation: Web3Privacy Now
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  description: This meetup took place in Register to see address, Tokyo during Japan Blockchain Week. Speakers included Vitalik Buterin, Alan Scott, Leona Hioki, and Yudai Suzuki. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  speakers-count: 5
+- id: m25eth10
+  type: meetup
+  title: '10 years of Ethereum cypherpunk culture [online]'
+  date: '2025-07-30'
+  city: Online
+  country: xx
+  place: Virtual
+  place-address: Virtual
+  confirmed: true
+  status: past
+  lead: mykola
+  links:
+    rsvp: https://luma.com/glt7ukv2
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/glt7ukv2
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  description: This online gathering marked ten years of Ethereum cypherpunk culture, bringing together privacy builders, researchers, activists, governance participants, and long-term community shapers for reflection.
+  speakers-count: 0
+- id: co25can
+  type: collab
+  title: Occupy EthCC
+  date: '2025-07-01'
+  city: Cannes
+  country: fr
+  place: '[Parc Méro](https://www.google.com/maps/search/?api=1&query=parc+mero%2C+06400+Cannes%2C+France)'
+  place-address: parc mero, 06400 Cannes, France
+  confirmed: true
+  coincidence: EthCC
+  status: past
+  lead: mykola
+  links:
+    rsvp: https://luma.com/goib96as
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/goib96as
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Womxn in web3 Privacy
+    affiliation: Collaborator
+  - name: Peter
+    affiliation: Web3Privacy Now
+  description: This collaboration took place in Cannes during EthCC. It was framed as a public occupation of space for privacy enthusiasts, researchers, builders, and activists to connect outside the usual side-event dynamics.
+  speakers-count: 0
+- id: m25clj
+  type: meetup
+  date: '2025-06-25'
+  city: Cluj-Napoca
+  country: ro
+  place: '[Insomnia](https://www.google.com/maps/search/?api=1&query=Insomnia%2C+Cluj-Napoca)'
+  place-address: Str. Universității 2, Cluj-Napoca 400091, Romania
+  confirmed: true
+  status: past
+  lead: andreea
+  description: This meetup took place in Cluj-Napoca. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  links:
+    rsvp: https://luma.com/jbzohah1
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/jbzohah1
+  hosts:
+  - name: Andreea CIA
+    affiliation: Web3Privacy Now
+  - name: Alina
+    affiliation: Web3Privacy Now
+  speakers-count: 0
+- id: co25ber
+  type: collab
+  title: Dappcon Berlin
+  date: '2025-06-16'
+  city: Berlin
+  country: de
+  place: '[Radialsystem](https://maps.app.goo.gl/cMi3ccPzUvKYnpVp7)'
+  place-address: Holzmarktstraße 33, 10243 Berlin
+  confirmed: true
+  coincidence: Dappcon
+  status: past
+  lead: Mykola
+  links:
+    rsvp: https://lu.ma/sq2vtmdg
+    web: https://dappcon.io
+  speakers:
+  - name: Wassim Alsindi
+    affiliation: 0xSalon
+    twitter-handle: WassimAlsindi
+    refs:
+      x: https://x.com/WassimAlsindi
+    avatarUrl: https://unavatar.io/x/WassimAlsindi
+  - name: Josh Davila
+    affiliation: The Blockchain Socialist
+    twitter-handle: TBSocialist
+    refs:
+      x: https://x.com/TBSocialist
+    avatarUrl: https://unavatar.io/x/TBSocialist
+    social-source: official_event_page
+  - name: Paul Dylan-Ennis
+    affiliation: University College Dublin
+    refs:
+      x: https://x.com/pdennis
+    twitter-handle: pdennis
+    avatarUrl: https://unavatar.io/x/pdennis
+  - name: mrs kzg.eth
+    twitter-handle: mrskzg
+    refs:
+      x: https://x.com/mrskzg
+    avatarUrl: https://unavatar.io/x/mrskzg
+    social-source: user_provided_manual_resolution
+  - name: Nick Almond
+    slug: nick-almond
+    affiliation: FactoryDAO
+    refs:
+      x: https://x.com/DrNickA
+    twitter-handle: DrNickA
+    avatarUrl: https://unavatar.io/x/DrNickA
+  - name: Andreas
+    affiliation: Fileverse
+    twitter-handle: miroyato
+    refs:
+      x: https://x.com/miroyato
+    avatarUrl: https://unavatar.io/x/miroyato
+    social-source: official_event_page
+  - name: Julio Linares
+    affiliation: Poetic Technologies
+    twitter-handle: Julio_Linares_
+    refs:
+      x: https://x.com/Julio_Linares_
+    avatarUrl: https://unavatar.io/x/Julio_Linares_
+    social-source: official_event_page
+  speakers-source:
+    kind: luma
+    url: https://luma.com/sq2vtmdg
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Andreea CIA
+    affiliation: Web3Privacy Now
+  description: This collaboration took place in Berlin during Dappcon. Speakers included Wassim Alsindi, Josh Davila, Paul Dylan-Ennis, and mrs kzg.eth.
+  speakers-count: 7
+- id: r25ber
+  type: rave
+  title: Cypherave - W3PN x Blockravers
+  date: '2025-06-15'
+  city: Berlin
+  country: de
+  place-address: Berlin, Germany
+  confirmed: true
+  coincidence: W3PN Hackathon
+  status: past
+  lead: mf
+  links:
+    rsvp: https://luma.com/h3ithkl3
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/h3ithkl3
+  hosts:
+  - name: Mf
+    slug: mf
+    affiliation: Web3Privacy Now
+  - name: Manu Alzuru
+    affiliation: Blockravers
+  - name: Antoine Hajj
+    affiliation: Lovepunks
+  description: This rave took place in Berlin during W3PN Hackathon. It brought together rebels, dreamers, and creators for a cypherpunk dancefloor shaped by privacy, freedom, radical expression, and community ritual.
+  speakers-count: 0
+- id: h25ber
+  type: hackathon
+  title: W3PN_Hacks
+  date: '2025-06-13'
+  city: Berlin
+  country: de
+  place: '[Engelnest Coworking Space and Event Venue](https://maps.app.goo.gl/vKdRQ1wuWkkXPhPJ8)'
+  place-address: Engelnest Coworking Space and Event Venue, Wilhelm-Kabus-Straße 24, 10829 Berlin, Germany
+  confirmed: true
+  coincidence: Berlin Blockchain Week
+  status: past
+  lead: mf
+  description: This hackathon took place in Berlin during Berlin Blockchain Week. It framed practical privacy as hands-on work grounded in real-world applications, interdisciplinary collaboration, and cypherpunk values.
+  links:
+    rsvp: https://luma.com/wero3jvo
+    web: https://hackathon.web3privacy.info
+    page: https://web3privacy.info/event/h25ber/
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/wero3jvo
+  hosts:
+  - name: Mf
+    slug: mf
+    affiliation: Web3Privacy Now
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: jensei
+    affiliation: Web3Privacy Now
+  - name: Andreea CIA
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  - name: Federico
+    affiliation: Web3Privacy Now
+  - name: Peter
+    affiliation: Web3Privacy Now
+  - name: Alina
+    affiliation: Web3Privacy Now
+  - name: Migle
+    affiliation: Web3Privacy Now
+  speakers-count: 0
+- id: co25ftc
+  type: collab
+  title: 'FtC: Forum Berlin'
+  date: '2025-06-10'
+  city: Berlin
+  country: de
+  place: '[Engelnest](https://engelnest.de)'
+  place-address: Wilhelm-Kabus-Str. 24, 10829 Berlin
+  confirmed: true
+  coincidence: Funding the Commons
+  status: past
+  lead: pg
+  links:
+    rsvp: https://lu.ma/ftc-berlin-2025
+    web: https://www.fundingthecommons.io/berlin-2025
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/ftc-berlin-2025
+  hosts:
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  description: This collaboration took place in Berlin during Funding the Commons.
+  speakers-count: 0
+- id: m25prg
+  type: meetup
+  date: '2025-05-29'
+  city: Prague
+  country: cz
+  place: Klub Centrála
+  place-address: Hlavní město Praha
+  confirmed: true
+  coincidence: ETHPrague
+  status: past
+  lead: alina
+  links:
+    rsvp: https://lu.ma/jhp1iapn
+    page: https://web3privacy.info/event/m25prg/
+  speakers:
+  - name: Viktor Trón
+    affiliation: Swarm
+    twitter-handle: zeligf
+    refs:
+      x: https://x.com/zeligf
+    avatarUrl: https://unavatar.io/x/zeligf
+    social-source: secondary_profile_aggregator
+  - name: Olexander Kurbatov
+    affiliation: Rarimo
+    twitter-handle: KurbatovOlex
+    refs:
+      x: https://x.com/KurbatovOlex
+    avatarUrl: https://unavatar.io/x/KurbatovOlex
+    social-source: user_provided_manual_resolution
+  - name: Mario Havel
+    slug: mario-havel
+    affiliation: Ethereum Foundation
+    refs:
+      x: https://x.com/TMIYChao
+    twitter-handle: TMIYChao
+    avatarUrl: https://unavatar.io/x/TMIYChao
+  - name: Vaclav Pavlin
+    slug: vaclav-pavlin
+    affiliation: Waku
+    refs:
+      x: https://x.com/vpavlin
+    twitter-handle: vpavlin
+    avatarUrl: https://unavatar.io/x/vpavlin
+  - name: Leo Gomez
+    affiliation: Codex
+  - name: Paul Boes
+    affiliation: Circles / GnosisDAO
+    twitter-handle: boes_
+    refs:
+      x: https://x.com/boes_
+    avatarUrl: https://unavatar.io/x/boes_
+    social-source: name_search_guess
+  speakers-source:
+    kind: luma
+    url: https://luma.com/jhp1iapn
+  hosts:
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  - name: Cryptomario
+    affiliation: Web3Privacy Now
+  - name: Matesak
+    affiliation: Web3Privacy Now
+  - name: Andreea CIA
+    affiliation: Web3Privacy Now
+  description: This meetup took place in Klub Centrála, Prague during ETHPrague. Speakers included Viktor Trón, Olexander Kurbatov, Mario Havel, and Vaclav Pavlin. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  speakers-count: 6
+- id: m25dam
+  type: meetup
+  date: '2025-05-08'
+  city: Amsterdam
+  country: nl
+  place: '[Studio Sarphaat](https://luma.com/73go30ij)'
+  place-address: Sarphatipark 116 BG, 1073 ED Amsterdam, Netherlands
+  confirmed: true
+  coincidence: ETHDam
+  status: past
+  lead: pg
+  description: This meetup took place in Amsterdam during ETHDam. Speakers included Shady El Damaty, Ameen Soleimani, Tien, and Sandi Fatic. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  links:
+    rsvp: https://lu.ma/73go30ij
+  speakers:
+  - name: Shady El Damaty
+    affiliation: Human Tech
+    twitter-handle: hebbianloop
+    refs:
+      x: https://x.com/hebbianloop
+    avatarUrl: https://unavatar.io/x/hebbianloop
+  - name: Ameen Soleimani
+    slug: ameen-soleimani
+    affiliation: 0xbow / Privacy Pools / Reflexer / MolochDAO
+    refs:
+      x: https://x.com/ameensol
+    twitter-handle: ameensol
+    avatarUrl: https://unavatar.io/x/ameensol
+  - name: Tien
+    affiliation: Frontline Activist
+  - name: Sandi Fatic
+    affiliation: Calimero Network
+    twitter-handle: chefsale
+    refs:
+      x: https://x.com/chefsale
+    avatarUrl: https://unavatar.io/x/chefsale
+    social-source: official_event_page
+  - name: QJ
+    affiliation: Ethereum Community Fund
+    twitter-handle: QJ_ECF
+    refs:
+      x: https://x.com/QJ_ECF
+    avatarUrl: https://unavatar.io/x/QJ_ECF
+    social-source: secondary_crypto_profile
+  - name: Nanak Nihal Khalsa
+    affiliation: Human Tech
+    twitter-handle: NanakNihal
+    refs:
+      x: https://x.com/NanakNihal
+    avatarUrl: https://unavatar.io/x/NanakNihal
+    social-source: x_profile_search
+  speakers-source:
+    kind: luma
+    url: https://luma.com/73go30ij
+  hosts:
+  - name: Mf
+    slug: mf
+    affiliation: Web3Privacy Now
+  - name: Alina
+    affiliation: Web3Privacy Now
+  - name: Robert
+    affiliation: Web3Privacy Now
+  speakers-count: 6
+- id: m25buc
+  type: meetup
+  date: '2025-04-01'
+  city: Bucharest
+  country: ro
+  place: Register to see address
+  place-address: Bucharest, Romania
+  confirmed: true
+  status: past
+  lead: andreea
+  description: This meetup took place in Register to see address, Bucharest. Speakers included Daniel Luca, Diana Stetiu, QJ, and Kirsten Pomales. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  links:
+    rsvp: https://lu.ma/9ni8jbzx
+  speakers:
+  - name: Daniel Luca
+    affiliation: Eden Block
+    twitter-handle: cleanunicorn
+    refs:
+      x: https://x.com/cleanunicorn
+    avatarUrl: https://unavatar.io/x/cleanunicorn
+    social-source: official_event_page
+  - name: Diana Stetiu
+    affiliation: Fintech and web3 lawyer
+    twitter-handle: dstetiu
+    refs:
+      x: https://x.com/dstetiu
+    avatarUrl: https://unavatar.io/x/dstetiu
+    social-source: name_search_guess
+  - name: QJ
+    affiliation: Ethereum Community Fund
+    twitter-handle: QJ_ECF
+    refs:
+      x: https://x.com/QJ_ECF
+    avatarUrl: https://unavatar.io/x/QJ_ECF
+    social-source: secondary_crypto_profile
+  - name: Kirsten Pomales
+    affiliation: TalentLayer Guild
+    twitter-handle: kirstenpomales
+    refs:
+      x: https://x.com/kirstenpomales
+    avatarUrl: https://unavatar.io/x/kirstenpomales
+    social-source: name_search_guess
+  speakers-source:
+    kind: luma
+    url: https://lu.ma/9ni8jbzx
+  hosts:
+  - name: Alina Latinina
+    slug: alina
+    affiliation: Web3Privacy Now
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Andreea CIA
+    affiliation: Web3Privacy Now
+  speakers-count: 4
+- id: h25mem
+  type: hackathon
+  title: Memeathon
+  date: '2025-03-31'
+  city: Online
+  country: xx
+  place: Virtual
+  place-address: Virtual
+  confirmed: true
+  status: past
+  lead: alina
+  helpers:
+  - mykola
+  description: Memeathon — online event in March 2025 focused on memes, culture, and privacy community building alongside hands-on experimentation.
+  links:
+    rsvp: https://luma.com/6dtpioqm
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/6dtpioqm
+  hosts:
+  - name: Alina
+    slug: alina
+    affiliation: Web3Privacy Now
+  speakers-count: 0
+- id: c24bkk
+  type: congress
+  date: '2024-11-11'
+  city: Bangkok
+  country: th
+  place: '[Lido Connect](https://lidoconnect.com)'
+  place-address: 256, RAMA I Road, Pathum Wan Bangkok
+  confirmed: true
+  coincidence: DevCon
+  status: past
+  lead: Mykola
+  description: Historical communal gathering defining cypherpunk values, culture, and actions within the Ethereum ecosystem.
+  links:
+    rsvp: https://lu.ma/w3pn-meetup-devcon7
+    web: https://c24bkk.web3privacy.info
+  speakers:
+  - name: Vitalik Buterin
+    affiliation: Ethereum
+    refs:
+      x: https://x.com/VitalikButerin
+    twitter-handle: VitalikButerin
+    avatarUrl: https://unavatar.io/x/VitalikButerin
+  - name: Chelsea Manning
+    affiliation: Nym
+    twitter-handle: xychelsea
+    refs:
+      x: https://x.com/xychelsea
+    avatarUrl: https://unavatar.io/x/xychelsea
+  - name: Jarrad Hope
+    affiliation: Logos / Status
+    refs:
+      x: https://x.com/jarradhope_
+    twitter-handle: jarradhope_
+    avatarUrl: https://unavatar.io/x/jarradhope_
+  - name: Kurt Opsahl
+    affiliation: Filecoin Foundation
+    refs:
+      x: https://x.com/kurtopsahl
+    twitter-handle: kurtopsahl
+    avatarUrl: https://unavatar.io/x/kurtopsahl
+  - name: Adrian Brink
+    affiliation: Namada / Anoma
+    twitter-handle: adrianbrink
+    refs:
+      x: https://x.com/adrianbrink
+    avatarUrl: https://unavatar.io/x/adrianbrink
+  - name: Peter Van Valkenburgh
+    affiliation: Coin Center
+    twitter-handle: valkenburgh
+    refs:
+      x: https://x.com/valkenburgh
+    avatarUrl: https://unavatar.io/x/valkenburgh
+  - name: Amir Taaki
+    affiliation: DarkFi
+    refs:
+      x: https://x.com/Narodism
+    twitter-handle: Narodism
+    avatarUrl: https://unavatar.io/x/Narodism
+    imageUrl: https://web3privacy.info/core-contributors/amir-taaki.png
+  - name: Nick Almond
+    slug: nick-almond
+    affiliation: FactoryDAO
+    refs:
+      x: https://x.com/DrNickA
+    twitter-handle: DrNickA
+    avatarUrl: https://unavatar.io/x/DrNickA
+  - name: Ying Tong
+    affiliation: Independent Cryptographer
+    twitter-handle: therealyingtong
+    refs:
+      x: https://x.com/therealyingtong
+    avatarUrl: https://unavatar.io/x/therealyingtong
+  - name: Rachel-Rose O'Leary
+    slug: rachel-rose-oleary
+    affiliation: DarkFi
+    refs:
+      x: https://x.com/lunar_mining
+    twitter-handle: lunar_mining
+    avatarUrl: https://unavatar.io/x/lunar_mining
+  - name: Auryn
+    affiliation: Gnosis Guild
+    twitter-handle: auryn_macmillan
+    refs:
+      x: https://x.com/auryn_macmillan
+    avatarUrl: https://unavatar.io/x/auryn_macmillan
+  - name: Sebastian Bürgel
+    slug: sebastian-burgel
+    affiliation: GnosisDAO / HOPR
+    refs:
+      x: https://x.com/SCBuergel
+    twitter-handle: SCBuergel
+    avatarUrl: https://unavatar.io/x/SCBuergel
+  - name: Ameen Soleimani
+    slug: ameen-soleimani
+    affiliation: 0xbow
+    refs:
+      x: https://x.com/ameensol
+    twitter-handle: ameensol
+    avatarUrl: https://unavatar.io/x/ameensol
+  - name: Daniel Luca
+    affiliation: Eden Block
+    twitter-handle: cleanunicorn
+    refs:
+      x: https://x.com/cleanunicorn
+    avatarUrl: https://unavatar.io/x/cleanunicorn
+    social-source: official_event_page
+  - name: Claire Kart
+    affiliation: Aztec
+    twitter-handle: clairekart
+    refs:
+      x: https://x.com/clairekart
+    avatarUrl: https://unavatar.io/x/clairekart
+  - name: Bob Summerwill
+    affiliation: ETC Cooperative
+    twitter-handle: bobsummerwill
+    refs:
+      x: https://x.com/bobsummerwill
+    avatarUrl: https://unavatar.io/x/bobsummerwill
+  - name: Alan Scott
+    slug: alan-scott
+    affiliation: Railgun
+    refs:
+      x: https://x.com/tsu_kareta
+    twitter-handle: tsu_kareta
+    avatarUrl: https://unavatar.io/x/tsu_kareta
+  - name: Ann Brody
+    affiliation: McGill University
+    twitter-handle: annbrody7
+    refs:
+      x: https://x.com/annbrody7
+    avatarUrl: https://unavatar.io/x/annbrody7
+  - name: Remi
+    affiliation: Inco
+    twitter-handle: remi_gai
+    refs:
+      x: https://x.com/remi_gai
+    avatarUrl: https://unavatar.io/x/remi_gai
+  - name: Costanza Gallo
+    slug: costanza-gallo
+    affiliation: Swarm
+    twitter-handle: costgallo
+    refs:
+      x: https://x.com/costgallo
+    avatarUrl: https://unavatar.io/x/costgallo
+    social-source: official_event_page
+  - name: Lasha
+    affiliation: Rarimo
+    twitter-handle: LashaAntadze
+    refs:
+      x: https://x.com/LashaAntadze
+    avatarUrl: https://unavatar.io/x/LashaAntadze
+    social-source: official_event_page
+  - name: Ahmed Ghappour
+    affiliation: Espresso Systems
+    refs:
+      x: https://x.com/ghappour
+    twitter-handle: ghappour
+    avatarUrl: https://unavatar.io/x/ghappour
+  - name: Andreas
+    affiliation: Fileverse
+    twitter-handle: miroyato
+    refs:
+      x: https://x.com/miroyato
+    avatarUrl: https://unavatar.io/x/miroyato
+    social-source: official_event_page
+  - name: Ben West
+    affiliation: Thrive Protocol
+    social-source: user_provided_manual_resolution
+    twitter-handle: benjamin_l_west
+    refs:
+      x: https://x.com/benjamin_l_west
+    avatarUrl: https://unavatar.io/x/benjamin_l_west
+  - name: Scott Moore
+    affiliation: Gitcoin
+    twitter-handle: notscottmoore
+    refs:
+      x: https://x.com/notscottmoore
+    avatarUrl: https://unavatar.io/x/notscottmoore
+  - name: Kris
+    affiliation: Gitcoin Citizens
+    twitter-handle: krrisis
+    refs:
+      x: https://x.com/krrisis
+    avatarUrl: https://unavatar.io/x/krrisis
+  - name: Alex Gluchowski
+    affiliation: Matter Labs
+    twitter-handle: gluk64
+    refs:
+      x: https://x.com/gluk64
+    avatarUrl: https://unavatar.io/x/gluk64
+  - name: Pie Man
+    affiliation: Fairblock Network
+    twitter-handle: Pememoni
+    refs:
+      x: https://x.com/Pememoni
+    avatarUrl: https://unavatar.io/x/Pememoni
+  - name: Amit Chaudhary
+    affiliation: Labyrinth
+    twitter-handle: amitchax
+    refs:
+      x: https://x.com/amitchax
+    avatarUrl: https://unavatar.io/x/amitchax
+  - name: Nate
+    affiliation: Token Dynamics
+    twitter-handle: OfficialESC
+    refs:
+      x: https://x.com/OfficialESC
+    avatarUrl: https://unavatar.io/x/OfficialESC
+  - name: Lefteris
+    affiliation: Rotki
+    twitter-handle: LefterisJP
+    refs:
+      x: https://x.com/LefterisJP
+    avatarUrl: https://unavatar.io/x/LefterisJP
+    social-source: official_event_page
+  - name: Manu Alzuru
+    affiliation: Blockravers
+    twitter-handle: ManuAlzuru
+    refs:
+      x: https://x.com/ManuAlzuru
+    avatarUrl: https://unavatar.io/x/ManuAlzuru
+    social-source: official_event_page
+  - name: Hsinju
+    affiliation: Fhenix
+    twitter-handle: hsinjuchuang
+    refs:
+      x: https://x.com/hsinjuchuang
+    avatarUrl: https://unavatar.io/x/hsinjuchuang
+    social-source: people_file
+  - name: Gavin Birch
+    affiliation: Namada
+    twitter-handle: Ether_Gavin
+    refs:
+      x: https://x.com/Ether_Gavin
+    avatarUrl: https://unavatar.io/x/Ether_Gavin
+  - name: Michelle Lai
+    affiliation: Electric Coin Co
+    twitter-handle: michlai007
+    refs:
+      x: https://x.com/michlai007
+    avatarUrl: https://unavatar.io/x/michlai007
+  - name: Amin
+    affiliation: SwissDAO
+  - name: Nico
+    affiliation: RageAgainstEU
+    twitter-handle: ncsgy
+    refs:
+      x: https://x.com/ncsgy
+    avatarUrl: https://unavatar.io/x/ncsgy
+    social-source: official_event_page
+  - name: Oskarth
+    affiliation: Independent Researcher
+    refs:
+      x: https://x.com/oskarth
+    twitter-handle: oskarth
+    avatarUrl: https://unavatar.io/x/oskarth
+  - name: Silke Noa
+    affiliation: Stanford / AssangeDAO
+    twitter-handle: silkenoa
+    refs:
+      x: https://x.com/silkenoa
+    avatarUrl: https://unavatar.io/x/silkenoa
+  - name: Park
+    affiliation: Penumbra
+    twitter-handle: RadiantCommons
+    refs:
+      x: https://x.com/RadiantCommons
+    avatarUrl: https://unavatar.io/x/RadiantCommons
+  - name: Yana
+    affiliation: Nym
+    twitter-handle: yana_tnfl
+    refs:
+      x: https://x.com/yana_tnfl
+    avatarUrl: https://unavatar.io/x/yana_tnfl
+  - name: Fatemeh
+    affiliation: Anoma Foundation
+    twitter-handle: Fatalmeh
+    refs:
+      x: https://x.com/Fatalmeh
+    avatarUrl: https://unavatar.io/x/Fatalmeh
+    social-source: official_event_page_spanish
+  - name: Tuba Eldem
+    affiliation: FBU
+    twitter-handle: DrTubaEldem
+    refs:
+      x: https://x.com/DrTubaEldem
+    avatarUrl: https://unavatar.io/x/DrTubaEldem
+  - name: Nelly
+    affiliation: iExec
+    twitter-handle: Web_trees
+    refs:
+      x: https://x.com/Web_trees
+    avatarUrl: https://unavatar.io/x/Web_trees
+  - name: Julio Linares
+    affiliation: Poetic Technologies
+    twitter-handle: Julio_Linares_
+    refs:
+      x: https://x.com/Julio_Linares_
+    avatarUrl: https://unavatar.io/x/Julio_Linares_
+    social-source: official_event_page
+  - name: Leona Hioki
+    affiliation: Intmax
+    twitter-handle: HiokiLeona
+    refs:
+      x: https://x.com/HiokiLeona
+    avatarUrl: https://unavatar.io/x/HiokiLeona
+  - name: samrichards.eth
+    affiliation: Privacy & Scaling Explorations
+    twitter-handle: samonchain
+    refs:
+      x: https://x.com/samonchain
+    avatarUrl: https://unavatar.io/x/samonchain
+  - name: Matthias Tarasiewicz
+    affiliation: RIAT Institute
+    twitter-handle: parasew
+    refs:
+      x: https://x.com/parasew
+    avatarUrl: https://unavatar.io/x/parasew
+  - name: S El Damaty
+    affiliation: Holonym
+    twitter-handle: hebbianloop
+    refs:
+      x: https://x.com/hebbianloop
+    avatarUrl: https://unavatar.io/x/hebbianloop
+  - name: Christopher Goes
+    affiliation: Anoma
+    twitter-handle: cwgoes
+    refs:
+      x: https://x.com/cwgoes
+    avatarUrl: https://unavatar.io/x/cwgoes
+    social-source: x_profile_search
+  - name: Harry Halpin
+    affiliation: Nym
+    twitter-handle: harryhalpin
+    refs:
+      x: https://x.com/harryhalpin
+    avatarUrl: https://unavatar.io/x/harryhalpin
+  speakers-source:
+    kind: luma
+    url: https://luma.com/w3pn-meetup-devcon7
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Mf
+    slug: mf
+    affiliation: Web3Privacy Now
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  - name: Andreea CIA
+    affiliation: Web3Privacy Now
+  - name: Robert
+    affiliation: Web3Privacy Now
+  - name: Federico
+    affiliation: Web3Privacy Now
+  - name: Peter
+    affiliation: Web3Privacy Now
+  speakers-count: 51
+  program-outline:
+  - title: Cypherpunk x Ethereum intersections
+    description: Cyber-activism and the state of privacy inside the Ethereum ecosystem.
+  - title: Original Ethereum ethos x degen movement
+    description: A critique of crypto-capitalist culture and a search for alternatives.
+  - title: The moral role of cryptography
+    description: Applied cryptography and the ethics of building privacy infrastructure.
+  - title: Political culture of Ethereum
+    description: Value crises, governance tensions, and possible futures for the ecosystem.
+  - title: Practical privacy & self-sovereignty tooling
+    description: Current privacy tools and concrete ways people can adopt them.
+- id: r24bkk
+  type: rave
+  date: '2024-11-11'
+  city: Bangkok
+  country: th
+  place: Register to see address
+  place-address: Bangkok
+  confirmed: true
+  coincidence: Devcon
+  status: past
+  lead: mf
+  description: This rave took place in Register to see address, Bangkok during Devcon. It extended the event season into a cultural and social gathering shaped by cypherpunk aesthetics and community ritual.
+  links:
+    rsvp: https://luma.com/gqmn3nsl
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/gqmn3nsl
+  hosts:
+  - name: Mf
+    slug: mf
+    affiliation: Web3Privacy Now
+  - name: Migle
+    affiliation: Web3Privacy Now
+  speakers-count: 0
+- id: m24rom
+  type: meetup
+  date: '2024-10-03'
+  city: Rome
+  country: it
+  place: '[Villaggio Globale](https://maps.app.goo.gl/S7kUruNvbpjgHuSh9)'
+  place-address: Largo Dino Frisullo, 00153 Roma RM, Italy
+  coincidence: ETHRome
+  status: past
+  lead: PG
+  helpers:
+  - Mykola
+  - Alina
+  - PG
+  - Federico
+  design:
+    image: rome02
+  description: This meetup took place in Rome during ETHRome. Speakers included Jaromil Roio, Arturo Filastò, Emanuele Russo, and Luca Lezzerini. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  links:
+    rsvp: https://lu.ma/w3pn-meetup-rome1
+    page: https://web3privacy.info/event/m24rom/
+  speakers:
+  - name: Jaromil Roio
+    slug: jaromil
+    affiliation: Dyne.org
+    twitter-handle: jaromil
+    refs:
+      x: https://x.com/jaromil
+    avatarUrl: https://unavatar.io/x/jaromil
+  - name: Arturo Filastò
+    slug: arturo-filasto
+    affiliation: OONI
+    twitter-handle: hellais
+    refs:
+      x: https://x.com/hellais
+    avatarUrl: https://unavatar.io/x/hellais
+  - name: Emanuele Russo
+    affiliation: Amnesty Italia
+    twitter-handle: emanuele82
+    refs:
+      x: https://x.com/emanuele82
+    avatarUrl: https://unavatar.io/x/emanuele82
+  - name: Luca Lezzerini
+    affiliation: POLIS University
+    twitter-handle: lucalezzerini
+    refs:
+      x: https://x.com/lucalezzerini
+    avatarUrl: https://unavatar.io/x/lucalezzerini
+    social-source: user_provided_manual_resolution
+  - name: Andrea Togni
+    affiliation: Monero policy workgroup
+    refs:
+      web: https://andreatogni.ch/
+    social-source: research_profile
+  - name: Leona Hioki
+    affiliation: Intmax
+    twitter-handle: HiokiLeona
+    refs:
+      x: https://x.com/HiokiLeona
+    avatarUrl: https://unavatar.io/x/HiokiLeona
+  - name: Marco Castignoli
+    affiliation: Ethereum Foundation
+    twitter-handle: CastignoliMarco
+    refs:
+      x: https://x.com/CastignoliMarco
+    avatarUrl: https://unavatar.io/x/CastignoliMarco
+  speakers-source:
+    kind: luma
+    url: https://luma.com/w3pn-meetup-rome1
+  hosts:
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Federico
+    affiliation: Web3Privacy Now
+  speakers-count: 7
+- id: m24bru
+  type: meetup
+  date: '2024-07-12'
+  city: Brussels
+  country: be
+  place: '[Parc de Bruxelles](https://luma.com/w3pn-meetup-bru1)'
+  place-address: 1000 Brussels, Belgium
+  coincidence: EthCC
+  status: past
+  lead: Mykola
+  design:
+    image: brussels01
+  description: This meetup took place in Brussels during EthCC. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  links:
+    rsvp: https://lu.ma/w3pn-meetup-bru1
+  speakers: []
+  speakers-source:
+    kind: luma
+    url: https://luma.com/w3pn-meetup-bru1
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Mf
+    slug: mf
+    affiliation: Web3Privacy Now
+  speakers-count: 0
+- id: s24prg
+  type: summit
+  date: '2024-05-30'
+  city: Prague
+  country: cz
+  place: '[Paralelní Polis](https://luma.com/w3pn-summit-prague2)'
+  place-address: 475/43, Dělnická, 170 00 Praha 7-Holešovice, Czechia
+  coincidence: ETHPrague
+  status: past
+  lead: PG
+  helpers:
+  - PG
+  - Mykola
+  - Coinmandeer
+  - Cryptomario
+  - Matesak
+  design:
+    image: prague01
+  description: This summit took place in Prague during ETHPrague. Speakers included Jaromil Roio, Franzi, Nick Almond, and Rachel-Rose O'Leary. It combined a broader public program with cross-disciplinary discussion on privacy, governance, law, and freedom technology.
+  links:
+    rsvp: https://lu.ma/w3pn-summit-prague2
+    web: https://s24prg.web3privacy.info
+    page: https://web3privacy.info/event/s24prg/
+  speakers:
+  - name: Jaromil Roio
+    slug: jaromil
+    affiliation: Dyne.org
+    twitter-handle: jaromil
+    refs:
+      x: https://x.com/jaromil
+    avatarUrl: https://unavatar.io/x/jaromil
+  - name: Franzi
+    affiliation: ETHBerlin / Department of Decentralisation
+  - name: Nick Almond
+    slug: nick-almond
+    affiliation: FactoryDAO
+    refs:
+      x: https://x.com/DrNickA
+    twitter-handle: DrNickA
+    avatarUrl: https://unavatar.io/x/DrNickA
+  - name: Rachel-Rose O'Leary
+    slug: rachel-rose-oleary
+    affiliation: DarkFi
+    refs:
+      x: https://x.com/lunar_mining
+    twitter-handle: lunar_mining
+    avatarUrl: https://unavatar.io/x/lunar_mining
+  - name: Michel Bauwens
+    affiliation: P2P Foundation
+    twitter-handle: mbauwens
+    refs:
+      x: https://x.com/mbauwens
+    avatarUrl: https://unavatar.io/x/mbauwens
+    social-source: x_profile_search
+  - name: Paul Dylan-Ennis
+    affiliation: Absolute Essentials of Ethereum
+    refs:
+      x: https://x.com/pdennis
+    twitter-handle: pdennis
+    avatarUrl: https://unavatar.io/x/pdennis
+  - name: Ben West
+    affiliation: Gitcoin / Thrive Protocol
+    social-source: user_provided_manual_resolution
+    twitter-handle: benjamin_l_west
+    refs:
+      x: https://x.com/benjamin_l_west
+    avatarUrl: https://unavatar.io/x/benjamin_l_west
+  - name: Pavol Luptak
+    slug: pavol-luptak
+    affiliation: Institute of Cryptoanarchy / Liberation Travel
+    refs:
+      x: https://x.com/wilderko
+    twitter-handle: wilderko
+    avatarUrl: https://unavatar.io/x/wilderko
+  - name: Sebastian Bürgel
+    slug: sebastian-burgel
+    affiliation: HOPR
+    refs:
+      x: https://x.com/SCBuergel
+    twitter-handle: SCBuergel
+    avatarUrl: https://unavatar.io/x/SCBuergel
+  - name: Vaclav Pavlin
+    slug: vaclav-pavlin
+    affiliation: Waku
+    refs:
+      x: https://x.com/vpavlin
+    twitter-handle: vpavlin
+    avatarUrl: https://unavatar.io/x/vpavlin
+  - name: Steffen Kux
+    slug: steffen-kux
+    affiliation: dm3
+    twitter-handle: SteffenKux
+    refs:
+      x: https://x.com/SteffenKux
+    avatarUrl: https://unavatar.io/x/SteffenKux
+    social-source: official_event_page
+  - name: Serinko
+    slug: serinko
+    affiliation: Nym
+    refs:
+      x: https://x.com/serinko13
+    twitter-handle: serinko13
+    avatarUrl: https://unavatar.io/x/serinko13
+  - name: Bryce Gabari
+    slug: gabari
+    affiliation: Brume Wallet
+    twitter-handle: bryce_gabari
+    refs:
+      x: https://x.com/bryce_gabari
+    avatarUrl: https://unavatar.io/x/bryce_gabari
+  - name: Ameen Soleimani
+    slug: ameen-soleimani
+    affiliation: 0xbow / MolochDAO
+    refs:
+      x: https://x.com/ameensol
+    twitter-handle: ameensol
+    avatarUrl: https://unavatar.io/x/ameensol
+  - name: Andreas Tsamados
+    slug: andreas-tsamados
+    affiliation: Fileverse
+    refs:
+      x: https://x.com/miroyato
+    twitter-handle: miroyato
+    avatarUrl: https://unavatar.io/x/miroyato
+  - name: Ahmed Ghappour
+    affiliation: Espresso Systems
+    refs:
+      x: https://x.com/ghappour
+    twitter-handle: ghappour
+    avatarUrl: https://unavatar.io/x/ghappour
+  - name: Mario Havel
+    slug: mario-havel
+    affiliation: Ethereum Foundation
+    refs:
+      x: https://x.com/TMIYChao
+    twitter-handle: TMIYChao
+    avatarUrl: https://unavatar.io/x/TMIYChao
+  - name: Althea
+    slug: althea
+    affiliation: Privacy & Scaling Explorations
+    twitter-handle: AltheaNetwork
+    refs:
+      x: https://x.com/AltheaNetwork
+    avatarUrl: https://unavatar.io/x/AltheaNetwork
+    social-source: user_provided_manual_resolution_org_account
+    note: Using the project account rather than an identified individual speaker profile.
+  - name: Sterlin Lujan
+    slug: sterlin-lujan
+    affiliation: Logos
+    twitter-handle: SterlinLujan
+    refs:
+      x: https://x.com/SterlinLujan
+    avatarUrl: https://unavatar.io/x/SterlinLujan
+    social-source: official_event_page
+  - name: Tor Ekeland
+    affiliation: Tor Ekeland Law PLLC
+    twitter-handle: TorEkeland
+    refs:
+      x: https://x.com/TorEkeland
+    avatarUrl: https://unavatar.io/x/TorEkeland
+    social-source: user_provided_manual_resolution
+  - name: Max Hampshire
+    slug: max-hampshire
+    affiliation: Nym
+    twitter-handle: _wjth
+    refs:
+      x: https://x.com/_wjth
+    avatarUrl: https://unavatar.io/x/_wjth
+    social-source: official_event_page
+  - name: Juraj Bednar
+    slug: juraj-bednar
+    affiliation: cryptoanarchist & biohacker
+    refs:
+      x: https://x.com/jurbed
+    twitter-handle: jurbed
+    avatarUrl: https://unavatar.io/x/jurbed
+  - name: Alex Kampa
+    slug: alex-kampa
+    affiliation: Aragon ZK Research
+    twitter-handle: alex_kampa
+    refs:
+      x: https://x.com/alex_kampa
+    avatarUrl: https://unavatar.io/x/alex_kampa
+    social-source: x_profile_search
+  speakers-source:
+    kind: luma
+    url: https://luma.com/w3pn-summit-prague2
+  hosts:
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  - name: Cryptomario
+    affiliation: Web3Privacy Now
+  - name: Matesak
+    affiliation: Web3Privacy Now
+  speakers-count: 23
+  schedule-note: A standalone summit microsite published a full-day Prague program with these stage blocks; verify before treating as final schedule for s24prg.
+  schedule:
+  - start: 09:30
+    end: '10:00'
+    title: Registration & networking
+  - start: '10:00'
+    end: '10:30'
+    title: 'Opening ceremony: time to care for privacy'
+    speaker: Mykola Siusko
+  - start: '10:30'
+    end: '11:30'
+    title: Privacy values in the age of AI
+  - start: '11:40'
+    end: '12:30'
+    title: Fight for privacy
+  - start: '12:30'
+    end: '14:00'
+    title: Lunch break
+  - start: '14:10'
+    end: '15:00'
+    title: Hacktivism in the crypto era and beyond
+  - start: '15:10'
+    end: '16:00'
+    title: Cypherpunks back then & now
+  - start: '16:10'
+    end: '17:00'
+    title: Hyper-practical side of privacy
+  - start: '17:10'
+    end: '17:30'
+    title: Closing ceremony
+  - start: '19:00'
+    end: 00:00
+    title: After party
+- id: pc24ber
+  type: privacycorner
+  date: '2024-05-24'
+  days: 3
+  city: Berlin
+  country: de
+  coincidence: ETHBerlin
+  status: past
+  lead: Tree
+  helpers:
+  - Mykola
+  design:
+    image: berlin02
+  links:
+    web: https://c24ber.web3privacy.info
+  speakers:
+  - name: Nick Almond
+    slug: nick-almond
+    affiliation: FactoryDAO
+    refs:
+      x: https://x.com/DrNickA
+    twitter-handle: DrNickA
+    avatarUrl: https://unavatar.io/x/DrNickA
+  - name: Mario Havel
+    slug: mario-havel
+    affiliation: Ethereum Foundation
+    refs:
+      x: https://x.com/TMIYChao
+    twitter-handle: TMIYChao
+    avatarUrl: https://unavatar.io/x/TMIYChao
+  - name: Ying Tong
+    affiliation: Geometry Research
+    twitter-handle: therealyingtong
+    refs:
+      x: https://x.com/therealyingtong
+    avatarUrl: https://unavatar.io/x/therealyingtong
+  - name: Max
+    affiliation: Nym
+  - name: Guru
+    affiliation: Waku
+  - name: Lefteris Karapetsas
+    affiliation: Rotki
+    twitter-handle: LefterisJP
+    refs:
+      x: https://x.com/LefterisJP
+    avatarUrl: https://unavatar.io/x/LefterisJP
+  speakers-source:
+    kind: website
+    url: https://c24ber.web3privacy.info
+  hosts:
+  - name: Tree
+    affiliation: Web3Privacy Now
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  description: This privacy corner took place in Berlin during ETHBerlin. Speakers included Nick Almond, Mario Havel, Ying Tong, and Max. It offered direct mentorship, feedback, and privacy-native guidance inside a larger hackathon environment.
+  speakers-count: 6
+- id: m24ber
+  type: meetup
+  date: '2024-05-22'
+  city: Berlin
+  country: de
+  place: '[c-base](https://c-base.org)'
+  place-address: Rungestraße 20, 10179 Berlin
+  coincidence: ETHBerlin
+  status: past
+  lead: Mykola
+  helpers:
+  - ligi
+  design:
+    image: berlin03
+  description: This meetup took place in Berlin during ETHBerlin. Speakers included Afri Schoedon, Peter Van Valkenburgh, Jaya Klara Brekke, and Joshua Davila. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  links:
+    rsvp: https://lu.ma/w3pn-meetup-berlin1
+    page: https://web3privacy.info/event/m24ber/
+  speakers:
+  - name: Afri Schoedon
+    slug: afri-schoedon
+    affiliation: Department of Decentralization
+    twitter-handle: q9fcc
+    refs:
+      x: https://x.com/q9fcc
+    avatarUrl: https://unavatar.io/x/q9fcc
+    social-source: official_event_page
+  - name: Peter Van Valkenburgh
+    affiliation: Coin Center
+    twitter-handle: valkenburgh
+    refs:
+      x: https://x.com/valkenburgh
+    avatarUrl: https://unavatar.io/x/valkenburgh
+  - name: Jaya Klara Brekke
+    slug: jaya-klara-brekke
+    affiliation: Nym
+    twitter-handle: jayapapaya
+    refs:
+      x: https://x.com/jayapapaya
+    avatarUrl: https://unavatar.io/x/jayapapaya
+  - name: Joshua Davila
+    slug: joshua-davila
+    affiliation: The Blockchain Socialist
+    twitter-handle: TBSocialist
+    refs:
+      x: https://x.com/TBSocialist
+    avatarUrl: https://unavatar.io/x/TBSocialist
+    social-source: official_event_page
+  - name: Sebastian
+    affiliation: HOPR
+  - name: Will Scott
+    affiliation: FIDL / Filecoin Incentive Design Labs
+    twitter-handle: willscott
+    refs:
+      x: https://x.com/willscott
+    avatarUrl: https://unavatar.io/x/willscott
+  - name: Ying Tong
+    affiliation: Geometry Research
+    twitter-handle: therealyingtong
+    refs:
+      x: https://x.com/therealyingtong
+    avatarUrl: https://unavatar.io/x/therealyingtong
+  - name: Stella R. Magnet
+    affiliation: Black Sky / Radicle
+  - name: Lefteris
+    affiliation: Rotki
+    twitter-handle: LefterisJP
+    refs:
+      x: https://x.com/LefterisJP
+    avatarUrl: https://unavatar.io/x/LefterisJP
+    social-source: official_event_page
+  - name: Sergei
+    affiliation: Status / Waku
+  - name: Adrian
+    affiliation: Anoma / Namada
+  - name: Fatemeh
+    affiliation: Swarm
+    twitter-handle: Fatalmeh
+    refs:
+      x: https://x.com/Fatalmeh
+    avatarUrl: https://unavatar.io/x/Fatalmeh
+    social-source: official_event_page_spanish
+  speakers-source:
+    kind: luma
+    url: https://luma.com/w3pn-meetup-berlin1
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: ligi
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  speakers-count: 12
+- id: m24ams
+  type: meetup
+  date: '2024-04-11'
+  city: Amsterdam
+  country: nl
+  place: '[Vrij Paleis](https://www.vrijpaleis.nl)'
+  place-address: Paleisstraat 107, 1012 ZL Amsterdam
+  coincidence: '[ETHDam](https://www.ethdam.com)'
+  status: past
+  lead: PG
+  helpers:
+  - Mykola
+  - Alina
+  design:
+    image: amsterdam01
+  description: This meetup took place in Amsterdam during [ETHDam](https://www.ethdam.com). Speakers included Kieran Mesquita, Sterlin Lujan, Moritz Boullenger, and Serinko. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  links:
+    rsvp: https://lu.ma/w3pn-meetup-ams1
+    page: https://web3privacy.info/event/m24ams
+  speakers:
+  - name: Kieran Mesquita
+    slug: kieran-mesquita
+    affiliation: Railgun
+    refs:
+      x: https://x.com/mesquka
+    twitter-handle: mesquka
+    avatarUrl: https://unavatar.io/x/mesquka
+  - name: Sterlin Lujan
+    slug: sterlin-lujan
+    affiliation: Logos
+    twitter-handle: SterlinLujan
+    refs:
+      x: https://x.com/SterlinLujan
+    avatarUrl: https://unavatar.io/x/SterlinLujan
+    social-source: official_event_page
+  - name: Moritz Boullenger
+    slug: moritz-boullenger
+    affiliation: fluidkey
+    twitter-handle: MoritzBoullenger
+    refs:
+      x: https://x.com/MoritzBoullenger
+    avatarUrl: https://unavatar.io/x/MoritzBoullenger
+    social-source: user_provided_manual_resolution
+  - name: Serinko
+    slug: serinko
+    affiliation: Nym
+    refs:
+      x: https://x.com/serinko13
+    twitter-handle: serinko13
+    avatarUrl: https://unavatar.io/x/serinko13
+  - name: Sasha
+    affiliation: Waku
+  - name: Jana Mordhorst
+    affiliation: Artist / thematic live drawing workshop
+    twitter-handle: janamordhorst
+    refs:
+      x: https://x.com/janamordhorst
+    avatarUrl: https://unavatar.io/x/janamordhorst
+    social-source: user_provided_manual_resolution
+  speakers-source:
+    kind: luma
+    url: https://luma.com/w3pn-meetup-ams1
+  hosts:
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  speakers-count: 6
+- id: m24buc
+  type: meetup
+  date: '2024-03-28'
+  city: Bucharest
+  country: ro
+  place: '[Galeria Galateca](https://luma.com/w3pn-meetup-bucharest1)'
+  place-address: Strada C. A. Rosetti 2-4, București 030167, Romania
+  optional: true
+  coincidence: ETHBucharest
+  status: past
+  lead: Mykola
+  helpers:
+  - Alina
+  design:
+    image: bucharest01
+  description: This meetup took place in Bucharest during ETHBucharest. Speakers included Kieran Mesquita, Tim Bansemer, Marija Mikić, and Alex | Secret Saturn. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  links:
+    rsvp: https://lu.ma/w3pn-meetup-bucharest1
+  speakers:
+  - name: Kieran Mesquita
+    slug: kieran-mesquita
+    affiliation: Railgun
+    refs:
+      x: https://x.com/mesquka
+    twitter-handle: mesquka
+    avatarUrl: https://unavatar.io/x/mesquka
+  - name: Tim Bansemer
+    slug: tim-bansemer
+    affiliation: AQUA Protocol
+    twitter-handle: tim_bansemer
+    refs:
+      x: https://x.com/tim_bansemer
+    avatarUrl: https://unavatar.io/x/tim_bansemer
+  - name: Marija Mikić
+    affiliation: Attic42 / University of Belgrade
+    twitter-handle: mikicmarija
+    refs:
+      x: https://x.com/mikicmarija
+    avatarUrl: https://unavatar.io/x/mikicmarija
+    social-source: name_search_guess
+  - name: Alex | Secret Saturn
+    affiliation: Secret Network
+    twitter-handle: secretsaturn
+    refs:
+      x: https://x.com/secretsaturn
+    avatarUrl: https://unavatar.io/x/secretsaturn
+    social-source: guess_from_alias
+  - name: Daniel Luca
+    affiliation: Eden Block
+    twitter-handle: cleanunicorn
+    refs:
+      x: https://x.com/cleanunicorn
+    avatarUrl: https://unavatar.io/x/cleanunicorn
+    social-source: official_event_page
+  speakers-source:
+    kind: luma
+    url: https://luma.com/w3pn-meetup-bucharest1
+  hosts:
+  - name: Alina Latinina
+    slug: alina
+    affiliation: Web3Privacy Now
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  speakers-count: 5
+- id: m23prg
+  type: meetup
+  date: '2023-11-14'
+  city: Prague
+  country: cz
+  place: '[Dílna](https://kafevdilne.cz)'
+  place-address: Smíchovská náplavka - Kobka č. 10, Hořejší nábřeží, Praha 5
+  confirmed: true
+  coincidence: DCxPrague
+  status: past
+  lead: Tree
+  links:
+    web: https://lu.ma/w3pm-prg1
+    page: https://web3privacy.info/event/m23prg/
+  speakers:
+  - name: Vaclav Pavlin
+    slug: vaclav-pavlin
+    affiliation: Status / Logos / Waku
+    refs:
+      x: https://x.com/vpavlin
+    twitter-handle: vpavlin
+    avatarUrl: https://unavatar.io/x/vpavlin
+  - name: Radek Švarz
+    slug: radek-svarz
+    affiliation: Visionary, architect, connecting business and IT
+    twitter-handle: radk
+    refs:
+      x: https://x.com/radk
+    avatarUrl: https://unavatar.io/x/radk
+  - name: Marcel Kolaja
+    slug: marcel-kolaja
+    affiliation: Member of the European Parliament
+    twitter-handle: PiratKolaja
+    refs:
+      x: https://x.com/PiratKolaja
+    avatarUrl: https://unavatar.io/x/PiratKolaja
+  speakers-source:
+    kind: event_page
+    url: https://web3privacy.info/event/m23prg/
+  hosts:
+  - name: Tree
+    affiliation: Web3Privacy Now
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  speakers-count: 3
+  description: This meetup took place in Prague during DCxPrague. Speakers included Vaclav Pavlin, Radek Švarz, and Marcel Kolaja. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+- id: s23rom
+  type: summit
+  date: '2023-10-05'
+  city: Rome
+  country: it
+  place: '[Villaggio Globale](https://maps.app.goo.gl/S7kUruNvbpjgHuSh9)'
+  place-address: Largo Dino Frisullo, 00153 Roma RM
+  confirmed: true
+  coincidence: ETHRome
+  status: past
+  lead: PG
+  design:
+    image: rome01
+  links:
+    web: https://lu.ma/web3privacynow_rome
+    page: https://web3privacy.info/event/s23rom/
+  speakers:
+  - name: Eléonore Blanc
+    slug: eleanore-blanc
+    affiliation: CryptoCanal / ETHDam
+    twitter-handle: blockblanc
+    refs:
+      x: https://x.com/blockblanc
+    avatarUrl: https://unavatar.io/x/blockblanc
+  - name: Rik Krieger
+    slug: rik-krieger
+    affiliation: HOPR
+    twitter-handle: rikzrh
+    refs:
+      x: https://x.com/rikzrh
+    avatarUrl: https://unavatar.io/x/rikzrh
+  - name: Vincenzo Iovino
+    slug: vincenzo-iovino
+    affiliation: Aragon ZK Research
+    twitter-handle: vincenzoiovino
+    refs:
+      x: https://x.com/vincenzoiovino
+    avatarUrl: https://unavatar.io/x/vincenzoiovino
+  - name: Alan Scott
+    slug: alan-scott
+    affiliation: Railgun
+    refs:
+      x: https://x.com/tsu_kareta
+    twitter-handle: tsu_kareta
+    avatarUrl: https://unavatar.io/x/tsu_kareta
+  - name: Kieran Mesquita
+    slug: kieran-mesquita
+    affiliation: Railgun
+    refs:
+      x: https://x.com/mesquka
+    twitter-handle: mesquka
+    avatarUrl: https://unavatar.io/x/mesquka
+  - name: Andrea Togni
+    slug: andrea-togni
+    affiliation: Monero policy workgroup
+    refs:
+      web: https://andreatogni.ch/
+    social-source: research_profile
+  - name: Denis Roio
+    slug: jaromil
+    affiliation: Dyne.org
+    twitter-handle: jaromil
+    refs:
+      x: https://x.com/jaromil
+    avatarUrl: https://unavatar.io/x/jaromil
+  - name: Serinko
+    slug: serinko
+    affiliation: Privacy Researcher
+    refs:
+      x: https://x.com/serinko13
+    twitter-handle: serinko13
+    avatarUrl: https://unavatar.io/x/serinko13
+  - name: Václav Pavlín
+    slug: vaclav-pavlin
+    affiliation: Status / Logos / Waku
+    refs:
+      x: https://x.com/vpavlin
+    twitter-handle: vpavlin
+    avatarUrl: https://unavatar.io/x/vpavlin
+  - name: Alex Zaidelson
+    slug: alex-zaidelson
+    affiliation: SCRT Labs
+    twitter-handle: azaidelson
+    refs:
+      x: https://x.com/azaidelson
+    avatarUrl: https://unavatar.io/x/azaidelson
+  - name: Roma
+    slug: r-prokh
+    affiliation: Questbook
+    twitter-handle: r_prokh
+    refs:
+      x: https://x.com/r_prokh
+    avatarUrl: https://unavatar.io/x/r_prokh
+    social-source: official_event_page
+  - name: Carlo Chialastri
+    slug: carlo-chialastri
+    affiliation: urbe.eth lawyer
+  - name: limone.eth
+    slug: limone-eth
+    affiliation: urbeEth / ETHRome
+    twitter-handle: limone_eth
+    refs:
+      x: https://x.com/limone_eth
+    avatarUrl: https://unavatar.io/x/limone_eth
+    social-source: official_event_page
+  - name: Costanza Gallo
+    slug: costanza-gallo
+    affiliation: Swarm Foundation
+    twitter-handle: costgallo
+    refs:
+      x: https://x.com/costgallo
+    avatarUrl: https://unavatar.io/x/costgallo
+    social-source: official_event_page
+  - name: Catsnaks
+    slug: catsnaks
+    affiliation: PSE
+    twitter-handle: catsnaks
+    refs:
+      x: https://x.com/catsnaks
+    avatarUrl: https://unavatar.io/x/catsnaks
+    social-source: user_provided_manual_resolution
+  speakers-source:
+    kind: event_page
+    url: https://web3privacy.info/event/s23rom/
+  hosts:
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Federico
+    affiliation: Web3Privacy Now
+  speakers-count: 15
+  description: This summit took place in Rome during ETHRome. Speakers included Eléonore Blanc, Rik Krieger, Vincenzo Iovino, and Alan Scott. It combined a broader public program with cross-disciplinary discussion on privacy, governance, law, and freedom technology.
+- id: s23prg
+  type: summit
+  date: '2023-06-05'
+  city: Prague
+  country: cz
+  place: '[X10](https://www.divadlox10.cz)'
+  place-address: Charvátova 39/10, 11000 Prague 1
+  confirmed: true
+  coincidence: ETHPrague
+  status: past
+  lead: Tree
+  links:
+    web: https://prague22.web3privacy.info/
+    page: https://web3privacy.info/event/s23prg/
+  speakers:
+  - name: Ameen Soleimani
+    slug: ameen-soleimani
+    affiliation: Privacy Pools / MolochDAO
+    refs:
+      x: https://x.com/ameensol
+    twitter-handle: ameensol
+    avatarUrl: https://unavatar.io/x/ameensol
+  - name: Guy Zyskind
+    slug: guy-zyskind
+    affiliation: SCRT Labs / Secret Network
+    twitter-handle: GuyZys
+    refs:
+      x: https://x.com/GuyZys
+    avatarUrl: https://unavatar.io/x/GuyZys
+  - name: Max Hampshire
+    slug: max-hampshire
+    affiliation: Nym
+    twitter-handle: _wjth
+    refs:
+      x: https://x.com/_wjth
+    avatarUrl: https://unavatar.io/x/_wjth
+    social-source: official_event_page
+  - name: Antoni Zolciak
+    slug: antoni-zolciak
+    affiliation: Aleph Zero / Cardinal
+    twitter-handle: AntoniZolciak
+    refs:
+      x: https://x.com/AntoniZolciak
+    avatarUrl: https://unavatar.io/x/AntoniZolciak
+    social-source: official_event_page
+  - name: Rachel-Rose O'Leary
+    slug: rachel-rose-oleary
+    affiliation: DarkFi
+    refs:
+      x: https://x.com/lunar_mining
+    twitter-handle: lunar_mining
+    avatarUrl: https://unavatar.io/x/lunar_mining
+  - name: Alex Kampa
+    slug: alex-kampa
+    affiliation: Aragon ZK Research
+    twitter-handle: alex_kampa
+    refs:
+      x: https://x.com/alex_kampa
+    avatarUrl: https://unavatar.io/x/alex_kampa
+    social-source: x_profile_search
+  - name: Oliver Gale
+    slug: oliver-gale
+    affiliation: Panther Protocol
+    twitter-handle: OriginalOlii
+    refs:
+      x: https://x.com/OriginalOlii
+    avatarUrl: https://unavatar.io/x/OriginalOlii
+    social-source: official_event_page
+  - name: Mario Havel
+    slug: mario-havel
+    affiliation: Bordel Hackerspace
+    refs:
+      x: https://x.com/TMIYChao
+    twitter-handle: TMIYChao
+    avatarUrl: https://unavatar.io/x/TMIYChao
+  - name: Costanza Gallo
+    slug: costanza-gallo
+    affiliation: Swarm Foundation
+    twitter-handle: costgallo
+    refs:
+      x: https://x.com/costgallo
+    avatarUrl: https://unavatar.io/x/costgallo
+    social-source: official_event_page
+  - name: Manu Alzuru
+    slug: manu-alzuru
+    affiliation: ETH Barcelona / DoinGud
+    twitter-handle: ManuAlzuru
+    refs:
+      x: https://x.com/ManuAlzuru
+    avatarUrl: https://unavatar.io/x/ManuAlzuru
+    social-source: official_event_page
+  - name: Nick Almond
+    slug: nick-almond
+    affiliation: FactoryDAO
+    refs:
+      x: https://x.com/DrNickA
+    twitter-handle: DrNickA
+    avatarUrl: https://unavatar.io/x/DrNickA
+  - name: Juraj Bednar
+    slug: juraj-bednar
+    affiliation: cryptoanarchist & biohacker
+    refs:
+      x: https://x.com/jurbed
+    twitter-handle: jurbed
+    avatarUrl: https://unavatar.io/x/jurbed
+  - name: dcbuilder.eth
+    slug: dcbuilder
+    affiliation: Worldcoin
+    twitter-handle: DCbuild3r
+    refs:
+      x: https://x.com/DCbuild3r
+    avatarUrl: https://unavatar.io/x/DCbuild3r
+    social-source: official_event_page
+  - name: Alona Shevchenko
+    slug: alona-shevchenko
+    affiliation: Ukraine DAO
+    twitter-handle: cryptodrftng
+    refs:
+      x: https://x.com/cryptodrftng
+    avatarUrl: https://unavatar.io/x/cryptodrftng
+    social-source: official_event_page
+  - name: Tibor Csóka
+    slug: tibor-csoka
+    affiliation: HOPR
+    twitter-handle: tibor_csoka
+    refs:
+      x: https://x.com/tibor_csoka
+    avatarUrl: https://unavatar.io/x/tibor_csoka
+    social-source: user_provided_manual_resolution
+  - name: Merula
+    slug: merula
+    affiliation: Circles Entropy
+  - name: Serinko
+    slug: serinko
+    affiliation: Privacy Researcher
+    refs:
+      x: https://x.com/serinko13
+    twitter-handle: serinko13
+    avatarUrl: https://unavatar.io/x/serinko13
+  - name: Steffen Kux
+    slug: steffen-kux
+    affiliation: dm3
+    twitter-handle: SteffenKux
+    refs:
+      x: https://x.com/SteffenKux
+    avatarUrl: https://unavatar.io/x/SteffenKux
+    social-source: official_event_page
+  - name: Althea
+    slug: althea
+    affiliation: Privacy & Scaling Explorations
+    twitter-handle: AltheaNetwork
+    refs:
+      x: https://x.com/AltheaNetwork
+    avatarUrl: https://unavatar.io/x/AltheaNetwork
+    social-source: user_provided_manual_resolution_org_account
+    note: Using the project account rather than an identified individual speaker profile.
+  speakers-source:
+    kind: website
+    url: https://prague22.web3privacy.info/
+  hosts:
+  - name: Mykola Siusko
+    slug: mykola-siusko
+    affiliation: Web3Privacy Now
+  - name: Tree
+    affiliation: Web3Privacy Now
+  - name: PG
+    slug: pg
+    affiliation: Web3Privacy Now
+  - name: Wesley
+  - name: Coinmandeer
+    affiliation: Web3Privacy Now
+  speakers-count: 19
+  description: This summit took place in Prague during ETHPrague. Speakers included Ameen Soleimani, Guy Zyskind, Max Hampshire, and Antoni Zolciak. It combined a broader public program with cross-disciplinary discussion on privacy, governance, law, and freedom technology.

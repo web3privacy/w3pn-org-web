@@ -1,0 +1,82 @@
+hero:
+  logo: /projects/zk-solutions.png
+  title: ZK Solutions DB
+  tagline: Database of zero-knowledge solutions and applications. Explore the ZK landscape.
+  ctaLabel: VIEW DB
+  ctaHref: https://docs.web3privacy.info/research/zk-solutions
+  metrics:
+    - value: ZK
+      label: FOCUS
+    - value: Solutions
+      label: MAPPED
+mission:
+  text: |
+    ZK Solutions DB maps zero-knowledge projects, tools, and applications in the privacy ecosystem.
+  readMoreHref: https://docs.web3privacy.info/research/zk-solutions
+links:
+  docs: https://docs.web3privacy.info/research/zk-solutions
+features:
+  - title: ZK Solutions DB
+    description: Zero-knowledge projects, tools, and applications.
+    link: https://docs.web3privacy.info/research/zk-solutions
+    linkLabel: View DB
+articles:
+  - href: https://web3privacy.info/news
+    title: ZK Solutions DB – Latest Updates
+    date: '2025'
+    excerpt: Curated privacy news and ecosystem updates.
+    thumbnail: https://picsum.photos/400/200?random=art1
+  - href: https://web3privacy.info/news
+    title: Privacy Ecosystem Report
+    date: '2024'
+    excerpt: Annual report on Web3 privacy trends and projects.
+    thumbnail: https://picsum.photos/400/200?random=art2
+roadmap:
+  - quarter: Q1 2026
+    title: New features
+    description: Expanding ZK Solutions DB with community feedback.
+  - quarter: Q2 2026
+    title: Integration
+    description: Extended integrations and documentation.
+  - quarter: Q3 2026
+    title: Ecosystem growth
+    description: Partnerships and community tools.
+testimonials:
+  - name: Community Member
+    role: Privacy Advocate
+    quote: ZK Solutions DB is a valuable resource for the privacy community.
+    avatar: https://i.pravatar.cc/120?img=6
+  - name: Developer
+    role: Web3 Builder
+    quote: Essential tool for privacy-focused development.
+    avatar: https://i.pravatar.cc/120?img=7
+contribute:
+  text: Contribute to the ZK Solutions database.
+  ctaLabel: VIEW DB
+  ctaHref: https://docs.web3privacy.info/research/zk-solutions
+team:
+  - name: Core Contributor
+    role: Lead
+    avatar: https://i.pravatar.cc/120?img=8
+  - name: Community Lead
+    role: Operations
+    avatar: https://i.pravatar.cc/120?img=9
+partners:
+  - name: Web3 Privacy Now
+    logo: /projects/portal.png
+    href: https://web3privacy.info
+    description: Community partner
+  - name: Ethereum Foundation
+    logo: /projects/portal.png
+    href: https://ethereum.org
+    description: Ecosystem partner
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [ZK Solutions DB]
+screenshots:
+  - src: https://picsum.photos/800/450?random=proj1
+    alt: Screenshot
+    caption: Project overview
+  - src: https://picsum.photos/800/450?random=proj2
+    alt: Screenshot
+    caption: Features

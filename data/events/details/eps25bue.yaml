@@ -1,0 +1,169 @@
+headerImageUrl: /images/events/items/eps25bue/header/eps25bue.webp
+heroBackgroundImageUrl: /images/events/items/eps25bue/header/eps25bue-cover.webp
+shortDescription: Core privacy-focused event during Devconnect Buenos Aires, spanning transactional, application, and institutional privacy.
+timeRange: 11:00 - 18:00
+topics:
+  enabled: true
+  content: >-
+    Ethereum Privacy Stack brought together builders, researchers, and advocates around the core
+    privacy directions emerging across Ethereum. The framing on Luma focused on transactional
+    privacy, application privacy, institutional privacy, public goods, and the ecosystem role of
+    privacy infrastructure.
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: true
+  videos: true
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - qCBMjokWBRc
+    - zbCOTnKFaR0
+    - 5FIxhc1Lp2A
+    - WyXIB76WJ1I
+    - 0znr0o8jBqA
+    - miM_lMBRYQY
+    - MEiq_WXfRKc
+    - WA2PqMIO0-U
+    - cZqlg4W1Els
+    - ZVruNE4qu4Y
+    - FMjYFXctV4c
+    - CqG2zeHKjZ4
+    - 8J1ANo5396M
+    - 87cNFlcGslE
+    - dxvwrqGBBZE
+    - HF2m5HXT3rU
+    - kMDRxFBgAWU
+    - 9KEdd1uR6XE
+    - f7FU_1MxRd4
+    - 10xWh-CgvdM
+    - Wn1Q5ThHISo
+    - c_Dpo0ST9K4
+    - bdg9EJfzKUQ
+    - oHbyIr9RhXs
+    - 5v9m3YEYAiw
+    - eqKZ5olkYFw
+    - ta7YJZ9gPAg
+    - jVf4-SwDH70
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/dvxblpgp
+    - label: Event Website
+      url: https://eps25.web3privacy.info/
+    - label: Tickets
+      url: https://devconnect.org/calendar?event=ethereum-privacy-stack
+    - label: Event Page
+      url: https://web3privacy.info/event/eps25bue/
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - name: Lucila
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/lucilija.webp
+    - handle: ontologymachine
+      name: Beth McCarthy
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/beth.webp
+location:
+  name: La Rural
+  address: La Rural, Av. Sarmiento 2704, C1425 Cdad. Autónoma de Buenos Aires, Argentina
+  city: Buenos Aires
+  country: AR
+  website: https://www.google.com/maps/search/?api=1&query=La+Rural%2C+Av.+Sarmiento+2704%2C+C1425+Cdad.+Aut%C3%B3noma+de+Buenos+Aires%2C+Argentina
+gallery:
+  enabled: true
+  images:
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-001--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-001--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-001.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-002--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-002--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-002.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-003--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-003--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-003.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-004--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-004--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-004.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-005--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-005--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-005.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-006--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-006--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-006.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-007--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-007--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-007.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-008--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-008--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-008.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-009--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-009--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-009.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-010--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-010--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-010.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-011--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-011--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-011.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-012--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-012--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-012.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-013--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-013--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-013.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-014--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-014--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-014.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-015--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-015--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-015.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-016--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-016--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-016.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-017--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-017--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-017.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-018--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-018--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-018.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-019--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-019--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-019.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-020--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-020--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-020.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-021--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-021--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-021.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-022--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-022--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-022.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-023--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-023--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-023.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-024--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-024--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-024.webp
+    - thumbnailUrl: /images/events/items/eps25bue/header/privacy-stacks-025--thumb.webp
+      previewUrl: /images/events/items/eps25bue/header/privacy-stacks-025--preview.webp
+      fullSizeUrl: /images/events/items/eps25bue/header/privacy-stacks-025.webp

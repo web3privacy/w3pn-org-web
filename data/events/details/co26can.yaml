@@ -1,0 +1,48 @@
+headerImageUrl: /images/events/items/co26can/header/co26can.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Migle
+      role: Womxn in web3 Privacy
+      handle: rakymnft
+      avatar: /images/events/shared/header/migle-rakitaite.jpg
+    - name: Peter
+      role: Web3Privacy Now
+      handle: 0xfarbey
+      avatar: /images/projects/shared/team/peter.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/l3hxaaii
+location:
+  name: Parc Méro
+  address: parc mero, Square Méro, 06400 Cannes, France
+  city: Cannes
+  country: FR
+  website: https://www.google.com/maps/search/?api=1&query=parc+mero%2C+Square+M%C3%A9ro%2C+06400+Cannes%2C+France
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+shortDescription: Cannes public-space gathering during EthCC focused on solidarity, privacy culture, and anti-elitist coordination.
+timeRange: 16:30 - 20:00
+topics:
+  content: >-
+    Occupy EthCC was framed as a public-space gathering in Cannes for privacy enthusiasts,
+    developers, researchers, activists, and freedom seekers. Instead of a typical side event, it
+    emphasized conversation, solidarity, care, and human-centric community building.
+  enabled: true

@@ -1,0 +1,111 @@
+headerImageUrl: /images/events/items/m24ber/header/m24ber.webp
+heroBackgroundImageUrl: /images/events/items/m24ber/header/m24ber-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Ligi
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/w3pn-meetup-berlin1
+    - label: Event Page
+      url: https://web3privacy.info/event/m24ber/
+location:
+  address: Rungestraße 20, 10179 Berlin
+  city: Berlin
+  country: DE
+  name: c-base
+  website: https://c-base.org
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+speakers:
+  - avatar: /images/events/items/m24ber/header/afri-schoedon.webp
+    id: afri-schoedon
+    name: Afri Schoedon
+    role: Department of Decentralization
+    twitter: https://x.com/q9fcc
+  - avatar: /images/events/shared/header/peter-van-valkenburgh.webp
+    id: peter-van-valkenburgh
+    name: Peter Van Valkenburgh
+    role: Coin Center
+    twitter: https://x.com/valkenburgh
+  - avatar: /images/events/shared/header/jaya-klara-brekke.webp
+    id: jaya-klara-brekke
+    name: Jaya Klara Brekke
+    role: Nym
+    twitter: https://x.com/jayapapaya
+  - avatar: /images/events/items/m24ber/header/joshua-davila.webp
+    id: joshua-davila
+    name: Joshua Davila
+    role: The Blockchain Socialist
+    twitter: https://x.com/TBSocialist
+  - id: sebastian
+    name: Sebastian
+    role: HOPR
+  - avatar: /images/events/shared/header/will-scott.webp
+    id: will-scott
+    name: Will Scott
+    role: FIDL / Filecoin Incentive Design Labs
+    twitter: https://x.com/willscott
+  - avatar: /images/events/shared/header/ying-tong.webp
+    id: ying-tong
+    name: Ying Tong
+    role: Geometry Research
+    twitter: https://x.com/therealyingtong
+  - id: stella-r-magnet
+    name: Stella R. Magnet
+    role: Black Sky / Radicle
+  - avatar: /images/events/shared/header/lefteris.webp
+    id: lefteris
+    name: Lefteris
+    role: Rotki
+    twitter: https://x.com/LefterisJP
+  - id: sergei
+    name: Sergei
+    role: Status / Waku
+  - id: adrian
+    name: Adrian
+    role: Anoma / Namada
+  - avatar: /images/events/shared/header/fatemeh.webp
+    id: fatemeh
+    name: Fatemeh
+    role: Swarm
+    twitter: https://x.com/Fatalmeh
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - woRkyy9ougs
+    - XrpjfyEK7Hs
+    - NW6ViGipnT8
+    - uNRA5Tg3aHo
+    - emf63mSS11I
+    - MzbT2farBQw
+    - 3qArHXOw2b0
+    - AWgwuwmMTcM
+topics:
+  content: >-
+    This meetup took place in Berlin during ETHBerlin. Speakers included Afri Schoedon, Peter Van Valkenburgh, Jaya
+    Klara Brekke, and Joshua Davila. The focus was on privacy tooling, open-source coordination, and current issues in
+    digital rights and the Ethereum ecosystem.
+  enabled: true

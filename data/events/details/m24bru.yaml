@@ -1,0 +1,46 @@
+headerImageUrl: /images/events/items/m24bru/header/m24bru.webp
+heroBackgroundImageUrl: /images/events/items/m24bru/header/m24bru-cover.webp
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/w3pn-meetup-bru1
+location:
+  name: Parc de Bruxelles
+  address: 1000 Brussels, Belgium
+  city: Brussels
+  country: BE
+  website: https://luma.com/w3pn-meetup-bru1
+contributors:
+  enabled: true
+  items:
+    - name: Mykola Siusko
+      role: Web3Privacy Now
+      handle: nicksvyaznoy
+      avatar: /images/events/shared/header/mykola.webp
+    - name: PG
+      role: Web3Privacy Now
+      handle: PG_CDG
+      avatar: /images/events/shared/header/pg.webp
+    - name: Mf
+      role: Web3Privacy Now
+      handle: 0x_m_f
+      avatar: /images/events/shared/header/mf.jpg
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+topics:
+  content: >-
+    This meetup took place in Brussels during EthCC. The focus was on privacy tooling, open-source coordination, and
+    current issues in digital rights and the Ethereum ecosystem.
+  enabled: true

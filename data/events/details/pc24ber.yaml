@@ -1,0 +1,69 @@
+headerImageUrl: /images/events/items/pc24ber/header/pc24ber.webp
+heroBackgroundImageUrl: /images/events/items/pc24ber/header/pc24ber-cover.webp
+contributors:
+  enabled: true
+  items:
+    - name: Tree
+      role: Web3Privacy Now
+      handle: treecz
+      avatar: /images/events/shared/header/tree.jpg
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+links:
+  custom:
+    - label: Event Website
+      url: https://c24ber.web3privacy.info
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: false
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+speakers:
+  - avatar: /images/events/shared/header/nick-almond.webp
+    id: nick-almond
+    name: Nick Almond
+    role: FactoryDAO
+    twitter: https://x.com/DrNickA
+  - avatar: /images/events/shared/header/mario-havel.webp
+    id: mario-havel
+    name: Mario Havel
+    role: Ethereum Foundation
+    twitter: https://x.com/TMIYChao
+  - avatar: /images/events/shared/header/ying-tong.webp
+    id: ying-tong
+    name: Ying Tong
+    role: Geometry Research
+    twitter: https://x.com/therealyingtong
+  - id: max
+    name: Max
+    role: Nym
+  - id: guru
+    name: Guru
+    role: Waku
+  - avatar: /images/events/items/pc24ber/header/lefteris-karapetsas.webp
+    id: lefteris-karapetsas
+    name: Lefteris Karapetsas
+    role: Rotki
+    twitter: https://x.com/LefterisJP
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - Sr72VSjoOWw
+    - iBOdg0clbBE
+topics:
+  content: >-
+    This privacy corner took place in Berlin during ETHBerlin. Speakers included Nick Almond, Mario Havel, Ying Tong,
+    and Max. It offered direct mentorship, feedback, and privacy-native guidance inside a larger hackathon environment.
+  enabled: true

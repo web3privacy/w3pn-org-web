@@ -1,0 +1,83 @@
+hero:
+  logo: /images/projects/items/privacy-portal/icon/project-privacy-portal.webp
+  title: Privacy Portal
+  tagline: Unified hub for privacy resources, news, and community. The main entry point to the Web3Privacy ecosystem.
+  ctaLabel: EXPLORE PORTAL
+  ctaHref: https://privacyportal.xyz
+  metrics:
+    - value: 10+
+      label: PRODUCTS
+    - value: '1'
+      label: HUB
+mission:
+  text: |
+    Privacy Portal unifies Web3Privacy products: Explorer, Stacks, News, Jobs, Academy, and more.
+    One place to discover, learn, and contribute to privacy.
+  readMoreHref: https://privacyportal.xyz
+links:
+  url: https://privacyportal.xyz
+features:
+  - title: Unified hub
+    description: Access Explorer, Stacks, News, Jobs, Academy, and more.
+    link: https://privacyportal.xyz
+    linkLabel: Explore
+articles:
+  - href: https://web3privacy.info/news
+    title: Privacy Portal – Latest Updates
+    date: '2025'
+    excerpt: Curated privacy news and ecosystem updates.
+    thumbnail: https://picsum.photos/400/200?random=art1
+  - href: https://web3privacy.info/news
+    title: Privacy Ecosystem Report
+    date: '2024'
+    excerpt: Annual report on Web3 privacy trends and projects.
+    thumbnail: https://picsum.photos/400/200?random=art2
+roadmap:
+  - quarter: Q1 2026
+    title: New features
+    description: Expanding Privacy Portal with community feedback.
+  - quarter: Q2 2026
+    title: Integration
+    description: Extended integrations and documentation.
+  - quarter: Q3 2026
+    title: Ecosystem growth
+    description: Partnerships and community tools.
+testimonials:
+  - name: Community Member
+    role: Privacy Advocate
+    quote: Privacy Portal is a valuable resource for the privacy community.
+    avatar: https://i.pravatar.cc/120?img=6
+  - name: Developer
+    role: Web3 Builder
+    quote: Essential tool for privacy-focused development.
+    avatar: https://i.pravatar.cc/120?img=7
+contribute:
+  text: Privacy Portal is the main entry point to the Web3Privacy ecosystem.
+  ctaLabel: EXPLORE PORTAL
+  ctaHref: https://privacyportal.xyz
+team:
+  - name: Core Contributor
+    role: Lead
+    avatar: https://i.pravatar.cc/120?img=8
+  - name: Community Lead
+    role: Operations
+    avatar: https://i.pravatar.cc/120?img=9
+partners:
+  - name: Web3 Privacy Now
+    logo: /projects/portal.png
+    href: https://web3privacy.info
+    description: Community partner
+  - name: Ethereum Foundation
+    logo: /projects/portal.png
+    href: https://ethereum.org
+    description: Ecosystem partner
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Portal]
+screenshots:
+  - src: https://picsum.photos/800/450?random=proj1
+    alt: Screenshot
+    caption: Project overview
+  - src: https://picsum.photos/800/450?random=proj2
+    alt: Screenshot
+    caption: Features

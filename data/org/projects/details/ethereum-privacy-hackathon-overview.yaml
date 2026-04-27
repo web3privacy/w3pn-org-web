@@ -1,0 +1,63 @@
+hero:
+  logo: /images/projects/items/ethereum-privacy-hackathon-overview/icon/project-ethereum-privacy-hackathon-overview.webp
+  title: Ethereum Privacy Hackathon Overview
+  tagline: A research overview tracking hackathons, participation, and emerging ideas in Ethereum privacy.
+  ctaLabel: OPEN REPOSITORY
+  ctaHref: https://github.com/web3privacy/research/tree/main/initiatives/ethereum-privacy-ecosystem/resources/hackathons
+  metrics: []
+mission:
+  text: >-
+    This project compiles and analyzes hackathons focused on Ethereum privacy, providing insight into trends,
+    participation, and emerging ideas.
+
+
+    It supports ecosystem understanding by highlighting how builders engage with privacy challenges and what kinds of
+    solutions are being developed.
+  readMoreHref: https://github.com/web3privacy/research/tree/main/initiatives/ethereum-privacy-ecosystem/resources/hackathons
+links:
+  github: https://github.com/web3privacy/research/tree/main/initiatives/ethereum-privacy-ecosystem/resources/hackathons
+contribute:
+  text: >-
+    Review the collected materials, add missing hackathons, and help document how privacy experimentation evolves over
+    time.
+  links:
+    - label: GitHub
+      href: https://github.com/web3privacy/research/tree/main/initiatives/ethereum-privacy-ecosystem/resources/hackathons
+  ctaLabel: OPEN REPOSITORY
+  ctaHref: https://github.com/web3privacy/research/tree/main/initiatives/ethereum-privacy-ecosystem/resources/hackathons
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Ethereum Privacy Hackathon Overview]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+team:
+  - name: Jensei
+    role: Project Manager
+    avatar: /images/events/shared/header/jensei.webp
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Getting serious about Ethereum privacy
+    date: 2025-06-14
+    excerpt: Field notes on Ethereum privacy gaps and what hackathon-sized teams can realistically ship in a sprint.
+    href: https://paragraph.com/@web3privacy-now/getting-serious-about-ethereum-privacy
+    thumbnail: /images/projects/shared/articles/getting-serious-about-ethereum-privacy.webp
+  - title: Cypherpunk hacker class 2.0
+    date: 2024-08-12
+    excerpt: Practical hacker mindset for privacy builds — from threat models to shipping minimal viable privacy UX.
+    href: https://paragraph.com/@web3privacy-now/cypherpunk-hacker-class-2-0
+    thumbnail: /images/projects/shared/articles/cypherpunk-hacker-class-2-0.webp
+  - title: Building “L2beat for privacy” at ETHRome
+    date: 2024-10-05
+    excerpt: Research narrative connecting hackathon culture with transparent privacy benchmarking and open data.
+    href: https://paragraph.com/@web3privacy-now/building-l2beat-for-privacy-at-ethrome
+    thumbnail: /images/projects/shared/articles/building-l2beat-for-privacy-at-ethrome.webp

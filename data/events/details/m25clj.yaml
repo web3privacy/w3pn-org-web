@@ -1,0 +1,42 @@
+headerImageUrl: /images/events/items/m25clj/header/m25clj.webp
+heroBackgroundImageUrl: /images/events/items/m25clj/header/m25clj-cover.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/jbzohah1
+location:
+  name: Insomnia
+  address: Str. Universității 2, Cluj-Napoca 400091, Romania
+  city: Cluj-Napoca
+  country: RO
+  website: https://www.google.com/maps/search/?api=1&query=Insomnia%2C+Cluj-Napoca
+contributors:
+  enabled: true
+  items:
+    - name: Andreea CIA
+      role: Web3Privacy Now
+      handle: iandreeacia
+      avatar: /images/events/shared/header/andreea-cia.jpg
+    - handle: alinalatinina
+      name: Alina
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/alina.jpg
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+topics:
+  content: >-
+    This meetup took place in Cluj-Napoca. The focus was on privacy tooling, open-source coordination, and current
+    issues in digital rights and the Ethereum ecosystem.
+  enabled: true

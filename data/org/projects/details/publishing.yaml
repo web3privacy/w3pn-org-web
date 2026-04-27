@@ -1,0 +1,79 @@
+hero:
+  logo: /images/projects/items/publishing/icon/project-publishing.webp
+  title: Publishing (Book & Zine)
+  tagline: Publishing experiments exploring privacy through long-form, cultural, and technical formats.
+  ctaLabel: LEARN MORE
+  metrics: []
+mission:
+  text: >-
+    The publishing initiatives explore privacy through both long-form and experimental formats, including books and
+    zines. They aim to capture the cultural, philosophical, and technical dimensions of privacy.
+
+
+    These formats complement research and education efforts by making privacy narratives more accessible and expressive.
+contribute:
+  desktopOnly: true
+  text: >-
+    Follow the publishing work, share ideas for future issues, and help broaden how privacy is communicated across
+    different audiences.
+  links: []
+  ctaLabel: LEARN MORE
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Publishing (Book & Zine)]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+  videos: true
+team:
+  - name: PG
+    role: Operations Director
+    avatar: /images/events/shared/header/pg.webp
+    href: https://github.com/EclecticSamurai
+videos:
+  - youtubeId: MywIUSJAykI
+    title: "This is Web3Privacy Now // ep01 - Stay Human"
+    speaker: ""
+    role: ""
+  - youtubeId: 2WTpGo8nwnA
+    title: "What does Privacy mean to you?"
+    speaker: ""
+    role: ""
+  - youtubeId: EavS_QabTcg
+    title: "The Moral Character of Cryptographic Work"
+    speaker: Phillip Rogaway
+    role: ""
+  - youtubeId: Gjkpinu_Zco
+    title: "Love, Privacy, and the Politics of Intellectual Shame"
+    speaker: Meredith Whittaker
+    role: Signal
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Cypherpunks 2.0 / 3.0 / 4.0 — the beginning of a new era
+    date: 2024-01-20
+    excerpt: >-
+      Continuity and reinvention in cypherpunk culture — what changed from early cypherpunk mail to today’s Web3 privacy
+      movements.
+    href: https://paragraph.com/@web3privacy-now/cypherpunks-2-0-3-0-4-0-the-beginning-of-a-new-era
+    thumbnail: /images/projects/items/publishing/articles/cypherpunks-2-0-3-0-4-0-the-beginning-of-a-new-era.webp
+  - title: Privacy as Freedom of Behavior
+    excerpt: >-
+      Defines privacy not just as data protection, but as the ability to act freely without surveillance, reframing
+      privacy as a behavioral and societal issue.
+    href: https://paragraph.com/@web3privacy-now/privacy-as-freedom-of-behavior
+    thumbnail: /images/projects/items/publishing/articles/privacy-as-freedom-of-behavior.webp
+  - title: 'Rethinking Freedom in the Digital Age: The Rise of the Carepunks'
+    excerpt: >-
+      Explores privacy, autonomy, and care in the digital age, positioning privacy as part of a broader social and
+      political framework.
+    href: https://paragraph.com/@web3privacy-now/rethinking-freedom-in-the-digital-age-the-rise-of-the-carepunks
+    thumbnail: /images/projects/items/publishing/articles/rethinking-freedom-in-the-digital-age-the-rise-of-the-carepunks.webp

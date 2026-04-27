@@ -1,0 +1,49 @@
+hero:
+  logo: /images/projects/items/jobs/icon/project-jobs.webp
+  title: Jobs in Privacy
+  tagline: A job board connecting talent with privacy-focused Web3 projects.
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://jobs.web3privacy.info
+  metrics: []
+mission:
+  text: |-
+    Jobs in Privacy is a dedicated job board focused on opportunities within the privacy and Web3 ecosystem. It aggregates roles across projects and organizations, making it easier for contributors to find relevant work aligned with privacy values.
+
+    Beyond listings, it acts as a signal layer for ecosystem growth by highlighting hiring demand and emerging roles in privacy-focused development, research, and operations.
+  readMoreHref: https://jobs.web3privacy.info
+links:
+  url: https://jobs.web3privacy.info
+contribute:
+  desktopOnly: true
+  text: Share open roles, recommend strong candidates, and help connect privacy-focused talent with the teams building the ecosystem.
+  links:
+    - label: Website
+      href: https://jobs.web3privacy.info
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://jobs.web3privacy.info
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Jobs in Privacy]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: true
+  features: false
+  articles: false
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+screenshots:
+  - src: /images/projects/items/jobs/gallery/jobs-in-privacy-1.webp
+    alt: Jobs in Privacy project page
+    caption: Jobs in Privacy dashboard view
+    previewSrc: /images/projects/items/jobs/gallery/jobs-in-privacy-1--preview.webp
+    thumbnailSrc: /images/projects/items/jobs/gallery/jobs-in-privacy-1--thumb.webp
+team:
+  - name: Barabazs
+    role: Developer
+    avatar: https://github.com/Barabazs.png?size=240
+    href: https://github.com/Barabazs

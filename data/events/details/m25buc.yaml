@@ -1,0 +1,62 @@
+headerImageUrl: /images/events/items/m25buc/header/m25buc.webp
+heroBackgroundImageUrl: /images/events/items/m25buc/header/m25buc-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: alinalatinina
+      name: Alina Latinina
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/alina.jpg
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Andreea CIA
+      role: Web3Privacy Now
+      handle: iandreeacia
+      avatar: /images/events/shared/header/andreea-cia.jpg
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/9ni8jbzx
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: false
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: false
+speakers:
+  - avatar: /images/events/shared/header/daniel-luca.webp
+    id: daniel-luca
+    name: Daniel Luca
+    role: Eden Block
+    twitter: https://x.com/cleanunicorn
+  - avatar: /images/events/items/m25buc/header/diana-stetiu.webp
+    id: diana-stetiu
+    name: Diana Stetiu
+    role: Fintech and web3 lawyer
+    twitter: https://x.com/dstetiu
+  - avatar: /images/events/shared/header/qj.webp
+    id: qj
+    name: QJ
+    role: Ethereum Community Fund
+    twitter: https://x.com/QJ_ECF
+  - avatar: /images/events/items/m25buc/header/kirsten-pomales.webp
+    id: kirsten-pomales
+    name: Kirsten Pomales
+    role: TalentLayer Guild
+    twitter: https://x.com/kirstenpomales
+topics:
+  content: >-
+    This meetup took place in Register to see address, Bucharest. Speakers included Daniel Luca, Diana Stetiu, QJ, and
+    Kirsten Pomales. The focus was on privacy tooling, open-source coordination, and current issues in digital rights
+    and the Ethereum ecosystem.
+  enabled: true

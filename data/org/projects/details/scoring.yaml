@@ -1,0 +1,113 @@
+hero:
+  logo: /images/projects/items/scoring/icon/project-scoring.webp
+  title: Scoring of Privacy Projects
+  tagline: Methodology and tooling for scoring privacy projects. Transparent, open source.
+  ctaLabel: VIEW ON GITHUB
+  ctaHref: https://github.com/web3privacy/scoring
+  metrics:
+    - value: Open
+      label: SOURCE
+    - value: Methodology
+      label: DOCUMENTED
+mission:
+  text: |
+    The Scoring project defines how we evaluate privacy projects. Methodology, tools,
+    and data are open source on GitHub.
+  readMoreHref: https://github.com/web3privacy/scoring
+links:
+  github: https://github.com/web3privacy/scoring
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: true
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: false
+  partners: false
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+features:
+  - title: Scoring methodology
+    description: Transparent methodology for privacy project scoring.
+    link: https://github.com/web3privacy/scoring
+    linkLabel: GitHub
+articles:
+  - title: Explorer scoring mechanism breakdown
+    date: 2024-04-18
+    excerpt: >-
+      How Privacy Explorer scores openness, technology stack, and privacy posture — the logic behind the public
+      methodology.
+    href: https://paragraph.com/@web3privacy-now/explorer-scoring-mechanism-breakdown
+    thumbnail: /images/projects/items/scoring/articles/explorer-scoring-mechanism-breakdown.webp
+  - title: From scoring model to interfaces (Web3Privacy Now)
+    date: 2024-05-20
+    excerpt: From research scoring models to product surfaces that make privacy legible for builders and users.
+    href: https://paragraph.com/@web3privacy-now/from-scoring-model-to-interfaces-web3privacy-now
+    thumbnail: /images/projects/items/scoring/articles/from-scoring-model-to-interfaces-web3privacy-now.webp
+  - title: Making Web3 privacy assessment research public (feedback)
+    date: 2024-06-05
+    excerpt: Opening up privacy assessment research for community review and structured feedback loops.
+    href: https://paragraph.com/@web3privacy-now/making-web3-privacy-assessment-research-public-feedback
+    thumbnail: /images/projects/shared/articles/making-web3-privacy-assessment-research-public-feedback.webp
+  - title: Privacy services scoring model — part 1
+    date: 2024-07-10
+    excerpt: First instalment of the privacy services scoring model — dimensions, weights, and design trade-offs.
+    href: https://paragraph.com/@web3privacy-now/privacy-services-scoring-model-part-1
+    thumbnail: /images/projects/items/scoring/articles/privacy-services-scoring-model-part-1.webp
+  - title: Privacy services scoring model for non-techies (playbook)
+    date: 2024-07-22
+    excerpt: A plain-language playbook so non-specialists can understand and apply the scoring framework in practice.
+    href: https://paragraph.com/@web3privacy-now/privacy-services-scoring-model-for-non-techies-playbook
+    thumbnail: /images/projects/items/scoring/articles/privacy-services-scoring-model-for-non-techies-playbook.webp
+roadmap:
+  - quarter: Q1 2026
+    title: New features
+    description: Expanding Scoring of Privacy Projects with community feedback.
+  - quarter: Q2 2026
+    title: Integration
+    description: Extended integrations and documentation.
+  - quarter: Q3 2026
+    title: Ecosystem growth
+    description: Partnerships and community tools.
+testimonials:
+  - name: Community Member
+    role: Privacy Advocate
+    quote: Scoring of Privacy Projects is a valuable resource for the privacy community.
+    avatar: https://i.pravatar.cc/120?img=6
+  - name: Developer
+    role: Web3 Builder
+    quote: Essential tool for privacy-focused development.
+    avatar: https://i.pravatar.cc/120?img=7
+contribute:
+  text: Contribute to scoring methodology on GitHub.
+  ctaLabel: VIEW ON GITHUB
+  ctaHref: https://github.com/web3privacy/scoring
+team:
+  - name: Core Contributor
+    role: Lead
+    avatar: https://i.pravatar.cc/120?img=8
+  - name: Community Lead
+    role: Operations
+    avatar: https://i.pravatar.cc/120?img=9
+partners:
+  - name: Web3 Privacy Now
+    logo: /projects/portal.png
+    href: https://web3privacy.info
+    description: Community partner
+  - name: Ethereum Foundation
+    logo: /projects/portal.png
+    href: https://ethereum.org
+    description: Ecosystem partner
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Scoring of Privacy Projects]
+screenshots:
+  - src: https://picsum.photos/800/450?random=proj1
+    alt: Screenshot
+    caption: Project overview
+  - src: https://picsum.photos/800/450?random=proj2
+    alt: Screenshot
+    caption: Features

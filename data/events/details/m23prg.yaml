@@ -1,0 +1,61 @@
+headerImageUrl: /images/events/items/m23prg/header/m23prg.webp
+heroBackgroundImageUrl: /images/events/items/m23prg/header/m23prg-cover.webp
+contributors:
+  enabled: true
+  items:
+    - name: Tree
+      role: Web3Privacy Now
+      handle: treecz
+      avatar: /images/events/shared/header/tree.jpg
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+links:
+  custom:
+    - label: Event Website
+      url: https://lu.ma/w3pm-prg1
+    - label: Event Page
+      url: https://web3privacy.info/event/m23prg/
+location:
+  address: Smíchovská náplavka - Kobka č. 10, Hořejší nábřeží, Praha 5
+  city: Prague
+  country: CZ
+  name: Dílna
+  website: https://kafevdilne.cz
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: false
+speakers:
+  - avatar: /images/events/shared/header/vaclav-pavlin.webp
+    id: vaclav-pavlin
+    name: Vaclav Pavlin
+    role: Status / Logos / Waku
+    twitter: https://x.com/vpavlin
+  - avatar: /images/events/items/m23prg/header/radek-svarz.webp
+    id: radek-svarz
+    name: Radek Švarz
+    role: Visionary, architect, connecting business and IT
+    twitter: https://x.com/radk
+  - avatar: /images/events/items/m23prg/header/marcel-kolaja.webp
+    id: marcel-kolaja
+    name: Marcel Kolaja
+    role: Member of the European Parliament
+    twitter: https://x.com/PiratKolaja
+topics:
+  content: >-
+    This meetup took place in Prague during DCxPrague. Speakers included Vaclav Pavlin, Radek Švarz, and Marcel Kolaja.
+    The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum
+    ecosystem.
+  enabled: true

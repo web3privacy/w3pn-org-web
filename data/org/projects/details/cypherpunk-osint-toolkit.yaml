@@ -1,0 +1,44 @@
+hero:
+  logo: /images/projects/items/cypherpunk-osint-toolkit/icon/project-cypherpunk-osint-toolkit.webp
+  title: Cypherpunk OSINT Toolkit
+  tagline: A privacy-first toolkit for open-source intelligence research and responsible investigation.
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://cypherpunk-research.monkeyflower.ca
+  metrics: []
+mission:
+  text: >-
+    The Cypherpunk OSINT Toolkit provides resources and tools for conducting open-source intelligence research with a
+    privacy-first mindset. It supports investigators, researchers, and activists working with publicly available data.
+
+
+    The toolkit emphasizes operational security and responsible data usage, aligning OSINT practices with
+    privacy-preserving principles.
+  readMoreHref: https://cypherpunk-research.monkeyflower.ca
+links:
+  url: https://cypherpunk-research.monkeyflower.ca
+contribute:
+  text: Use the toolkit responsibly, suggest additions, and help improve privacy-conscious research practices in the open.
+  links:
+    - label: Website
+      href: https://cypherpunk-research.monkeyflower.ca
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://cypherpunk-research.monkeyflower.ca
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Cypherpunk OSINT Toolkit]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: false
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+team:
+  - name: Mykola
+    role: Contributor
+    avatar: /images/events/shared/header/mykola.webp

@@ -1,0 +1,2085 @@
+defaultContent:
+  site:
+    title: web3privacy now
+    headerLogo: /images/site-shared/navigation/nav-logo.svg
+    adminPath: /web3privacy-control-room-73f9a
+    ctaText: ABOUT WEB3PRIVACY →
+    ctaLink: /about
+  nav:
+    items:
+      - label: HOME
+        href: /
+      - label: ABOUT US
+        href: /about
+      - label: PROJECTS
+        href: /projects
+      - label: EVENTS
+        href: /events
+      - label: DOCS
+        href: /docs
+        external: false
+      - label: RESOURCES
+        href: /resources
+      - label: DONATE
+        href: /donate
+      - label: FORUM
+        href: https://forum.web3privacy.info/
+        external: true
+      - label: //
+        href: '#'
+      - label: PRIVACY PORTAL
+        href: /privacy-portal
+        external: false
+  hero:
+    backgroundImage: /images/site-shared/misc/assets/hero-bg.webp
+    overlayImage: null
+    title: |-
+      Uniting efforts and empowering society
+      to defend freedom.
+    social:
+      - label: Twitter
+        icon: twitter
+        href: https://x.com/web3privacy
+      - label: Telegram
+        icon: telegram
+        href: https://t.me/+QOj6126xlEs0OTQ0
+      - label: YouTube
+        icon: youtube
+        href: https://www.youtube.com/@Web3PrivacyNow
+      - label: Bluesky
+        icon: bluesky
+        href: https://bsky.app/profile/web3privacy.info
+      - label: GitHub
+        icon: github
+        href: https://github.com/web3privacy
+      - label: LinkedIn
+        icon: linkedin
+        href: https://www.linkedin.com/company/web3privacynow
+      - label: Instagram
+        icon: instagram
+        href: https://www.instagram.com/web3privacy_now/
+  partners:
+    marqueeImage: null
+    logos:
+      - name: Railgun
+        image: /images/site-shared/partners/railgun.webp
+      - name: Vocdoni
+        image: /images/site-shared/partners/vocdoni.webp
+      - name: University of Oxford
+        image: /images/site-shared/partners/university-of-oxford.webp
+      - name: Internet Archive
+        image: /images/site-shared/partners/internet-archive.webp
+      - name: Freedom of the Press Foundation
+        image: /images/site-shared/partners/freedom-of-the-press-foundation.webp
+      - name: Bluesky
+        image: /images/site-shared/partners/bluesky.webp
+      - name: Funding the Commons
+        image: /images/site-shared/partners/funding-the-commons.webp
+      - name: Fileverse
+        image: /images/site-shared/partners/fileverse.webp
+      - name: Coin Center
+        image: /images/site-shared/partners/coin-center.webp
+      - name: Brave
+        image: /images/site-shared/partners/brave.webp
+      - name: European Crypto Initiative
+        image: /images/site-shared/partners/european-crypto-initiative.webp
+      - name: Tor
+        image: /images/site-shared/partners/tor.webp
+      - name: Harvard University
+        image: /images/site-shared/partners/harvard-university.webp
+      - name: Ethereum Foundation
+        image: /images/site-shared/partners/ethereum-foundation.webp
+  intro:
+    heading: Ecosystem of people, projects and organisations protecting and advancing our digital rights.
+    videoLink: https://www.youtube.com/watch?v=ZWDF3B8hT6M
+    videoThumbnail: https://img.youtube.com/vi/ZWDF3B8hT6M/hqdefault.jpg
+    videoTitle: UNITED IN PRIVACY
+    videoSpeaker: BRØNSTED · KAHLE
+    supporters:
+      - name: AUDREY TANG
+        role: DIGITAL GOVERNANCE
+        image: /images/site-shared/profiles/audrey-tang.webp
+      - name: DAVID CHAUM
+        role: PRIVACY PIONEER
+        image: /images/site-shared/profiles/david-chaum.webp
+      - name: ROGER DINGLEDINE
+        role: TOR PROJECT
+        image: /images/site-shared/profiles/roger-dingledine.webp
+      - name: VITALIK BUTERIN
+        role: ETHEREUM
+        image: /images/site-shared/profiles/vitalik-buterin.webp
+      - name: CHELSEA MANNING
+        role: ACTIVIST
+        image: /images/site-shared/profiles/chelsea-manning.webp
+      - name: RENATA AVILA
+        role: DIGITAL RIGHTS
+        image: /images/site-shared/profiles/renata-avila.webp
+      - name: PETER VALKENBURGH
+        role: POLICY
+        image: /images/site-shared/profiles/peter-valkenburgh.webp
+      - name: TECH & CULTURE MAJOR LEADERS
+        role: ''
+        type: stat
+        statValue: 80+
+  impact:
+    sectionImage: /images/home/sections/impact/assets/bg-world-impact.jpg
+    title: Worldwide impact
+    description: We build solidarity between activists and tech leaders. 50+ partners from Ethereum Foundation to Nym. Open-source contributions from Audrey Tang to Vitalik Buterin.
+    stats:
+      - label: EVENTS VISITORS
+        labelMobile: visitors
+        value: '15.000'
+      - label: CONTRIBUTORS
+        value: 800+
+      - label: PROJECTS
+        value: '24'
+      - label: IMPRESSIONS
+        value: 5M
+  activities:
+    categories:
+      - title: RESEARCH
+        titleImage: /images/home/sections/activities/assets/research-section.webp
+        cards:
+          - title: Explorer
+            text: A public database mapping and evaluating Web3 privacy projects.
+            logo: /images/home/sections/activities/assets/projects/explorer-logo.webp
+            image: /images/home/sections/activities/assets/projects/card-bg-a.svg
+            linkText: Explore the database
+            linkHref: https://explorer.web3privacy.info
+          - title: Awards
+            text: An annual initiative recognizing impactful privacy projects and contributors.
+            logo: /images/home/sections/activities/assets/projects/privacy-awards-logo.webp
+            image: /images/home/sections/activities/assets/projects/card-bg-b.svg
+            linkText: View the awards
+            linkHref: https://awards.web3privacy.info
+      - title: EDUCATE
+        titleImage: /images/home/sections/activities/assets/educate-section.webp
+        cards:
+          - title: Academy
+            text: An education platform onboarding users into privacy and Web3 concepts.
+            logo: /images/home/sections/activities/assets/projects/academy-logo.webp
+            image: /images/home/sections/activities/assets/projects/card-bg-a.svg
+            linkText: Go to Academy
+            linkHref: https://academy.web3privacy.info
+          - title: Stacks
+            text: A collection of real-world privacy tool setups used by experts.
+            logo: /images/home/sections/activities/assets/projects/personal-stacks-logo.webp
+            image: /images/home/sections/activities/assets/projects/card-bg-b.svg
+            linkText: Browse Stacks
+            linkHref: https://stacks.web3privacy.info
+      - title: ACTIVATE
+        titleImage: /images/home/sections/activities/assets/activate-section.webp
+        cards:
+          - title: Jobs
+            text: A job board connecting talent with privacy-focused Web3 projects.
+            logo: /images/home/sections/activities/assets/projects/events-logo.webp
+            image: /images/home/sections/activities/assets/projects/card-bg-a.svg
+            linkText: Find jobs
+            linkHref: https://jobs.web3privacy.info
+          - title: Newsletter
+            text: A weekly curated overview of key developments in privacy and Web3.
+            logo: /images/projects/items/newsletter/detail/newsletter.webp
+            image: /images/home/sections/activities/assets/projects/card-bg-b.svg
+            linkText: Subscribe
+            linkHref: https://news.web3privacy.info
+      - title: BUILD
+        titleImage: /images/home/sections/activities/assets/build-section.webp
+        cards:
+          - title: PORTAL
+            text: One-stop shop for everything privacy related
+            logo: /images/home/sections/activities/assets/projects/portal-logo.webp
+            image: /images/home/sections/activities/assets/projects/card-bg-a.svg
+            linkText: Visit Portal
+            linkHref: /privacy-portal
+          - title: Builder Pack
+            text: A framework helping developers build meaningful privacy-focused projects.
+            logo: /images/home/sections/activities/assets/projects/hackathon-pack-logo.webp
+            image: /images/home/sections/activities/assets/projects/card-bg-b.svg
+            linkText: Start building
+            linkHref: https://build.web3privacy.info
+    ctaText: VIEW ALL PROJECTS
+    ctaLink: /projects
+  academy:
+    title: Empowering the masses to take conscious decisions.
+    backgroundImage: /images/home/sections/academy/assets/bg-home-academy.jpg
+    cards:
+      - videoId: mRfhnDS-WG4
+        image: https://i.ytimg.com/vi/mRfhnDS-WG4/hqdefault.jpg
+        title: 'The Future internet: Everyone Cheers'
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/mRfhnDS-WG4
+      - videoId: wJR6pDyarU8
+        image: https://i.ytimg.com/vi/wJR6pDyarU8/hqdefault.jpg
+        title: 'Community Power: Drafting Guidelines'
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/wJR6pDyarU8
+      - videoId: 3yns9LwCxyM
+        image: https://i.ytimg.com/vi/3yns9LwCxyM/hqdefault.jpg
+        title: Building Online Communities
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/3yns9LwCxyM
+      - videoId: 0v4o-JJbBYc
+        image: https://i.ytimg.com/vi/0v4o-JJbBYc/hqdefault.jpg
+        title: Build Trust via Open Source
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/0v4o-JJbBYc
+      - videoId: hVbFVIMPq2s
+        image: https://i.ytimg.com/vi/hVbFVIMPq2s/hqdefault.jpg
+        title: 'Crypto for All: Power & Risk'
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/hVbFVIMPq2s
+      - videoId: 9KEdd1uR6XE
+        image: https://i.ytimg.com/vi/9KEdd1uR6XE/hqdefault.jpg
+        title: 'Coding My Life: C and Emacs'
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/9KEdd1uR6XE
+      - videoId: mRVr1ItVd-8
+        image: https://i.ytimg.com/vi/mRVr1ItVd-8/hqdefault.jpg
+        title: Cypherpunks and Crypto Power
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/mRVr1ItVd-8
+      - videoId: 97madHNGXtk
+        image: https://i.ytimg.com/vi/97madHNGXtk/hqdefault.jpg
+        title: Privacy Comfort Trap Explained
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/97madHNGXtk?si=oPANN5TSP0Orv_LC
+      - videoId: oCANLFSCPq8
+        image: https://i.ytimg.com/vi/oCANLFSCPq8/hqdefault.jpg
+        title: A Philosopher's Take on Privacy
+        meta: W3PN Academy Shorts
+        link: https://youtu.be/oCANLFSCPq8
+    ctaText: EXPLORE ALL MEDIA
+    ctaLink: https://www.youtube.com/@Web3PrivacyNow
+  ecosystem:
+    snapshotMode: true
+    title: Privacy as an Ecosystem
+    subtitle: 'We bridge the gap between different perspectives, knowledge, and professions to create real socio political change. '
+    topLabel: SOCIETY
+    middleLabel: MINDFULNESS, RELIABILITY PROTECTION
+    diagramImage: /images/home/sections/ecosystem/assets/privacy-ecosystem-diagram.webp
+    groups:
+      - title: IMPROVING STATE OF PUBLIC POLICY
+        items:
+          - Justice
+          - Media Representation
+          - Education
+          - Non-profits
+      - title: PRACTICAL PRIVACY PROTECT
+        items:
+          - Tool Design
+          - UX
+          - Proof
+          - Adoption
+      - title: INFRA AND OPEN SOURCE FUNDATION
+        items:
+          - Coordination
+          - Mentorship
+          - Network Effects
+          - Operations
+  testimonials:
+    title: What people say about us.
+    items:
+      - name: Peter Van Valkenburgh
+        role: Aztec foundation
+        image: /images/site-shared/profiles/peter-van-valkenburgh.webp
+        priority: 1
+        masonryColumn: 1
+        masonryOrder: 0
+        quote: The balance between Transparency and Privacy, accountable and unaccountable, manifest and secret, convex and concave, 1 and 0 is one of the most fun puzzles blockchain tech has to solve for the world. W3P community approaches this with incredible humility and a unravel-the-knot open debate approach. Also I like how they dress.
+      - name: Kyle Den Harton
+        role: Brave
+        image: /images/site-shared/profiles/kyle-den-harton.webp
+        priority: 2
+        masonryColumn: 2
+        masonryOrder: 0
+        quote: The connections made at their events always help to really cut through the noise and meet the right people to make progress on making privacy the default as we evolve the Web ecosystem.
+      - name: Sebastian Bürgel
+        role: Gnosis Dao
+        image: /images/site-shared/profiles/sebastian-burgel.webp
+        priority: 3
+        masonryColumn: 3
+        masonryOrder: 0
+        quote: I appreciate Web3 Privacy Now for upholding Cypherpunk values, which are at the core of the Web3 movement. In a space increasingly influenced by hyper-financialization, having an organization dedicated to principles that distinguish Web3 from Wall Street serves as a crucial guiding light.
+      - name: Naomi Brockwell
+        role: NBTV, Ludlow Institute
+        image: /images/site-shared/profiles/naomi-brockwell.webp
+        priority: 4
+        masonryColumn: 1
+        masonryOrder: 1
+        quote: Over the last two years, I mostly stepped away from crypto events, feeling disconnected from the nihilistic, short-term focus dominating much of the space. While I still believe in the tech's potential for net-positive use cases, the focus on hyper-speculation wasn't something I could get excited about. So, I focused on the work we do with NBTV and Drips, ignoring the rest. Then, almost a year ago, I found Web3PrivacyNow. They managed to amplify the cypherpunk voice within the cryptocurrency space, proving it’s not just alive but growing stronger. There is a thriving, principled community in crypto that it’s worth contributing to. Today it’s their 2nd birthday. Happy Birthday, Web3PrivacyNow! Your mission is more important now than ever.
+      - name: Alan
+        role: Railgun
+        image: /images/site-shared/profiles/alan.webp
+        priority: 5
+        masonryColumn: 2
+        masonryOrder: 1
+        quote: Web3privacy has been the best forum for crypto-privacy people to organize and discuss new ideas. It's where our sector's best and brightest gather.
+      - name: Jaromil
+        role: Dyne.org
+        image: /images/site-shared/profiles/jaromil.webp
+        priority: 6
+        masonryColumn: 3
+        masonryOrder: 1
+        quote: 'I''ve been developing, lurking and partying around crypto for 15 years now and remember clearly there were some people worth knowing and making friends. The blockchain hype has been terrible because it flooded the space with obnoxious situations and a load of sociopaths, while interest in the most popular value proposition never faded: privacy for everyone and lower liability when running collective infrastructure. It has been a fine ride all the way, I just missed the part where we were making new interesting friendships. Thanks to Web3Privacy it is now back, and for this I am very grateful to this genuine community and its ways to keep alive the heartbeat of the real crypto movement.'
+      - name: Kris
+        role: Gitcoin citizen
+        image: /images/site-shared/profiles/kris.webp
+        quote: W3N reminds us daily of why we are here. Privacy, a basic human right, beats at the heart of the cypherpunk ethos, the essence of everything worth building. Their conferences are a gathering place for the mad ones, the dreamers, the rebels who see the world as it could be. They bring together the lunarpunks, the uncompromising builders, the visionaries, and the long-term thinkers. These are my people, our people, creating a future that remembers what matters.
+      - name: Scott Moore
+        role: Gitcoin
+        image: /images/site-shared/profiles/scott-moore.webp
+        quote: Web3Privacy is a reminder that cypherpunk values still matter, and that a better world is possible.
+      - name: Eleftherios
+        role: Radicle
+        image: /images/site-shared/profiles/eleftherios.webp
+        quote: Over the last two years, I mostly stepped away from crypto events, feeling disconnected from the nihilistic, short-term focus dominating much of the space. While I still believe in the tech's potential for net-positive use cases, the focus on hyper-speculation wasn't something I could get excited about. So, I focused on the work we do with Radicle and Drips, ignoring the rest. Then, almost a year ago, I found Web3PrivacyNow. They managed to amplify the cypherpunk voice within the cryptocurrency space, proving it’s not just alive but growing stronger. There is a thriving, principled community in crypto that it’s worth contributing to. Today it’s their 2nd birthday. Happy Birthday, Web3PrivacyNow! Your mission is more important now than ever.
+      - name: Julio Linares
+        role: Poetic Technologies
+        image: /images/site-shared/profiles/julio-linares.webp
+        quote: I think what you do in holding a space for the question of freedom, digital privacy and direct action is of greatly importance, specially today. As the politics of our world sink deeper into fascism, creating counter infrastructures and technologies that preserve people's autonomy and the freedom to reveal information will be vital for the resistance.
+      - name: Vladimir S.
+        role: '@officer_cla'
+        image: /images/site-shared/profiles/vladimir-s.webp
+        quote: Privacy is a right of every human being, not a privilege. It is very important that there is such a great project as @web3privacy and today it is turning 2 years old! Happy Birthday!
+      - name: Lefteris Karapetsas
+        role: Dyne.org
+        image: /images/site-shared/profiles/lefteris-karapetsas.webp
+        quote: A community I am part of, Web3Privacy now, has its 2 years birthday today! Privacy and data sovereignty are values I continuously stand for daily, especially through building Rotki. In the team of Web3Privacy now I found like-minded people, friends and comrades. Happy birthday!
+      - name: Evin McMullen
+        role: Privado ID
+        image: /images/site-shared/profiles/evin-mcmullen.webp
+        quote: Thank you so much Web3Privacy for leading the way to make space for these core values to shine through onchain.
+      - name: Lasha
+        role: Rarimo
+        image: /images/site-shared/profiles/lasha.webp
+        quote: I think Web3 privacy now has provided an umbrella for builders in the space, where we can not only find each other through a list of great projects but also have had many gatherings to network and connect giving rise to wild collabs.
+      - name: Max
+        role: Nym
+        image: /images/site-shared/profiles/max.webp
+        quote: Managing in a very real way to not only create and expand the tent of those involved in privacy development, but buy up and update the Cypherpunk ethos and what it means to work on meaningful parallel technologies. Spreading the message and bringing back cultural hacking and subversion. Basically the only good parties in crypto and all around great ethos and crew.
+      - name: Guru
+        role: Waku
+        image: /images/site-shared/profiles/guru.webp
+        quote: The whole narrative of web3 especially during global events was just about blockchains before Web3PrivacyNow. Over the last two years, Web3Privacy collective has built mainstream awareness about the essence of privacy and cypherpunk ethos in the Web3 ecosystem.
+      - name: Will Scott
+        role: Filecoin
+        image: /images/site-shared/profiles/will-scott.webp
+        quote: Having an identity to rally around is critical for change. In 2 years, web3privacy now has become that identity for the importance of privacy in all forms.
+      - name: Jaya
+        role: Nym
+        image: /images/site-shared/profiles/jaya.webp
+        quote: Happy birthday to Web3 Privacy Now! You are incredibly important as an independent industry body - with research projects and reports providing an essential overview and benchmarking of development of Web3 privacy software. Continue your good work of undoing the surveillance driven digital economy and advocating for privacy as a fundamental human right!
+      - name: Ying Tong
+        role: Independent Applied Cryptographer
+        image: /images/site-shared/profiles/ying-tong.webp
+        quote: web3 provides a mechanism for intelligent cooperation among distributed entities, and central to the realisation of this vision, is the ability to do so privately. I am grateful to w3pn for creating a platform for building, discussing, and advocating in this problem space.
+      - name: Andrew Woo
+        role: Protocol Labs
+        image: /images/site-shared/profiles/andrew-woo.webp
+        quote: Privacy, censorship resistance, and verifiability are core to digital human rights - and essential for a more open, fair internet. Web3Privacy fights for these values, building tools and advocacy that give people real agency online. At Protocol Labs, we're proud to support their work. It's a critical part of creating systems that serve humanity, not control it. Happy 2nd birthday!
+      - name: Nick Almond
+        role: FactoryDAO
+        image: /images/site-shared/profiles/nick-almond.webp
+        quote: I've had the pleasure of watching this community develop over the last 2 years and participated in 3 of their events. Every one of them has had a unique vibe with deep critical thinking on the nature of the industry, with a strong practical advocacy for privacy technologies. The cypherpunk ethos is returning to crypto and I think this is in no small part down to the hard work of @nicksvyaznoy, @PG_CDG and the rest of the @web3privacy team, who are all genuinely welcoming and wonderful people. Follow them, support them, make sure to get to the future events!
+      - name: Matteo Tambussi
+        role: Stake Capital
+        image: /images/site-shared/profiles/matteo-tambussi.webp
+        quote: The balance between Transparency and Privacy, accountable and unaccountable, manifest and secret, convex and concave, 1 and 0 is one of the most fun puzzles blockchain tech has to solve for the world. W3P community approaches this with incredible humility and an unravel-the-knot open debate approach. Also I like how they dress.
+      - name: Juan
+        role: '@juanaxyz00'
+        image: /images/site-shared/profiles/juan.webp
+        quote: Staying true to the reasons that brought you into the space in the first place can be a difficult and lonely endeavor; there are always shiny new things that get more attention and detract from the overarching mission of what sovereignty-enabling technology aims to offer. Web3Privacy has been a great way to meet other like-minded people, find common goals, and work toward them in a distributed fashion. If you're wondering whether you could provide something of value to the space by collaborating with Web3Privacy, the answer is yes!
+      - name: Juraj Bednar
+        role: ''
+        image: /images/site-shared/profiles/juraj-bednar.webp
+        quote: Web3Privacy is spreading awareness of Cypherpunk ideas among otherwise very solarpunk projects. Ideas of transparency should be balanced with user privacy, which is crucial for sovereignty. I think it created this spark of going back to cypherpunk roots. Happy birthday!
+      - name: Ben West
+        role: Thrive Protocol
+        image: /images/site-shared/profiles/ben-west.webp
+        quote: As surveillance technology spreads world wide and governments embrace authoritarianism, now more than ever the discussion of privacy and security is essential. I'm so glad the cypherpunk spirit is alive and well in this community. The underlying values are as important as the proliferation of the stack of private and secure technology and this group is facilitating both.
+      - name: Josh Davila
+        role: The Blockchain Socialist
+        image: /images/site-shared/profiles/josh-davila.webp
+        quote: Web3Privacy Now stands at the intersection of privacy activism, cypherpunk ethos, and class consciousness, reminding us that true digital freedom cannot exist without social justice. A new class of cypherpunks is being born.
+      - name: Claire Kart
+        role: Aztec
+        image: /images/site-shared/profiles/claire-kart.webp
+        quote: Web3Privacy Now stands at the intersection of privacy activism, cypherpunk ethos, and class consciousness, reminding us that true digital freedom cannot exist without social justice. A new class of cypherpunks is being born.
+      - name: S E L Damaty
+        role: Holonym
+        image: /images/site-shared/profiles/s-el-damaty.webp
+        quote: W3PN is a tuning fork for the values we aspire to see manifest in technology built for human flourishing. Technology too often removes agency from the equation, W3PN advocates for privacy as a precursor to technology that fortifies individual sovereignty.
+      - name: Wesley
+        role: '@wslyvh'
+        image: /images/site-shared/profiles/wesley.webp
+        quote: Happy birthday @web3privacy! Amazing to see cypherpunks values are still alive and kicking.
+      - name: Ann Brody
+        role: '@annbrody7'
+        image: /images/site-shared/profiles/ann-brody.webp
+        quote: Congratulations to the incredible team at @web3privacy for all your remarkable accomplishments over these years! Your passion and dedication to your work is incredible and we at @web3Privacy are truly grateful for your ongoing support.
+      - name: Shayan Eskandari
+        role: Ex-ConsenSys, Founder IranUnchained
+        image: /images/site-shared/profiles/shayan-eskandari.webp
+        quote: Web3Privacy started as a open source github project similar to any other awesome list of X on github. From there it grew to a big community of privacy advocates promoting the use of privacy tech in everyday life and even continues to bring forth hacktivists in the space to tell their stories and what this tech can become in the near future.
+      - name: Gavin Birch
+        role: '@Ether_Gavin'
+        image: /images/site-shared/profiles/gavin-birch.webp
+        quote: Hey happy birthday, @web3privacy. Incredible work you're doing, truly. For too many years too many of our community events have revolved around those hosted with vc money. You're leading the charge to actually rally around a renewed set of values, beyond tweeting about it.
+      - name: Amit Chaudhary
+        role: Veilnyx
+        image: /images/site-shared/profiles/amit-chaudhary.webp
+        quote: Web3Privacy Now is the best community for privacy that unites people to collaborate and turns user privacy into reality with exciting narratives.
+      - name: LunarDAO
+        role: ''
+        image: /images/site-shared/profiles/lunar-dao.webp
+        quote: A catalyst leading a brilliant charge into privacy content for the web3 ecosystem.
+      - name: GnosisDAO
+        role: '@GnosisDAO'
+        image: /images/site-shared/profiles/gnosis-dao.webp
+        quote: Happy Birthday @web3privacy! We need privacy. Privacy needs us. Choices have an impact!
+      - name: Eléonore Blanc
+        role: CryptoCanal
+        image: /images/site-shared/profiles/eleonore-blanc.webp
+        quote: One event at a time, they are building an ecosystem to ensure that no one forgets the political frontiers being pushed by crypto. Web3Privacy Now has been rallying support and ensuring that privacy holds a prime spot at all the major conferences worldwide.
+      - name: Alan
+        role: '@tsu_kareta'
+        image: /images/site-shared/profiles/alan-2.webp
+        quote: 'Web3Privacy continues to impress. Their research and privacy explorer are exceptional initiatives. Now the project has blossomed into one of the loudest grassroots advocacy groups for #privacy. Nothing but love for their passion, ethics and drive.'
+      - name: Hazel Hu
+        role: GCC of Commons
+        image: /images/site-shared/profiles/hazel-hu.webp
+        quote: Web3 privacy reminds me of why I first joined this industry. I was astonished by Bitcoin and Ethereum's design and their potential to bring unprecedented freedom to individuals. While the current market has diverged from our initial vision, communities like this one can help us realign with our original goals.
+      - name: Jacob Czepluch
+        role: '@_czepluch'
+        image: /images/site-shared/profiles/jacob-czepluch.webp
+        quote: Congratulations on the 2 years anniversary @web3privacy. You're doing some of the most important work in crypto by bringing focus to the important human right of privacy. I'm happy to have been a small part of this so far. Here's to many more years and keep up the good work!
+      - name: Pie Man
+        role: Fairblock
+        image: /images/site-shared/profiles/pie-man.webp
+        quote: 'Most bullish event by far in EthCC was Web3Privacy Now: right in the middle of the park without anything fancy going on, the only incentive to stay was lovely people with extreme passion for deep but practical steps, cryptography, and amazing applications.'
+      - name: Václav Pavlin
+        role: '@vpavlin'
+        image: /images/site-shared/profiles/vaclav-pavlin.webp
+        quote: I joined @Waku_org in April last year and I had no clue what privacy really means. I grew up with "You have nothing to hide!" mantra all around me. Then I decided to dive in a little and submitted a talk to the @web3privacy event. The rabbit hole is deep. It has been an honour to be part of the movement and journey of Web3Privacy Now! Happy birthday y'all! Kudos to @nicksvyaznoy and @PG_CDG for kicking it - it's been hard, but it seems like more and more people care, so it will only get harder.
+  contribute:
+    eyeImage: /images/home/sections/contribute/assets/contribute-eye-now.webp
+    roundLogoImage: null
+    title: Contribute to Future of Privacy
+    text: The same tools that are threatening freedom can also become its agents if understood and used with consciousness and care.  Change and Freedom start with small but mindful choices. Let's work together on them!
+    ctaText: GET INVOLVED
+    ctaLink: /donate
+    communityAvatars:
+      - /images/site-shared/misc/assets/profile-vitalik.webp
+      - /images/site-shared/profiles/aya-miyaguchi.webp
+      - /images/site-shared/profiles/kurt-opsahl.webp
+      - /images/site-shared/profiles/richard-stallman.webp
+      - /images/site-shared/misc/assets/profile-vitalik.webp
+      - /images/site-shared/misc/assets/profile-vitalik.webp
+  donation:
+    title: Empower Change With Your Donation
+    text: Support our future activities and help sustain our work.
+    ctaText: DONATE NOW
+    ctaLink: /donate
+    heroBackgroundImage: /images/donate/page/assets/bg-donate-hero.jpg
+    backgroundImage: /images/donate/page/assets/donation-banner-bg.webp
+  newsletter:
+    text: Join our Newsletter and get information from our ecosystem
+    placeholder: Your e-mail
+    buttonText: SUBSCRIBE
+    actionUrl: ''
+  members:
+    title: Our members make our mission possible.
+    logos:
+      - name: DYNE
+        href: https://www.dyne.org
+        handle: '@dyneorg'
+        handleHref: https://x.com/dyneorg
+        image: /images/home/sections/members/assets/members/dyne.webp
+      - name: RADICLE
+        href: https://radicle.xyz
+        handle: '@radicle_xyz'
+        handleHref: https://x.com/radicle_xyz
+        image: /images/home/sections/members/assets/members/radicle.webp
+      - name: PROTOCOL LABS
+        href: https://protocol.ai
+        handle: '@protocollabs'
+        handleHref: https://x.com/protocollabs
+        image: /images/home/sections/members/assets/members/protocol-labs.webp
+      - name: SWARM
+        href: https://ethswarm.org
+        handle: '@ethswarm'
+        handleHref: https://x.com/ethswarm
+        image: /images/home/sections/members/assets/members/zcash-1.webp
+      - name: ZCASH
+        href: https://z.cash
+        handle: '@zcash'
+        handleHref: https://x.com/zcash
+        image: /images/home/sections/members/assets/members/zcash-2.webp
+      - name: LOGOS
+        href: https://logos.co
+        handle: '@Logos_network'
+        handleHref: https://x.com/Logos_network
+        image: /images/home/sections/members/assets/members/logos.webp
+    ctaText: BECOME A MEMBER
+    ctaLink: https://tally.so/r/mVxvgN
+  about:
+    hero:
+      title: Independent, non-profit, and free as in freedom.
+      backgroundImage: /images/about-us/sections/about/assets/bg-aboutus.jpg
+      social:
+        - label: Twitter
+          icon: twitter
+          href: https://x.com/web3privacy
+        - label: Telegram
+          icon: telegram
+          href: https://t.me/+QOj6126xlEs0OTQ0
+        - label: YouTube
+          icon: youtube
+          href: https://www.youtube.com/@Web3PrivacyNow
+        - label: Bluesky
+          icon: bluesky
+          href: https://bsky.app/profile/web3privacy.info
+        - label: GitHub
+          icon: github
+          href: https://github.com/web3privacy
+        - label: LinkedIn
+          icon: linkedin
+          href: https://www.linkedin.com/company/web3privacynow
+        - label: Instagram
+          icon: instagram
+          href: https://www.instagram.com/web3privacy_now/
+    mission:
+      title: Our Mission
+      paragraphs:
+        - |-
+          Uniting technical builders, civic voices and policy thinkers to defend individual rights.
+          4 years of efforts from hundreds of contributors to shape an ecosystem around freedom tech and privacy best practices.
+        - Privacy is more than data, it's a fundamental human right that safeguards autonomy, free expression, and participation. Protecting it means protecting democracy.
+      imageUrl: /images/home/sections/intro/assets/intro-video-thumb.webp
+      videoUrl: https://www.youtube.com/watch?v=vAjaWVGwDIg
+      mediaUrls: null
+      ctaLabel: READ MANIFESTO
+      ctaHref: https://docs.web3privacy.info/about-us/manifesto/
+    story:
+      title: Our History
+      subtitle: Web3Privacy Now!
+      body: Independent, non-profit, and free as in freedom.
+      icon: /images/site-shared/misc/assets/contribute-eye.svg
+      timeline:
+        - year: '2021'
+          quarter: Q2
+          title: FOUNDED AT ETH BRNO
+          description: Founding of W3PN on hackathon in Brno
+        - year: '2022'
+          quarter: Q1
+          title: PRIVACY SUMMIT I. PRAGUE
+          description: First Privacy Summit
+        - year: '2023'
+          quarter: Q2
+          title: CYPHERPUNK RETREAT
+          description: Technical retreat for builders
+        - year: '2024'
+          quarter: Q4
+          title: CONGRESS I. BANGKOK
+          description: Congress in Bangkok
+        - year: '2025'
+          quarter: Q2
+          title: PRIVACY SUMMIT BERLIN
+          description: Privacy Summit Berlin
+        - year: '2025'
+          quarter: Q3
+          title: WEB3PRIVACY HACKATHON
+          description: Summer Hackathon
+        - year: '2025'
+          quarter: Q4
+          title: CONGRESS II. BUENOS AIRES
+          description: Congress in Buenos Aires
+        - year: '2026'
+          quarter: Q4
+          title: CONGRESS III. MUMBAI
+          description: Congress in Mumbai
+      ctaLabel: Read our whitepaper
+      ctaHref: https://docs.web3privacy.info
+      ctaMoreLabel: More
+      ctaMoreHref: '#story'
+    founders:
+      title: About Our Founders
+      body: Web3Privacy was founded by a group of researchers and builders who believe in the right to privacy and self-sovereign identity. We work across communities and borders to advance digital freedom.
+      images:
+        - /images/about-us/sections/about/assets/academy-landscape.svg
+        - /images/about-us/sections/about/assets/academy-landscape.svg
+        - /images/about-us/sections/about/assets/academy-landscape.svg
+        - /images/about-us/sections/about/assets/academy-landscape.svg
+      ctaReadLabel: Read more
+      ctaReadHref: https://docs.web3privacy.info
+      ctaJoinLabel: Join Our Team
+      ctaJoinHref: https://discord.gg/web3privacy
+    activism:
+      title: Activism. Care. Solidarity.
+      body: With unified efforts, we aim to create profound political and social change toward a more equitable, decentralized and freedom-respecting digital commons.
+      quote: Our task is to secure self-determination where we can, to hold back the coming dystopia where we cannot, and if all else fails, to accelerate its self-destruction.
+      quoteAuthor: Julian Assange, Cypherpunks
+      values:
+        - title: MAKING IMPACT ACCESSIBLE
+          body: Tools, resources, reports, courses and events will be free forever
+        - title: POWERING CONTRIBUTORS
+          body: To researchers, devs, and facilitators committed to advancing privacy
+        - title: BUILDING A MOVEMENT
+          body: Embrace open-source culture and multi disciplinary collaboration.
+      ctaButtons:
+        - label: GET INVOLVED
+          href: https://docs.web3privacy.info/get-involved/index
+        - label: DONATE
+          href: /donate
+        - label: BECOME A MEMBER
+          href: https://tally.so/r/mVxvgN
+    work:
+      title: Our Work
+      items:
+        - title: "Meetups, Hackathons, &\_Summits"
+          logo: /images/about-us/sections/about/assets/work/meetups-logo.webp
+          highlights:
+            - 15 000 PEOPLE
+            - 13 COUNTRIES
+            - 32 EVENTS IN 4 YEARS
+          description: Buenos Aires, Rome, Berlin, Tokyo, Amsterdam, Bangkok, Cannes, Prague, Barcelona, Cluj, Mumbai, Bucharest, Brussels
+          image: /images/about-us/sections/about/assets/work/meetups-bg.webp
+          orientation: right
+          backgroundColor: '#050505'
+          ctaLabel: READ FULL REPORT
+          ctaHref: https://paragraph.com/@web3privacy/annual-delivery-by-web3privacy-now
+        - title: Cypherpunk Retreat
+          logo: /images/about-us/sections/about/assets/work/cypherpunk-retreat-logo.webp
+          highlights:
+            - 3 DAYS
+            - 100 WEB LEADERS
+            - 40 THEMATIC SESSIONS
+          description: A technical retreat for builders, researchers, and advocates shaping the next generation of privacy and security infrastructure through collaboration, experimentation, and shared knowledge.
+          image: /images/about-us/sections/about/assets/work/cypherpunk-retreat-bg.webp
+          orientation: left
+          backgroundColor: '#0d2818'
+          testimonial:
+            avatar: /images/site-shared/profiles/kyle-den-harton.webp
+            name: Kyle Den Hartog
+            role: Brave
+            quote: The connections made at their events always help to really cut through the noise and meet the right people to make progress on making privacy the default as we evolve the Web ecosystem.
+          ctaLabel: READ FULL REPORT
+          ctaHref: https://paragraph.com/@web3privacy/cypherpunk-retreat-case-study
+        - title: Privacy Congress
+          logo: /images/about-us/sections/about/assets/work/privacy-congress-logo.webp
+          highlights:
+            - 5000 PEOPLE
+            - 100 SPEAKERS
+            - 40 THEMATIC SESSIONS
+          description: An annual gathering of digital rights activists, cryptographers, and developers advancing the tools and infrastructure of a freer, more private internet.
+          image: /images/about-us/sections/about/assets/work/privacy-congress-bg.webp
+          orientation: right
+          backgroundColor: '#1a1520'
+          ctaLabel: READ FULL REPORT
+          ctaHref: https://paragraph.com/@web3privacy/ethereum-cypherpunk-congress-2-case-study
+    events:
+      - title: Cypherpunk Retreat
+        date: September 2025
+        location: TBA
+        image: /images/about-us/sections/about/assets/academy-landscape.svg
+        ctaLabel: View Event
+        ctaHref: '#'
+      - title: Privacy Summit Berlin
+        date: Q2 2025
+        location: Berlin
+        image: /images/about-us/sections/about/assets/academy-landscape.svg
+        ctaLabel: View Event
+        ctaHref: '#'
+      - title: Web3Privacy Hackathon
+        date: Q3 2025
+        location: Online
+        image: /images/about-us/sections/about/assets/academy-landscape.svg
+        ctaLabel: View Event
+        ctaHref: '#'
+    gallery:
+      title: Web3Privacy Now! Experience
+      images:
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-4-7fb82506-b5cf-491d-9a37-041b30176181-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-4-7fb82506-b5cf-491d-9a37-041b30176181.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-1-4188de63-e577-475e-8d42-d3e6fd9160e0-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-1-4188de63-e577-475e-8d42-d3e6fd9160e0.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-3-aa8721e6-abd9-41d1-8522-1bb4ce48544a-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-3-aa8721e6-abd9-41d1-8522-1bb4ce48544a.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-2-fdca4e79-cfc0-43d5-ba68-b2ea675dd1a6-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-2-fdca4e79-cfc0-43d5-ba68-b2ea675dd1a6.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-6-cc2c26d7-fea6-4883-b3ec-6cb73944162c-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-6-cc2c26d7-fea6-4883-b3ec-6cb73944162c.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-12-cbcdcbd4-9b92-4b10-bd05-3faa7d991c31-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-12-cbcdcbd4-9b92-4b10-bd05-3faa7d991c31.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-10-f1805695-3bd2-487b-9514-0c638512fabc-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-10-f1805695-3bd2-487b-9514-0c638512fabc.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-11-2246c104-89f4-4d57-8aff-7d9bb3a60aeb-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-11-2246c104-89f4-4d57-8aff-7d9bb3a60aeb.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-13-772b07aa-5ad1-4b33-a48e-f14e0cf363f6-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-13-772b07aa-5ad1-4b33-a48e-f14e0cf363f6.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-23-88d7b969-ff2c-47e4-a880-f6ddf72921a6-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-23-88d7b969-ff2c-47e4-a880-f6ddf72921a6.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-21-70ffc83a-22a0-4c1a-b551-d7c5034738f1-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-21-70ffc83a-22a0-4c1a-b551-d7c5034738f1.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-22-6098a927-47fc-4362-8837-e2294f12d886-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-22-6098a927-47fc-4362-8837-e2294f12d886.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-5-d497099c-6d6e-496a-8cf8-8dd0ac296304-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-5-d497099c-6d6e-496a-8cf8-8dd0ac296304.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-9-d4a09b60-498c-4074-ad79-63ffd602fda3-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-9-d4a09b60-498c-4074-ad79-63ffd602fda3.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-7-6f69962c-a4d2-4230-bb7a-dac8cfca6cc9-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-7-6f69962c-a4d2-4230-bb7a-dac8cfca6cc9.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-14-4670f604-d301-44eb-9330-f8773df8b28e-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-14-4670f604-d301-44eb-9330-f8773df8b28e.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-15-a0cf87c7-e091-47fe-826c-2171631a2981-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-15-a0cf87c7-e091-47fe-826c-2171631a2981.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-8-14ec50b3-0916-4e5c-9dd5-ccf493e2e509-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-8-14ec50b3-0916-4e5c-9dd5-ccf493e2e509.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-16-029da209-3134-459d-a4b5-6564abac0fb0-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-16-029da209-3134-459d-a4b5-6564abac0fb0.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-17-bb594414-842c-4824-9ecb-e36e10cf6dbf-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-17-bb594414-842c-4824-9ecb-e36e10cf6dbf.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-18-7035aa80-dbb0-4e19-83b1-f22cdd739726-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-18-7035aa80-dbb0-4e19-83b1-f22cdd739726.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-20-86e1649e-9d2e-4b50-9377-dff8079ce23f-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-20-86e1649e-9d2e-4b50-9377-dff8079ce23f.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-19-88d84d23-5b13-4ef5-97d8-d5aa9616a281-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-19-88d84d23-5b13-4ef5-97d8-d5aa9616a281.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-25-4afc3a34-b783-4fcf-a86f-fc4870a33a2c-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-25-4afc3a34-b783-4fcf-a86f-fc4870a33a2c.webp
+        - thumbnailUrl: /images/about-us/sections/about/assets/gallery/photo-24-c076fcb8-3b26-4427-b77b-488123748841-thumb.webp
+          fullSizeUrl: /images/about-us/sections/about/assets/gallery/photo-24-c076fcb8-3b26-4427-b77b-488123748841.webp
+    team:
+      title: Who is Web3Privacy Now!?
+      subtitle: Together, we aim to advance meaningful political and social change toward a digital commons that is more equitable, decentralized, and respectful of freedom.
+      videoUrl: https://www.youtube.com/watch?v=MywIUSJAykI
+      videoThumbnail: https://i.ytimg.com/vi/MywIUSJAykI/hqdefault.jpg
+      members:
+        - name: Mykola Siusko
+          role: Executive Director
+          image: /images/events/shared/header/mykola.webp
+          href: https://x.com/nicksvyaznoy
+        - name: PG
+          role: Operations Director
+          image: /images/events/shared/header/pg.webp
+          href: https://x.com/PG_CDG
+        - name: Coinmandeer
+          role: Art Director
+          image: /images/events/shared/header/coinmandeer.webp
+          href: https://x.com/KeenOfCoin
+        - name: Beth
+          role: Program Director
+          image: /images/events/shared/header/beth.webp
+          href: https://x.com/ontologymachine
+        - name: Robert
+          role: Partners & Volunteers
+          image: /images/events/shared/header/robert.webp
+          href: https://x.com/robdotrego
+        - name: Federico
+          role: Media Production
+          image: /images/site-shared/profiles/frederico.webp
+          href: https://x.com/BabyBitProd
+        - name: Peter
+          role: Marketing
+          image: /images/projects/shared/team/peter.webp
+          href: https://x.com/0xfarbey
+        - name: Lucilija
+          role: LATAM Coordinator
+          image: /images/events/shared/header/lucilija.webp
+          href: https://x.com/lucilajuliana
+        - name: Humbaba
+          role: Project Manager
+          image: /images/site-shared/profiles/dubbed.webp
+          href: https://x.com/RecursiveBeing
+        - name: Jensei
+          role: Project Manager
+          image: /images/events/shared/header/jensei.webp
+          href: https://x.com/jensei_
+      statsSentence: and 500+ Contributors online (Github) and offline
+      ctaLabel: HELP US BUILD BETTER PRIVACY
+      ctaHref: https://t.me/+QOj6126xlEs0OTQ0
+    ambassadors:
+      title: Advisors
+      hidden: true
+      members:
+        - name: Alex
+          role: Privacy Advocate
+          image: /images/site-shared/profiles/kurt-opsahl.webp
+        - name: Maria
+          role: Researcher
+          image: /images/site-shared/profiles/aya-miyaguchi.webp
+        - name: David
+          role: Builder
+          image: /images/site-shared/profiles/richard-stallman.webp
+        - name: Sarah
+          role: Privacy Advocate
+          image: /images/site-shared/profiles/aya-miyaguchi.webp
+        - name: James
+          role: Researcher
+          image: /images/site-shared/profiles/kurt-opsahl.webp
+        - name: Elena
+          role: Builder
+          image: /images/site-shared/profiles/richard-stallman.webp
+        - name: Lucas
+          role: Privacy Advocate
+          image: /images/site-shared/misc/assets/profile-vitalik.webp
+        - name: Nina
+          role: Researcher
+          image: /images/site-shared/profiles/aya-miyaguchi.webp
+    partners:
+      title: Partners
+      hidden: true
+      logos:
+        - https://picsum.photos/120/60?random=partner1
+        - https://picsum.photos/120/60?random=partner2
+        - https://picsum.photos/120/60?random=partner3
+        - https://picsum.photos/120/60?random=partner4
+        - https://picsum.photos/120/60?random=partner5
+    faq:
+      title: Frequently asked questions
+      items:
+        - question: What is Web3Privacy Now?
+          answer: Web3Privacy Now is a community of decentralized identity researchers, privacy advocates, open-source developers, and designers united to defend digital rights.
+        - question: How can I get involved?
+          answer: Join our Discord, Telegram, or attend our events. We welcome contributors from all backgrounds.
+        - question: Is W3PN a non-profit?
+          answer: Yes. We act as a non-profit and embrace open-source culture.
+    community:
+      title: Join the Web3Privacy community
+      subtitle: Be a Part of the Movement
+      body: Join our vibrant community of privacy advocates, developers, and researchers. Let's build the future of Web3 together.
+      ctaLabel: Join Now
+      ctaHref: https://discord.gg/web3privacy
+      logoUrl: /images/site-shared/misc/assets/contribute-eye.svg
+      newsletterPlaceholder: Your email address
+      newsletterButtonText: Subscribe
+      social:
+        - label: Discord
+          icon: discord
+          href: https://discord.gg/web3privacy
+        - label: Telegram
+          icon: telegram
+          href: https://t.me/web3privacy
+        - label: X
+          icon: x
+          href: https://x.com/web3privacy
+        - label: GitHub
+          icon: github
+          href: https://github.com/web3privacy
+        - label: YouTube
+          icon: youtube
+          href: https://www.youtube.com/@web3privacy
+  footer:
+    logo: /images/site-shared/navigation/nav-logo.svg
+    becomePartner:
+      title: Become a Partner
+      ctaLabel: Contact Us
+      ctaHref: /about#contact
+      backgroundImage: /images/about-us/sections/about/assets/about-hero-bg.webp
+    linksColumn1:
+      - label: Manifesto
+        href: https://docs.web3privacy.info/about-us/manifesto/
+        external: true
+      - label: How to get involved
+        href: https://docs.web3privacy.info/get-involved/index
+        external: true
+      - label: Grants / Support Us
+        href: /donate
+    linksColumn2:
+      - label: Events
+        href: /events
+      - label: Articles
+        href: https://paragraph.com/@web3privacy-now
+        external: true
+      - label: Talks
+        href: https://www.youtube.com/@Web3PrivacyNow
+        external: true
+    socialLabel: 'Join our privacy movement on:'
+    siteMap:
+      org:
+        - label: About
+          href: /about
+        - label: Team
+          href: /about#team
+        - label: News
+          href: https://news.web3privacy.info
+          external: true
+        - label: Events
+          href: /events
+        - label: Projects
+          href: /projects
+        - label: DAO
+          href: '#support'
+        - label: Grants
+          href: '#support'
+        - label: Library
+          href: '#support'
+      portal:
+        - label: Privacy Portal
+          href: /privacy-portal
+          external: false
+      legal:
+        - label: Privacy Policy
+          href: https://web3privacy.info/privacy
+        - label: Docs
+          href: /docs
+    social:
+      - label: Twitter
+        icon: twitter
+        href: https://x.com/web3privacy
+      - label: Telegram
+        icon: telegram
+        href: https://t.me/+QOj6126xlEs0OTQ0
+      - label: YouTube
+        icon: youtube
+        href: https://www.youtube.com/@Web3PrivacyNow
+      - label: Bluesky
+        icon: bluesky
+        href: https://bsky.app/profile/web3privacy.info
+      - label: GitHub
+        icon: github
+        href: https://github.com/web3privacy
+      - label: LinkedIn
+        icon: linkedin
+        href: https://www.linkedin.com/company/web3privacynow
+      - label: Instagram
+        icon: instagram
+        href: https://www.instagram.com/web3privacy_now/
+    legal: Copyleft 2026 – Code AGPLv3+ · Content CC BY-SA 4.0 · Web3PrivacyNow
+  eventsPage:
+    hero:
+      title: Our events are a testament to what sets us apart
+      description: We regularly organize meetups, workshops, conferences, and hackathons focused on privacy-preserving technologies. Join us in person or online.
+      metrics:
+        - value: '25'
+          label: EVENTS
+        - value: 15 000
+          label: VISITORS
+        - value: '20'
+          label: COUNTRIES
+        - value: 150+
+          label: SPEAKERS
+      ctaLabel: EXPLORE EVENTS
+      ctaHref: '#upcoming'
+      galleryImages:
+        - /images/site-shared/general-gallery/selection-001.webp
+        - /images/site-shared/general-gallery/selection-002.webp
+        - /images/site-shared/general-gallery/selection-003.webp
+        - /images/site-shared/general-gallery/selection-004.webp
+        - /images/site-shared/general-gallery/selection-005.webp
+        - /images/site-shared/general-gallery/selection-006.webp
+        - /images/site-shared/general-gallery/selection-007.webp
+        - /images/site-shared/general-gallery/selection-008.webp
+        - /images/site-shared/general-gallery/selection-009.webp
+        - /images/site-shared/general-gallery/selection-010.webp
+        - /images/site-shared/general-gallery/selection-011.webp
+        - /images/site-shared/general-gallery/selection-012.webp
+        - /images/site-shared/general-gallery/selection-013.webp
+        - /images/site-shared/general-gallery/selection-014.webp
+        - /images/site-shared/general-gallery/selection-015.webp
+        - /images/site-shared/general-gallery/selection-016.webp
+        - /images/site-shared/general-gallery/selection-017.webp
+        - /images/site-shared/general-gallery/selection-018.webp
+        - /images/site-shared/general-gallery/selection-019.webp
+        - /images/site-shared/general-gallery/selection-020.webp
+        - /images/site-shared/general-gallery/selection-021.webp
+        - /images/site-shared/general-gallery/selection-022.webp
+        - /images/site-shared/general-gallery/selection-023.webp
+        - /images/site-shared/general-gallery/selection-024.webp
+        - /images/site-shared/general-gallery/selection-025.webp
+        - /images/site-shared/general-gallery/selection-026.webp
+        - /images/site-shared/general-gallery/selection-027.webp
+        - /images/site-shared/general-gallery/selection-028.webp
+        - /images/site-shared/general-gallery/selection-029.webp
+        - /images/site-shared/general-gallery/selection-030.webp
+        - /images/site-shared/general-gallery/selection-031.webp
+        - /images/site-shared/general-gallery/selection-032.webp
+        - /images/site-shared/general-gallery/selection-034.webp
+        - /images/site-shared/general-gallery/selection-035.webp
+        - /images/site-shared/general-gallery/selection-036.webp
+        - /images/site-shared/general-gallery/selection-037.webp
+        - /images/site-shared/general-gallery/selection-038.webp
+        - /images/site-shared/general-gallery/selection-039.webp
+        - /images/site-shared/general-gallery/selection-040.webp
+        - /images/site-shared/general-gallery/selection-041.webp
+      eyeImageUrl: /images/site-shared/misc/assets/contribute-eye.svg
+      backgroundImage: /images/site-shared/misc/assets/hero-bg.webp
+    featured:
+      title: Value-centric gatherings
+      description: Our events bring together researchers, developers, and advocates to advance privacy in the decentralized web. Join the conversation.
+      ctaLabel: JOIN THE CONVERSATION
+      ctaHref: https://t.me/+nC_NJpa1bO05OGUx
+      videoUrl: https://www.youtube.com/watch?v=97-qkXRmMlk
+      videoThumbnailUrl: https://i.ytimg.com/vi/97-qkXRmMlk/hqdefault.jpg
+    contributeCtaText: APPLY FOR GRANT / PARTNERSHIP
+    contributeCtaLink: https://forum.web3privacy.info/
+    donationSecondaryCtaText: LEARN MORE
+    donationSecondaryCtaLink: /donate
+    eventsFeaturedIds: []
+    eventsOverrides: {}
+  projectsPage:
+    cardLayout: two-column
+    hero:
+      backgroundImage: /images/projects/page/assets/bg-projects.jpg
+      title: We are building privacy data, social and education essentials for community
+      description: Web3Privacy Now is a community of people dedicated to building privacy, data, social, and education essentials for web3 and decentralization. We are developing the infrastructure, tools, and research needed to achieve our mission.
+      ctaLabel: JOIN US TODAY
+      ctaHref: https://t.me/web3privacy
+    otherLinks:
+      - label: 'Explorer: Scoring mechanism breakdown'
+        href: https://paragraph.com/@web3privacy-now/explorer-scoring-mechanism-breakdown
+      - label: Q3 delivery report
+        href: https://paragraph.com/@web3privacy/q1-2026-report
+      - label: Privacy as Freedom of Behavior
+        href: https://paragraph.com/@web3privacy-now/privacy-as-freedom-of-behavior
+      - label: Drips for Privacy - give back to privacy projects
+        href: https://paragraph.com/@web3privacy-now/drips-for-privacy-give-back-to-privacy-projects
+      - label: 'Rethinking Freedom in the Digital Age: The Rise of the Carepunks'
+        href: https://paragraph.com/@web3privacy-now/rethinking-freedom-in-the-digital-age-the-rise-of-the-carepunks
+    contribute:
+      title: Contribute to future of privacy
+      description: Contribute to our mission by donating. Your support helps us fund research, development, and community initiatives. Together, we can build a more private and secure web3 ecosystem.
+      ctaLabel: SUPPORT US NOW
+      ctaHref: /donate
+      eyeImage: /images/site-shared/misc/assets/contribute-eye.svg
+    donate:
+      title: Empower Change With Your Donation
+      description: Your donation helps us fund research, tools, and community programs.
+      ctaLabel: DONATE
+      ctaHref: /donate
+      backgroundImage: /images/projects/page/assets/donation-bg.webp
+    members:
+      title: Thanks to our members to make it happen
+      ctaLabel: BECOME A MEMBER
+      ctaHref: https://tally.so/r/mVxvgN
+    newsletter:
+      title: Join our newsletter for more information
+      placeholder: Email Address
+      buttonText: SUBMIT
+    technologies:
+      title: How We Make It Happen
+      ctaLabel: VIEW OUR TECHNOLOGIES
+      ctaHref: https://docs.web3privacy.info
+      items:
+        - id: army
+          title: ARMY
+          subtitle: AI & ML
+          icon: /images/projects/page/assets/projects/explorer-logo.svg
+        - id: codex
+          title: CODEX
+          subtitle: CYPHER
+          icon: /images/projects/page/assets/projects/explorer-logo.svg
+        - id: humanity
+          title: HUMANITY
+          subtitle: DATA & OSINT
+          icon: /images/projects/page/assets/projects/explorer-logo.svg
+        - id: anonymous
+          title: ANONYMOUS
+          subtitle: SOCIAL & INFOSEC
+          icon: /images/projects/page/assets/projects/explorer-logo.svg
+        - id: agents
+          title: AGENTS
+          subtitle: CYBER & OFFSEC
+          icon: /images/projects/page/assets/projects/explorer-logo.svg
+        - id: code
+          title: CODE
+          subtitle: AI & ML
+          icon: /images/projects/page/assets/projects/explorer-logo.svg
+  resources:
+    hero:
+      title: Community Resources
+      description: We created a wide range of downloadable and printable assets for
+        our community and partners. Everything is open-source — feel free to use, remix,
+        and share.
+      backgroundImageUrl: "/images/resources/page/assets/bg-resources.jpg"
+      downloadAllLabel: Download all
+      downloadAllHref: "/images/resources/source-files/w3pn-resources-all.zip"
+    kits:
+    - id: media-kit
+      name: MEDIA KIT
+      description: Logos, banners, infographics and brand assets
+      href: "#posters"
+    - id: event-kit
+      name: EVENT KIT
+      description: Posters, roll-ups, tickets and event materials
+      href: "#posters"
+    - id: merch-kit
+      name: PRINT & MERCH
+      description: Stickers, stamps, ritual cards and printable assets
+      href: "#stickers"
+    expandAllLabel: Expand All
+    categories:
+    - id: logos
+      name: Logos
+      order: -2
+      groups:
+      - name: W3PN Logos
+        assets:
+        - id: logo-web3privacy-logo
+          name: Web3Privacy Logo
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo.png"
+        - id: logo-web3privacy-logo-black
+          name: Web3Privacy Logo Black
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-black.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-black.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-black.png"
+        - id: logo-web3privacy-logo-horizontal
+          name: Web3Privacy Logo Horizontal
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-horizontal.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-horizontal.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-horizontal.png"
+        - id: logo-web3privacy-logo-horizontal-black
+          name: Web3Privacy Logo Horizontal Black
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-horizontal-black.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-horizontal-black.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/web3privacy-logo-horizontal-black.png"
+        - id: logo-w3pn-mini-logo-full
+          name: W3PN Mini Logo Full
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-mini-logo-full.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-mini-logo-full.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-mini-logo-full.png"
+        - id: logo-w3pn-micro-horizontal
+          name: W3PN Micro Horizontal
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-micro-horizontal.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-micro-horizontal.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-micro-horizontal.png"
+        - id: logo-w3p-micro-square
+          name: W3P Micro Square
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/w3p-micro-square.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/w3p-micro-square.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/w3p-micro-square.png"
+        - id: logo-w3pn-micro-eye
+          name: W3PN Micro Eye
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-micro-eye.jpg"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-micro-eye.jpg"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/w3pn-micro-eye.jpg"
+        - id: logo-logo-people
+          name: Logo People
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-people.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-people.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-people.png"
+        - id: logo-logo-stamp
+          name: Logo Stamp
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-stamp.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-stamp.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-stamp.png"
+        - id: logo-logo-sticker
+          name: Logo Sticker
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-sticker.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-sticker.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/logo-sticker.png"
+        - id: logo-sticker-logo-horizontal
+          name: Sticker Logo Horizontal
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/Sticker-logo-horizontal.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/Sticker-logo-horizontal.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/Sticker-logo-horizontal.png"
+        - id: logo-sticker-logo-horizontal-2
+          name: Sticker Logo Horizontal 2
+          thumbnailUrl: "/images/resources/source-files/_W3PN-LOGOS/Sticker-logo-horizontal%202.png"
+          previewUrl: "/images/resources/source-files/_W3PN-LOGOS/Sticker-logo-horizontal%202.png"
+          downloadUrl: "/images/resources/source-files/_W3PN-LOGOS/Sticker-logo-horizontal%202.png"
+    - id: posters
+      name: Posters
+      order: 0
+      groups:
+      - name: Posters 2025
+        assets:
+        - id: poster-2025-poster-1-2025
+          name: Poster 1 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-1-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-1-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-1-export.pdf"
+        - id: poster-2025-poster-2-2025
+          name: Poster 2 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-2-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-2-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-2-export.pdf"
+        - id: poster-2025-poster-3-2025
+          name: Poster 3 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-3-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-3-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-3-export.pdf"
+        - id: poster-2025-poster-4-2025
+          name: Poster 4 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-4-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-4-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-4-export.pdf"
+        - id: poster-2025-poster-5-2025
+          name: Poster 5 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-5-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-5-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-5-export.pdf"
+        - id: poster-2025-poster-6-2025
+          name: Poster 6 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-6-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-6-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-6-export.pdf"
+        - id: poster-2025-poster-7-2025
+          name: Poster 7 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-7-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-7-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-7-export.pdf"
+        - id: poster-2025-poster-8-2025
+          name: Poster 8 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-8-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-8-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-8-export.pdf"
+        - id: poster-2025-poster-9-2025
+          name: Poster 9 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-9-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-9-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-9-export.pdf"
+        - id: poster-2025-poster-10-2025
+          name: Poster 10 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-10-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2025/__variants/Poster-10-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2025/Poster-10-export.pdf"
+      - name: Posters 2024
+        assets:
+        - id: poster-2024-poster-1
+          name: Poster 1
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-1.pdf"
+        - id: poster-2024-poster-2
+          name: Poster 2
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-2.pdf"
+        - id: poster-2024-poster-3
+          name: Poster 3
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-3--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-3--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-3.pdf"
+        - id: poster-2024-poster-4
+          name: Poster 4
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-4--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-4--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-4.pdf"
+        - id: poster-2024-poster-5
+          name: Poster 5
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-5--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-5--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-5.pdf"
+        - id: poster-2024-poster-7
+          name: Poster 7
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-7--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-7--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-7.pdf"
+        - id: poster-2024-poster-8
+          name: Poster 8
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-8--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-8--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-8.pdf"
+        - id: poster-2024-poster-9
+          name: Poster 9
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-9--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-9--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-9.pdf"
+        - id: poster-2024-poster-10
+          name: Poster 10
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-10--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-10--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-10.pdf"
+        - id: poster-2024-poster-11
+          name: Poster 11
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-11--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-11--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-11.pdf"
+        - id: poster-2024-poster-12
+          name: Poster 12
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-12--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-12--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-12.pdf"
+        - id: poster-2024-poster-13
+          name: Poster 13
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-13--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-13--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-13.pdf"
+        - id: poster-2024-poster-14
+          name: Poster 14
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-14--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-14--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-14.pdf"
+        - id: poster-2024-poster-15
+          name: Poster 15
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-15--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-15--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-15.pdf"
+        - id: poster-2024-poster-16
+          name: Poster 16
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-16--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-16--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-16.pdf"
+        - id: poster-2024-poster-17
+          name: Poster 17
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-17--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-17--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-17.pdf"
+        - id: poster-2024-poster-18
+          name: Poster 18
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-18--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-18--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-18.pdf"
+        - id: poster-2024-poster-19
+          name: Poster 19
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-19--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-19--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-19.pdf"
+        - id: poster-2024-poster-20
+          name: Poster 20
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-20--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-20--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-20.pdf"
+        - id: poster-2024-poster-21
+          name: Poster 21
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-21--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-21--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-21.pdf"
+        - id: poster-2024-poster-22
+          name: Poster 22
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-22--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-22--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-22.pdf"
+        - id: poster-2024-poster-23
+          name: Poster 23
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-23--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-23--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-23.pdf"
+        - id: poster-2024-poster-24
+          name: Poster 24
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-24--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-24--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-24.pdf"
+        - id: poster-2024-poster-25
+          name: Poster 25
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-25--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-25--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-25.pdf"
+        - id: poster-2024-poster-26
+          name: Poster 26
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-26--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-26--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-26.pdf"
+        - id: poster-2024-poster-27
+          name: Poster 27
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-27--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-27--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-27.pdf"
+        - id: poster-2024-poster-28
+          name: Poster 28
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-28--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-28--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-28.pdf"
+        - id: poster-2024-poster-29
+          name: Poster 29
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-29--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-29--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-29.pdf"
+        - id: poster-2024-poster-30
+          name: Poster 30
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-30--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2024/__variants/Poster-30--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2024/Poster-30.pdf"
+      - name: Posters 2023
+        assets:
+        - id: poster-2023-poster-citadela
+          name: Poster Citadela
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-citadela--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-citadela--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-citadela.pdf"
+        - id: poster-2023-poster-city
+          name: Poster City
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-city--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-city--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-city.pdf"
+        - id: poster-2023-poster-darkstar
+          name: Poster Darkstar
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-darkstar--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-darkstar--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-darkstar.pdf"
+        - id: poster-2023-poster-eye
+          name: Poster Eye
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-Eye--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-Eye--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-Eye.pdf"
+        - id: poster-2023-poster-head
+          name: Poster Head
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-head--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-head--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-head.pdf"
+        - id: poster-2023-poster-labyrinth
+          name: Poster Labyrinth
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-labyrinth--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-labyrinth--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-labyrinth.pdf"
+        - id: poster-2023-poster-light
+          name: Poster Light
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-light--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-light--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-light.pdf"
+        - id: poster-2023-poster-moon
+          name: Poster Moon
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-moon--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-moon--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-moon.pdf"
+        - id: poster-2023-poster-obelisk
+          name: Poster Obelisk
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-obelisk--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-obelisk--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-obelisk.pdf"
+        - id: poster-2023-poster-path
+          name: Poster Path
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-path--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-path--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-path.pdf"
+        - id: poster-2023-poster-planet
+          name: Poster Planet
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-planet--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-planet--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-planet.pdf"
+        - id: poster-2023-poster-space
+          name: Poster Space
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-space--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/2023/__variants/Poster-space--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/2023/Poster-space.pdf"
+      - name: Academy Posters
+        assets:
+        - id: poster-academy-poster-academy-1
+          name: Poster Academy 1
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/academy/__variants/Poster-academy-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/academy/__variants/Poster-academy-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/ACADEMY/Poster-academy-1-export.pdf"
+        - id: poster-academy-poster-academy-2
+          name: Poster Academy 2
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/academy/__variants/Poster-academy-2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/academy/__variants/Poster-academy-2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/ACADEMY/Poster-academy-2-export.pdf"
+        - id: poster-academy-poster-academy-3
+          name: Poster Academy 3
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/academy/__variants/Poster-academy-3--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/academy/__variants/Poster-academy-3--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/ACADEMY/Poster-academy-3-export.pdf"
+        - id: poster-academy-poster-academy-4
+          name: Poster Academy 4
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/academy/__variants/Poster-academy-4--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/academy/__variants/Poster-academy-4--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/ACADEMY/Poster-academy-4-export.pdf"
+      - name: Event Posters
+        assets:
+        - id: poster-events-ethbrno2-poster-a6
+          name: Ethbrno2 Poster A6
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/ethbrno2-poster-a6--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/ethbrno2-poster-a6--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/ethbrno2-poster-a6.pdf"
+        - id: poster-events-cypherrave-2023
+          name: CypherRave 2023
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/CypherRave-2023--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/CypherRave-2023--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/CypherRave-2023.pdf"
+        - id: poster-events-summit-2023
+          name: Summit 2023
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Summit-2023--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Summit-2023--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Summit-2023.pdf"
+        - id: poster-events-congress-2024
+          name: Congress 2024
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Congress-2024--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Congress-2024--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Congress-2024.png"
+        - id: poster-events-rome-2024
+          name: Rome 2024
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Rome-2024--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Rome-2024--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Rome-2024.png"
+        - id: poster-events-summit-2024
+          name: Summit 2024
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Summit-2024--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Summit-2024--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Summit-2024.pdf"
+        - id: poster-events-amsterdam-2025
+          name: Amsterdam 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Amsterdam-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Amsterdam-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Amsterdam-2025.pdf"
+        - id: poster-events-bukurest-2025
+          name: Bukurest 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Bukurest-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Bukurest-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Bukurest-2025.pdf"
+        - id: poster-events-congress-2025
+          name: Congress 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Congress-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Congress-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Congress-2025.pdf"
+        - id: poster-events-cypherrave-2025
+          name: CypherRave 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/CypherRave-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/CypherRave-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/CypherRave-2025.pdf"
+        - id: poster-events-hackathon-2025
+          name: Hackathon 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Hackathon-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Hackathon-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Hackathon-2025.pdf"
+        - id: poster-events-prague-2025
+          name: Prague 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Prague-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Prague-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Prague-2025.pdf"
+        - id: poster-events-rome-2025
+          name: Rome 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/events/__variants/Rome-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/events/__variants/Rome-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/EVENT-POSTERS/Rome-2025.pdf"
+      - name: Other Posters
+        assets:
+        - id: poster-other-donations-v1
+          name: Donations V1
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/donations-V1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/donations-V1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/donations-V1.pdf"
+        - id: poster-other-neocypher-punk-1
+          name: Neocypher Punk 1
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/neocypher-punk-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/neocypher-punk-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/neocypher-punk-1.pdf"
+        - id: poster-other-donations-v2
+          name: Donations V2
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/donations-V2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/donations-V2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/donations-V2.pdf"
+        - id: poster-other-neocypher-punk-2
+          name: Neocypher Punk 2
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/neocypher-punk-2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/neocypher-punk-2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/neocypher-punk-2.pdf"
+        - id: poster-other-neocypher-punk-3
+          name: Neocypher Punk 3
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/neocypher-punk-3--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/neocypher-punk-3--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/neocypher-punk-3.pdf"
+        - id: poster-other-w3pn-projects
+          name: W3pn Projects
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/w3pn-projects--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/w3pn-projects--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/w3pn-projects.pdf"
+        - id: poster-other-case-study-poster
+          name: Case Study Poster
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/case-study-poster--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/case-study-poster--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/case-study-poster.pdf"
+        - id: poster-other-explorer
+          name: Explorer
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/explorer--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/explorer--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/explorer.pdf"
+        - id: poster-other-manifesto-2024
+          name: Manifesto 2024
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/manifesto-2024--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/manifesto-2024--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/manifesto-2024.pdf"
+        - id: poster-other-membership-2024
+          name: Membership 2024
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/membership-2024--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/membership-2024--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/membership-2024.pdf"
+        - id: poster-other-manifesto-2025
+          name: Manifesto 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/manifesto-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/manifesto-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/manifesto-2025.pdf"
+        - id: poster-other-membership-2025
+          name: Membership 2025
+          thumbnailUrl: "/images/resources/page/assets/resources/posters/other/__variants/membership-2025--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/posters/other/__variants/membership-2025--preview.webp"
+          downloadUrl: "/images/resources/source-files/_POSTERS/OTHER-POSTERS/membership-2025.pdf"
+    - id: banners
+      name: Banners
+      order: 1
+      groups:
+      - name: Banners
+        assets:
+        - id: banner-w3pn-banner-200x80
+          name: W3PN Banner 200x80
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/W3PN-Banner-200x80--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/W3PN-Banner-200x80--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/W3PN-Banner-200x80.pdf"
+        - id: banner-w3pn-banner-200x80-png
+          name: W3PN Banner 200x80 (PNG)
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/W3PN-Banner-200x80--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/W3PN-Banner-200x80--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/W3PN-Banner-200x80.png"
+        - id: banner-w3pn-banner-square
+          name: W3PN Banner Square
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/W3PN-Banner-square--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/W3PN-Banner-square--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/W3PN-Banner-square.pdf"
+        - id: banner-w3pn-banner-square-png
+          name: W3PN Banner Square (PNG)
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/W3PN-Banner-square--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/W3PN-Banner-square--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/W3PN-Banner-square.png"
+        - id: banner-banner-100x200-1
+          name: Banner 100x200 1
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/Banner-100x200-1.pdf"
+        - id: banner-banner-100x200-2
+          name: Banner 100x200 2
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/Banner-100x200-2.pdf"
+        - id: banner-banner-100x200-3
+          name: Banner 100x200 3
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-3--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-3--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/Banner-100x200-3.pdf"
+        - id: banner-banner-100x200-4
+          name: Banner 100x200 4
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-4--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-4--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/Banner-100x200-4.pdf"
+        - id: banner-banner-100x200-5-text
+          name: Banner 100x200 5 Text
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-5-text--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-5-text--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/Banner-100x200-5-text.pdf"
+        - id: banner-banner-100x200-6-text
+          name: Banner 100x200 6 Text
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-6-text--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-6-text--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/Banner-100x200-6-text.pdf"
+        - id: banner-banner-100x200-7-text
+          name: Banner 100x200 7 Text
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-7-text--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-7-text--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/Banner-100x200-7-text.pdf"
+        - id: banner-banner-100x200-8-text
+          name: Banner 100x200 8 Text
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-8-text--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/__variants/Banner-100x200-8-text--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/Banner-100x200-8-text.pdf"
+      - name: Roll-ups 2024
+        assets:
+        - id: banner-rollups-2024-roll-up-1-94x230
+          name: Roll Up 1 94x230
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-1-94x230--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-1-94x230--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-2024/roll-up-1-94x230.pdf"
+        - id: banner-rollups-2024-roll-up-2-94x230
+          name: Roll Up 2 94x230
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-2-94x230--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-2-94x230--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-2024/roll-up-2-94x230.pdf"
+        - id: banner-rollups-2024-universal-2
+          name: Universal 2
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Universal-2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Universal-2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-2024/Universal-2.png"
+        - id: banner-rollups-2024-roll-up-3-94x230
+          name: Roll Up 3 94x230
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-3-94x230--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-3-94x230--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-2024/roll-up-3-94x230.pdf"
+        - id: banner-rollups-2024-roll-up-4-94x230
+          name: Roll Up 4 94x230
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-4-94x230--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-4-94x230--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-2024/roll-up-4-94x230.pdf"
+        - id: banner-rollups-2024-roll-up-5-94x230
+          name: Roll Up 5 94x230
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-5-94x230--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-5-94x230--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-2024/roll-up-5-94x230.pdf"
+        - id: banner-rollups-2024-roll-up-6-94x230
+          name: Roll Up 6 94x230
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-6-94x230--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/roll-up-6-94x230--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-2024/roll-up-6-94x230.pdf"
+        - id: banner-rollups-2024-totem-beacon-200x70
+          name: Totem Beacon 200x70
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-beacon-200x70--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-beacon-200x70--preview.webp"
+          downloadUrl: "/images/resources/page/assets/resources/banners/rollups-2024/Totem-beacon-200x70.webp"
+        - id: banner-rollups-2024-totem-doorway-200x70
+          name: Totem Doorway 200x70
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-doorway-200x70--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-doorway-200x70--preview.webp"
+          downloadUrl: "/images/resources/page/assets/resources/banners/rollups-2024/Totem-doorway-200x70.webp"
+        - id: banner-rollups-2024-totem-waves-200x70-1
+          name: Totem Waves 200x70 1
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-waves-200x70-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-waves-200x70-1--preview.webp"
+          downloadUrl: "/images/resources/page/assets/resources/banners/rollups-2024/Totem-waves-200x70-1.webp"
+        - id: banner-rollups-2024-totem-waves-200x70
+          name: Totem Waves 200x70
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-waves-200x70--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-waves-200x70--preview.webp"
+          downloadUrl: "/images/resources/page/assets/resources/banners/rollups-2024/Totem-waves-200x70.webp"
+        - id: banner-rollups-2024-totem-beacon-event
+          name: Totem Beacon Event
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-beacon-event--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Totem-beacon-event--preview.webp"
+          downloadUrl: "/images/resources/page/assets/resources/banners/rollups-2024/Totem-beacon-event.webp"
+        - id: banner-rollups-2024-universal
+          name: Universal
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Universal--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2024/__variants/Universal--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-2024/Universal.png"
+      - name: Roll-ups 2023
+        assets:
+        - id: banner-rollups-2023-rollup1
+          name: Rollup1
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2023/__variants/rollup1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2023/__variants/rollup1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-OLD/rollup1.png"
+        - id: banner-rollups-2023-rollup2
+          name: Rollup2
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-2023/__variants/rollup2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-2023/__variants/rollup2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_BANNERS/ROLLUPS-OLD/rollup2.png"
+      - name: Roll-ups (Legacy)
+        assets:
+        - id: banner-rollups-old-rollup1
+          name: Rollup1
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-old/__variants/rollup1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-old/__variants/rollup1--preview.webp"
+          downloadUrl: "/images/resources/page/assets/resources/banners/rollups-old/rollup1.webp"
+        - id: banner-rollups-old-rollup2
+          name: Rollup2
+          thumbnailUrl: "/images/resources/page/assets/resources/banners/rollups-old/__variants/rollup2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/banners/rollups-old/__variants/rollup2--preview.webp"
+          downloadUrl: "/images/resources/page/assets/resources/banners/rollups-old/rollup2.webp"
+    - id: stickers
+      name: Stickers
+      order: 2
+      groups:
+      - name: Stickers
+        assets:
+        - id: sticker-circle-1
+          name: Circle 1
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/circle-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/circle-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/circle-1.pdf"
+        - id: sticker-square-1
+          name: Square 1
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/square-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/square-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/square-1.pdf"
+        - id: sticker-sticker-1
+          name: Sticker 1
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-1.pdf"
+        - id: sticker-sticker-2
+          name: Sticker 2
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2.pdf"
+        - id: sticker-sticker-3
+          name: Sticker 3
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-3--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-3--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-3.pdf"
+        - id: sticker-sticker-4
+          name: Sticker 4
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-4--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-4--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-4.pdf"
+        - id: sticker-multisticker-a6
+          name: Multisticker A6
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/multisticker-a6--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/multisticker-a6--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/multisticker-a6.pdf"
+        - id: sticker-circle-eye
+          name: Circle Eye
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/circle-eye--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/circle-eye--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/circle-eye.pdf"
+        - id: sticker-circle-logo
+          name: Circle Logo
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/circle-logo--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/circle-logo--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/circle-logo.pdf"
+        - id: sticker-logo-horizontal
+          name: Logo Horizontal
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/logo-horizontal--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/logo-horizontal--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/logo-horizontal.pdf"
+        - id: sticker-logo-large
+          name: Logo Large
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/logo-large--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/logo-large--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/logo-large.pdf"
+        - id: sticker-logo-small
+          name: Logo Small
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/logo-small--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/logo-small--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/logo-small.pdf"
+        - id: sticker-no-photo
+          name: No Photo
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/no-photo--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/no-photo--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/no-photo.pdf"
+        - id: sticker-sticker-moon
+          name: Sticker Moon
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-moon--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-moon--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-moon.pdf"
+        - id: sticker-sticker-triangle
+          name: Sticker Triangle
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-triangle--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-triangle--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-triangle.pdf"
+        - id: sticker-sticker-2025-1
+          name: Sticker 2025 1
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-1.pdf"
+        - id: sticker-sticker-2025-2
+          name: Sticker 2025 2
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-2.pdf"
+        - id: sticker-sticker-2025-3
+          name: Sticker 2025 3
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-3--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-3--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-3.pdf"
+        - id: sticker-sticker-2025-4
+          name: Sticker 2025 4
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-4--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-4--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-4.pdf"
+        - id: sticker-sticker-2025-5
+          name: Sticker 2025 5
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-5--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-5--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-5.pdf"
+        - id: sticker-sticker-2025-6
+          name: Sticker 2025 6
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-6--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-6--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-6.pdf"
+        - id: sticker-sticker-2025-7
+          name: Sticker 2025 7
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-7--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-7--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-7.pdf"
+        - id: sticker-sticker-2025-8
+          name: Sticker 2025 8
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-8--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-8--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-8.pdf"
+        - id: sticker-sticker-2025-9
+          name: Sticker 2025 9
+          thumbnailUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-9--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stickers/__variants/sticker-2025-9--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STICKERS/sticker-2025-9.pdf"
+    - id: stamps
+      name: Stamps
+      order: 3
+      groups:
+      - name: Stamps
+        assets:
+        - id: stamp-stamp-1
+          name: Stamp 1
+          thumbnailUrl: "/images/resources/page/assets/resources/stamps/__variants/stamp-1--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stamps/__variants/stamp-1--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STAMP/stamp-1.png"
+        - id: stamp-stamp-2
+          name: Stamp 2
+          thumbnailUrl: "/images/resources/page/assets/resources/stamps/__variants/stamp-2--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stamps/__variants/stamp-2--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STAMP/Stamp-lidi-final.png"
+        - id: stamp-stamp-3
+          name: Stamp 3
+          thumbnailUrl: "/images/resources/page/assets/resources/stamps/__variants/stamp-3--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stamps/__variants/stamp-3--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STAMP/stamp-logo.png"
+        - id: stamp-stamp-4
+          name: Stamp 4
+          thumbnailUrl: "/images/resources/page/assets/resources/stamps/__variants/Stamp-4--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/stamps/__variants/Stamp-4--preview.webp"
+          downloadUrl: "/images/resources/source-files/_STAMP/Stamp-oko.png"
+    - id: tickets
+      name: Tickets
+      order: 4
+      groups:
+      - name: Ticket Designs
+        assets:
+        - id: ticket-ticket-crew
+          name: Ticket Crew
+          thumbnailUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-crew--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-crew--preview.webp"
+          downloadUrl: "/images/resources/source-files/_TICKETS/ticket-crew.pdf"
+        - id: ticket-ticket-hacker
+          name: Ticket Hacker
+          thumbnailUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-hacker--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-hacker--preview.webp"
+          downloadUrl: "/images/resources/source-files/_TICKETS/ticket-hacker.pdf"
+        - id: ticket-ticket-judge
+          name: Ticket Judge
+          thumbnailUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-judge--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-judge--preview.webp"
+          downloadUrl: "/images/resources/source-files/_TICKETS/ticket-judge.pdf"
+        - id: ticket-ticket-mentor
+          name: Ticket Mentor
+          thumbnailUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-mentor--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-mentor--preview.webp"
+          downloadUrl: "/images/resources/source-files/_TICKETS/ticket-mentor.pdf"
+        - id: ticket-ticket-partner
+          name: Ticket Partner
+          thumbnailUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-partner--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-partner--preview.webp"
+          downloadUrl: "/images/resources/source-files/_TICKETS/ticket-partner.pdf"
+        - id: ticket-ticket-speaker
+          name: Ticket Speaker
+          thumbnailUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-speaker--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-speaker--preview.webp"
+          downloadUrl: "/images/resources/source-files/_TICKETS/ticket-speaker.pdf"
+        - id: ticket-ticket-universal
+          name: Ticket Universal
+          thumbnailUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-universal--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-universal--preview.webp"
+          downloadUrl: "/images/resources/source-files/_TICKETS/ticket-universal.pdf"
+        - id: ticket-ticket-volunteer
+          name: Ticket Volunteer
+          thumbnailUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-volunteer--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/tickets/__variants/ticket-volunteer--preview.webp"
+          downloadUrl: "/images/resources/source-files/_TICKETS/ticket-volunteer.pdf"
+    - id: infographics
+      name: Infographics
+      order: -1
+      groups:
+      - name: Infographics
+        assets:
+        - id: infographic-ethereum-ecosystem
+          name: ETHEREUM ECOSYSTEM
+          thumbnailUrl: "/images/resources/page/assets/resources/infographics/__variants/ETHEREUM-ECOSYSTEM--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/infographics/__variants/ETHEREUM-ECOSYSTEM--preview.webp"
+          downloadUrl: "/images/resources/source-files/_INFOGRAPHICS/ETHEREUM-ECOSYSTEM.pdf"
+        - id: infographic-latam-map
+          name: LATAM MAP
+          thumbnailUrl: "/images/resources/page/assets/resources/infographics/__variants/LATAM-MAP--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/infographics/__variants/LATAM-MAP--preview.webp"
+          downloadUrl: "/images/resources/source-files/_INFOGRAPHICS/LATAM-MAP.pdf"
+        - id: infographic-privacy-ecosystem-2025-306x231
+          name: PRIVACY ECOSYSTEM 2025 306X231
+          thumbnailUrl: "/images/resources/page/assets/resources/infographics/__variants/PRIVACY-ECOSYSTEM-2025-306X231--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/infographics/__variants/PRIVACY-ECOSYSTEM-2025-306X231--preview.webp"
+          downloadUrl: "/images/resources/source-files/_INFOGRAPHICS/PRIVACY-ECOSYSTEM-2025-306X231.pdf"
+        - id: infographic-stacks-2025-306x231
+          name: STACKS 2025 306X231
+          thumbnailUrl: "/images/resources/page/assets/resources/infographics/__variants/STACKS-2025-306X231--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/infographics/__variants/STACKS-2025-306X231--preview.webp"
+          downloadUrl: "/images/resources/source-files/_INFOGRAPHICS/STACKS-2025-306X231.pdf"
+    - id: rituals
+      name: Rituals
+      order: 6
+      groups:
+      - name: Ritual Cards
+        assets:
+        - id: ritual-academy
+          name: ACADEMY
+          thumbnailUrl: "/images/resources/page/assets/resources/rituals/__variants/ACADEMY--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/rituals/__variants/ACADEMY--preview.webp"
+          downloadUrl: "/images/resources/source-files/_RITUALS/paperhub-academy.pdf"
+        - id: ritual-memetic-wallfare
+          name: MEMETIC WALLFARE
+          thumbnailUrl: "/images/resources/page/assets/resources/rituals/__variants/MEMETIC-WALLFARE--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/rituals/__variants/MEMETIC-WALLFARE--preview.webp"
+          downloadUrl: "/images/resources/source-files/_RITUALS/memetic-wallfare.pdf"
+        - id: ritual-music
+          name: MUSIC
+          thumbnailUrl: "/images/resources/page/assets/resources/rituals/__variants/MUSIC--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/rituals/__variants/MUSIC--preview.webp"
+          downloadUrl: "/images/resources/source-files/_RITUALS/cypherpunk-playlist.pdf"
+        - id: ritual-privacy-corner
+          name: PRIVACY CORNER
+          thumbnailUrl: "/images/resources/page/assets/resources/rituals/__variants/PRIVACY
+            CORNER--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/rituals/__variants/PRIVACY
+            CORNER--preview.webp"
+          downloadUrl: "/images/resources/source-files/_RITUALS/privacy-corner.pdf"
+        - id: ritual-privacy-poly
+          name: PRIVACY POLY
+          thumbnailUrl: "/images/resources/page/assets/resources/rituals/__variants/PRIVACY
+            POLY--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/rituals/__variants/PRIVACY
+            POLY--preview.webp"
+          downloadUrl: "/images/resources/source-files/_RITUALS/privacypoly.pdf"
+        - id: ritual-tailsos
+          name: TAILSOS
+          thumbnailUrl: "/images/resources/page/assets/resources/rituals/__variants/TAILSOS--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/rituals/__variants/TAILSOS--preview.webp"
+          downloadUrl: "/images/resources/source-files/_RITUALS/tailOS.pdf"
+        - id: ritual-tarot
+          name: TAROT
+          thumbnailUrl: "/images/resources/page/assets/resources/rituals/__variants/TAROT--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/rituals/__variants/TAROT--preview.webp"
+          downloadUrl: "/images/resources/source-files/_RITUALS/Tarot.pdf"
+        - id: ritual-zine
+          name: ZINE
+          thumbnailUrl: "/images/resources/page/assets/resources/rituals/__variants/ZINE--thumb.webp"
+          previewUrl: "/images/resources/page/assets/resources/rituals/__variants/ZINE--preview.webp"
+          downloadUrl: "/images/resources/source-files/_RITUALS/Zine.pdf"
+  projectDetailPlaceholders:
+    partners:
+      - name: Ethereum Foundation
+        logo: /images/site-shared/navigation/header-logo.svg
+        description: Grant Partner
+        href: https://ethereum.org
+      - name: Polygon
+        logo: /images/site-shared/navigation/header-logo.svg
+        description: Ecosystem Partner
+        href: https://polygon.technology
+      - name: Web3 Foundation
+        logo: /images/site-shared/navigation/header-logo.svg
+        description: Research Partner
+        href: https://web3.foundation
+      - name: Brave
+        logo: /images/site-shared/navigation/header-logo.svg
+        description: Privacy Partner
+        href: https://brave.com
+      - name: Filecoin Foundation
+        logo: /images/site-shared/navigation/header-logo.svg
+        description: Storage Partner
+        href: https://fil.org
+    articles:
+      - href: https://web3privacy.info/articles/getting-started-privacy
+        title: Getting Started with Privacy in Web3
+        date: '2024-01-15'
+        excerpt: Learn the fundamentals of privacy-preserving technologies and how to integrate them into your projects.
+        thumbnail: /images/home/sections/intro/assets/intro-video-thumb.webp
+      - href: https://web3privacy.info/articles/best-practices
+        title: Best Practices for Decentralized Identity
+        date: '2024-02-20'
+        excerpt: A comprehensive guide to building and deploying privacy-first decentralized identity solutions.
+        thumbnail: /images/home/sections/intro/assets/intro-video-thumb.webp
+      - href: https://web3privacy.info/articles/case-studies
+        title: 'Case Studies: Privacy in Action'
+        date: '2024-03-10'
+        excerpt: Real-world examples of how privacy technologies are being adopted across different industries.
+        thumbnail: /images/home/sections/intro/assets/intro-video-thumb.webp
+sectionOrder:
+  - site
+  - nav
+  - about
+  - hero
+  - partners
+  - intro
+  - impact
+  - activities
+  - academy
+  - ecosystem
+  - testimonials
+  - contribute
+  - donation
+  - newsletter
+  - members
+  - footer
+  - resources

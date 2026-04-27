@@ -1,0 +1,39 @@
+headerImageUrl: /images/events/items/r25ber/header/r25ber.webp
+heroBackgroundImageUrl: /images/events/items/r25ber/header/r25ber-cover.webp
+shortDescription: Berlin night rave during the W3PN hackathon season, centered on privacy, freedom, and radical expression.
+timeRange: 21:30 - 06:00
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/h3ithkl3
+contributors:
+  enabled: true
+  items:
+    - name: Mf
+      role: Web3Privacy Now
+      handle: 0x_m_f
+      avatar: /images/events/shared/header/mf.jpg
+    - name: Manu Alzuru
+      role: Blockravers
+    - name: Antoine Hajj
+      role: Lovepunks
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: false
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+topics:
+  content: >-
+    Cypherave brought together rebels, dreamers, and creators in Berlin for a night shaped by
+    privacy, freedom, and radical expression through dance. Curated by House With Me, Blockravers,
+    Lovepunks, and W3PN, it leaned fully into cypherpunk rave culture rather than conference format.
+  enabled: true

@@ -1,0 +1,70 @@
+headerImageUrl: /images/events/items/m24ams/header/m24ams.webp
+heroBackgroundImageUrl: /images/events/items/m24ams/header/m24ams-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/w3pn-meetup-ams1
+    - label: Event Page
+      url: https://web3privacy.info/event/m24ams
+location:
+  address: Paleisstraat 107, 1012 ZL Amsterdam
+  city: Amsterdam
+  country: NL
+  name: Vrij Paleis
+  website: https://www.vrijpaleis.nl
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: false
+speakers:
+  - avatar: /images/events/shared/header/kieran-mesquita.webp
+    id: kieran-mesquita
+    name: Kieran Mesquita
+    role: Railgun
+    twitter: https://x.com/mesquka
+  - avatar: /images/events/shared/header/sterlin-lujan.webp
+    id: sterlin-lujan
+    name: Sterlin Lujan
+    role: Logos
+    twitter: https://x.com/SterlinLujan
+  - avatar: /images/events/items/m24ams/header/moritz-boullenger.webp
+    id: moritz-boullenger
+    name: Moritz Boullenger
+    role: fluidkey
+    twitter: https://x.com/MoritzBoullenger
+  - avatar: /images/events/shared/header/serinko.webp
+    id: serinko
+    name: Serinko
+    role: Nym
+    twitter: https://x.com/serinko13
+  - id: sasha
+    name: Sasha
+    role: Waku
+  - avatar: /images/events/items/m24ams/header/jana-mordhorst.webp
+    id: jana-mordhorst
+    name: Jana Mordhorst
+    role: Artist / thematic live drawing workshop
+    twitter: https://x.com/janamordhorst
+topics:
+  content: >-
+    This meetup took place in Amsterdam during [ETHDam](https://www.ethdam.com). Speakers included Kieran Mesquita,
+    Sterlin Lujan, Moritz Boullenger, and Serinko. The focus was on privacy tooling, open-source coordination, and
+    current issues in digital rights and the Ethereum ecosystem.
+  enabled: true

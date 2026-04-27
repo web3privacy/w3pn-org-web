@@ -1,0 +1,298 @@
+headerImageUrl: /images/events/items/s26ber/header/s26ber.webp
+heroBackgroundImageUrl: /images/events/items/s26ber/header/s26ber-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Beth McCarthy
+      role: Web3Privacy Now
+      handle: ontologymachine
+      avatar: /images/events/shared/header/beth.webp
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+    - name: Teresa
+      role: Web3Privacy Now
+    - name: daniel shavit
+      role: Web3Privacy Now
+experience:
+  cards:
+    - description: Discourse to identify and bridge gaps in knowledge, alignment, values and vision.
+      icon: shield
+      title: Dialogue
+    - description: Skill-sharing on hacking, organizing, advocacy, and practical privacy tactics.
+      icon: shield
+      title: Knowledge Exchange
+    - description: Participatory activations exploring privacy through creativity and play.
+      icon: shield
+      title: Rituals
+    - description: Cross-disciplinary community weaving around privacy, power, and civic infrastructure.
+      icon: shield
+      title: Field Building
+    - description: Presentations of projects, protocols, and experiments shaping the future.
+      icon: shield
+      title: Showcases
+    - description: Public arguments and critical discussion on the systems and norms that shape the internet.
+      icon: shield
+      title: Debates
+  enabled: true
+  themes:
+    - Cryptography as Civic Infrastructure
+    - Resistance Networks
+    - Open Protocols & Digital Autonomy
+    - Digital Rights & Legal Defense
+    - Privacy for the Commons
+# LINKS column on the event detail page: `links.custom` entries (label + url). Edit here only.
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/f47k4xnd
+    - label: Event Website
+      url: https://s26ber.web3privacy.info/
+    - label: Event Page
+      url: https://web3privacy.info/event/s26ber/
+location:
+  address: Funkhaus Berlin, Berlin, Germany
+  city: Berlin
+  country: DE
+  name: Funkhaus
+  website: https://s26ber.web3privacy.info/
+schedule:
+  enabled: true
+  items:
+    - description: Full-day summit at Funkhaus Berlin
+      time: 10:00 - 18:00
+      title: Neocypherpunk Summit
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: true
+  faq: false
+  gallery: false
+  location: true
+  schedule: true
+  speakers: true
+  sponsors: false
+  tickets: true
+  topicsLinks: true
+  videos: false
+tickets:
+  enabled: true
+  buyUrl: https://luma.com/f47k4xnd
+speakers:
+  - avatar: /images/events/shared/header/jaromil.webp
+    id: jaromil
+    name: Jaromil Roio
+    role: Dyne.org
+    twitter: https://x.com/jaromil
+  - avatar: /images/events/shared/header/juan-benet.webp
+    id: juan-benet
+    name: Juan Benet
+    role: Protocol Labs
+    twitter: https://x.com/juanbenet
+  - avatar: /images/events/items/s26ber/header/xavier-damman.webp
+    id: xavier-damman
+    name: Xavier Damman
+    role: Open Collective
+    twitter: https://x.com/xdamman
+  - avatar: /images/events/shared/header/isabela-fernandes.webp
+    id: isabela-fernandes
+    name: Isabela Fernandes
+    role: Tor Project
+    twitter: https://x.com/torproject
+  - avatar: /images/events/shared/header/jarrad-hope.webp
+    id: jarrad-hope
+    name: Jarrad Hope
+    role: Logos
+    twitter: https://x.com/jarradhope_
+  - avatar: /images/events/items/s26ber/header/eleftherios.webp
+    id: eleftherios
+    name: Eleftherios
+    role: Radicle / Drips
+    twitter: https://x.com/lftherios
+  - avatar: /images/events/shared/header/amir-taaki.webp
+    id: amir-taaki
+    name: Amir Taaki
+    role: DarkFi
+    twitter: https://x.com/Narodism
+  - avatar: /images/events/items/s26ber/header/calle.webp
+    id: calle
+    name: Calle
+    role: bitchat / Cashu
+    twitter: https://x.com/callebtc
+  - avatar: /images/events/shared/header/paul-dylan-ennis.webp
+    id: paul-dylan-ennis
+    name: Paul Dylan-Ennis
+    role: University College Dublin
+    twitter: https://x.com/pdennis
+  - avatar: /images/events/shared/header/migle-rakitaite.webp
+    id: migle-rakitaite
+    name: Migle Rakitaite
+    role: Swarm Foundation / WinPrivacy
+    twitter: https://x.com/rakymnft
+  - avatar: /images/events/items/s26ber/header/tara-merk.webp
+    id: tara-merk
+    name: Tara Merk
+    role: BlockchainGov / Metagov
+    twitter: https://x.com/mpg_dd
+  - avatar: /images/events/items/s26ber/header/brett-scott.webp
+    id: brett-scott
+    name: Brett Scott
+    role: Author
+    twitter: https://x.com/Suitpossum
+  - avatar: /images/events/shared/header/julio-linares.webp
+    id: julio-linares
+    name: Julio Linares
+    role: Poetic Technologies
+    twitter: https://x.com/Julio_Linares_
+  - avatar: /images/events/shared/header/ahmed-ghappour.webp
+    id: ahmed-ghappour
+    name: Ahmed Ghappour
+    role: Flashbots
+    twitter: https://x.com/ghappour
+  - avatar: /images/events/shared/header/will-scott.webp
+    id: will-scott
+    name: Will Scott
+    role: Protocol Labs
+    twitter: https://x.com/willscott
+  - avatar: /images/events/items/s26ber/header/robin-berjon.webp
+    id: robin-berjon
+    name: Robin Berjon
+    role: IPFS Foundation
+    twitter: https://x.com/robinberjon
+  - avatar: /images/events/items/s26ber/header/kate-stapleton.webp
+    id: kate-stapleton
+    name: Kate Stapleton
+    role: Fhenix
+    twitter: https://x.com/Kate_stapes
+  - id: daniel-calder-n
+    name: Daniel Calderón
+    role: Independent Researcher
+  - avatar: /images/events/items/s26ber/header/florian-glatz.webp
+    id: florian-glatz
+    name: Florian Glatz
+    role: Freedom Browser / EUCI
+    twitter: https://x.com/heckerhut
+  - avatar: /images/events/items/s26ber/header/josh-d-vila.webp
+    id: josh-d-vila
+    name: Josh Dávila
+    role: Bread Coop
+    twitter: https://x.com/TBSocialist
+  - avatar: /images/events/shared/header/rachel-rose-oleary.webp
+    id: rachel-rose-oleary
+    name: Rachel-Rose O'Leary
+    role: DarkFi
+    twitter: https://x.com/lunar_mining
+  - avatar: /images/events/items/s26ber/header/marina-markezic.webp
+    id: marina-markezic
+    name: Marina Markezic
+    role: EUCI
+    twitter: https://x.com/MarinaMarkezic
+  - avatar: /images/events/items/s26ber/header/alessandro-longo.webp
+    id: alessandro-longo
+    name: Alessandro Longo
+    role: Reincantamento
+    twitter: https://x.com/1yunglong
+  - avatar: /images/events/shared/header/mario-havel.webp
+    id: mario-havel
+    name: Mario Havel
+    role: Ethereum Foundation
+    twitter: https://x.com/TMIYChao
+  - avatar: /images/events/items/s26ber/header/mate-soos.webp
+    id: mate-soos
+    name: Mate Soos
+    role: Argot Collective
+    twitter: https://x.com/SoosMate
+  - avatar: /images/events/shared/header/nick-almond.webp
+    id: nick-almond
+    name: Nick Almond
+    role: Jito
+    twitter: https://x.com/DrNickA
+  - avatar: /images/events/items/s26ber/header/aris-komporozos-athanasiou.webp
+    id: aris-komporozos-athanasiou
+    name: Aris Komporozos-Athanasiou
+    role: UCL Centre for Capitalism Studies
+    twitter: https://x.com/ariskomporozos
+  - avatar: /images/events/items/s26ber/header/adam-burns.webp
+    id: adam-burns
+    name: Adam Burns
+    role: free2air / Dyne
+    twitter: https://x.com/AdamPeterBurns
+  - avatar: /images/events/shared/header/arturo-filasto.webp
+    id: arturo-filasto
+    name: Arturo Filastò
+    role: OONI
+    twitter: https://x.com/hellais
+  - avatar: /images/events/shared/header/max-hampshire.webp
+    id: max-hampshire
+    name: Max Hampshire
+    role: Nym
+    twitter: https://x.com/_wjth
+  - avatar: /images/events/items/s26ber/header/joan-ar-s.webp
+    id: joan-ar-s
+    name: Joan Arús
+    role: Sentinel Alliance
+    twitter: https://x.com/Joan_Arus
+  - id: daniel-vasquez
+    name: Daniel Vasquez
+    role: Nym
+  - avatar: /images/events/items/s26ber/header/polymutex.webp
+    id: polymutex
+    name: polymutex
+    role: Walletbeat
+    twitter: https://x.com/polymutex
+  - avatar: /images/events/items/s26ber/header/vlad-costea.webp
+    id: vlad-costea
+    name: Vlad Costea
+    role: Bitcoin Takeover Podcast
+    twitter: https://x.com/TheVladCostea
+  - avatar: /images/events/shared/header/michael.webp
+    id: michael
+    name: Michael
+    role: Brevis
+    twitter: https://x.com/no89thkey
+  - avatar: /images/events/items/s26ber/header/cyp.webp
+    id: cyp
+    name: Cyp
+    role: Status
+    twitter: https://x.com/0xcyp
+  - avatar: /images/events/items/s26ber/header/tobias-vogel.webp
+    id: tobias-vogel
+    name: Tobias Vogel
+    role: Consensys Diligence
+    twitter: https://x.com/T_Birb
+  - avatar: /images/events/shared/header/sandi-fatic.webp
+    id: sandi-fatic
+    name: Sandi Fatic
+    role: Calimero Network
+    twitter: https://x.com/chefsale
+  - avatar: /images/events/items/s26ber/header/hoobi-eth.webp
+    id: hoobi-eth
+    name: hoobi.eth
+    role: L2Beat
+    twitter: https://x.com/hubkotl
+  - avatar: /images/events/items/s26ber/header/ramy-raoof-halim.webp
+    id: ramy-raoof-halim
+    name: Ramy Raoof Halim
+    role: ex-Tor / Amnesty International / Open Technology Fund
+    twitter: https://x.com/RamyRaoof
+  - avatar: /images/events/shared/header/jaya-klara-brekke.webp
+    id: jaya-klara-brekke
+    name: Jaya Klara Brekke
+    role: Nym
+    twitter: https://x.com/jayapapaya
+topics:
+  content: >-
+    Neo-cypherpunk summit in Berlin focused on activist culture, digital rights, free software sustainability, and
+    privacy-preserving technology.
+  enabled: true
+shortDescription: Neo-cypherpunk summit on cryptography as civic infrastructure, resistance networks, and digital sovereignty in Berlin.

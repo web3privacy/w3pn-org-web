@@ -1,0 +1,155 @@
+headerImageUrl: /images/events/items/s23prg/header/s23prg.webp
+heroBackgroundImageUrl: /images/events/items/s23prg/header/s23prg-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Tree
+      role: Web3Privacy Now
+      handle: treecz
+      avatar: /images/events/shared/header/tree.jpg
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - name: Wesley
+      avatar: /images/events/shared/header/wesley.jpg
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+links:
+  custom:
+    - label: Event Website
+      url: https://prague22.web3privacy.info/
+    - label: Event Page
+      url: https://web3privacy.info/event/s23prg/
+location:
+  address: Charvátova 39/10, 11000 Prague 1
+  city: Prague
+  country: CZ
+  name: X10
+  website: https://www.divadlox10.cz
+sections:
+  articles: true
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: false
+speakers:
+  - avatar: /images/events/shared/header/ameen-soleimani.webp
+    id: ameen-soleimani
+    name: Ameen Soleimani
+    role: Privacy Pools / MolochDAO
+    twitter: https://x.com/ameensol
+  - avatar: /images/events/items/s23prg/header/guy-zyskind.webp
+    id: guy-zyskind
+    name: Guy Zyskind
+    role: SCRT Labs / Secret Network
+    twitter: https://x.com/GuyZys
+  - avatar: /images/events/shared/header/max-hampshire.webp
+    id: max-hampshire
+    name: Max Hampshire
+    role: Nym
+    twitter: https://x.com/_wjth
+  - avatar: /images/events/items/s23prg/header/antoni-zolciak.webp
+    id: antoni-zolciak
+    name: Antoni Zolciak
+    role: Aleph Zero / Cardinal
+    twitter: https://x.com/AntoniZolciak
+  - avatar: /images/events/shared/header/rachel-rose-oleary.webp
+    id: rachel-rose-oleary
+    name: Rachel-Rose O'Leary
+    role: DarkFi
+    twitter: https://x.com/lunar_mining
+  - avatar: /images/events/shared/header/alex-kampa.webp
+    id: alex-kampa
+    name: Alex Kampa
+    role: Aragon ZK Research
+    twitter: https://x.com/alex_kampa
+  - avatar: /images/events/items/s23prg/header/oliver-gale.webp
+    id: oliver-gale
+    name: Oliver Gale
+    role: Panther Protocol
+    twitter: https://x.com/OriginalOlii
+  - avatar: /images/events/shared/header/mario-havel.webp
+    id: mario-havel
+    name: Mario Havel
+    role: Bordel Hackerspace
+    twitter: https://x.com/TMIYChao
+  - avatar: /images/events/shared/header/costanza-gallo.webp
+    id: costanza-gallo
+    name: Costanza Gallo
+    role: Swarm Foundation
+    twitter: https://x.com/costgallo
+  - avatar: /images/events/shared/header/manu-alzuru.webp
+    id: manu-alzuru
+    name: Manu Alzuru
+    role: ETH Barcelona / DoinGud
+    twitter: https://x.com/ManuAlzuru
+  - avatar: /images/events/shared/header/nick-almond.webp
+    id: nick-almond
+    name: Nick Almond
+    role: FactoryDAO
+    twitter: https://x.com/DrNickA
+  - avatar: /images/events/shared/header/juraj-bednar.webp
+    id: juraj-bednar
+    name: Juraj Bednar
+    role: cryptoanarchist & biohacker
+    twitter: https://x.com/jurbed
+  - avatar: /images/events/items/s23prg/header/dcbuilder.webp
+    id: dcbuilder
+    name: dcbuilder.eth
+    role: Worldcoin
+    twitter: https://x.com/DCbuild3r
+  - avatar: /images/events/items/s23prg/header/alona-shevchenko.webp
+    id: alona-shevchenko
+    name: Alona Shevchenko
+    role: Ukraine DAO
+    twitter: https://x.com/cryptodrftng
+  - avatar: /images/events/items/s23prg/header/tibor-csoka.webp
+    id: tibor-csoka
+    name: Tibor Csóka
+    role: HOPR
+    twitter: https://x.com/tibor_csoka
+  - avatar: /images/events/items/s23prg/header/merula.webp
+    id: merula
+    name: Merula
+    role: Circles Entropy
+  - avatar: /images/events/shared/header/serinko.webp
+    id: serinko
+    name: Serinko
+    role: Privacy Researcher
+    twitter: https://x.com/serinko13
+  - avatar: /images/events/shared/header/steffen-kux.webp
+    id: steffen-kux
+    name: Steffen Kux
+    role: dm3
+    twitter: https://x.com/SteffenKux
+  - avatar: /images/events/shared/header/althea.webp
+    id: althea
+    name: Althea
+    role: Privacy & Scaling Explorations
+    twitter: https://x.com/AltheaNetwork
+shortDescription: The inaugural Web3Privacy Now summit during ETHPrague — foundations of the privacy movement in Web3.
+topics:
+  content: >-
+    This summit took place in Prague during ETHPrague. Speakers included Ameen Soleimani, Guy Zyskind, Max Hampshire,
+    and Antoni Zolciak. It combined a broader public program with cross-disciplinary discussion on privacy, governance,
+    law, and freedom technology.
+  enabled: true
+articles:
+  enabled: true
+  articleIds:
+    - paragraph-web3privacy-ecosystem-launch-s23prg

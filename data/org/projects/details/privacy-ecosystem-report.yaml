@@ -1,0 +1,51 @@
+hero:
+  logo: /images/projects/items/privacy-ecosystem-report/icon/project-privacy-ecosystem-report.webp
+  title: Ethereum Privacy Ecosystem
+  tagline: A research initiative mapping privacy projects, use cases, and trends across Ethereum.
+  ctaLabel: VIEW RESEARCH
+  ctaHref: https://web3privacy.info/research/
+  metrics: []
+mission:
+  text: >-
+    The Ethereum Privacy Ecosystem project is a research initiative aimed at mapping privacy tools, protocols, and use
+    cases within Ethereum. It provides a structured overview of the ecosystem, identifying trends, gaps, and
+    opportunities.
+
+
+    This research contributes to a broader mission of making privacy infrastructure more understandable and accessible,
+    supporting both builders and analysts in navigating the space.
+  readMoreHref: https://web3privacy.info/research/
+links:
+  url: https://web3privacy.info/research/
+contribute:
+  desktopOnly: true
+  text: >-
+    Use the research, share corrections, and help expand the collective understanding of Ethereum privacy
+    infrastructure.
+  links:
+    - label: Website
+      href: https://web3privacy.info/research/
+  ctaLabel: VIEW RESEARCH
+  ctaHref: https://web3privacy.info/research/
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Ethereum Privacy Ecosystem]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: false
+  partners: false
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Making Web3 privacy assessment research public (feedback)
+    date: 2024-06-05
+    excerpt: Opening ecosystem assessment work for critique — how public feedback sharpens privacy research priorities.
+    href: https://paragraph.com/@web3privacy-now/making-web3-privacy-assessment-research-public-feedback
+    thumbnail: /images/projects/shared/articles/making-web3-privacy-assessment-research-public-feedback.webp

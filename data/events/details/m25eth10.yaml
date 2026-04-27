@@ -1,0 +1,38 @@
+headerImageUrl: /images/events/items/m25eth10/header/m25eth10.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/glt7ukv2
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: false
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+shortDescription: Online anniversary gathering reflecting on ten years of Ethereum cypherpunk culture.
+timeRange: 16:00 - 20:00
+topics:
+  content: >-
+    Ethereum celebrates ten years of existence. This online gathering brought together cypherpunks,
+    privacy builders, researchers, activists, and community shapers to reflect on the stories,
+    tensions, and breakthroughs that shaped Ethereum's cypherpunk culture.
+  enabled: true

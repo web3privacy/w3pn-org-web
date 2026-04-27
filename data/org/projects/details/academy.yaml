@@ -1,0 +1,136 @@
+hero:
+  logo: /images/projects/items/academy/icon/project-academy.webp
+  backgroundImage: /images/projects/items/academy/detail/academy-detail-bg.webp
+  title: Academy
+  tagline: An education platform onboarding users into privacy and Web3 concepts.
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://academy.web3privacy.info
+  metrics:
+    - value: 1000+
+      label: STUDENTS
+    - value: '12'
+      label: COURSES
+    - value: 500+
+      label: LESSONS
+    - value: '4'
+      label: LANGUAGES
+mission:
+  text: |-
+    Web3Privacy Academy is the educational arm of Web3Privacy Now. It was launched to make privacy learning easier to access and more useful in practice, especially for people entering the space without a strong technical or historical background.
+
+    The platform combines free courses, interviews, curated resources, and supporting materials such as a glossary and reading library. Its content spans privacy fundamentals, cypherpunk history, zero-knowledge, digital rights, decentralized coordination, surveillance, and practical tools.
+
+    Beyond education itself, Academy is designed as a longer-term pipeline: first helping people learn, then helping them build, and eventually supporting stronger project incubation around privacy-focused work.
+  readMoreHref: https://academy.web3privacy.info
+links:
+  Website: https://academy.web3privacy.info/
+  All Courses: https://academy.web3privacy.info/courses
+  Glossary: https://academy.web3privacy.info/p/glossary
+  Library: https://academy.web3privacy.info/p/library?utm_source=chatgpt.com
+  Telegram: https://t.me/%2BsUmDqicnRBtmOWVk
+contribute:
+  text: Share educational resources, suggest curriculum improvements, and help more people learn the foundations of privacy in Web3.
+  links:
+    - label: Website
+      href: https://academy.web3privacy.info
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://academy.web3privacy.info
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Academy]
+sections:
+  highlights: true
+  missionLinks: true
+  screenshots: true
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+  videos: true
+features:
+  items:
+    - text: Free educational platform for privacy, freedom, and digital rights.
+    - text: Covers courses, interviews, library resources, and glossary.
+    - text: Use Telegram as an entry point for privacy learning.
+screenshots:
+  - src: /images/projects/items/academy/gallery/academy-1.webp
+    alt: Web3Privacy Academy homepage
+    caption: Academy landing page and primary call to action.
+    previewSrc: /images/projects/items/academy/gallery/academy-1--preview.webp
+    thumbnailSrc: /images/projects/items/academy/gallery/academy-1--thumb.webp
+  - src: /images/projects/items/academy/gallery/academy-2.webp
+    alt: Web3Privacy Academy library page
+    caption: Curated library and educational materials.
+    previewSrc: /images/projects/items/academy/gallery/academy-2--preview.webp
+    thumbnailSrc: /images/projects/items/academy/gallery/academy-2--thumb.webp
+  - src: /images/projects/items/academy/gallery/academy-3.webp
+    alt: Web3Privacy Academy course catalog
+    caption: Course catalog with educational modules.
+    previewSrc: /images/projects/items/academy/gallery/academy-3--preview.webp
+    thumbnailSrc: /images/projects/items/academy/gallery/academy-3--thumb.webp
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Unlocking privacy for all — W3PN Academy launches today
+    date: 2024-02-01T00:00:00.000Z
+    excerpt: Launch of Web3Privacy Academy as the education hub for privacy, digital rights, and practical Web3 literacy.
+    href: https://paragraph.com/@web3privacy-now/unlocking-privacy-for-all-w3pn-academy-launches-today
+    thumbnail: /images/projects/items/academy/articles/unlocking-privacy-for-all-w3pn-academy-launches-today.webp
+  - title: A 5-step guide to make Ethereum and crypto cypherpunk again
+    date: 2024-03-18T00:00:00.000Z
+    excerpt: Five concrete steps to push Ethereum culture back toward privacy-by-design and user sovereignty.
+    href: https://paragraph.com/@web3privacy-now/a-5-step-guide-to-make-ethereum-and-crypto-cypherpunk-again
+    thumbnail: /images/projects/items/academy/articles/a-5-step-guide-to-make-ethereum-and-crypto-cypherpunk-again.webp
+  - title: Zero knowledge for everyone — as easy as ABC
+    date: 2024-04-02T00:00:00.000Z
+    excerpt: Gentle introduction to zero-knowledge ideas without assuming a cryptography background.
+    href: https://paragraph.com/@web3privacy-now/zero-knowledge-for-everyone-as-abc
+    thumbnail: /images/projects/items/academy/articles/zero-knowledge-for-everyone-as-abc.webp
+  - title: Make cypherpunk — one Ethereum block at a time
+    date: 2024-05-08T00:00:00.000Z
+    excerpt: Cultural and technical call to embed cypherpunk values into everyday Ethereum usage and tooling choices.
+    href: https://paragraph.com/@web3privacy-now/make-cypherpunk-one-ethereum-block-at-a-time
+    thumbnail: /images/projects/items/academy/articles/make-cypherpunk-one-ethereum-block-at-a-time.webp
+videos:
+  - youtubeId: maF8fcdDqfs
+    title: Most dApps Betray Privacy
+    speaker: Lefteris Karapetsas
+    role: Rotki
+  - youtubeId: 1oYszvb8BGw
+    title: The Coup That Made Me a Cypherpunk
+    speaker: Loring Harkness
+    role: Brainbot / Shutter Network
+  - youtubeId: 1Y0RC45a6BE
+    title: Most VPNs are lying to you
+    speaker: Sebastian Bürgel
+    role: HOPR
+  - youtubeId: 1OtQ5OKn9h0
+    title: The Internet Was Never Private
+    speaker: Liz Steininger
+    role: Least Authority
+  - youtubeId: U1M5XVkBAf8
+    title: Privacy Academy Interview
+    speaker: Bianca Buzea
+    role: Chronicle
+  - youtubeId: '-s8Wpmq5eXI'
+    title: Metadata Kills People
+    speaker: Richard Carback
+    role: ''
+  - youtubeId: tumEC3toTk4
+    title: Privacy Academy Interview
+    speaker: Lisa Akselrod
+    role: Aztec Labs
+  - youtubeId: lm6ztlax9Wc
+    title: Privacy is a slow, beautiful struggle
+    speaker: Evi Nova
+    role: Blockchain Engineer
+team:
+  - name: Peter
+    role: Marketing
+    avatar: /images/projects/shared/team/peter.webp
+  - name: Federico
+    role: Media Production
+    avatar: /images/site-shared/profiles/frederico.webp

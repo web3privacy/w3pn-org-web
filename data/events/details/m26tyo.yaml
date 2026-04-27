@@ -1,0 +1,42 @@
+headerImageUrl: /images/events/items/m26tyo/header/m26tyo.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Robert
+      role: Web3Privacy Now
+      handle: robdotrego
+      avatar: /images/events/shared/header/robert.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/ispxo30p
+location:
+  address: Tokyo, Japan
+  city: Tokyo
+  country: JP
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+shortDescription: Tokyo half-day meetup on open source, public goods, and grassroots movements.
+timeRange: 21:00 - 02:00
+topics:
+  content: >-
+    Shaping and Defending the Techno-Political Evolution: Open Source, Public Goods, and Grassroots
+    Movements. A Tokyo meetup for open source advocates, public goods builders, internet freedom
+    defenders, and grassroots communities.
+  enabled: true

@@ -1,0 +1,160 @@
+@import "./design-tokens.css";
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: var(--w3pn-font-sans);
+  --font-serif: var(--w3pn-font-serif);
+}
+
+:root {
+  --background: var(--w3pn-color-light-canvas);
+  --foreground: var(--w3pn-color-light-text);
+  --card: var(--w3pn-color-light-surface);
+  --card-foreground: #1c1c1c;
+  --popover: #f7f7f7;
+  --popover-foreground: #1c1c1c;
+  --primary: #171717;
+  --primary-foreground: #ffffff;
+  --secondary: var(--w3pn-color-light-surface-3);
+  --secondary-foreground: #202020;
+  --muted: var(--w3pn-color-light-surface-2);
+  --muted-foreground: var(--w3pn-color-light-text-muted);
+  --accent: var(--w3pn-color-accent);
+  --accent-foreground: var(--w3pn-color-accent-foreground);
+  --destructive: var(--w3pn-color-danger);
+  --destructive-foreground: #fff;
+  --border: var(--w3pn-color-light-border);
+  --input: var(--w3pn-color-light-input);
+  --ring: var(--w3pn-color-light-ring);
+}
+
+.dark {
+  --background: var(--w3pn-color-canvas);
+  --foreground: var(--w3pn-color-text);
+  --card: var(--w3pn-color-surface);
+  --card-foreground: var(--w3pn-color-text);
+  --popover: #11161e;
+  --popover-foreground: var(--w3pn-color-text);
+  --primary: #e8edf5;
+  --primary-foreground: var(--w3pn-color-canvas);
+  --secondary: var(--w3pn-color-surface-3);
+  --secondary-foreground: var(--w3pn-color-text);
+  --muted: var(--w3pn-color-surface-2);
+  --muted-foreground: var(--w3pn-color-text-muted);
+  --accent: var(--w3pn-color-accent);
+  --accent-foreground: var(--w3pn-color-accent-foreground);
+  --destructive: var(--w3pn-color-danger-on-dark);
+  --destructive-foreground: #1d1111;
+  --border: var(--w3pn-color-border);
+  --input: var(--w3pn-color-input);
+  --ring: var(--w3pn-color-ring);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif;
+  }
+
+  a,
+  button {
+    @apply transition-colors;
+  }
+
+  .material-symbols-rounded {
+    /* Prefer Next.js self-hosted font via CSS variable when available. */
+    font-family: var(--font-material-symbols, "Material Symbols Rounded");
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings:
+      "FILL" 0,
+      "wght" 400,
+      "GRAD" 0,
+      "opsz" 24;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fade-up 0.44s ease-out both;
+  }
+
+  .animate-pop-in {
+    animation: pop-in 0.36s ease-out both;
+  }
+
+  .viewport-range-shell {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-pop-in {
+    animation: none !important;
+  }
+}

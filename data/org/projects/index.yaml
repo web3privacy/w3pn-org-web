@@ -1,0 +1,269 @@
+- id: privacy-explorer
+  name: Privacy Explorer
+  description: A public database mapping and evaluating Web3 privacy projects.
+  category: main
+  links:
+    url: https://explorer.web3privacy.info
+    docs: https://docs.web3privacy.info/projects/privacy-explorer
+  order: 1
+  image: /projects/explorer.png
+  icon: /images/projects/items/privacy-explorer/icon/project-privacy-explorer.webp
+  hidden: false
+- id: privacy-portal
+  name: Privacy Portal
+  description: Unified hub for privacy resources, news, and community. The main entry point to the Web3Privacy ecosystem.
+  category: main
+  links:
+    url: https://privacyportal.xyz
+    cardHref: /privacy-portal
+    urlNote: under construction
+  order: 2
+  image: /projects/portal.png
+  icon: /images/projects/items/privacy-portal/icon/project-privacy-portal.webp
+  hidden: false
+- id: jobs
+  name: Jobs in Privacy
+  description: A job board connecting talent with privacy-focused Web3 projects.
+  category: main
+  links:
+    url: https://jobs.web3privacy.info
+  order: 3
+  image: /projects/jobs.png
+  icon: /images/projects/items/jobs/icon/project-jobs.webp
+  hidden: false
+- id: gitcoin-privacy-round
+  name: Gitcoin Privacy Round
+  description: A quadratic funding round supporting privacy-focused public goods.
+  category: community
+  order: 4
+  icon: /images/projects/items/gitcoin-privacy-round/icon/project-gitcoin-privacy-round.webp
+  links:
+    url: https://gitcoin.privote.live
+  hidden: false
+- id: drips-for-privacy
+  name: Drips for Privacy
+  description: A continuous funding stream for privacy projects built on the Drips protocol.
+  category: community
+  order: 5
+  icon: /images/projects/items/drips-for-privacy/icon/project-drips-for-privacy.webp
+  links:
+    url: https://optimism.drips.network/app/drip-lists/46441013481627019632859175771245733399752255312769848791334977723541
+  hidden: false
+- id: academy
+  name: Academy
+  description: Web3Privacy Academy is the educational arm of Web3Privacy Now, combining free courses, interviews, a glossary, and a reading library.
+  category: main
+  links:
+    url: https://academy.web3privacy.info
+  order: 6
+  image: /projects/academy.png
+  icon: /images/projects/items/academy/icon/project-academy.webp
+  hidden: false
+- id: personal-stacks
+  name: Personal Stacks
+  description: A collection of real-world privacy tool setups used by experts.
+  category: main
+  links:
+    url: https://stacks.web3privacy.info
+  order: 7
+  image: /projects/stacks.png
+  icon: /images/projects/items/personal-stacks/icon/project-personal-stacks.webp
+  hidden: false
+- id: hackathon-pack
+  name: Builder Pack
+  description: A framework helping developers build meaningful privacy-focused projects.
+  category: main
+  links:
+    url: https://build.web3privacy.info
+  order: 8
+  image: /projects/hackathon-pack.png
+  icon: /images/projects/items/hackathon-pack/icon/project-hackathon-pack.webp
+  hidden: false
+- id: cypherpunk-launchpad
+  name: Cypherpunk Launchpad
+  description: An initiative supporting early-stage privacy projects with structure and visibility.
+  category: community
+  order: 9
+  icon: /images/projects/items/cypherpunk-launchpad/icon/project-cypherpunk-launchpad.webp
+  links:
+    github: https://github.com/web3privacy/Cypherpunk-Launchpad
+  hidden: false
+- id: ideas
+  name: Privacy Idea Generator
+  description: A tool for generating and exploring privacy-related project ideas.
+  category: tools
+  links:
+    url: https://ideas.web3privacy.info
+  order: 10
+  image: /projects/idea-generator.png
+  icon: /images/projects/items/ideas/icon/project-ideas.webp
+  hidden: false
+- id: cypherpunk-osint-toolkit
+  name: Cypherpunk OSINT Toolkit
+  description: A privacy-first toolkit for open-source intelligence research and responsible investigation.
+  category: tools
+  order: 11
+  icon: /images/projects/items/cypherpunk-osint-toolkit/icon/project-cypherpunk-osint-toolkit.webp
+  links:
+    url: https://cypherpunk-research.monkeyflower.ca
+  hidden: false
+- id: privacy-ecosystem-report
+  name: Ethereum Privacy Ecosystem
+  description: A research initiative mapping privacy projects, use cases, and trends across Ethereum.
+  category: research
+  links:
+    url: https://web3privacy.info/research/
+  order: 12
+  image: /projects/eth-ecosystem.png
+  icon: /images/projects/items/privacy-ecosystem-report/icon/project-privacy-ecosystem-report.webp
+  hidden: false
+- id: privacy-audits
+  name: Privacy-Focused Audit
+  description: A research initiative exploring how privacy guarantees can be evaluated in Web3 systems.
+  category: research
+  links:
+    docs: https://hackmd.io/2IRrRsLcQyKo1XOwAFABBA
+  order: 13
+  image: /projects/audits.png
+  icon: /images/projects/items/privacy-audits/icon/project-privacy-audits.webp
+  hidden: false
+- id: privacy-market-dashboard
+  name: Privacy Market Dashboard
+  description: An interactive dashboard for exploring data, trends, and structure across the privacy ecosystem.
+  category: research
+  order: 14
+  icon: /images/projects/items/privacy-market-dashboard/icon/project-privacy-market-dashboard.webp
+  links:
+    url: https://research-agents-dashboard.onrender.com/
+  hidden: false
+- id: ethereum-privacy-hackathon-overview
+  name: Ethereum Privacy Hackathon Overview
+  description: A research overview tracking hackathons, participation, and emerging ideas in Ethereum privacy.
+  category: research
+  order: 15
+  icon: /images/projects/items/ethereum-privacy-hackathon-overview/icon/project-ethereum-privacy-hackathon-overview.webp
+  links:
+    github: https://github.com/web3privacy/research/tree/main/initiatives/ethereum-privacy-ecosystem/resources/hackathons
+  hidden: false
+- id: newsletter
+  name: Newsletter
+  description: A weekly curated overview of key developments in privacy and Web3.
+  category: community
+  links:
+    url: https://news.web3privacy.info
+  order: 16
+  image: /projects/newsletter.png
+  icon: /images/projects/items/newsletter/icon/project-newsletter.webp
+  hidden: false
+- id: privacy-tech-awards
+  name: Privacy Tech Awards
+  description: An annual initiative recognizing impactful privacy projects and contributors.
+  category: community
+  links:
+    url: https://awards.web3privacy.info/
+  order: 17
+  image: /projects/awards.png
+  icon: /images/projects/items/privacy-tech-awards/icon/project-privacy-tech-awards.webp
+  hidden: false
+- id: publishing
+  name: Publishing (Book & Zine)
+  description: Publishing experiments exploring privacy through long-form, cultural, and technical formats.
+  category: community
+  order: 18
+  icon: /images/projects/items/publishing/icon/project-publishing.webp
+  links: {}
+  hidden: false
+- id: join-in-privacy
+  name: Join in Privacy
+  description: >-
+    We are a community of people dedicated to building improved privacy solutions for the web3 ecosystem. Join our
+    Telegram chats.
+  category: main
+  links:
+    url: https://t.me/web3privacy
+  order: 101
+  image: /projects/portal.png
+  hidden: true
+- id: annual-report
+  name: Privacy Annual Report
+  description: Annual research report on the state of privacy in Web3.
+  category: research
+  links:
+    docs: https://docs.web3privacy.info/research/annual-report
+  order: 102
+  image: /projects/annual-report.png
+  hidden: true
+- id: pagency
+  name: Pagency Framework
+  description: Framework for private use-case ideation and design.
+  category: research
+  links:
+    docs: https://docs.web3privacy.info/research/pagency
+    github: https://github.com/web3privacy/pagency-framework
+  order: 103
+  image: /projects/pagency.png
+  hidden: true
+- id: hiring
+  name: Privacy Projects Hiring
+  description: Research on hiring trends and opportunities in privacy projects.
+  category: research
+  links:
+    docs: https://docs.web3privacy.info/research/hiring
+  order: 104
+  image: /projects/hiring.png
+  hidden: true
+- id: privacy-guides
+  name: Privacy Guides
+  description: Curated guides for building and evaluating privacy.
+  category: research
+  links:
+    docs: https://docs.web3privacy.info/research/privacy-guides
+    github: https://github.com/web3privacy/guides
+  order: 105
+  image: /projects/guides.png
+  hidden: true
+- id: usecase-db
+  name: Privacy Use-Cases DB
+  description: Database of privacy use-cases for research and development.
+  category: research
+  links:
+    docs: https://docs.web3privacy.info/research/usecase-db
+  order: 106
+  image: /projects/usecase-db.png
+  hidden: true
+- id: zk-solutions
+  name: ZK Solutions DB
+  description: Database of zero-knowledge solutions and applications.
+  category: research
+  links:
+    docs: https://docs.web3privacy.info/research/zk-solutions
+  order: 107
+  image: /projects/zk-solutions.png
+  hidden: true
+- id: scoring
+  name: Scoring of Privacy Projects
+  description: Methodology and tooling for scoring privacy projects.
+  category: tools
+  links:
+    github: https://github.com/web3privacy/scoring
+  order: 108
+  image: /projects/scoring.png
+  hidden: true
+- id: blur-tool
+  name: Photo Anonymity Blur Tool
+  description: Tool for anonymizing faces and sensitive content in images.
+  category: tools
+  links:
+    github: https://github.com/web3privacy/blur-tool
+  order: 109
+  image: /projects/blur-tool.png
+  hidden: true
+- id: radio
+  name: Privacy Radio & Podcast
+  description: Privacy-focused radio and podcast content.
+  category: community
+  links:
+    url: https://radio.web3privacy.info
+  order: 110
+  image: /projects/radio.png
+  hidden: true

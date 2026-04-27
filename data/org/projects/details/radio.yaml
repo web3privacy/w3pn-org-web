@@ -1,0 +1,84 @@
+hero:
+  logo: /projects/radio.png
+  title: Privacy Radio & Podcast
+  tagline: Privacy-focused radio and podcast content. Listen to discussions and interviews.
+  ctaLabel: LISTEN
+  ctaHref: https://radio.web3privacy.info
+  metrics:
+    - value: Episodes
+      label: AVAILABLE
+    - value: Audio
+      label: FORMAT
+mission:
+  text: |
+    Privacy Radio brings audio content: discussions, interviews, and podcasts
+    focused on Web3 privacy.
+  readMoreHref: https://radio.web3privacy.info
+links:
+  url: https://radio.web3privacy.info
+  youtube: https://www.youtube.com/@Web3PrivacyNow
+features:
+  - title: Privacy Radio & Podcast
+    description: Listen to privacy discussions and interviews.
+    link: https://radio.web3privacy.info
+    linkLabel: Listen
+articles:
+  - href: https://web3privacy.info/news
+    title: Privacy Radio & Podcast – Latest Updates
+    date: '2025'
+    excerpt: Curated privacy news and ecosystem updates.
+    thumbnail: https://picsum.photos/400/200?random=art1
+  - href: https://web3privacy.info/news
+    title: Privacy Ecosystem Report
+    date: '2024'
+    excerpt: Annual report on Web3 privacy trends and projects.
+    thumbnail: https://picsum.photos/400/200?random=art2
+roadmap:
+  - quarter: Q1 2026
+    title: New features
+    description: Expanding Privacy Radio & Podcast with community feedback.
+  - quarter: Q2 2026
+    title: Integration
+    description: Extended integrations and documentation.
+  - quarter: Q3 2026
+    title: Ecosystem growth
+    description: Partnerships and community tools.
+testimonials:
+  - name: Community Member
+    role: Privacy Advocate
+    quote: Privacy Radio & Podcast is a valuable resource for the privacy community.
+    avatar: https://i.pravatar.cc/120?img=6
+  - name: Developer
+    role: Web3 Builder
+    quote: Essential tool for privacy-focused development.
+    avatar: https://i.pravatar.cc/120?img=7
+contribute:
+  text: Listen to Privacy Radio. Submit content ideas.
+  ctaLabel: LISTEN
+  ctaHref: https://radio.web3privacy.info
+team:
+  - name: Core Contributor
+    role: Lead
+    avatar: https://i.pravatar.cc/120?img=8
+  - name: Community Lead
+    role: Operations
+    avatar: https://i.pravatar.cc/120?img=9
+partners:
+  - name: Web3 Privacy Now
+    logo: /projects/portal.png
+    href: https://web3privacy.info
+    description: Community partner
+  - name: Ethereum Foundation
+    logo: /projects/portal.png
+    href: https://ethereum.org
+    description: Ecosystem partner
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Radio & Podcast]
+screenshots:
+  - src: https://picsum.photos/800/450?random=proj1
+    alt: Screenshot
+    caption: Project overview
+  - src: https://picsum.photos/800/450?random=proj2
+    alt: Screenshot
+    caption: Features

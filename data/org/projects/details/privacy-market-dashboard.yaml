@@ -1,0 +1,43 @@
+hero:
+  logo: /images/projects/items/privacy-market-dashboard/icon/project-privacy-market-dashboard.webp
+  title: Privacy Market Dashboard
+  tagline: An interactive dashboard for exploring data, trends, and structure across the privacy ecosystem.
+  ctaLabel: VIEW RESEARCH
+  ctaHref: https://research-agents-dashboard.onrender.com/
+  metrics: []
+mission:
+  text: >-
+    The Privacy Market Dashboard provides a visual and analytical overview of the privacy ecosystem. It enables users to
+    explore data, identify trends, and better understand the structure of the market.
+
+
+    It complements other research efforts by offering an interactive way to engage with ecosystem data rather than
+    relying solely on static reports.
+  readMoreHref: https://research-agents-dashboard.onrender.com/
+links:
+  url: https://research-agents-dashboard.onrender.com/
+contribute:
+  desktopOnly: true
+  text: >-
+    Explore the dashboard, share feedback on the analysis, and help improve how ecosystem data is presented and
+    interpreted.
+  links:
+    - label: Website
+      href: https://research-agents-dashboard.onrender.com/
+  ctaLabel: VIEW RESEARCH
+  ctaHref: https://research-agents-dashboard.onrender.com/
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Market Dashboard]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: false
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: false
+  partners: false

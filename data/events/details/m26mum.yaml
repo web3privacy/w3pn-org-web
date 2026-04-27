@@ -1,0 +1,40 @@
+headerImageUrl: /images/events/items/m26mum/header/m26mum.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/go5h5mod
+location:
+  name: Lumos Cowork
+  address: Lumos Cowork, B Wing, Lumos cowork, Vasudev Chamber, CRESCENT GRANDE, 5th, Old Nagardas Rd, Mogra Village, Mogra Pada, Natwar Nagar, Andheri East, Mumbai, Maharashtra 400069, India
+  city: Mumbai
+  country: IN
+  website: https://www.google.com/maps/search/?api=1&query=Lumos+Cowork%2C+B+Wing%2C+Vasudev+Chamber%2C+CRESCENT+GRANDE%2C+5th%2C+Old+Nagardas+Rd%2C+Mogra+Village%2C+Andheri+East%2C+Mumbai%2C+Maharashtra+400069%2C+India
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+shortDescription: Mumbai road-to-Cypherpunk Congress meetup on CROPS values, free software, and local-global coordination.
+timeRange: 16:00 - 20:00
+topics:
+  content: >-
+    Road to Ethereum Cypherpunk Congress starts in Mumbai. This meetup gathered the local community
+    around CROPS values, free software principles, privacy, human rights, and how the Mumbai
+    congress could support durable collaboration across global and local actors.
+  enabled: true

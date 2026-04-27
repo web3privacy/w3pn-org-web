@@ -1,0 +1,250 @@
+headerImageUrl: /images/events/items/s24prg/header/s24prg.webp
+heroBackgroundImageUrl: /images/events/items/s24prg/header/s24prg-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+    - name: Cryptomario
+      role: Web3Privacy Now
+      handle: cryptom89993779
+      avatar: /images/events/shared/header/cryptomario.jpg
+    - name: Matesak
+      role: Web3Privacy Now
+      handle: Kukumbr420
+      avatar: /images/events/shared/header/matesak.jpg
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/w3pn-summit-prague2
+    - label: Event Website
+      url: https://s24prg.web3privacy.info
+    - label: Event Page
+      url: https://web3privacy.info/event/s24prg/
+location:
+  address: 475/43, Dělnická, 170 00 Praha 7-Holešovice, Czechia
+  city: Prague
+  country: CZ
+  name: Paralelní Polis
+  website: https://luma.com/w3pn-summit-prague2
+schedule:
+  enabled: true
+  items:
+    - time: 09:30 - 10:00
+      title: Registration & networking
+    - speaker: Mykola Siusko
+      time: 10:00 - 10:30
+      title: 'Opening ceremony: time to care for privacy'
+    - time: 10:30 - 11:30
+      title: Privacy values in the age of AI
+    - time: 11:40 - 12:30
+      title: Fight for privacy
+    - time: 12:30 - 14:00
+      title: Lunch break
+    - time: 14:10 - 15:00
+      title: Hacktivism in the crypto era and beyond
+    - time: 15:10 - 16:00
+      title: Cypherpunks back then & now
+    - time: 16:10 - 17:00
+      title: Hyper-practical side of privacy
+    - time: 17:10 - 17:30
+      title: Closing ceremony
+    - time: 19:00 - 00:00
+      title: After party
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: true
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+speakers:
+  - avatar: /images/events/shared/header/jaromil.webp
+    id: jaromil
+    name: Jaromil Roio
+    role: Dyne.org
+    twitter: https://x.com/jaromil
+  - id: franzi
+    name: Franzi
+    role: ETHBerlin / Department of Decentralisation
+  - avatar: /images/events/shared/header/nick-almond.webp
+    id: nick-almond
+    name: Nick Almond
+    role: FactoryDAO
+    twitter: https://x.com/DrNickA
+  - avatar: /images/events/shared/header/rachel-rose-oleary.webp
+    id: rachel-rose-oleary
+    name: Rachel-Rose O'Leary
+    role: DarkFi
+    twitter: https://x.com/lunar_mining
+  - avatar: /images/events/items/s24prg/header/michel-bauwens.webp
+    id: michel-bauwens
+    name: Michel Bauwens
+    role: P2P Foundation
+    twitter: https://x.com/mbauwens
+  - avatar: /images/events/shared/header/paul-dylan-ennis.webp
+    id: paul-dylan-ennis
+    name: Paul Dylan-Ennis
+    role: Absolute Essentials of Ethereum
+    twitter: https://x.com/pdennis
+  - avatar: /images/events/shared/header/ben-west.webp
+    id: ben-west
+    name: Ben West
+    role: Gitcoin / Thrive Protocol
+    twitter: https://x.com/benjamin_l_west
+  - avatar: /images/events/items/s24prg/header/pavol-luptak.webp
+    id: pavol-luptak
+    name: Pavol Luptak
+    role: Institute of Cryptoanarchy / Liberation Travel
+    twitter: https://x.com/wilderko
+  - avatar: /images/events/shared/header/sebastian-burgel.webp
+    id: sebastian-burgel
+    name: Sebastian Bürgel
+    role: HOPR
+    twitter: https://x.com/SCBuergel
+  - avatar: /images/events/shared/header/vaclav-pavlin.webp
+    id: vaclav-pavlin
+    name: Vaclav Pavlin
+    role: Waku
+    twitter: https://x.com/vpavlin
+  - avatar: /images/events/shared/header/steffen-kux.webp
+    id: steffen-kux
+    name: Steffen Kux
+    role: dm3
+    twitter: https://x.com/SteffenKux
+  - avatar: /images/events/shared/header/serinko.webp
+    id: serinko
+    name: Serinko
+    role: Nym
+    twitter: https://x.com/serinko13
+  - avatar: /images/events/items/s24prg/header/gabari.webp
+    id: gabari
+    name: Bryce Gabari
+    role: Brume Wallet
+    twitter: https://x.com/bryce_gabari
+  - avatar: /images/events/shared/header/ameen-soleimani.webp
+    id: ameen-soleimani
+    name: Ameen Soleimani
+    role: 0xbow / MolochDAO
+    twitter: https://x.com/ameensol
+  - avatar: /images/events/items/s24prg/header/andreas-tsamados.webp
+    id: andreas-tsamados
+    name: Andreas Tsamados
+    role: Fileverse
+    twitter: https://x.com/miroyato
+  - avatar: /images/events/shared/header/ahmed-ghappour.webp
+    id: ahmed-ghappour
+    name: Ahmed Ghappour
+    role: Espresso Systems
+    twitter: https://x.com/ghappour
+  - avatar: /images/events/shared/header/mario-havel.webp
+    id: mario-havel
+    name: Mario Havel
+    role: Ethereum Foundation
+    twitter: https://x.com/TMIYChao
+  - avatar: /images/events/shared/header/althea.webp
+    id: althea
+    name: Althea
+    role: Privacy & Scaling Explorations
+    twitter: https://x.com/AltheaNetwork
+  - avatar: /images/events/shared/header/sterlin-lujan.webp
+    id: sterlin-lujan
+    name: Sterlin Lujan
+    role: Logos
+    twitter: https://x.com/SterlinLujan
+  - avatar: /images/events/items/s24prg/header/tor-ekeland.webp
+    id: tor-ekeland
+    name: Tor Ekeland
+    role: Tor Ekeland Law PLLC
+    twitter: https://x.com/TorEkeland
+  - avatar: /images/events/shared/header/max-hampshire.webp
+    id: max-hampshire
+    name: Max Hampshire
+    role: Nym
+    twitter: https://x.com/_wjth
+  - avatar: /images/events/shared/header/juraj-bednar.webp
+    id: juraj-bednar
+    name: Juraj Bednar
+    role: cryptoanarchist & biohacker
+    twitter: https://x.com/jurbed
+  - avatar: /images/events/shared/header/alex-kampa.webp
+    id: alex-kampa
+    name: Alex Kampa
+    role: Aragon ZK Research
+    twitter: https://x.com/alex_kampa
+shortDescription: Privacy summit during ETHPrague with cross-disciplinary discussion on governance, law, and freedom technology.
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - TL8JeX_SP3o
+    - _K7MPaAHQg0
+    - g5lIpem25xM
+    - F1tMuZkpAS8
+    - h9rjHQyCxow
+    - 4rh3T4DTWUs
+    - gnOcZV3e1yI
+    - 0b736g-xQRk
+    - hhcQCdz_Kl0
+topics:
+  content: This summit took place in Prague during ETHPrague. Speakers included Jaromil Roio, Franzi, Nick Almond, and Rachel-Rose O'Leary. It combined a broader public program with cross-disciplinary discussion on privacy, governance, law, and freedom technology.
+  enabled: true
+gallery:
+  enabled: true
+  images:
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-001--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-001--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-001.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-002--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-002--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-002.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-003--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-003--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-003.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-004--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-004--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-004.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-005--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-005--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-005.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-006--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-006--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-006.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-007--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-007--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-007.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-008--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-008--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-008.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-009--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-009--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-009.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-010--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-010--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-010.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-011--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-011--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-011.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-012--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-012--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-012.webp
+    - thumbnailUrl: /images/events/items/s24prg/header/prague-summit-2024-013--thumb.webp
+      previewUrl: /images/events/items/s24prg/header/prague-summit-2024-013--preview.webp
+      fullSizeUrl: /images/events/items/s24prg/header/prague-summit-2024-013.webp

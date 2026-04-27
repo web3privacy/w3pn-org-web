@@ -1,0 +1,445 @@
+headerImageUrl: /images/events/items/c24bkk/header/c24bkk.webp
+heroBackgroundImageUrl: /images/events/items/c24bkk/header/c24bkk-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - name: Mf
+      role: Web3Privacy Now
+      handle: 0x_m_f
+      avatar: /images/events/shared/header/mf.jpg
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+    - name: Andreea CIA
+      role: Web3Privacy Now
+      handle: iandreeacia
+      avatar: /images/events/shared/header/andreea-cia.jpg
+    - name: Robert
+      role: Web3Privacy Now
+      handle: robdotrego
+      avatar: /images/events/shared/header/robert.webp
+    - name: Federico
+      role: Web3Privacy Now
+      handle: BabyBitProd
+      avatar: /images/site-shared/profiles/frederico.webp
+    - name: Peter
+      role: Web3Privacy Now
+      handle: 0xfarbey
+      avatar: /images/projects/shared/team/peter.webp
+experience:
+  cards:
+    - description: Cyber-activism and the state of privacy inside the Ethereum ecosystem.
+      icon: shield
+      title: Cypherpunk x Ethereum intersections
+    - description: A critique of crypto-capitalist culture and a search for alternatives.
+      icon: shield
+      title: Original Ethereum ethos x degen movement
+    - description: Applied cryptography and the ethics of building privacy infrastructure.
+      icon: shield
+      title: The moral role of cryptography
+    - description: Value crises, governance tensions, and possible futures for the ecosystem.
+      icon: shield
+      title: Political culture of Ethereum
+    - description: Current privacy tools and concrete ways people can adopt them.
+      icon: shield
+      title: Practical privacy & self-sovereignty tooling
+  enabled: true
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/w3pn-meetup-devcon7
+    - label: Event Website
+      url: https://c24bkk.web3privacy.info
+location:
+  address: 256, RAMA I Road, Pathum Wan Bangkok
+  city: Bangkok
+  country: TH
+  name: Lido Connect
+  website: https://lidoconnect.com
+gallery:
+  enabled: true
+  images:
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-001--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-001--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-001.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-002--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-002--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-002.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-003--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-003--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-003.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-004--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-004--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-004.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-005--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-005--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-005.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-006--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-006--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-006.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-007--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-007--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-007.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-008--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-008--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-008.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-009--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-009--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-009.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-010--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-010--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-010.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-011--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-011--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-011.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-012--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-012--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-012.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-013--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-013--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-013.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-014--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-014--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-014.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-015--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-015--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-015.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-016--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-016--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-016.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-017--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-017--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-017.webp
+    - thumbnailUrl: /images/events/items/c24bkk/header/congress-bangkok-018--thumb.webp
+      previewUrl: /images/events/items/c24bkk/header/congress-bangkok-018--preview.webp
+      fullSizeUrl: /images/events/items/c24bkk/header/congress-bangkok-018.webp
+sections:
+  articles: false
+  contributors: true
+  eventMap: true
+  experience: true
+  faq: false
+  gallery: true
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+eventMap:
+  enabled: true
+  imageUrl: /images/events/items/c24bkk/header/c24bkk-map.webp
+speakers:
+  - avatar: /images/events/shared/header/vitalik-buterin.webp
+    id: vitalik-buterin
+    name: Vitalik Buterin
+    role: Ethereum
+    twitter: https://x.com/VitalikButerin
+  - avatar: /images/events/items/c24bkk/header/chelsea-manning.webp
+    id: chelsea-manning
+    name: Chelsea Manning
+    role: Nym
+    twitter: https://x.com/xychelsea
+  - avatar: /images/events/shared/header/jarrad-hope.webp
+    id: jarrad-hope
+    name: Jarrad Hope
+    role: Logos / Status
+    twitter: https://x.com/jarradhope_
+  - avatar: /images/events/shared/header/kurt-opsahl.webp
+    id: kurt-opsahl
+    name: Kurt Opsahl
+    role: Filecoin Foundation
+    twitter: https://x.com/kurtopsahl
+  - avatar: /images/events/items/c24bkk/header/adrian-brink.webp
+    id: adrian-brink
+    name: Adrian Brink
+    role: Namada / Anoma
+    twitter: https://x.com/adrianbrink
+  - avatar: /images/events/shared/header/peter-van-valkenburgh.webp
+    id: peter-van-valkenburgh
+    name: Peter Van Valkenburgh
+    role: Coin Center
+    twitter: https://x.com/valkenburgh
+  - avatar: /images/events/shared/header/amir-taaki.webp
+    id: amir-taaki
+    name: Amir Taaki
+    role: DarkFi
+    twitter: https://x.com/Narodism
+  - avatar: /images/events/shared/header/nick-almond.webp
+    id: nick-almond
+    name: Nick Almond
+    role: FactoryDAO
+    twitter: https://x.com/DrNickA
+  - avatar: /images/events/shared/header/ying-tong.webp
+    id: ying-tong
+    name: Ying Tong
+    role: Independent Cryptographer
+    twitter: https://x.com/therealyingtong
+  - avatar: /images/events/shared/header/rachel-rose-oleary.webp
+    id: rachel-rose-oleary
+    name: Rachel-Rose O'Leary
+    role: DarkFi
+    twitter: https://x.com/lunar_mining
+  - avatar: /images/events/items/c24bkk/header/auryn.webp
+    id: auryn
+    name: Auryn
+    role: Gnosis Guild
+    twitter: https://x.com/auryn_macmillan
+  - avatar: /images/events/shared/header/sebastian-burgel.webp
+    id: sebastian-burgel
+    name: Sebastian Bürgel
+    role: GnosisDAO / HOPR
+    twitter: https://x.com/SCBuergel
+  - avatar: /images/events/shared/header/ameen-soleimani.webp
+    id: ameen-soleimani
+    name: Ameen Soleimani
+    role: 0xbow
+    twitter: https://x.com/ameensol
+  - avatar: /images/events/shared/header/daniel-luca.webp
+    id: daniel-luca
+    name: Daniel Luca
+    role: Eden Block
+    twitter: https://x.com/cleanunicorn
+  - avatar: /images/events/items/c24bkk/header/claire-kart.webp
+    id: claire-kart
+    name: Claire Kart
+    role: Aztec
+    twitter: https://x.com/clairekart
+  - avatar: /images/events/shared/header/bob-summerwill.webp
+    id: bob-summerwill
+    name: Bob Summerwill
+    role: ETC Cooperative
+    twitter: https://x.com/bobsummerwill
+  - avatar: /images/events/shared/header/alan-scott.webp
+    id: alan-scott
+    name: Alan Scott
+    role: Railgun
+    twitter: https://x.com/tsu_kareta
+  - avatar: /images/events/items/c24bkk/header/ann-brody.webp
+    id: ann-brody
+    name: Ann Brody
+    role: McGill University
+    twitter: https://x.com/annbrody7
+  - avatar: /images/events/items/c24bkk/header/remi.webp
+    id: remi
+    name: Remi
+    role: Inco
+    twitter: https://x.com/remi_gai
+  - avatar: /images/events/shared/header/costanza-gallo.webp
+    id: costanza-gallo
+    name: Costanza Gallo
+    role: Swarm
+    twitter: https://x.com/costgallo
+  - avatar: /images/events/shared/header/lasha.webp
+    id: lasha
+    name: Lasha
+    role: Rarimo
+    twitter: https://x.com/LashaAntadze
+  - avatar: /images/events/shared/header/ahmed-ghappour.webp
+    id: ahmed-ghappour
+    name: Ahmed Ghappour
+    role: Espresso Systems
+    twitter: https://x.com/ghappour
+  - avatar: /images/events/shared/header/andreas.webp
+    id: andreas
+    name: Andreas
+    role: Fileverse
+    twitter: https://x.com/miroyato
+  - avatar: /images/events/shared/header/ben-west.webp
+    id: ben-west
+    name: Ben West
+    role: Thrive Protocol
+    twitter: https://x.com/benjamin_l_west
+  - avatar: /images/events/items/c24bkk/header/scott-moore.webp
+    id: scott-moore
+    name: Scott Moore
+    role: Gitcoin
+    twitter: https://x.com/notscottmoore
+  - avatar: /images/events/items/c24bkk/header/kris.webp
+    id: kris
+    name: Kris
+    role: Gitcoin Citizens
+    twitter: https://x.com/krrisis
+  - avatar: /images/events/items/c24bkk/header/alex-gluchowski.webp
+    id: alex-gluchowski
+    name: Alex Gluchowski
+    role: Matter Labs
+    twitter: https://x.com/gluk64
+  - avatar: /images/events/items/c24bkk/header/pie-man.webp
+    id: pie-man
+    name: Pie Man
+    role: Fairblock Network
+    twitter: https://x.com/Pememoni
+  - avatar: /images/events/items/c24bkk/header/amit-chaudhary.webp
+    id: amit-chaudhary
+    name: Amit Chaudhary
+    role: Labyrinth
+    twitter: https://x.com/amitchax
+  - avatar: /images/events/items/c24bkk/header/nate.webp
+    id: nate
+    name: Nate
+    role: Token Dynamics
+    twitter: https://x.com/OfficialESC
+  - avatar: /images/events/shared/header/lefteris.webp
+    id: lefteris
+    name: Lefteris
+    role: Rotki
+    twitter: https://x.com/LefterisJP
+  - avatar: /images/events/shared/header/manu-alzuru.webp
+    id: manu-alzuru
+    name: Manu Alzuru
+    role: Blockravers
+    twitter: https://x.com/ManuAlzuru
+  - avatar: /images/events/items/c24bkk/header/hsinju.webp
+    id: hsinju
+    name: Hsinju
+    role: Fhenix
+    twitter: https://x.com/hsinjuchuang
+  - avatar: /images/events/items/c24bkk/header/gavin-birch.webp
+    id: gavin-birch
+    name: Gavin Birch
+    role: Namada
+    twitter: https://x.com/Ether_Gavin
+  - avatar: /images/events/items/c24bkk/header/michelle-lai.webp
+    id: michelle-lai
+    name: Michelle Lai
+    role: Electric Coin Co
+    twitter: https://x.com/michlai007
+  - id: amin
+    name: Amin
+    role: SwissDAO
+  - avatar: /images/events/items/c24bkk/header/nico.webp
+    id: nico
+    name: Nico
+    role: RageAgainstEU
+    twitter: https://x.com/ncsgy
+  - avatar: /images/events/shared/header/oskarth.webp
+    id: oskarth
+    name: Oskarth
+    role: Independent Researcher
+    twitter: https://x.com/oskarth
+  - avatar: /images/events/shared/header/silke-noa.webp
+    id: silke-noa
+    name: Silke Noa
+    role: Stanford / AssangeDAO
+    twitter: https://x.com/silkenoa
+  - avatar: /images/events/items/c24bkk/header/park.webp
+    id: park
+    name: Park
+    role: Penumbra
+    twitter: https://x.com/RadiantCommons
+  - avatar: /images/events/items/c24bkk/header/yana.webp
+    id: yana
+    name: Yana
+    role: Nym
+    twitter: https://x.com/yana_tnfl
+  - avatar: /images/events/shared/header/fatemeh.webp
+    id: fatemeh
+    name: Fatemeh
+    role: Anoma Foundation
+    twitter: https://x.com/Fatalmeh
+  - avatar: /images/events/items/c24bkk/header/tuba-eldem.webp
+    id: tuba-eldem
+    name: Tuba Eldem
+    role: FBU
+    twitter: https://x.com/DrTubaEldem
+  - avatar: /images/events/items/c24bkk/header/nelly.webp
+    id: nelly
+    name: Nelly
+    role: iExec
+    twitter: https://x.com/Web_trees
+  - avatar: /images/events/shared/header/julio-linares.webp
+    id: julio-linares
+    name: Julio Linares
+    role: Poetic Technologies
+    twitter: https://x.com/Julio_Linares_
+  - avatar: /images/events/shared/header/leona-hioki.webp
+    id: leona-hioki
+    name: Leona Hioki
+    role: Intmax
+    twitter: https://x.com/HiokiLeona
+  - avatar: /images/events/items/c24bkk/header/samrichards-eth.webp
+    id: samrichards-eth
+    name: samrichards.eth
+    role: Privacy & Scaling Explorations
+    twitter: https://x.com/samonchain
+  - avatar: /images/events/items/c24bkk/header/matthias-tarasiewicz.webp
+    id: matthias-tarasiewicz
+    name: Matthias Tarasiewicz
+    role: RIAT Institute
+    twitter: https://x.com/parasew
+  - avatar: /images/events/shared/header/s-el-damaty.webp
+    id: s-el-damaty
+    name: S El Damaty
+    role: Holonym
+    twitter: https://x.com/hebbianloop
+  - avatar: /images/events/items/c24bkk/header/christopher-goes.webp
+    id: christopher-goes
+    name: Christopher Goes
+    role: Anoma
+    twitter: https://x.com/cwgoes
+  - avatar: /images/events/shared/header/harry-halpin.webp
+    id: harry-halpin
+    name: Harry Halpin
+    role: Nym
+    twitter: https://x.com/harryhalpin
+shortDescription: A communal gathering defining cypherpunk values, culture, and collective action within the Ethereum ecosystem in Bangkok.
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - Un3_zWjL9PA
+    - wJR6pDyarU8
+    - EzgN0xEDXow
+    - V2y4KdgdgHE
+    - KxGFrH6Dqbc
+    - J4RlaZT1D9U
+    - iwDS8xJMO7Y
+    - av2KLxXZz34
+    - s5WC1-qaCOI
+    - AGUrqPJDrGM
+    - LoiyYL_gsYA
+    - wh8biz4as-I
+    - 43AD82pNV_Q
+    - dAC_-1r9ohs
+    - 0v4o-JJbBYc
+    - 5cAhbyFNB7A
+    - Q1ozjZfld9w
+    - 2a8P9sRNbvI
+    - mHEcjQhJiGs
+    - wb-ne4rF11M
+    - kbwL-a3c3oc
+    - qTKKrOGxzGA
+    - tNRjwxgjZ9Q
+    - fSJly21DtkM
+    - ux5l12IgwH4
+    - bz6b6YeM4NM
+    - AoYwr5S5iTM
+    - d-SWBj3N6nc
+    - aD13oktkf2g
+    - AOri8sxxr-A
+    - LguumxmzRKo
+    - lV1XoF9uxEA
+    - 9RmXxcseMQ8
+    - C-i11RN0L2U
+    - OT1MYlona2E
+    - zYjHhCPRP2Q
+    - 9WfQwGL7ygs
+    - wzGhjGHHgWE
+    - 7FKJQut6YPk
+    - u2fXqZWTtEI
+    - xCpqpRIQ_sw
+    - ryvtBhTBy5k
+topics:
+  content: Historical communal gathering defining cypherpunk values, culture, and actions within the Ethereum ecosystem.
+  enabled: true

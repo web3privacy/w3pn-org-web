@@ -1,0 +1,120 @@
+hero:
+  logo: /images/projects/items/privacy-explorer/icon/project-privacy-explorer.webp
+  title: Privacy Explorer
+  tagline: A public database mapping and evaluating Web3 privacy projects.
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://explorer.web3privacy.info
+  metrics:
+    - value: '850'
+      label: PROJECTS
+    - value: '7'
+      label: ECOSYSTEMS
+    - value: '6'
+      label: CATEGORIES
+    - value: '33'
+      label: USE CASES
+mission:
+  text: |-
+    Privacy Explorer is a ranked, open-source database that helps people explore and compare the privacy, security, and reliability of Web3 projects. As a privacy-first and neutral platform, it makes fragmented ecosystem data legible through searchable profiles, filters, detailed project pages, and transparent scoring.
+
+    The project is part of Web3Privacy Now and is maintained through volunteer and community contributions. Its front-end, data repository, and self-hosted JSON API are public, so anyone can review the methodology, follow updates, submit corrections, and contribute without needing an account.
+  readMoreHref: https://explorer.web3privacy.info/about
+links:
+  url: https://explorer.web3privacy.info
+  docs: https://docs.web3privacy.info/projects/privacy-explorer
+  github: https://github.com/web3privacy/explorer
+contribute:
+  text: Privacy Explorer is community-maintained and open source. You can submit a new project, edit an existing listing, improve the front-end or data repositories, and help keep the database transparent, searchable, and up to date.
+  textShort: Open source and community-maintained—use the How to links to submit or edit listings, improve code or data, and keep Explorer accurate.
+  links:
+    - label: Submit a project
+      href: https://explorer.web3privacy.info/scoring
+    - label: Edit an existing project
+      href: https://explorer.web3privacy.info/scoring
+    - label: Front-end GitHub
+      href: https://github.com/web3privacy/explorer-app
+    - label: Data GitHub
+      href: https://github.com/web3privacy/explorer-data
+    - label: JSON API
+      href: https://explorer-data.web3privacy.info/
+    - label: Telegram
+      href: https://telegram.me/dragon_mf
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Explorer]
+sections:
+  highlights: true
+  missionLinks: true
+  screenshots: true
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+  videos: true
+team:
+  - name: Coinmandeer
+    role: Art Director
+    avatar: /images/events/shared/header/coinmandeer-color.png
+    href: https://github.com/coinmandeer
+  - name: Humbaba
+    role: Contributor
+    avatar: https://github.com/Humbaba.png?size=240
+    href: https://github.com/Humbaba
+  - name: Mykola
+    role: Executive Director
+    avatar: /images/events/shared/header/mykola.webp
+    href: https://github.com/Msiusko
+  - name: Lucilija
+    role: LATAM Coordinator
+    avatar: /images/events/shared/header/lucilija.webp
+videos:
+  - youtubeId: YpfBQD2gyoY
+    title: How to Add a Project to Explorer
+    speaker: ''
+    role: ''
+  - youtubeId: P13CJN3Z7kk
+    title: Edit your project on Explorer
+    speaker: ''
+    role: ''
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Add your privacy project to Explorer
+    date: 2024-03-10T00:00:00.000Z
+    excerpt: Call for projects to join the open database — how listings work and why neutral, comparable privacy data matters for users and builders.
+    href: https://paragraph.com/@web3privacy-now/add-your-privacy-project-to-explorer
+    thumbnail: /images/projects/items/privacy-explorer/articles/add-your-privacy-project-to-explorer.webp
+  - title: Add a project to Explorer — how to
+    date: 2024-03-12T00:00:00.000Z
+    excerpt: Step-by-step guide to submitting a new project profile to Privacy Explorer.
+    href: https://paragraph.com/@web3privacy-now/add-a-project-to-explorer-how-to
+    thumbnail: /images/projects/items/privacy-explorer/articles/add-a-project-to-explorer-how-to.webp
+  - title: Edit your project on Explorer — how to
+    date: 2024-03-14T00:00:00.000Z
+    excerpt: How maintainers can update an existing Explorer listing and keep metadata accurate over time.
+    href: https://paragraph.com/@web3privacy-now/edit-your-project-on-explorer-how-to
+    thumbnail: /images/projects/items/privacy-explorer/articles/edit-your-project-on-explorer-how-to.webp
+  - title: Building “L2beat for privacy” at ETHRome
+    date: 2024-10-05T00:00:00.000Z
+    excerpt: Building an L2beat-style transparency layer for privacy — interfaces, incentives, and lessons from ETHRome.
+    href: https://paragraph.com/@web3privacy-now/building-l2beat-for-privacy-at-ethrome
+    thumbnail: /images/projects/shared/articles/building-l2beat-for-privacy-at-ethrome.webp
+screenshots:
+  - src: /images/projects/items/privacy-explorer/gallery/privacy-explorer-dashboard.webp
+    alt: Privacy Explorer project listing dashboard
+    caption: Explorer dashboard with search, filters, and project cards.
+    previewSrc: /images/projects/items/privacy-explorer/gallery/privacy-explorer-dashboard--preview.webp
+    thumbnailSrc: /images/projects/items/privacy-explorer/gallery/privacy-explorer-dashboard--thumb.webp
+  - src: /images/projects/items/privacy-explorer/gallery/privacy-explorer-project-detail.webp
+    alt: Privacy Explorer project detail page
+    caption: Detailed project view with scoring and structured project information.
+    previewSrc: /images/projects/items/privacy-explorer/gallery/privacy-explorer-project-detail--preview.webp
+    thumbnailSrc: /images/projects/items/privacy-explorer/gallery/privacy-explorer-project-detail--thumb.webp
+  - src: /images/projects/items/privacy-explorer/gallery/privacy-explorer-editor.webp
+    alt: Privacy Explorer admin editor
+    caption: Admin editor for creating and updating project data.
+    previewSrc: /images/projects/items/privacy-explorer/gallery/privacy-explorer-editor--preview.webp
+    thumbnailSrc: /images/projects/items/privacy-explorer/gallery/privacy-explorer-editor--thumb.webp

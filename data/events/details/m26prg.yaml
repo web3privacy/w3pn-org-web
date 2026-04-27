@@ -1,0 +1,47 @@
+headerImageUrl: /images/events/items/m26prg/header/m26prg.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+    - name: Max
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/max-hampshire.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/98pzi0jh
+location:
+  name: Kampus Hybernska / Circular Hub
+  address: Kampus Hybernska, Hybernská 998/4, Nové Město, 110 00 Praha-Praha 1, Czechia
+  city: Prague
+  country: CZ
+  website: https://www.google.com/maps/search/?api=1&query=Kampus+Hybernska%2C+Hybernsk%C3%A1+998%2F4%2C+Nov%C3%A9+M%C4%9Bsto%2C+110+00+Praha-Praha+1%2C+Czechia
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+shortDescription: ETHPrague week meetup on open source, public goods, and grassroots movements.
+timeRange: 17:00 - 22:00
+topics:
+  content: >-
+    Shaping and Defending the Techno-Political Evolution: Open Source, Public Goods, and Grassroots
+    Movements. Web3Privacy now x ETHPrague meetup bringing together open source advocates, public
+    goods builders, internet freedom defenders, and grassroots movements.
+  enabled: true

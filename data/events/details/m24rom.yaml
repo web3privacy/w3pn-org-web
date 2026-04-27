@@ -1,0 +1,120 @@
+headerImageUrl: /images/events/items/m24rom/header/m24rom.webp
+heroBackgroundImageUrl: /images/events/items/m24rom/header/m24rom-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Federico
+      role: Web3Privacy Now
+      handle: BabyBitProd
+      avatar: /images/site-shared/profiles/frederico.webp
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/w3pn-meetup-rome1
+    - label: Event Page
+      url: https://web3privacy.info/event/m24rom/
+location:
+  address: Largo Dino Frisullo, 00153 Roma RM, Italy
+  city: Rome
+  country: IT
+  name: Villaggio Globale
+  website: https://maps.app.goo.gl/S7kUruNvbpjgHuSh9
+gallery:
+  enabled: true
+  images:
+    - thumbnailUrl: /images/events/items/m24rom/header/rome-meetup-2024-001--thumb.webp
+      previewUrl: /images/events/items/m24rom/header/rome-meetup-2024-001--preview.webp
+      fullSizeUrl: /images/events/items/m24rom/header/rome-meetup-2024-001.webp
+    - thumbnailUrl: /images/events/items/m24rom/header/rome-meetup-2024-002--thumb.webp
+      previewUrl: /images/events/items/m24rom/header/rome-meetup-2024-002--preview.webp
+      fullSizeUrl: /images/events/items/m24rom/header/rome-meetup-2024-002.webp
+    - thumbnailUrl: /images/events/items/m24rom/header/rome-meetup-2024-003--thumb.webp
+      previewUrl: /images/events/items/m24rom/header/rome-meetup-2024-003--preview.webp
+      fullSizeUrl: /images/events/items/m24rom/header/rome-meetup-2024-003.webp
+    - thumbnailUrl: /images/events/items/m24rom/header/rome-meetup-2024-004--thumb.webp
+      previewUrl: /images/events/items/m24rom/header/rome-meetup-2024-004--preview.webp
+      fullSizeUrl: /images/events/items/m24rom/header/rome-meetup-2024-004.webp
+    - thumbnailUrl: /images/events/items/m24rom/header/rome-meetup-2024-005--thumb.webp
+      previewUrl: /images/events/items/m24rom/header/rome-meetup-2024-005--preview.webp
+      fullSizeUrl: /images/events/items/m24rom/header/rome-meetup-2024-005.webp
+    - thumbnailUrl: /images/events/items/m24rom/header/rome-meetup-2024-006--thumb.webp
+      previewUrl: /images/events/items/m24rom/header/rome-meetup-2024-006--preview.webp
+      fullSizeUrl: /images/events/items/m24rom/header/rome-meetup-2024-006.webp
+    - thumbnailUrl: /images/events/items/m24rom/header/rome-meetup-2024-007--thumb.webp
+      previewUrl: /images/events/items/m24rom/header/rome-meetup-2024-007--preview.webp
+      fullSizeUrl: /images/events/items/m24rom/header/rome-meetup-2024-007.webp
+sections:
+  articles: true
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: true
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+speakers:
+  - avatar: /images/events/shared/header/jaromil.webp
+    id: jaromil
+    name: Jaromil Roio
+    role: Dyne.org
+    twitter: https://x.com/jaromil
+  - avatar: /images/events/shared/header/arturo-filasto.webp
+    id: arturo-filasto
+    name: Arturo Filastò
+    role: OONI
+    twitter: https://x.com/hellais
+  - avatar: /images/events/items/m24rom/header/emanuele-russo.webp
+    id: emanuele-russo
+    name: Emanuele Russo
+    role: Amnesty Italia
+    twitter: https://x.com/emanuele82
+  - avatar: /images/events/items/m24rom/header/luca-lezzerini.webp
+    id: luca-lezzerini
+    name: Luca Lezzerini
+    role: POLIS University
+    twitter: https://x.com/lucalezzerini
+  - avatar: /images/events/shared/header/andrea-togni.webp
+    id: andrea-togni
+    name: Andrea Togni
+    role: Monero policy workgroup
+  - avatar: /images/events/shared/header/leona-hioki.webp
+    id: leona-hioki
+    name: Leona Hioki
+    role: Intmax
+    twitter: https://x.com/HiokiLeona
+  - avatar: /images/events/items/m24rom/header/marco-castignoli.webp
+    id: marco-castignoli
+    name: Marco Castignoli
+    role: Ethereum Foundation
+    twitter: https://x.com/CastignoliMarco
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - lJpFsnaAHXM
+    - m_pxws316eU
+    - 7V66HWx76Nc
+    - gw5YlrMCZq0
+    - Qj7bvcdZzio
+    - s-v43r6i8y8
+    - qMNSKPArl-k
+topics:
+  content: This meetup took place in Rome during ETHRome. Speakers included Jaromil Roio, Arturo Filastò, Emanuele Russo, and Luca Lezzerini. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  enabled: true
+articles:
+  enabled: true
+  articleIds:
+    - paragraph-building-l2beat-privacy-ethrome

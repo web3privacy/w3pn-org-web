@@ -1,0 +1,1049 @@
+/* Global footer: Contribute, Donation, Newsletter, Members, Site footer bar.
+   Scope: .w3pn-global-footer. Use --content-max (default 1280px), --line, --muted, --accent if available. */
+
+.w3pn-global-footer {
+  --gf-content-max: var(--content-max, 1280px);
+  --gf-line: var(--line, rgba(0, 0, 0, 0.12));
+  --gf-muted: var(--muted, #707070);
+  --gf-accent: var(--accent, #22c55e);
+}
+
+/* Body text under headings: Archivo, org 300 / portal 400 */
+.w3pn-global-footer .contribute-block p,
+.w3pn-global-footer .donation-copy p,
+.w3pn-global-footer .newsletter-row p,
+.w3pn-global-footer .newsletter-status,
+.w3pn-global-footer .newsletter-controls input,
+.w3pn-global-footer .member-card p,
+.w3pn-global-footer .site-footer,
+.w3pn-global-footer .site-footer a,
+.w3pn-global-footer .footer-sitemap-col a,
+.w3pn-global-footer .footer-sitemap-col li {
+  font-family: var(--font-family-sans);
+  font-weight: 300;
+}
+
+.w3pn-global-footer.footer--portal .contribute-block p,
+.w3pn-global-footer.footer--portal .donation-copy p,
+.w3pn-global-footer.footer--portal .newsletter-row p,
+.w3pn-global-footer.footer--portal .newsletter-status,
+.w3pn-global-footer.footer--portal .newsletter-controls input,
+.w3pn-global-footer.footer--portal .member-card p,
+.w3pn-global-footer.footer--portal .site-footer,
+.w3pn-global-footer.footer--portal .site-footer a,
+.w3pn-global-footer.footer--portal .footer-sitemap-col a,
+.w3pn-global-footer.footer--portal .footer-sitemap-col li {
+  font-weight: 400;
+}
+
+.w3pn-global-footer .contribute-wrap {
+  margin-top: 0;
+  background: #f8f8f8;
+  color: #0b0b0b;
+  padding: 72px 20px 44px;
+}
+
+.w3pn-global-footer .contribute-block,
+.w3pn-global-footer .donation-card {
+  width: min(var(--gf-content-max), calc(100% - 40px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w3pn-global-footer .contribute-block {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.w3pn-global-footer .contribute-logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w3pn-global-footer .eye-art {
+  width: 298px;
+  margin: 0 auto;
+  display: block;
+  mix-blend-mode: multiply;
+}
+
+.w3pn-global-footer .contribute-round-logo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  mix-blend-mode: multiply;
+}
+
+.w3pn-global-footer .contribute-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.w3pn-global-footer .contribute-block h3 {
+  font-family: var(--font-family-heading);
+  margin: 0;
+  font-size: var(--type-title-section-size);
+  line-height: var(--type-title-section-line);
+  font-weight: 600;
+}
+
+.w3pn-global-footer .contribute-block p {
+  margin: 14px 0 0;
+  line-height: var(--type-lead-line);
+  color: #505050;
+  font-size: var(--type-lead-size);
+}
+
+.w3pn-global-footer .contribute-block .dark-btn {
+  margin-top: 20px;
+  width: fit-content;
+  padding: 0 24px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  background: #0e0e0e;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.w3pn-global-footer .contribute-block .dark-btn:hover {
+  background: var(--gf-accent);
+  color: #000;
+}
+
+.w3pn-global-footer .community-grid-fullwidth {
+  margin-top: 44px;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px 20px;
+  display: grid;
+  grid-template-rows: repeat(3, 48px);
+  grid-template-columns: repeat(20, 1fr);
+  gap: 10px 12px;
+  justify-content: stretch;
+  box-sizing: border-box;
+}
+
+.w3pn-global-footer .community-grid-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  transition: border-color 0.2s ease, transform 0.1s ease;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.08);
+  color: inherit;
+  text-decoration: none;
+}
+
+.w3pn-global-footer .community-grid-avatar:hover {
+  border-color: rgba(0, 0, 0, 0.25);
+  transform: scale(1.05);
+}
+
+.w3pn-global-footer .community-grid-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.w3pn-global-footer .community-grid-avatar img[src=""] {
+  opacity: 0;
+}
+
+.w3pn-global-footer .donation-card {
+  margin-top: 40px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #000000;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  height: 240px;
+  position: relative;
+}
+
+.w3pn-global-footer .donation-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(90deg, #000000 0%, #000000 40%, rgba(0, 0, 0, 0.78) 57%, rgba(0, 0, 0, 0.12) 74%, rgba(0, 0, 0, 0) 100%);
+}
+
+.w3pn-global-footer .donation-copy {
+  padding: 28px 34px;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.w3pn-global-footer .donation-copy h4 {
+  margin: 0;
+  font-size: var(--type-title-section-size);
+  font-family: var(--font-family-heading);
+  line-height: var(--type-title-section-line);
+  font-weight: 600;
+}
+
+.w3pn-global-footer .donation-copy p {
+  margin: 10px 0 0;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: var(--type-body-line);
+  font-size: var(--type-body-strong-size);
+}
+
+.w3pn-global-footer .donation-copy .primary-btn {
+  margin-top: 18px;
+  height: 46px;
+  width: fit-content;
+  padding: 0 24px;
+  font-size: 14px;
+  background: transparent !important;
+  color: #fff !important;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.w3pn-global-footer .donation-copy .primary-btn:hover {
+  background: var(--gf-accent) !important;
+  color: #000 !important;
+  border-color: var(--gf-accent);
+}
+
+.w3pn-global-footer .donation-card .donation-image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.w3pn-global-footer .donation-card .donation-image-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(to right, #000 0%, rgba(0, 0, 0, 0.5) 35%, transparent 100%);
+}
+
+.w3pn-global-footer .donation-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  filter: grayscale(1);
+  position: relative;
+  z-index: 1;
+}
+
+.w3pn-global-footer .newsletter-row {
+  width: min(1100px, calc(100% - 40px));
+  margin: 41px auto 0;
+  display: grid;
+  grid-template-columns: minmax(0, max-content) minmax(280px, 1fr);
+  gap: 14px;
+  align-items: center;
+}
+
+.w3pn-global-footer .newsletter-row p {
+  margin: 0;
+  color: #161616;
+  font-size: 18px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.w3pn-global-footer .newsletter-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 56px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 14px;
+  padding: 6px;
+  background: #f6f6f6;
+}
+
+.w3pn-global-footer .newsletter-controls input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding: 0 14px;
+  font-size: 15px;
+  color: #0f0f0f;
+}
+
+.w3pn-global-footer .newsletter-controls input::placeholder {
+  color: #8b8b8b;
+}
+
+.w3pn-global-footer .newsletter-btn {
+  margin: 0;
+  height: auto;
+  min-height: 44px;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0 24px;
+  background: transparent !important;
+  color: #000 !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* Portal: bold SUBSCRIBE, hover black bg + white text */
+.w3pn-global-footer.footer--portal .newsletter-btn {
+  font-weight: 700;
+}
+
+.w3pn-global-footer.footer--portal .newsletter-btn:hover {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+/* Org-web: no underline; hover black bg + white text (same as portal) */
+.w3pn-global-footer.footer--org .newsletter-btn,
+.w3pn-global-footer.footer--org .newsletter-btn:hover {
+  text-decoration: none !important;
+}
+
+.w3pn-global-footer.footer--org .newsletter-btn:hover {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.w3pn-global-footer .newsletter-status {
+  width: min(980px, calc(100% - 40px));
+  margin: 10px auto 0;
+  font-size: 16px;
+}
+
+.w3pn-global-footer .newsletter-status.success {
+  color: #228445;
+}
+
+.w3pn-global-footer .newsletter-status.error {
+  color: #a23d3d;
+}
+
+.w3pn-global-footer .members-section {
+  padding: 48px 0 58px;
+  border-top: 1px solid var(--gf-line);
+  background: #0a0a0a;
+  color: #fff;
+}
+
+.w3pn-global-footer .members-section .content-shell {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.w3pn-global-footer .members-section .section-title {
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto 48px;
+}
+
+.w3pn-global-footer .members-section .section-title h2 {
+  margin: 0;
+  font-family: var(--font-family-heading);
+  font-size: var(--type-title-section-size);
+  line-height: var(--type-title-section-line);
+  color: #fff;
+  font-weight: 600;
+}
+
+.w3pn-global-footer .member-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.w3pn-global-footer .member-card {
+  text-align: center;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.w3pn-global-footer .member-card .logo-wrap {
+  width: 124px;
+  height: 124px;
+  margin: 0 auto 10px;
+  border-radius: 12px;
+  background: transparent;
+  border: none;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: filter 0.2s ease;
+}
+
+.w3pn-global-footer .member-card:hover .logo-wrap {
+  filter: brightness(1.08);
+}
+
+.w3pn-global-footer .member-card .logo-wrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  padding: 0;
+  border-radius: 12px;
+  filter: grayscale(1) contrast(1.08) brightness(1.03);
+}
+
+.w3pn-global-footer .member-card h5,
+.w3pn-global-footer .member-card p {
+  margin: 0;
+}
+
+.w3pn-global-footer .member-card h5 {
+  font-size: 14px;
+  color: #fff;
+}
+
+.w3pn-global-footer .member-card p {
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+}
+
+.w3pn-global-footer .members-section .center-cta-wrap {
+  margin-top: 24px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.w3pn-global-footer .outline-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 8px;
+  border: 2px solid var(--gf-accent);
+  color: var(--gf-accent);
+  background: transparent;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.w3pn-global-footer .members-section .center-cta-wrap .outline-btn {
+  /* ~5% lighter than #1a1a1a so it reads on #0a0a0a; color-mix where supported */
+  background: #262626;
+  background: color-mix(in srgb, #1a1a1a 95%, #ffffff 5%);
+  color: var(--gf-accent);
+  border: none;
+  text-transform: none;
+}
+
+.w3pn-global-footer .members-section .center-cta-wrap .outline-btn:hover {
+  background: #353535;
+  background: color-mix(in srgb, #1a1a1a 88%, #ffffff 12%);
+  color: var(--gf-accent);
+}
+
+.w3pn-global-footer .site-footer {
+  position: relative;
+  padding: 24px 0 24px;
+  padding-top: 25px;
+  background: #0a0a0a;
+  color: #e0e0e0;
+}
+
+.w3pn-global-footer .site-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.w3pn-global-footer .site-footer-inner {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.w3pn-global-footer .footer-top {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr auto;
+  gap: 20px 40px;
+  align-items: start;
+}
+
+.w3pn-global-footer .footer-top > img {
+  grid-row: 1;
+  grid-column: 1 / -1;
+  width: auto;
+  height: 43px;
+  max-width: 250px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.w3pn-global-footer .footer-top > div:nth-child(2) {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.w3pn-global-footer .footer-top > div:nth-child(3) {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.w3pn-global-footer .footer-sitemap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 24px 32px;
+}
+
+.w3pn-global-footer .footer-sitemap-three-cols {
+  grid-template-columns: repeat(3, minmax(200px, auto));
+  gap: 24px 48px;
+  justify-self: start;
+}
+
+.w3pn-global-footer .footer-sitemap-two-cols {
+  grid-template-columns: repeat(2, minmax(200px, auto));
+  gap: 24px 48px;
+  justify-self: start;
+}
+
+.w3pn-global-footer .footer-sitemap-four-cols {
+  grid-template-columns: repeat(4, minmax(200px, auto));
+  gap: 24px 48px;
+  justify-self: start;
+}
+
+.w3pn-global-footer .footer-sitemap-col h6 {
+  margin: 0 0 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gf-muted);
+}
+
+.w3pn-global-footer .footer-sitemap-col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.w3pn-global-footer .footer-sitemap-col li {
+  margin-bottom: 6px;
+}
+
+.w3pn-global-footer .footer-sitemap-col a {
+  color: #b0b0b0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: inherit;
+  text-decoration: none;
+}
+
+.w3pn-global-footer .footer-sitemap-col a:hover {
+  color: #fff;
+}
+
+.w3pn-global-footer .footer-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.w3pn-global-footer .footer-columns ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.w3pn-global-footer .footer-columns a {
+  color: #c0c0c0;
+  font-size: 13px;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+.w3pn-global-footer .footer-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.w3pn-global-footer .footer-social-label {
+  margin: 0;
+  font-size: 13px;
+  color: #b0b0b0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.w3pn-global-footer .footer-social-icons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.w3pn-global-footer .footer-socials a {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  color: #d0d0d0;
+  font-size: 10px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  border: none;
+}
+
+.w3pn-global-footer .footer-social-link svg {
+  width: 27px;
+  height: 27px;
+}
+
+.w3pn-global-footer .footer-social-link:hover {
+  color: var(--gf-accent) !important;
+}
+
+.w3pn-global-footer .footer-legal {
+  margin: 24px 0 0;
+  color: #808080;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Responsive: max-width 1024px – tablet */
+@media (max-width: 1024px) {
+  .w3pn-global-footer .community-grid-fullwidth {
+    width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    overflow: hidden;
+  }
+
+  .w3pn-global-footer .community-grid-fullwidth .community-grid-avatar:nth-child(n + 33) {
+    display: none;
+  }
+
+  .w3pn-global-footer .donation-card {
+    grid-template-columns: 70% 1fr;
+  }
+
+  .w3pn-global-footer .newsletter-row p {
+    margin-bottom: 8px;
+  }
+
+  .w3pn-global-footer .newsletter-row {
+    margin-bottom: 32px;
+  }
+
+  .w3pn-global-footer .members-section .member-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Responsive: max-width 1120px */
+@media (max-width: 1120px) {
+  .w3pn-global-footer .footer-top {
+    grid-template-columns: 1fr;
+  }
+
+  .w3pn-global-footer .footer-sitemap,
+  .w3pn-global-footer .footer-sitemap-two-cols,
+  .w3pn-global-footer .footer-sitemap-three-cols,
+  .w3pn-global-footer .footer-sitemap-four-cols {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 24px;
+  }
+
+  .w3pn-global-footer .footer-socials {
+    align-items: flex-start;
+  }
+
+  .w3pn-global-footer .footer-social-icons {
+    justify-content: flex-start;
+  }
+
+  .w3pn-global-footer .site-footer-inner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .w3pn-global-footer .member-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Responsive: max-width 1000px – newsletter text may wrap */
+@media (max-width: 1000px) {
+  .w3pn-global-footer .newsletter-row {
+    grid-template-columns: 1fr minmax(280px, 1fr);
+  }
+  .w3pn-global-footer .newsletter-row p {
+    white-space: normal;
+  }
+}
+
+/* Responsive: max-width 768px */
+@media (max-width: 768px) {
+  .w3pn-global-footer .contribute-wrap {
+    padding: 40px 12px 24px;
+  }
+
+  .w3pn-global-footer .contribute-block,
+  .w3pn-global-footer .donation-card {
+    width: calc(100% - 16px);
+  }
+
+  .w3pn-global-footer .contribute-block {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .w3pn-global-footer .contribute-copy {
+    align-items: center;
+  }
+
+  .w3pn-global-footer .contribute-logo-wrap {
+    order: -1;
+  }
+
+  .w3pn-global-footer .eye-art {
+    width: 214px;
+  }
+
+  .w3pn-global-footer .contribute-round-logo {
+    width: 192px;
+    height: 192px;
+  }
+
+  .w3pn-global-footer .contribute-block h3 {
+    font-size: clamp(24px, 6vw, 32px);
+  }
+
+  .w3pn-global-footer .contribute-block p {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .w3pn-global-footer .community-grid-fullwidth {
+    width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 12px;
+    grid-template-rows: repeat(4, 44px);
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 10px 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .w3pn-global-footer .community-grid-fullwidth .community-grid-avatar:nth-child(n + 33) {
+    display: none;
+  }
+
+  .w3pn-global-footer .community-grid-avatar {
+    width: 44px;
+    height: 44px;
+  }
+
+  .w3pn-global-footer .donation-copy {
+    padding: 20px;
+  }
+
+  .w3pn-global-footer .donation-card {
+    height: auto;
+    min-height: 220px;
+  }
+
+  .w3pn-global-footer .donation-copy h4 {
+    font-size: 24px;
+  }
+
+  .w3pn-global-footer .donation-copy p {
+    font-size: 14px;
+  }
+
+  .w3pn-global-footer .donation-copy .primary-btn {
+    height: 44px;
+    width: fit-content;
+    font-size: 14px;
+    padding: 0 24px;
+    margin-top: 14px;
+  }
+
+  .w3pn-global-footer .newsletter-row {
+    margin-top: 28px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    /* Match .donation-card width (+8px inset vs full content on narrow phones) */
+    width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+    box-sizing: border-box;
+  }
+
+  .w3pn-global-footer .newsletter-row p {
+    text-align: center;
+    font-size: 14px;
+    white-space: normal;
+  }
+
+  .w3pn-global-footer .newsletter-controls {
+    height: 48px;
+  }
+
+  .w3pn-global-footer .newsletter-controls input {
+    font-size: 15px;
+  }
+
+  .w3pn-global-footer .newsletter-btn {
+    height: 36px;
+    font-size: 12px;
+  }
+
+  .w3pn-global-footer .newsletter-status {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .w3pn-global-footer .member-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* ~15% smaller than desktop 124px; in tight columns also 85% of card width */
+  .w3pn-global-footer .member-card .logo-wrap {
+    width: min(105px, 85%);
+    aspect-ratio: 1 / 1;
+    height: auto;
+  }
+
+  .w3pn-global-footer .site-footer-inner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .w3pn-global-footer .members-section .center-cta-wrap {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 16px;
+  }
+
+  /* org global .outline-btn { margin-top: 26px } — remove gap above footer CTAs on mobile */
+  .w3pn-global-footer .members-section .center-cta-wrap .outline-btn {
+    margin-top: 0;
+  }
+
+  .w3pn-global-footer .members-section .section-title {
+    margin: 0 auto 16px;
+  }
+}
+
+/* Narrow phones/tablets: more horizontal room for sitemap (overrides 16px from ≤1120 / ≤768) */
+@media (max-width: 511px) {
+  .w3pn-global-footer .site-footer-inner {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  /* #support: tighter vertical rhythm in stacked contribute grid */
+  .w3pn-global-footer.footer--org .contribute-block {
+    gap: 24px;
+    row-gap: 24px;
+  }
+
+  /*
+   * Contributors grid: full width of #support strip (cancel contribute-wrap 12px inset),
+   * no vertical padding (was 20px from ≤768).
+   */
+  .w3pn-global-footer .community-grid-fullwidth {
+    width: calc(100% + 24px);
+    max-width: none;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .w3pn-global-footer .donation-copy {
+    text-align: center;
+    align-items: center;
+  }
+
+  .w3pn-global-footer .donation-copy h4,
+  .w3pn-global-footer .donation-copy p {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .w3pn-global-footer .donation-copy .primary-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Members: cap logo box at 80×80 on narrow phones (≤512px; overrides ≤768 min(105px, 85%)) */
+@media (max-width: 512px) {
+  .w3pn-global-footer .member-card .logo-wrap {
+    width: min(80px, 100%);
+    max-width: 80px;
+    max-height: 80px;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 399px) {
+  .w3pn-global-footer .newsletter-row {
+    min-width: 0;
+    box-sizing: border-box;
+    /* default 1fr has implicit min-size = min-content; allow column to shrink with viewport */
+    grid-template-columns: minmax(0, 1fr);
+    /* Keep same width as donation card (do not reset to 100% — that widened past donation) */
+    width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+  }
+
+  .w3pn-global-footer .newsletter-controls {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .w3pn-global-footer .newsletter-controls input {
+    min-width: 0;
+  }
+
+  .w3pn-global-footer .newsletter-btn {
+    flex-shrink: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+/*
+ * Footer social icons: org-web-root bumps specificity over styles/org/global.css (loaded after this file).
+ * ≤768: slightly tighter; ≤512: one row on narrow phones (smaller hit targets + gap).
+ */
+@media (max-width: 768px) {
+  .org-web-root .w3pn-global-footer .footer-social-icons {
+    gap: 6px;
+  }
+
+  .org-web-root .w3pn-global-footer .footer-socials a {
+    width: 42px;
+    height: 42px;
+  }
+
+  .org-web-root .w3pn-global-footer .footer-social-link svg {
+    width: 23px;
+    height: 23px;
+  }
+}
+
+@media (max-width: 512px) {
+  /* Full-width row so flex icons share the viewport; block + label aligned left (org landing) */
+  .org-web-root .w3pn-global-footer .footer-socials {
+    align-self: stretch;
+    width: 100%;
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .org-web-root .w3pn-global-footer .footer-social-label {
+    text-align: left;
+  }
+
+  .org-web-root .w3pn-global-footer .footer-social-icons {
+    flex-wrap: nowrap;
+    gap: clamp(4px, 1.5vw, 10px);
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Equal share of full row width; cap keeps tiles from growing huge on tablet-width ≤512 */
+  .org-web-root .w3pn-global-footer .footer-socials a {
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1;
+    max-width: min(52px, 100%);
+    max-height: min(52px, 100%);
+    border-radius: 6px;
+  }
+
+  .org-web-root .w3pn-global-footer .footer-social-link svg {
+    width: 70%;
+    height: 70%;
+    max-width: 28px;
+    max-height: 28px;
+    box-sizing: border-box;
+  }
+}

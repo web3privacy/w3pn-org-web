@@ -1,0 +1,140 @@
+headerImageUrl: /images/events/items/s23rom/header/s23rom.webp
+heroBackgroundImageUrl: /images/events/items/s23rom/header/s23rom-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - name: Federico
+      role: Web3Privacy Now
+      handle: BabyBitProd
+      avatar: /images/site-shared/profiles/frederico.webp
+links:
+  custom:
+    - label: Event Website
+      url: https://lu.ma/web3privacynow_rome
+    - label: Event Page
+      url: https://web3privacy.info/event/s23rom/
+location:
+  address: Largo Dino Frisullo, 00153 Roma RM
+  city: Rome
+  country: IT
+  name: Villaggio Globale
+  website: https://maps.app.goo.gl/S7kUruNvbpjgHuSh9
+sections:
+  articles: true
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+speakers:
+  - avatar: /images/events/items/s23rom/header/eleanore-blanc.webp
+    id: eleanore-blanc
+    name: Eléonore Blanc
+    role: CryptoCanal / ETHDam
+    twitter: https://x.com/blockblanc
+  - avatar: /images/events/items/s23rom/header/rik-krieger.webp
+    id: rik-krieger
+    name: Rik Krieger
+    role: HOPR
+    twitter: https://x.com/rikzrh
+  - avatar: /images/events/items/s23rom/header/vincenzo-iovino.webp
+    id: vincenzo-iovino
+    name: Vincenzo Iovino
+    role: Aragon ZK Research
+    twitter: https://x.com/vincenzoiovino
+  - avatar: /images/events/shared/header/alan-scott.webp
+    id: alan-scott
+    name: Alan Scott
+    role: Railgun
+    twitter: https://x.com/tsu_kareta
+  - avatar: /images/events/shared/header/kieran-mesquita.webp
+    id: kieran-mesquita
+    name: Kieran Mesquita
+    role: Railgun
+    twitter: https://x.com/mesquka
+  - avatar: /images/events/shared/header/andrea-togni.webp
+    id: andrea-togni
+    name: Andrea Togni
+    role: Monero policy workgroup
+  - avatar: /images/events/shared/header/jaromil.webp
+    id: jaromil
+    name: Denis Roio
+    role: Dyne.org
+    twitter: https://x.com/jaromil
+  - avatar: /images/events/shared/header/serinko.webp
+    id: serinko
+    name: Serinko
+    role: Privacy Researcher
+    twitter: https://x.com/serinko13
+  - avatar: /images/events/shared/header/vaclav-pavlin.webp
+    id: vaclav-pavlin
+    name: Václav Pavlín
+    role: Status / Logos / Waku
+    twitter: https://x.com/vpavlin
+  - avatar: /images/events/items/s23rom/header/alex-zaidelson.webp
+    id: alex-zaidelson
+    name: Alex Zaidelson
+    role: SCRT Labs
+    twitter: https://x.com/azaidelson
+  - avatar: /images/events/items/s23rom/header/r-prokh.webp
+    id: r-prokh
+    name: Roma
+    role: Questbook
+    twitter: https://x.com/r_prokh
+  - avatar: /images/events/items/s23rom/header/carlo-chialastri.webp
+    id: carlo-chialastri
+    name: Carlo Chialastri
+    role: urbe.eth lawyer
+  - avatar: /images/events/items/s23rom/header/limone-eth.webp
+    id: limone-eth
+    name: limone.eth
+    role: urbeEth / ETHRome
+    twitter: https://x.com/limone_eth
+  - avatar: /images/events/shared/header/costanza-gallo.webp
+    id: costanza-gallo
+    name: Costanza Gallo
+    role: Swarm Foundation
+    twitter: https://x.com/costgallo
+  - avatar: /images/events/items/s23rom/header/catsnaks.webp
+    id: catsnaks
+    name: Catsnaks
+    role: PSE
+    twitter: https://x.com/catsnaks
+shortDescription: Privacy summit during ETHRome — cross-disciplinary program on governance, digital rights, and zero-knowledge privacy.
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - QUdoGolheLQ
+    - VmR_J0qNJXQ
+    - BuBKfgk8evs
+    - RP8Yk8HHvlY
+    - g66OspDLnl4
+    - a5p_pt4HsIY
+    - 6o_EGBp6N1k
+    - 3h1HOg7Tnws
+    - OLFDe1O2r-A
+    - Xb-PDjGLy7k
+    - lxLjZe2GeIA
+    - 6ZMJygb9fe8
+topics:
+  content: >-
+    This summit took place in Rome during ETHRome. Speakers included Eléonore Blanc, Rik Krieger, Vincenzo Iovino, and
+    Alan Scott. It combined a broader public program with cross-disciplinary discussion on privacy, governance, law, and
+    freedom technology.
+  enabled: true
+articles:
+  enabled: true
+  articleIds:
+    - paragraph-web3privacy-rome-meetup-2-s23rom

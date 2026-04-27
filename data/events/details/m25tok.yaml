@@ -1,0 +1,87 @@
+headerImageUrl: /images/events/items/m25tok/header/m25tok.webp
+heroBackgroundImageUrl: /images/events/items/m25tok/header/m25tok-cover.webp
+contributors:
+  enabled: true
+  items:
+    - name: Robert
+      role: Web3Privacy Now
+      handle: robdotrego
+      avatar: /images/events/shared/header/robert.webp
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/k71p60cb
+gallery:
+  enabled: true
+  images:
+    - thumbnailUrl: /images/events/items/m25tok/header/meetup-tokyo-001--thumb.webp
+      previewUrl: /images/events/items/m25tok/header/meetup-tokyo-001--preview.webp
+      fullSizeUrl: /images/events/items/m25tok/header/meetup-tokyo-001.webp
+    - thumbnailUrl: /images/events/items/m25tok/header/meetup-tokyo-002--thumb.webp
+      previewUrl: /images/events/items/m25tok/header/meetup-tokyo-002--preview.webp
+      fullSizeUrl: /images/events/items/m25tok/header/meetup-tokyo-002.webp
+    - thumbnailUrl: /images/events/items/m25tok/header/meetup-tokyo-003--thumb.webp
+      previewUrl: /images/events/items/m25tok/header/meetup-tokyo-003--preview.webp
+      fullSizeUrl: /images/events/items/m25tok/header/meetup-tokyo-003.webp
+    - thumbnailUrl: /images/events/items/m25tok/header/meetup-tokyo-004--thumb.webp
+      previewUrl: /images/events/items/m25tok/header/meetup-tokyo-004--preview.webp
+      fullSizeUrl: /images/events/items/m25tok/header/meetup-tokyo-004.webp
+    - thumbnailUrl: /images/events/items/m25tok/header/meetup-tokyo-005--thumb.webp
+      previewUrl: /images/events/items/m25tok/header/meetup-tokyo-005--preview.webp
+      fullSizeUrl: /images/events/items/m25tok/header/meetup-tokyo-005.webp
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: true
+  location: false
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+speakers:
+  - avatar: /images/events/shared/header/vitalik-buterin.webp
+    id: vitalik-buterin
+    name: Vitalik Buterin
+    role: Ethereum
+    twitter: https://x.com/VitalikButerin
+  - avatar: /images/events/shared/header/alan-scott.webp
+    id: alan-scott
+    name: Alan Scott
+    role: Railgun
+    twitter: https://x.com/tsu_kareta
+  - avatar: /images/events/shared/header/leona-hioki.webp
+    id: leona-hioki
+    name: Leona Hioki
+    role: Intmax
+    twitter: https://x.com/HiokiLeona
+  - avatar: /images/events/items/m25tok/header/yudai-suzuki.webp
+    id: yudai-suzuki
+    name: Yudai Suzuki
+    role: Fracton Ventures
+    twitter: https://x.com/yudaisuzuki
+  - avatar: /images/events/items/m25tok/header/aki.webp
+    id: aki
+    name: Aki
+    role: Micelium
+    twitter: https://x.com/aki_?
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - S5u8wRp1Qro
+    - '-V98caG15kg'
+    - gOovc9h_FtM
+    - wIxA1VO9Vl4
+    - 1iROgqwP3OE
+topics:
+  content: This meetup took place in Register to see address, Tokyo during Japan Blockchain Week. Speakers included Vitalik Buterin, Alan Scott, Leona Hioki, and Yudai Suzuki. The focus was on privacy tooling, open-source coordination, and current issues in digital rights and the Ethereum ecosystem.
+  enabled: true

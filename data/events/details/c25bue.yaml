@@ -1,0 +1,350 @@
+headerImageUrl: /images/events/items/c25bue/header/c25bue.webp
+heroBackgroundImageUrl: /images/events/items/c25bue/header/c25bue-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - handle: PG_CDG
+      name: PG
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/pg.webp
+    - name: Robert
+      role: Web3Privacy Now
+      handle: robdotrego
+      avatar: /images/events/shared/header/robert.webp
+    - name: Lucila
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/lucilija.webp
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+    - handle: ontologymachine
+      name: Beth McCarthy
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/beth.webp
+    - name: Federico
+      role: Web3Privacy Now
+      handle: BabyBitProd
+      avatar: /images/site-shared/profiles/frederico.webp
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/u2sw5kpv
+    - label: Event Website
+      url: https://congress.web3privacy.info/
+    - label: Event Page
+      url: https://web3privacy.info/event/c25bue/
+gallery:
+  enabled: true
+  images:
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-001--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-001--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-001.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-002--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-002--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-002.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-003--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-003--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-003.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-004--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-004--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-004.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-005--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-005--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-005.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-006--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-006--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-006.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-007--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-007--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-007.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-008--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-008--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-008.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-009--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-009--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-009.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-010--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-010--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-010.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-011--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-011--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-011.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-012--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-012--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-012.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-013--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-013--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-013.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-014--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-014--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-014.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-015--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-015--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-015.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-016--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-016--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-016.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-017--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-017--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-017.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-018--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-018--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-018.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-019--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-019--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-019.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-020--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-020--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-020.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-021--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-021--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-021.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-022--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-022--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-022.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-023--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-023--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-023.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-024--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-024--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-024.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-025--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-025--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-025.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-026--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-026--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-026.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-027--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-027--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-027.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-028--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-028--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-028.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-029--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-029--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-029.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-030--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-030--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-030.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-031--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-031--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-031.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-032--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-032--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-032.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-033--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-033--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-033.webp
+    - thumbnailUrl: /images/events/items/c25bue/header/congress-buenos-aires-034--thumb.webp
+      previewUrl: /images/events/items/c25bue/header/congress-buenos-aires-034--preview.webp
+      fullSizeUrl: /images/events/items/c25bue/header/congress-buenos-aires-034.webp
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: true
+  location: false
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: true
+speakers:
+  - avatar: /images/events/items/c25bue/header/zac-williamson.webp
+    id: zac-williamson
+    name: Zac Williamson
+    role: Aztec
+    twitter: https://x.com/Zac_Aztec
+  - avatar: /images/events/shared/header/peter-van-valkenburgh.webp
+    id: peter-van-valkenburgh
+    name: Peter Van Valkenburgh
+    role: Coin Center
+    twitter: https://x.com/valkenburgh
+  - avatar: /images/events/shared/header/nick-almond.webp
+    id: nick-almond
+    name: Nick Almond
+    role: FactoryDAO
+    twitter: https://x.com/DrNickA
+  - avatar: /images/events/items/c25bue/header/santiago-siri.webp
+    id: santiago-siri
+    name: Santiago Siri
+    role: Democracy Earth
+    twitter: https://x.com/santisiri
+  - avatar: /images/events/shared/header/ameen-soleimani.webp
+    id: ameen-soleimani
+    name: Ameen Soleimani
+    role: 0xbow
+    twitter: https://x.com/ameensol
+  - avatar: /images/events/shared/header/kurt-opsahl.webp
+    id: kurt-opsahl
+    name: Kurt Opsahl
+    role: Filecoin Foundation
+    twitter: https://x.com/kurtopsahl
+  - avatar: /images/events/shared/header/lasha.webp
+    id: lasha-antadze
+    name: Lasha Antadze
+    role: Rarimo
+    twitter: https://x.com/LashaAntadze
+  - avatar: /images/events/shared/header/paul-dylan-ennis.webp
+    id: paul-dylan-ennis
+    name: Paul-Dylan Ennis
+    role: Absolute Essentials of Ethereum
+    twitter: https://x.com/pdennis
+  - avatar: /images/events/shared/header/michael.webp
+    id: michael
+    name: Michael
+    role: Brevis
+    twitter: https://x.com/no89thkey
+  - avatar: /images/events/shared/header/sebastian-burgel.webp
+    id: sebastian-burgel
+    name: Sebastian Bürgel
+    role: GnosisDAO
+    twitter: https://x.com/SCBuergel
+  - avatar: /images/events/shared/header/auryn-mcmillan.webp
+    id: auryn-mcmillan
+    name: Auryn McMillan
+    role: Enclave / Gnosis Guild
+    twitter: https://x.com/auryn_macmillan
+  - avatar: /images/events/shared/header/alan-scott.webp
+    id: alan-scott
+    name: Alan Scott
+    role: Railgun
+    twitter: https://x.com/tsu_kareta
+  - avatar: /images/events/shared/header/andreas.webp
+    id: andreas
+    name: Andreas
+    role: Fileverse
+    twitter: https://x.com/miroyato
+  - avatar: /images/events/shared/header/oskarth.webp
+    id: oskarth
+    name: Oskarth
+    role: Independent
+    twitter: https://x.com/oskarth
+  - avatar: /images/events/shared/header/amir-taaki.webp
+    id: amir-taaki
+    name: Amir Taaki
+    role: DarkFi
+    twitter: https://x.com/Narodism
+  - avatar: /images/events/items/c25bue/header/josh-swihart.webp
+    id: josh-swihart
+    name: Josh Swihart
+    role: Electric Coin Co
+    twitter: https://x.com/jswihart
+  - avatar: /images/events/shared/header/fatemeh-fannizadeh.webp
+    id: fatemeh-fannizadeh
+    name: Fatemeh Fannizadeh
+    role: Anoma Foundation
+    twitter: https://x.com/Fatalmeh
+  - avatar: /images/events/items/c25bue/header/andrew-miller.webp
+    id: andrew-miller
+    name: Andrew Miller
+    role: teleport.best
+    twitter: https://x.com/socrates1024
+  - avatar: /images/events/shared/header/silke-noa.webp
+    id: silke-noa
+    name: Silke Noa
+    role: AssangeDAO
+    twitter: https://x.com/silkenoa
+  - avatar: /images/events/items/c25bue/header/daira-emma-hopwood.webp
+    id: daira-emma-hopwood
+    name: Daira-Emma Hopwood
+    role: Zcash
+    twitter: https://x.com/feministPLT
+  - avatar: /images/events/shared/header/ahmed-ghappour.webp
+    id: ahmed-ghappour
+    name: Ahmed Ghappour
+    role: Flashbots
+    twitter: https://x.com/ghappour
+  - avatar: /images/events/items/c25bue/header/wei-dai.webp
+    id: wei-dai
+    name: Wei Dai
+    role: 1kx
+    twitter: https://x.com/_weidai
+  - avatar: /images/events/items/c25bue/header/seth-for-privacy.webp
+    id: seth-for-privacy
+    name: Seth For Privacy
+    role: Freedom.tech
+    twitter: https://x.com/sethforprivacy
+  - avatar: /images/events/shared/header/jarrad-hope.webp
+    id: jarrad-hope
+    name: Jarrad Hope
+    role: Logos / Status
+    twitter: https://x.com/jarradhope_
+  - avatar: /images/events/items/c25bue/header/naomi-brockwell.webp
+    id: naomi-brockwell
+    name: Naomi Brockwell
+    role: NBTV / Ludlow Institute
+    twitter: https://x.com/naomibrockwell
+  - avatar: /images/events/items/c25bue/header/luke-mulks.webp
+    id: luke-mulks
+    name: Luke Mulks
+    role: Brave
+    twitter: https://x.com/lukemulks
+shortDescription: Ethereum Cypherpunk Congress during Devconnect in Buenos Aires — exploring privacy culture, movement strategy, and freedom technologies.
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - 9nVoXsjwN9w
+    - pBpkqaR4d_A
+    - FPUi47Gt6bE
+    - WlsICV2OPAE
+    - S6SWFFAL1lI
+    - 673Y7KNOJoM
+    - ww2InbgeWNk
+    - P884FIgO7Uw
+    - iLY4RJ54MXM
+    - L5-fTcV1qD8
+    - '-hOP-gf2KUY'
+    - gWXrx7uK4hY
+    - vAXOcDxDcS0
+    - '-pi1cGkbxX4'
+    - 3TPc8De931c
+    - nTL9vhaVZ9g
+    - HhZiVBeIrTI
+    - 9rg9d1rrfdY
+    - pBFYneBUzYM
+    - gh7nkzZioXQ
+    - bJ3I5dnMRs0
+    - u4aI61qmJ-Y
+    - M76X3ULNEHc
+    - NkgErrMXuIk
+    - lcs2pvcbakI
+    - _evGcDWRuyg
+    - B08IXHLOQp4
+    - Pjzfc8UCjAk
+    - vbgpE3pOpNc
+    - zdrvIVYaxEU
+    - ykxHnBon7TI
+    - tA-iA06Vst0
+    - sxln2WLqvho
+    - q8khKAge9Pg
+    - m0k3IF0cItw
+    - gvVhTEmNy-k
+    - eQvwTaZGYEk
+    - XTm21R9tLVs
+    - UunCXjdl6kc
+    - U-kuzmeu84I
+    - SsFVPtLH658
+    - S3PiMK8iguY
+    - Km_aPeoyICE
+    - JIRewMAPrsI
+    - 0fl78eAb5FU
+    - PSEDY2W9d8A
+    - 5At5_GiQNEA
+    - 1ywhXJMyv3I
+    - omRpR1-g0Zw
+    - XKJ1ZJrkKWA
+    - 97-qkXRmMlk
+    - b-ehC8545Q0
+topics:
+  content: This congress took place in Buenos Aires during Devconnect. Speakers included Zac Williamson, Peter Van Valkenburgh, Nick Almond, and Santiago Siri. It was framed as a larger field-building event around privacy culture, movement strategy, and the practical adoption of freedom technologies.
+  enabled: true

@@ -1,0 +1,79 @@
+headerImageUrl: /images/events/items/co25ber/header/co25ber.webp
+heroBackgroundImageUrl: /images/events/items/co25ber/header/co25ber-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+    - name: Andreea CIA
+      role: Web3Privacy Now
+      handle: iandreeacia
+      avatar: /images/events/shared/header/andreea-cia.jpg
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/sq2vtmdg
+    - label: Event Website
+      url: https://dappcon.io
+location:
+  address: Holzmarktstraße 33, 10243 Berlin
+  city: Berlin
+  country: DE
+  name: Radialsystem
+  website: https://maps.app.goo.gl/cMi3ccPzUvKYnpVp7
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: false
+speakers:
+  - avatar: /images/events/items/co25ber/header/wassim-alsindi.webp
+    id: wassim-alsindi
+    name: Wassim Alsindi
+    role: 0xSalon
+    twitter: https://x.com/WassimAlsindi
+  - avatar: /images/events/items/co25ber/header/josh-davila.webp
+    id: josh-davila
+    name: Josh Davila
+    role: The Blockchain Socialist
+    twitter: https://x.com/TBSocialist
+  - avatar: /images/events/shared/header/paul-dylan-ennis.webp
+    id: paul-dylan-ennis
+    name: Paul Dylan-Ennis
+    role: University College Dublin
+    twitter: https://x.com/pdennis
+  - avatar: /images/events/items/co25ber/header/mrs-kzg-eth.webp
+    id: mrs-kzg-eth
+    name: mrs kzg.eth
+    twitter: https://x.com/mrskzg
+  - avatar: /images/events/shared/header/nick-almond.webp
+    id: nick-almond
+    name: Nick Almond
+    role: FactoryDAO
+    twitter: https://x.com/DrNickA
+  - avatar: /images/events/shared/header/andreas.webp
+    id: andreas
+    name: Andreas
+    role: Fileverse
+    twitter: https://x.com/miroyato
+  - avatar: /images/events/shared/header/julio-linares.webp
+    id: julio-linares
+    name: Julio Linares
+    role: Poetic Technologies
+    twitter: https://x.com/Julio_Linares_
+topics:
+  content: >-
+    This collaboration took place in Berlin during Dappcon. Speakers included Wassim Alsindi, Josh Davila, Paul
+    Dylan-Ennis, and mrs kzg.eth.
+  enabled: true

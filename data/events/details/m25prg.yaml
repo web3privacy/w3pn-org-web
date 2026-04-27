@@ -1,0 +1,81 @@
+headerImageUrl: /images/events/items/m25prg/header/m25prg.webp
+heroBackgroundImageUrl: /images/events/items/m25prg/header/m25prg-cover.webp
+contributors:
+  enabled: true
+  items:
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+    - name: Cryptomario
+      role: Web3Privacy Now
+      handle: cryptom89993779
+      avatar: /images/events/shared/header/cryptomario.jpg
+    - name: Matesak
+      role: Web3Privacy Now
+      handle: Kukumbr420
+      avatar: /images/events/shared/header/matesak.jpg
+    - name: Andreea CIA
+      role: Web3Privacy Now
+      handle: iandreeacia
+      avatar: /images/events/shared/header/andreea-cia.jpg
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/jhp1iapn
+    - label: Event Page
+      url: https://web3privacy.info/event/m25prg/
+location:
+  address: Hlavní město Praha
+  city: Prague
+  country: CZ
+  name: Klub Centrála
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: false
+speakers:
+  - avatar: /images/events/shared/header/viktor-tr-n.webp
+    id: viktor-tr-n
+    name: Viktor Trón
+    role: Swarm
+    twitter: https://x.com/zeligf
+  - avatar: /images/events/items/m25prg/header/olexander-kurbatov.webp
+    id: olexander-kurbatov
+    name: Olexander Kurbatov
+    role: Rarimo
+    twitter: https://x.com/KurbatovOlex
+  - avatar: /images/events/shared/header/mario-havel.webp
+    id: mario-havel
+    name: Mario Havel
+    role: Ethereum Foundation
+    twitter: https://x.com/TMIYChao
+  - avatar: /images/events/shared/header/vaclav-pavlin.webp
+    id: vaclav-pavlin
+    name: Vaclav Pavlin
+    role: Waku
+    twitter: https://x.com/vpavlin
+  - id: leo-gomez
+    name: Leo Gomez
+    role: Codex
+  - avatar: /images/events/items/m25prg/header/paul-boes.webp
+    id: paul-boes
+    name: Paul Boes
+    role: Circles / GnosisDAO
+    twitter: https://x.com/boes_
+topics:
+  content: >-
+    This meetup took place in Klub Centrála, Prague during ETHPrague. Speakers included Viktor Trón, Olexander Kurbatov,
+    Mario Havel, and Vaclav Pavlin. The focus was on privacy tooling, open-source coordination, and current issues in
+    digital rights and the Ethereum ecosystem.
+  enabled: true

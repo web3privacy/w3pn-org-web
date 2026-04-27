@@ -1,0 +1,218 @@
+headerImageUrl: /images/events/items/h25ber/header/h25ber.webp
+heroBackgroundImageUrl: /images/events/items/h25ber/header/h25ber-cover.webp
+shortDescription: Three-day Berlin hackathon focused on practical privacy, interdisciplinary collaboration, and cypherpunk values.
+timeRange: 13 Jun 15:00 - 15 Jun 20:30
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/wero3jvo
+    - label: Event Website
+      url: https://hackathon.web3privacy.info
+    - label: Event Page
+      url: https://web3privacy.info/event/h25ber/
+location:
+  name: Engelnest Coworking Space and Event Venue
+  address: Engelnest Coworking Space and Event Venue, Wilhelm-Kabus-Straße 24, 10829 Berlin, Germany
+  city: Berlin
+  country: DE
+  website: https://maps.app.goo.gl/vKdRQ1wuWkkXPhPJ8
+contributors:
+  enabled: true
+  items:
+    - name: Mf
+      role: Web3Privacy Now
+      handle: 0x_m_f
+      avatar: /images/events/shared/header/mf.jpg
+    - name: Mykola Siusko
+      role: Web3Privacy Now
+      handle: nicksvyaznoy
+      avatar: /images/events/shared/header/mykola.webp
+    - name: jensei
+      role: Web3Privacy Now
+      handle: jensei_
+      avatar: /images/events/shared/header/jensei.webp
+    - name: Andreea CIA
+      role: Web3Privacy Now
+      handle: iandreeacia
+      avatar: /images/events/shared/header/andreea-cia.jpg
+    - name: PG
+      role: Web3Privacy Now
+      handle: PG_CDG
+      avatar: /images/events/shared/header/pg.webp
+    - name: Coinmandeer
+      role: Web3Privacy Now
+      handle: KeenOfCoin
+      avatar: /images/events/shared/header/coinmandeer-color.png
+    - name: Federico
+      role: Web3Privacy Now
+      handle: BabyBitProd
+      avatar: /images/site-shared/profiles/frederico.webp
+    - name: Peter
+      role: Web3Privacy Now
+      handle: 0xfarbey
+      avatar: /images/projects/shared/team/peter.webp
+    - handle: alinalatinina
+      name: Alina
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/alina.jpg
+    - name: Migle
+      role: Web3Privacy Now
+      handle: rakymnft
+      avatar: /images/events/shared/header/migle-rakitaite.jpg
+gallery:
+  enabled: true
+  images:
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-001--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-001--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-001.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-002--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-002--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-002.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-003--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-003--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-003.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-004--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-004--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-004.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-005--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-005--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-005.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-006--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-006--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-006.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-007--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-007--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-007.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-008--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-008--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-008.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-009--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-009--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-009.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-010--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-010--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-010.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-011--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-011--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-011.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-012--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-012--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-012.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-013--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-013--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-013.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-014--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-014--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-014.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-015--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-015--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-015.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-016--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-016--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-016.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-017--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-017--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-017.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-018--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-018--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-018.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-019--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-019--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-019.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-020--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-020--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-020.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-021--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-021--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-021.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-022--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-022--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-022.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-023--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-023--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-023.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-024--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-024--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-024.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-025--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-025--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-025.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-026--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-026--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-026.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-027--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-027--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-027.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-028--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-028--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-028.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-029--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-029--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-029.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-030--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-030--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-030.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-031--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-031--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-031.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-032--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-032--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-032.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-033--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-033--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-033.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-034--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-034--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-034.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-035--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-035--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-035.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-036--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-036--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-036.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-037--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-037--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-037.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-038--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-038--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-038.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-039--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-039--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-039.webp
+    - thumbnailUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-040--thumb.webp
+      previewUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-040--preview.webp
+      fullSizeUrl: /images/events/items/h25ber/header/w3pn-hacks-hackathon-040.webp
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: true
+  videos: true
+  articles: true
+  sponsors: false
+  eventMap: true
+  faq: false
+  tickets: false
+eventMap:
+  enabled: true
+  imageUrl: /images/events/items/h25ber/header/h25ber-map.webp
+videos:
+  enabled: true
+  source: manual
+  youtubeIds:
+    - 97madHNGXtk
+    - oCANLFSCPq8
+topics:
+  content: >-
+    W3PN_Hacks was framed as a practical privacy hackathon grounded in real-world applications,
+    social plurality, and collaboration across disciplines. The Luma page emphasized building tools
+    people actually use, matching web2 and web3 privacy cultures, and giving builders practical
+    support on use cases, tooling, and hackathon preparation.
+  enabled: true
+articles:
+  enabled: true
+  articleIds:
+    - paragraph-getting-serious-ethereum-privacy

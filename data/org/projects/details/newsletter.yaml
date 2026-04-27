@@ -1,0 +1,48 @@
+hero:
+  logo: /images/projects/items/newsletter/icon/project-newsletter.webp
+  title: Newsletter
+  tagline: A weekly curated overview of key developments in privacy and Web3.
+  ctaLabel: OPEN INITIATIVE
+  ctaHref: https://news.web3privacy.info
+  metrics: []
+mission:
+  text: >-
+    The newsletter is a weekly curated summary of key developments in privacy and Web3, covering research, technology
+    updates, regulation, and community activity.
+
+
+    It is community-driven and structured as both a real-time information source and a long-term archive of the evolving
+    privacy landscape.
+  readMoreHref: https://news.web3privacy.info
+links:
+  url: https://news.web3privacy.info
+contribute:
+  desktopOnly: true
+  text: Subscribe, share relevant updates, and help keep the privacy community informed about what matters each week.
+  links:
+    - label: Website
+      href: https://news.web3privacy.info
+  ctaLabel: OPEN INITIATIVE
+  ctaHref: https://news.web3privacy.info
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Newsletter]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: true
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: false
+  partners: false
+articlesHrefAll: https://paragraph.com/@web3privacy-now
+articles:
+  - title: Week in the Privacy News (Feb 5–11)
+    date: 2025-02-07
+    excerpt: Weekly digest of privacy and Web3 developments — regulation, tooling, and community signal worth tracking.
+    href: https://paragraph.com/@web3privacy-now/week-in-the-privacy-news-feb-5-11
+    thumbnail: /images/projects/items/newsletter/articles/week-in-the-privacy-news-feb-5-11.webp

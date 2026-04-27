@@ -1,0 +1,40 @@
+hero:
+  logo: /images/projects/items/ideas/icon/project-ideas.webp
+  title: Privacy Idea Generator
+  tagline: A tool for generating and exploring privacy-related project ideas.
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://ideas.web3privacy.info
+  metrics: []
+mission:
+  text: >-
+    The Privacy Idea Generator is a tool that helps users explore and generate new privacy-focused project ideas. It
+    aggregates ideas from community contributions, research, and internal frameworks.
+
+
+    It is particularly useful in early-stage ideation, lowering the barrier to entry for builders and enabling faster
+    exploration of relevant privacy use cases.
+  readMoreHref: https://ideas.web3privacy.info
+links:
+  url: https://ideas.web3privacy.info
+contribute:
+  text: Explore the idea space, share new prompts, and help surface more actionable privacy use cases for builders.
+  links:
+    - label: Add Your Idea
+      href: https://docs.web3privacy.info/projects/privacy-idea-generator/
+  ctaLabel: VISIT PROJECT
+  ctaHref: https://ideas.web3privacy.info
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Privacy Idea Generator]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: false
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: false
+  partners: false

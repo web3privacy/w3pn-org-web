@@ -1,0 +1,69 @@
+headerImageUrl: /images/events/items/m24buc/header/m24buc.webp
+heroBackgroundImageUrl: /images/events/items/m24buc/header/m24buc-cover.webp
+contributors:
+  enabled: true
+  items:
+    - handle: alinalatinina
+      name: Alina Latinina
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/alina.jpg
+    - handle: nicksvyaznoy
+      name: Mykola Siusko
+      role: Web3Privacy Now
+      avatar: /images/events/shared/header/mykola.webp
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/w3pn-meetup-bucharest1
+location:
+  address: Strada C. A. Rosetti 2-4, București 030167, Romania
+  city: Bucharest
+  country: RO
+  name: Galeria Galateca
+  website: https://luma.com/w3pn-meetup-bucharest1
+sections:
+  articles: false
+  contributors: true
+  eventMap: false
+  experience: false
+  faq: false
+  gallery: false
+  location: true
+  schedule: false
+  speakers: true
+  sponsors: false
+  tickets: false
+  topicsLinks: true
+  videos: false
+speakers:
+  - avatar: /images/events/shared/header/kieran-mesquita.webp
+    id: kieran-mesquita
+    name: Kieran Mesquita
+    role: Railgun
+    twitter: https://x.com/mesquka
+  - avatar: /images/events/items/m24buc/header/tim-bansemer.webp
+    id: tim-bansemer
+    name: Tim Bansemer
+    role: AQUA Protocol
+    twitter: https://x.com/tim_bansemer
+  - avatar: /images/events/items/m24buc/header/marija-miki.webp
+    id: marija-miki
+    name: Marija Mikić
+    role: Attic42 / University of Belgrade
+    twitter: https://x.com/mikicmarija
+  - avatar: /images/events/items/m24buc/header/alex-secret-saturn.webp
+    id: alex-secret-saturn
+    name: Alex | Secret Saturn
+    role: Secret Network
+    twitter: https://x.com/secretsaturn
+  - avatar: /images/events/shared/header/daniel-luca.webp
+    id: daniel-luca
+    name: Daniel Luca
+    role: Eden Block
+    twitter: https://x.com/cleanunicorn
+topics:
+  content: >-
+    This meetup took place in Bucharest during ETHBucharest. Speakers included Kieran Mesquita, Tim Bansemer, Marija
+    Mikić, and Alex | Secret Saturn. The focus was on privacy tooling, open-source coordination, and current issues in
+    digital rights and the Ethereum ecosystem.
+  enabled: true

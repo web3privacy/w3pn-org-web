@@ -1,0 +1,70 @@
+headerImageUrl: /images/events/items/h25mem/header/h25mem.webp
+heroBackgroundImageUrl: /images/events/items/h25mem/header/h25mem-cover.webp
+shortDescription: 'Memeathon — online March 2025: memes, privacy culture, and community building with space for experimentation.'
+topics:
+  content: Memeathon was an online gathering in March 2025 combining meme culture with the Web3Privacy community. It mixed playful formats with hands-on building, experimentation, and turning privacy ideas into prototypes.
+  enabled: true
+links:
+  custom:
+    - label: Register
+      url: https://luma.com/6dtpioqm
+contributors:
+  enabled: true
+  items:
+    - name: Alina
+      role: Web3Privacy Now
+      handle: alinalatinina
+      avatar: /images/events/shared/header/alina.jpg
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: false
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+gallery:
+  enabled: true
+  images:
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-001--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-001--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-001.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-002--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-002--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-002.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-003--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-003--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-003.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-004--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-004--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-004.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-005--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-005--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-005.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-006--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-006--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-006.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-007--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-007--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-007.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-008--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-008--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-008.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-009--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-009--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-009.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-010--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-010--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-010.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-011--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-011--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-011.webp
+    - thumbnailUrl: /images/events/items/h25mem/header/memeathon-012--thumb.webp
+      previewUrl: /images/events/items/h25mem/header/memeathon-012--preview.webp
+      fullSizeUrl: /images/events/items/h25mem/header/memeathon-012.webp

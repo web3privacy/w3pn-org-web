@@ -1,0 +1,2419 @@
+/* Project Detail page – unified with event detail (headings, hero, backgrounds) */
+
+/* Website accent color – uniform #70FF88 across entire detail page */
+.project-detail-page {
+  --accent: #70FF88;
+  --accent-hover: #8cff9e;
+  /* Matches .top-nav height in global.css (fixed header) */
+  --project-detail-top-nav-h: 82px;
+}
+
+/* Desktop baseline text size across project detail sections */
+html:has(.project-detail-page) body {
+  font-size: 16px;
+}
+
+/* ========== Hero – event-detail style ========== */
+.project-detail-hero {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/*
+ * Mobile & tablet: subtle divider under hero when highlights are absent (no top line from that block).
+ * Highlights present → next sibling is .project-detail-highlights → this rule does not apply.
+ */
+@media (max-width: 1024px) {
+  .project-detail-page > div > header.project-detail-hero:has(+ .content-shell.project-detail-body)::after {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 1px;
+    margin-left: calc(-50vw + 50%);
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+
+/*
+ * Pull hero media under the fixed top nav (align with .hero on /projects: bg fills padding box).
+ * Without this, padding on the header left a black band above the image.
+ */
+.project-detail-hero-media-wrap {
+  position: relative;
+  margin-top: calc(-1 * var(--project-detail-top-nav-h));
+  padding-top: var(--project-detail-top-nav-h);
+  box-sizing: border-box;
+  min-height: 380px;
+  width: 100vw;
+  max-width: none;
+  overflow: hidden;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-media-wrap {
+    min-height: 440px;
+  }
+}
+
+/* Fade under fixed nav so background image stays readable behind menu */
+.project-detail-hero-nav-fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 20;
+  height: var(--project-detail-top-nav-h);
+  pointer-events: none;
+  background: linear-gradient(180deg, #000 0%, transparent 100%);
+}
+
+/* Below fixed top nav (~82px), then padding-top gives ~24px gap under the bar (logo row) */
+.project-detail-hero-bar {
+  width: min(var(--content-max), calc(100% - 40px));
+  margin: 0 auto;
+  margin-top: var(--project-detail-top-nav-h);
+  padding: 24px 24px 0;
+  position: relative;
+  z-index: 30;
+}
+
+@media (max-width: 768px) {
+  .project-detail-hero-bar {
+    /* Tighter under nav than desktop 82px; narrow left gutter for “Back” */
+    margin-top: 64px;
+    padding: 8px 16px 0 4px;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Align “Back” with content edge: drop the 24px left inset from the bar */
+  .project-detail-page .project-detail-hero-bar {
+    padding: 16px 24px 0 0;
+    /* was calc(100% - 40px) ≈ 20px side inset; use 4px each side on desktop */
+    width: min(var(--content-max), calc(100% - 8px));
+  }
+
+  .project-detail-page .project-detail-hero-back {
+    transform: translate(16px, -16px);
+  }
+}
+
+.project-detail-hero-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.project-detail-hero-back:hover {
+  color: var(--accent);
+}
+
+.project-detail-hero-back--concealed {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s ease, visibility 0.2s;
+}
+
+.project-detail-page .project-detail-hero-back.project-detail-hero-back--concealed {
+  transform: none;
+}
+
+.project-detail-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: #000;
+}
+
+.project-detail-hero-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.5);
+  opacity: 0.15;
+  /* Mobile: slightly less blur than tablet/desktop — scale(1.5) reads stronger on narrow viewports */
+  filter: grayscale(100%) blur(5px);
+}
+
+/* Dedicated hero image: almost sharp, minimal edge soften */
+.project-detail-hero-bg-img--dedicated {
+  transform: none;
+  opacity: 0.55;
+  filter: blur(4px);
+  object-position: center center;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-bg-img {
+    filter: grayscale(100%) blur(7px);
+  }
+
+  .project-detail-hero-bg-img--dedicated {
+    filter: blur(6px);
+  }
+}
+
+.project-detail-hero-bg-solid {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: #000;
+}
+
+.project-detail-hero-inner {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px 80px;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-inner {
+    padding: 16px 24px 48px;
+  }
+}
+
+/* Centered variant – for dedicated bg */
+.project-detail-hero-inner--centered {
+  justify-content: center;
+  padding: 48px 24px 48px;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-inner--centered {
+    padding: 16px 24px 48px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .project-detail-hero-inner {
+    padding-bottom: 56px;
+  }
+
+  .project-detail-hero-inner--centered {
+    padding-bottom: 56px;
+  }
+}
+
+/* Logo-left layout: logo 320x320 left, text left-aligned, 40px gap, centered on page */
+.project-detail-hero-inner--logo-left {
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-inner--logo-left {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.project-detail-hero-content-block--logo-left {
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-content-block--logo-left {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: left !important;
+    gap: 40px !important;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.project-detail-hero-text--right {
+  align-items: center !important;
+  text-align: center !important;
+  max-width: 640px;
+}
+
+.project-detail-hero-text--right .project-detail-hero-tagline {
+  margin-left: 0;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-text--right {
+    align-items: flex-start !important;
+    text-align: left !important;
+    max-width: 640px;
+  }
+  .project-detail-hero-text--right .project-detail-hero-tagline {
+    margin-left: 0;
+  }
+}
+
+.project-detail-hero-content-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .project-detail-hero-content-block {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    text-align: left;
+  }
+}
+
+/* Centered variant – always column/centered */
+.project-detail-hero-content-block--centered {
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  gap: 16px;
+}
+
+.project-detail-hero-image-wrap {
+  flex-shrink: 0;
+}
+
+.project-detail-hero-image-inner {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  border: none;
+  background: #1a1f26;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-image-inner {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+/* Logo-left design: 320x320 logo (same as project listing), no outline */
+.project-detail-hero-content-block--logo-left .project-detail-hero-image-inner {
+  width: 200px;
+  height: 200px;
+  border: none;
+}
+
+@media (min-width: 769px) {
+  .project-detail-hero-content-block--logo-left .project-detail-hero-image-inner {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+.project-detail-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-detail-hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .project-detail-hero-text {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+/* Centered variant – always centered */
+.project-detail-hero-text--centered {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.project-detail-hero-title {
+  margin: 0;
+  padding: 8px 12px;
+  font-family: var(--font-family-sans);
+  font-size: clamp(20px, 3vw, 32px);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  text-shadow: 0 0 1px rgba(255,255,255,0.8), 0 0 2px rgba(255,255,255,0.5);
+}
+
+.project-detail-hero-tagline {
+  margin: 16px 0 0;
+  max-width: 560px;
+  font-size: var(--type-lead-size);
+  line-height: var(--type-lead-line);
+  color: rgba(255, 255, 255, 0.95);
+  font-family: var(--font-family-sans);
+}
+
+.project-detail-hero-cta {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s;
+}
+
+.project-detail-hero-cta:hover {
+  opacity: 0.9;
+}
+
+/* Keep all project detail CTA/button controls capped at 40px */
+.project-detail-page .project-detail-hero-cta,
+.project-detail-page .project-detail-feedback-submit,
+.project-detail-page .event-detail-articles-all-btn,
+.project-detail-page .testimonials-show-more {
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.project-detail-page .project-detail-body button:not(.event-detail-talk-poster):not(.project-detail-screenshot-trigger) {
+  max-height: 40px;
+}
+
+/* hero-line removed – highlights flush under hero */
+
+/* ========== Highlights – flush under hero, inline green stats ========== */
+.project-detail-highlights {
+  width: 100%;
+  background: #000;
+  padding: 24px 0 0 16px;
+  margin-top: -1px;
+}
+
+.project-detail-highlights-inner {
+  width: min(1180px, calc(100% - 80px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .project-detail-highlights-inner {
+    width: min(var(--content-max), calc(100% - 32px));
+    margin: 0 16px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 24px;
+  }
+}
+
+.project-detail-highlights-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.project-detail-highlights-value {
+  flex-shrink: 0;
+  width: 88px;
+  min-width: 88px;
+  font-family: var(--font-family-sans);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  color: #70FF88;
+}
+
+@media (max-width: 768px) {
+  .project-detail-highlights-value {
+    font-size: 36px;
+  }
+}
+
+.project-detail-highlights-label-group {
+  flex: 1;
+  min-width: 0;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #fff;
+  line-height: 1.35;
+  word-wrap: break-word;
+}
+
+.project-detail-highlights-line {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-top: 24px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+@media (min-width: 769px) {
+  .project-detail-highlights {
+    padding: 24px 0 0;
+  }
+
+  .project-detail-highlights-inner {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 32px 24px;
+    justify-items: center;
+  }
+
+  .project-detail-highlights-item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 8px;
+    row-gap: 4px;
+    text-align: center;
+  }
+
+  .project-detail-highlights-value {
+    width: auto;
+    min-width: 0;
+    font-size: 40px;
+  }
+
+  .project-detail-highlights-label-group {
+    flex: 0 1 auto;
+    max-width: 100%;
+    text-align: center;
+    text-wrap: balance;
+  }
+}
+
+/* Project detail: tablet — one row of metrics (1–4 columns by count); desktop ≥1025 keeps auto-fit above */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .project-detail-page .project-detail-highlights-inner {
+    gap: 24px 16px;
+    justify-items: center;
+  }
+
+  .project-detail-page .project-detail-highlights-inner:has(> .project-detail-highlights-item:only-child) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    max-width: 360px;
+  }
+
+  .project-detail-page
+    .project-detail-highlights-inner:has(> .project-detail-highlights-item:first-child:nth-last-child(2)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-detail-page
+    .project-detail-highlights-inner:has(> .project-detail-highlights-item:first-child:nth-last-child(3)) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .project-detail-page
+    .project-detail-highlights-inner:has(> .project-detail-highlights-item:nth-child(4):last-child) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .project-detail-page .project-detail-highlights-inner:has(> .project-detail-highlights-item:nth-child(5)) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Project detail highlights: desktop-only — top rule like mobile, looser number/label gap, air above first body section */
+@media (min-width: 1025px) {
+  .project-detail-page .project-detail-highlights {
+    position: relative;
+  }
+
+  .project-detail-page .project-detail-highlights::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+
+  .project-detail-page .project-detail-highlights-item {
+    column-gap: 12px;
+  }
+
+  .project-detail-page .project-detail-highlights + .content-shell.project-detail-body > .event-detail-section:first-child,
+  .project-detail-page .project-detail-highlights + .content-shell.project-detail-body > .project-detail-section:first-child {
+    padding-top: 56px;
+  }
+}
+
+/* ========== Body sections – event-detail style ========== */
+.project-detail-page .project-detail-body {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/* Main column: no extra gap below feedback on mobile/tablet; desktop keeps breathing room */
+.project-detail-page .content-shell.content-shell--with-padding.project-detail-body {
+  padding-bottom: 0;
+}
+
+@media (min-width: 1025px) {
+  .project-detail-page .content-shell.content-shell--with-padding.project-detail-body {
+    padding-bottom: 48px;
+  }
+}
+
+.project-detail-page .event-detail-section,
+.project-detail-page .project-detail-section {
+  padding: 40px 0;
+}
+
+/* Screenshots: no top/bottom section padding */
+.project-detail-screenshots-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.project-detail-screenshots-section--embedded {
+  width: 100%;
+  min-width: 0;
+}
+
+/* Features: section padding-bottom 16px; title img margin 32px bottom, 24px top */
+.project-detail-features .project-detail-section-title-img {
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+.project-detail-page .event-detail-section.project-detail-features,
+.project-detail-page .project-detail-section.project-detail-features {
+  padding-top: 8px;
+}
+.project-detail-features {
+  padding-bottom: 16px;
+}
+
+/* Articles section: breathing room below list */
+.project-detail-page .event-detail-articles-section.project-detail-section {
+  padding-bottom: 32px;
+}
+
+.project-detail-page .project-detail-articles-show-all-wrap {
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .project-detail-page .project-detail-articles-show-all-wrap {
+    margin-top: calc(16px - 24px);
+  }
+
+  .project-detail-page .event-detail-articles-section .event-detail-article-title {
+    font-size: 13px;
+  }
+}
+
+/* Article cards: vertically center copy with thumbnail on tablet & desktop */
+@media (min-width: 640px) {
+  .project-detail-page .event-detail-article-card {
+    align-items: center;
+  }
+}
+
+/* Testimonials: ensure no padding-bottom on section title img; title img margin-bottom 40px */
+.project-detail-section.testimonials .project-detail-section-title-img {
+  padding-bottom: 0;
+  margin-bottom: 40px;
+}
+
+/* Testimonials: section margin-bottom for spacing */
+.project-detail-page .event-detail-section.project-detail-section.testimonials {
+  margin-bottom: 32px;
+}
+
+/* Contribute: main block margin-left (none on mobile, handled by inner padding) */
+.project-detail-contribute-main {
+  margin-left: 0;
+}
+
+/* Contribute section: outline around content sides, no top line; bottom edge connects to Feedback */
+.project-detail-contribute-section {
+  margin-top: 16px;
+  padding: 16px 0 32px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: none;
+  border-radius: 16px 16px 0 0;
+  box-sizing: border-box;
+}
+
+.project-detail-contribute-section .project-detail-section-title-img {
+  margin-top: 25px;
+}
+
+@media (max-width: 1024px) {
+  .project-detail-page .project-detail-contribute-section--desktop-only {
+    display: none;
+  }
+
+  /* Contribute hidden on ≤1024px: no rounded top (not stacked under a contribute card); keep bottom corners only */
+  .project-detail-page .project-detail-contribute-section--desktop-only + .project-detail-feedback-section {
+    border-radius: 0 0 16px 16px;
+  }
+
+  .project-detail-page .project-detail-contribute-section--desktop-only + .project-detail-feedback-section .project-detail-feedback-box {
+    border-radius: 0 0 16px 16px;
+  }
+}
+
+/* Team section: padding-top 64px, padding-bottom 0; title img margin-bottom 32px */
+.project-detail-team-section {
+  padding-top: 64px;
+  padding-bottom: 0;
+}
+.project-detail-team-section .project-detail-section-title-img {
+  margin-bottom: 40px;
+}
+
+/*
+ * Team avatars: stay circular on all viewports. Global `img { max-width: 100% }` otherwise
+ * shrinks width inside tight grid cells while height stays fixed → ellipses.
+ */
+.project-detail-page .project-detail-team-section .about-team-member img {
+  max-width: none;
+  max-height: none;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+/* Partners section: title img margin-bottom 32px */
+.project-detail-partners-section .project-detail-section-title-img {
+  margin-bottom: 40px;
+}
+
+/* Roadmap section: title img margin-bottom 48px */
+.project-detail-section:has(.project-detail-roadmap-timeline) .project-detail-section-title-img {
+  margin-bottom: 48px;
+}
+
+/* Mission & Links: MISSION title img margin-bottom 32px */
+.project-detail-mission-links .event-detail-topics-col .project-detail-section-title-img {
+  margin-bottom: 32px;
+}
+
+/* Mission text: when “Read more” is used, clamp for overflow detection (line count matches JS threshold) */
+.project-detail-mission-text--clamped {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: hidden;
+}
+
+.project-detail-mission-links-mission .event-detail-prose {
+  padding-bottom: 16px;
+}
+
+/* Team & Partners: aligned to content width like advisors on about us */
+.project-detail-page .project-detail-section .about-team-inner {
+  max-width: var(--content-max);
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Project detail Team: left-aligned members on tablet & mobile; responsive columns (desktop unchanged) */
+@media (max-width: 1024px) {
+  .project-detail-page .project-detail-team-section .about-team-inner {
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  /* Cards sit on a left-aligned grid; inside each card, match desktop (centered stack) */
+  .project-detail-page .project-detail-team-section .about-team-member {
+    text-align: center;
+    min-width: 0;
+  }
+
+  .project-detail-page .project-detail-team-section .about-team-grid {
+    justify-items: start;
+  }
+
+  .project-detail-page .project-detail-team-section .about-team-grid .about-team-member:last-child:nth-child(3n + 1) {
+    grid-column: auto;
+  }
+
+  .project-detail-page .project-detail-team-section .about-team-grid .about-team-member img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .project-detail-page .project-detail-team-section .about-team-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px 20px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 899px) {
+  .project-detail-page .project-detail-team-section .about-team-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .project-detail-page .project-detail-team-section .about-team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 16px;
+  }
+}
+
+/* Project detail sections: image headings (max 40px, one-third smaller on mobile) */
+.project-detail-section-title-img {
+  display: block;
+  height: 40px;
+  max-height: 40px;
+  width: auto;
+  object-fit: contain;
+  object-position: left top;
+  margin: 0 0 24px;
+}
+
+@media (max-width: 768px) {
+  .project-detail-section-title-img {
+    height: 27px;
+    max-height: 27px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Project detail: tablet band — PNG section headings slightly smaller than desktop 40px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .project-detail-page .project-detail-section-title-img,
+  .project-detail-page .event-detail-topics-links .project-detail-section-title-img {
+    height: 32px;
+    max-height: 32px;
+  }
+}
+
+/* Fallback text title (placeholder, screenshots) */
+.project-detail-page .project-detail-section-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin: 0 0 24px;
+  text-transform: uppercase;
+}
+
+/* ========== Screenshots grid ========== */
+.project-detail-screenshots-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project-detail-screenshots-grid > * {
+  min-width: 0;
+}
+.project-detail-screenshot-cell--desktop-only {
+  display: none;
+}
+@media (min-width: 769px) {
+  .project-detail-screenshots-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project-detail-screenshot-cell--desktop-only {
+    display: block;
+  }
+}
+
+.project-detail-screenshot-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.project-detail-screenshot-trigger {
+  width: 100%;
+  max-height: none;
+  height: auto;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  cursor: zoom-in;
+  box-sizing: border-box;
+}
+
+/* Thumbs: full cell width, intrinsic aspect ratio (not clamped by body button max-height). */
+.project-detail-screenshot-img-wrap {
+  width: 100%;
+  min-width: 0;
+  display: block;
+  line-height: 0;
+  background: rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+}
+
+.project-detail-screenshot-img-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.project-detail-screenshot-caption {
+  padding: 10px 14px;
+  margin: 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.project-detail-screenshot-placeholder {
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========== Articles + Roadmap side-by-side ========== */
+.project-detail-articles-roadmap-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+@media (min-width: 769px) {
+  .project-detail-articles-roadmap-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  /* Single visible column (articles-only or roadmap-only): use full content width */
+  .project-detail-articles-roadmap-row > *:only-child {
+    grid-column: 1 / -1;
+    min-width: 0;
+  }
+}
+
+/* Roadmap: per design – future on top (white line, white squares with dot), completed below (green line, green squares + checkmark) */
+.project-detail-roadmap-timeline {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.project-detail-roadmap-segment {
+  position: relative;
+}
+
+/* Future = white line */
+.project-detail-roadmap-segment--future .project-detail-roadmap-list::before {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Past = green line */
+.project-detail-roadmap-segment--past .project-detail-roadmap-list::before {
+  background: var(--accent, #70FF88);
+}
+
+.project-detail-roadmap-now {
+  position: relative;
+  padding: 14px 0 14px 0;
+  min-height: 24px;
+}
+
+.project-detail-roadmap-now::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, var(--accent, #70FF88) 100%);
+}
+
+.project-detail-roadmap-now-label {
+  display: inline-block;
+  margin-left: 28px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* List – line passes through center of bullet column (12px from left) */
+.project-detail-roadmap-list {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-detail-roadmap-list::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 20px;
+  bottom: 20px;
+  width: 2px;
+}
+
+/* Item: bullet aligned to line, then content */
+.project-detail-roadmap-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding-left: 40px;
+  margin-left: 0;
+}
+
+.project-detail-roadmap-bullet-wrap {
+  width: 24px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -40px;
+  margin-top: 2px;
+}
+
+/* Bullet = 16×16 square, aligned to line (center of wrap) */
+.project-detail-roadmap-bullet {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+/* Future: white square with black dot inside */
+.project-detail-roadmap-bullet--future {
+  background-color: #fff;
+  border-radius: 2px;
+  position: relative;
+}
+
+.project-detail-roadmap-bullet--future::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  margin: -2px 0 0 -2px;
+  background: #000;
+  border-radius: 50%;
+}
+
+/* Past: solid green square */
+.project-detail-roadmap-bullet--past {
+  background-color: var(--accent, #70FF88);
+  border-radius: 2px;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.project-detail-roadmap-content {
+  min-width: 0;
+}
+
+.project-detail-roadmap-title {
+  font-weight: 700;
+  font-size: var(--type-title-sm-size);
+  line-height: var(--type-title-sm-line);
+}
+
+.project-detail-roadmap-check {
+  margin-left: 4px;
+  font-weight: 700;
+}
+
+.project-detail-roadmap-desc,
+.project-detail-roadmap-release {
+  margin: 6px 0 0;
+  font-size: var(--type-body-strong-size);
+  line-height: var(--type-body-strong-line);
+}
+
+.project-detail-roadmap-subpoints {
+  margin: 8px 0 0;
+  padding-left: 20px;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-line);
+}
+
+.project-detail-roadmap-subpoints li {
+  margin-bottom: 2px;
+}
+
+.project-detail-roadmap-readmore {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: var(--type-body-strong-size);
+  line-height: var(--type-body-strong-line);
+  font-weight: 500;
+  color: var(--accent, #70FF88);
+  text-decoration: none;
+}
+
+.project-detail-roadmap-readmore:hover {
+  text-decoration: underline;
+}
+
+.project-detail-roadmap-pagination {
+  margin-top: 24px;
+  font-size: var(--type-body-strong-size);
+  line-height: var(--type-body-strong-line);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 768px) {
+  .project-detail-roadmap-item {
+    padding-left: 36px;
+  }
+  .project-detail-roadmap-bullet-wrap {
+    margin-left: -36px;
+  }
+  .project-detail-roadmap-list::before {
+    left: 9px;
+  }
+  .project-detail-roadmap-now::before {
+    left: 9px;
+  }
+}
+
+/* Team: uses about-team-grid / about-team-member from global.css */
+
+/* Partners: 5 per row like advisors (about us), no box */
+.project-detail-partners-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 24px;
+  width: 100%;
+}
+@media (min-width: 560px) {
+  .project-detail-partners-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .project-detail-partners-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.project-detail-partner-cell {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: opacity 0.2s;
+}
+.project-detail-partner-cell:hover {
+  opacity: 0.85;
+}
+a.project-detail-partner-cell:hover {
+  opacity: 0.85;
+}
+/* Partner logo: min. 128×128px, 12px border-radius */
+.project-detail-partner-logo {
+  width: 128px;
+  height: 128px;
+  min-width: 128px;
+  min-height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.project-detail-partner-logo img {
+  width: 128px;
+  height: 128px;
+  object-fit: contain;
+  display: block;
+  border-radius: 12px;
+}
+/* White/inverted logos on dark background – only for real logos (not placeholder images/SVGs) */
+.project-detail-partner-logo img[src^="http"]:not(.project-detail-partner-logo-placeholder),
+.project-detail-partner-logo img[src^="/"]:not(.project-detail-partner-logo-placeholder) {
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+}
+.project-detail-partner-name {
+  font-family: var(--font-family-sans);
+  font-size: var(--type-label-size);
+  line-height: var(--type-label-line);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin: 0 0 4px;
+}
+.project-detail-partner-desc {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+}
+
+/* Features: content centered */
+.project-detail-features {
+  text-align: center;
+}
+
+.project-detail-features .project-detail-features-grid,
+.project-detail-features .project-detail-features-cards {
+  text-align: center;
+}
+
+.project-detail-features .project-detail-features-grid > div,
+.project-detail-features .project-detail-features-cards > div {
+  text-align: center;
+}
+
+.project-detail-features .project-detail-features-icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card: flex column, link 32px from bottom edge. With image: image from top edge */
+.project-detail-features-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 32px 24px 0 24px;
+  overflow: hidden;
+}
+
+.project-detail-features-card:has(.project-detail-features-image) {
+  min-height: 360px;
+  padding-top: 0;
+}
+
+/* Card body: icon + text – vertically centered when card is taller */
+.project-detail-features-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.project-detail-features-card:has(.project-detail-features-image) .project-detail-features-card-body {
+  padding-top: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-detail-features-media {
+  margin-bottom: 24px;
+  flex-shrink: 0;
+}
+
+/* Icon 64×64 px (Material Design) */
+.project-detail-features-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--accent, #70FF88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-detail-features-icon svg {
+  flex-shrink: 0;
+}
+
+/* Image: from card top edge, full card width, 50% card height */
+.project-detail-features-image {
+  flex: 0 0 50%;
+  min-height: 0;
+  overflow: hidden;
+  width: calc(100% + 48px);
+  max-width: none;
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 12px 12px 0 0;
+}
+
+.project-detail-features-card:has(.project-detail-features-image) .project-detail-features-image {
+  margin-bottom: 24px;
+}
+
+.project-detail-features-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1);
+  display: block;
+}
+
+.project-detail-features-card-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: var(--type-title-sm-size);
+  line-height: var(--type-title-sm-line);
+  color: #fff;
+  font-family: var(--font-family-sans);
+}
+
+.project-detail-features-card-subtitle {
+  margin: 4px 0 0;
+  font-size: var(--type-body-strong-size);
+  line-height: var(--type-body-strong-line);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.project-detail-features-card-desc {
+  margin: 8px 0 0;
+  font-size: var(--type-body-strong-size);
+  color: rgba(255, 255, 255, 0.8);
+  line-height: var(--type-body-strong-line);
+}
+
+/* Link always 32px from card bottom edge */
+.project-detail-features-card-link-wrap {
+  margin-top: auto;
+  padding-bottom: 32px;
+  padding-top: 16px;
+}
+
+.project-detail-features-card-link {
+  display: inline-block;
+  font-size: var(--type-body-strong-size);
+  line-height: var(--type-body-strong-line);
+  font-weight: 500;
+  color: var(--accent, #70FF88);
+  text-decoration: none;
+}
+
+.project-detail-features-card-link:hover {
+  text-decoration: underline;
+}
+
+/* When card has no link, bottom padding for consistency */
+.project-detail-features-card:not(:has(.project-detail-features-card-link-wrap)) {
+  padding-bottom: 32px;
+}
+
+.project-detail-features .project-detail-features-icons {
+  justify-items: center;
+  text-align: center;
+}
+
+.project-detail-features .project-detail-features-icons > div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-detail-features-item-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+}
+
+.project-detail-features-item-row .project-detail-features-icon {
+  flex-shrink: 0;
+}
+
+.project-detail-features-item-dot {
+  color: #000;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.project-detail-features-item-text {
+  margin: 0;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.project-detail-features-item-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent, #70FF88);
+  text-decoration: none;
+}
+
+.project-detail-features-item-link:hover {
+  text-decoration: underline;
+}
+
+/* Features: first row cards, second row icon items – on mobile (under 768px) 1 column */
+.project-detail-features-cards {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 769px) {
+  .project-detail-features-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.project-detail-features-icons {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 769px) {
+  .project-detail-features-icons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mission & Links: tablet/desktop ≈ 2/3 mission + 1/3 links; left-aligned full-width row (overrides global .event-detail-topics-links-grid) */
+.project-detail-page .event-detail-section.event-detail-topics-links.project-detail-section {
+  margin-bottom: 16px;
+  padding-bottom: 0;
+}
+
+.project-detail-mission-links {
+  display: grid;
+  gap: 32px 80px;
+  grid-template-columns: 1fr;
+}
+
+.project-detail-mission-links .event-detail-topics-col {
+  grid-column: auto;
+}
+
+.project-detail-mission-links .event-detail-links-col {
+  grid-column: auto;
+}
+
+/* Mission + screenshots + links: on mobile screenshots sit under mission, before links */
+.project-detail-mission-links-shots {
+  grid-template-areas:
+    "mission"
+    "shots"
+    "links";
+  grid-template-columns: 1fr;
+}
+
+.project-detail-mission-links-shots .project-detail-mission-links-mission {
+  grid-area: mission;
+}
+
+.project-detail-mission-links-shots .project-detail-mission-links-screenshots-slot {
+  grid-area: shots;
+  width: 100%;
+  min-width: 0;
+}
+
+.project-detail-mission-links-shots .project-detail-mission-links-links {
+  grid-area: links;
+}
+
+/* Mission + optional screenshots without external links column */
+.project-detail-mission-links-shots.project-detail-mission-links--no-links {
+  grid-template-areas:
+    "mission"
+    "shots";
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 769px) {
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links.project-detail-mission-links--no-links:not(.project-detail-mission-links-shots) {
+    grid-template-columns: 1fr;
+    grid-template-areas: "mission";
+  }
+
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links:not(.project-detail-mission-links-shots) {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "mission links";
+    gap: 32px 64px;
+  }
+
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links-shots.project-detail-mission-links--no-links {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "mission"
+      "shots";
+  }
+
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links-shots {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "mission links"
+      "shots shots";
+    gap: 32px 64px;
+  }
+
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links .project-detail-mission-links-mission {
+    grid-area: mission;
+  }
+
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links .project-detail-mission-links-links {
+    grid-area: links;
+  }
+
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links .project-detail-mission-links-mission,
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links .project-detail-mission-links-links {
+    min-width: 0;
+  }
+
+  .project-detail-page .event-detail-topics-links-grid.project-detail-mission-links-shots .project-detail-mission-links-screenshots-slot {
+    min-width: 0;
+  }
+}
+
+/* Mission & Links: vertical stack of link rows; pill/button look on all breakpoints (matches former mobile-only) */
+.project-detail-page .event-detail-section.event-detail-topics-links .event-detail-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-detail-page .project-detail-mission-links-links .event-detail-links {
+  padding-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .project-detail-page .project-detail-mission-links-links.project-detail-mission-links-links--tail-spacer {
+    padding-bottom: 24px;
+  }
+}
+
+.project-detail-page .event-detail-section.event-detail-topics-links .event-detail-link-item {
+  background: #101010;
+  border: none;
+  border-radius: 6px;
+  min-height: 0;
+  max-height: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  transition: background 0.15s ease;
+}
+
+.project-detail-page .event-detail-section.event-detail-topics-links .event-detail-link-item:hover {
+  background: #1a1a1a;
+}
+
+.project-detail-page .event-detail-section.event-detail-topics-links .event-detail-link-item a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  color: #70ff88;
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.project-detail-page .event-detail-section.event-detail-topics-links .event-detail-link-item a:hover {
+  text-decoration: none;
+}
+
+/* Contribute: ≥769px — two columns matching feedback (copy | How to ↔ copy | form), 560px intro line measure */
+.project-detail-contribute-inner {
+  display: grid;
+  gap: 24px 80px;
+  grid-template-columns: 1fr;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.project-detail-contribute-main {
+  grid-column: auto;
+}
+
+.project-detail-contribute-howto {
+  grid-column: auto;
+}
+
+.project-detail-contribute-text {
+  margin-top: 16px;
+  max-width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+/* Full intro on desktop when textShort exists; tablet/mobile use shorter paragraph */
+.project-detail-contribute-text--desktop-lg {
+  display: block;
+}
+
+.project-detail-contribute-text--tablet-mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .project-detail-contribute-text--desktop-lg {
+    display: none;
+  }
+
+  .project-detail-contribute-text--tablet-mobile {
+    display: block;
+  }
+
+  /* Projects without textShort: keep one paragraph, limit to ~2 lines */
+  .project-detail-contribute-text--clamp-below-lg {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1025px) {
+  .project-detail-contribute-text--clamp-below-lg {
+    display: block;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+}
+
+.project-detail-contribute-howto-title {
+  margin: 8px 0 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: inherit;
+}
+
+.project-detail-contribute-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.project-detail-contribute-links li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-detail-contribute-links a {
+  font-weight: 500;
+  color: var(--accent, #70FF88);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.project-detail-contribute-links a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+  .project-detail-page .project-detail-contribute-howto {
+    padding-top: 8px;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Match .project-detail-feedback-main (1fr | 1fr, 48px gap): intro column width = feedback copy; How to aligns with form */
+  .project-detail-contribute-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 48px;
+    align-items: start;
+  }
+
+  .project-detail-contribute-main {
+    grid-column: auto;
+    min-width: 0;
+  }
+
+  .project-detail-contribute-howto {
+    grid-column: auto;
+    min-width: 0;
+    padding-left: 8px;
+  }
+
+  .project-detail-contribute-text {
+    max-width: 560px;
+  }
+
+  .project-detail-page .project-detail-contribute-howto {
+    padding-top: 0;
+  }
+}
+
+/* ========== Feedback – dark box, connected to Contribute (single visual unit) ========== */
+.project-detail-feedback-section {
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 0 0 16px 16px;
+  padding: 40px 24px 32px 40px;
+  margin-top: 0;
+  box-sizing: border-box;
+  isolation: isolate;
+}
+
+.project-detail-feedback-box {
+  background: transparent;
+  border: none;
+  border-radius: 0 0 16px 16px;
+  padding: 0;
+  margin-left: 0;
+}
+
+/* Title PNG uses black plate; screen = black → shows panel gray, light pixels stay bright */
+.project-detail-feedback-section .project-detail-feedback-col--text .project-detail-section-title-img {
+  mix-blend-mode: screen;
+}
+
+.project-detail-feedback-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: start;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .project-detail-feedback-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+}
+
+.project-detail-feedback-col--text {
+  min-width: 0;
+}
+
+.project-detail-feedback-desc {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 560px;
+}
+
+.project-detail-feedback-desc--desktop-lg {
+  display: block;
+}
+
+.project-detail-feedback-desc--tablet-mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .project-detail-feedback-desc--desktop-lg {
+    display: none;
+  }
+
+  .project-detail-feedback-desc--tablet-mobile {
+    display: block;
+  }
+}
+
+.project-detail-feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .project-detail-page .project-detail-feedback-form {
+    gap: 8px;
+  }
+}
+
+.project-detail-feedback-input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: #000;
+  color: #fff;
+  /* Match .project-detail-feedback-email (14px) so textarea, typed text, and placeholder align on all viewports */
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.project-detail-feedback-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: inherit;
+  opacity: 1;
+}
+
+#pd-feedback-message {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.project-detail-feedback-textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.project-detail-feedback-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: stretch;
+  padding-top: 8px;
+}
+
+.project-detail-feedback-email {
+  flex: 1;
+  min-width: 200px;
+  border: none;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.project-detail-feedback-submit {
+  margin-top: 0;
+  padding: 0 24px;
+  height: 40px;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--accent, #70FF88);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 2px solid var(--accent, #70FF88);
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.project-detail-feedback-submit:hover {
+  background: var(--accent, #70FF88);
+  color: #000;
+  border-color: var(--accent, #70FF88);
+}
+
+.project-detail-feedback-submit:focus-visible {
+  outline: 2px solid var(--accent, #70FF88);
+  outline-offset: 2px;
+}
+
+@media (max-width: 1024px) {
+  html:has(.project-detail-page) body {
+    font-size: 14px;
+  }
+
+  /* Contribute & Feedback: full viewport width on tablet, no rounded corners, 32px inner spacing */
+  .project-detail-page .project-detail-contribute-section {
+    border-radius: 0;
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+  .project-detail-page .project-detail-contribute-inner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .project-detail-page .project-detail-feedback-section {
+    border-radius: 0;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-detail-feedback-box {
+    padding: 0;
+    margin-left: 0;
+  }
+}
+
+/* Footer: grid for avatars and layout */
+.project-detail-footer-avatars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.project-detail-footer-columns {
+  display: none;
+}
+@media (min-width: 769px) {
+  .project-detail-footer-columns {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 48px;
+    align-items: start;
+    text-align: left;
+  }
+}
+
+/* Data highlights on mobile: two columns like events listing hero metrics */
+@media (max-width: 768px) {
+  /* +8px horizontal inset vs previous ~16px gutter (symmetric 24px; inner fills padded area) */
+  .project-detail-page .project-detail-highlights {
+    padding: 24px 24px 0;
+    box-sizing: border-box;
+  }
+
+  .project-detail-page .project-detail-highlights-inner {
+    /* Slightly wider first column so value + label fit on one line */
+    grid-template-columns: minmax(0, 1.16fr) minmax(0, 0.84fr);
+    column-gap: 28px;
+    row-gap: 16px;
+    width: min(var(--content-max), 100%);
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 0;
+    overflow-x: visible;
+  }
+
+  .project-detail-page .project-detail-highlights-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .project-detail-page .project-detail-highlights-value {
+    flex-shrink: 0;
+    width: auto;
+    min-width: 0;
+  }
+
+  .project-detail-page .project-detail-highlights-label-group {
+    flex: 0 1 auto;
+    min-width: min-content;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+
+/* ========== Project detail: mobile optimization (align with event detail) ========== */
+@media (max-width: 768px) {
+  html:has(.project-detail-page) body {
+    font-size: 14px;
+  }
+
+  /* 1. Hero project name – fixed size on small screens */
+  .project-detail-page .project-detail-hero-title {
+    font-size: 20px;
+  }
+
+  /* Tighter gap between “Back” and hero copy (default vs dedicated-bg centered layout) */
+  .project-detail-page .project-detail-hero-inner {
+    padding-top: 24px;
+    padding-bottom: 48px;
+  }
+  .project-detail-page .project-detail-hero-inner--centered {
+    padding-top: 40px;
+  }
+
+  .project-detail-page .project-detail-hero-cta {
+    margin-top: 16px;
+  }
+
+  /* 2. Line above and below data highlights (mobile only) */
+  .project-detail-page .project-detail-highlights {
+    position: relative;
+  }
+  .project-detail-page .project-detail-highlights::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+
+  /* 3. Main detail column: +8px vs default shell (40px); contribute/feedback cancel shell for edge-to-edge bands */
+  .project-detail-page .content-shell.content-shell--with-padding.project-detail-body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .project-detail-page .project-detail-contribute-section {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+
+  .project-detail-page .project-detail-feedback-section {
+    margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+  }
+
+  /* 4. Above Mission reduce gap by 32px */
+  .project-detail-page .project-detail-body > :first-child {
+    margin-top: -32px;
+  }
+
+  /* 5. Features two-column on mobile (including legacy grid) */
+  .project-detail-page .project-detail-features .project-detail-features-grid,
+  .project-detail-page .project-detail-features-cards,
+  .project-detail-page .project-detail-features-icons {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* 6. Contribute: How to links side by side, wrap; align with content; 24px horizontal inset */
+  .project-detail-page .project-detail-contribute-inner {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .project-detail-page .project-detail-contribute-main {
+    margin-left: 0;
+  }
+  .project-detail-page .project-detail-contribute-howto {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .project-detail-page .project-detail-contribute-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+  }
+  .project-detail-page .project-detail-contribute-links li {
+    flex-direction: row;
+  }
+  .project-detail-page .project-detail-contribute-text {
+    padding-right: 24px;
+    font-size: 14px;
+  }
+
+  /* Contribute & Feedback: reduced padding */
+  .project-detail-page .project-detail-contribute-section {
+    padding: 16px 0 32px;
+  }
+  .project-detail-page .project-detail-feedback-box {
+    padding: 0;
+    margin-left: 0;
+  }
+  .project-detail-page .project-detail-feedback-col--text {
+    padding-left: 0;
+  }
+
+  /* 7. Enlarge Team section avatars to 128×128px */
+
+  /* 8. Center Testimonials & Partners headings (Team title stays left like other section PNGs) */
+  .project-detail-page .event-detail-section.project-detail-section.testimonials .project-detail-section-title-img,
+  .project-detail-page .project-detail-partners-section .project-detail-section-title-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-detail-page .project-detail-team-section .about-team-member img {
+    width: min(128px, 100%);
+    height: auto;
+    max-width: none;
+    max-height: none;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  .project-detail-page .project-detail-section-title-img,
+  .project-detail-page .event-detail-topics-links .project-detail-section-title-img {
+    margin-top: 24px;
+    margin-bottom: 28px;
+  }
+
+  .project-detail-page .event-detail-articles-all-btn {
+    height: 40px;
+    padding: 0 16px;
+  }
+
+  .project-detail-page .event-detail-article-card {
+    padding: 12px 16px 12px 0;
+  }
+
+  /* Partners: smaller logos and gap on mobile to prevent overflow */
+  .project-detail-page .project-detail-partners-grid {
+    gap: 24px 20px;
+  }
+
+  .project-detail-page .project-detail-partner-logo {
+    width: 96px;
+    height: 96px;
+    min-width: 96px;
+    min-height: 96px;
+    margin-bottom: 8px;
+  }
+
+  .project-detail-page .project-detail-partner-logo img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .project-detail-page .project-detail-feedback-submit {
+    padding: 0 16px;
+  }
+
+  .org-web-root:has(.project-detail-page) .top-nav {
+    z-index: 100;
+  }
+}
+
+/* Tablet feedback: extra air above content (after ≤768 rules so 768px gets +24px, not 8px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .project-detail-page .project-detail-feedback-section {
+    padding-top: 32px; /* +24px vs 8px from ≤1024 shell */
+  }
+}
+
+@media (min-width: 512px) and (max-width: 768px) {
+  .project-detail-page .project-detail-contribute-inner {
+    padding-left: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-detail-page .project-detail-body .event-detail-section,
+  .project-detail-page .project-detail-body .project-detail-section {
+    padding: 32px 0;
+  }
+
+  .project-detail-page .project-detail-section-title-img,
+  .project-detail-page .event-detail-topics-links .project-detail-section-title-img {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  /* Mission heading: extra top spacing away from highlights */
+  .project-detail-page .project-detail-mission-links .project-detail-section-title-img {
+    margin-top: 40px;
+  }
+
+  /* Mission prose: 14px font */
+  .project-detail-page .project-detail-mission-links .event-detail-prose,
+  .project-detail-page .project-detail-mission-links .event-detail-prose p {
+    font-size: 14px;
+  }
+
+  /* Videos: two columns on small tablets only; phones ≤512px use single column (see narrow block below) */
+  .project-detail-page .event-detail-talks-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  /* Feedback form: more vertical gap between email input and submit button */
+  .project-detail-page .project-detail-feedback-form-row {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .project-detail-page .project-detail-feedback-email {
+    min-width: 0;
+  }
+
+  .project-detail-page .event-detail-topics-links .event-detail-topics-links-grid {
+    gap: 32px 0;
+  }
+
+  .project-detail-page .event-detail-topics-links {
+    margin-bottom: 24px;
+  }
+}
+
+/* Partners on mobile: two-column like avatars in Team section */
+@media (max-width: 768px) {
+  .project-detail-page .project-detail-partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .project-detail-page .project-detail-body .event-detail-section,
+  .project-detail-page .project-detail-body .project-detail-section {
+    padding: 24px 0;
+  }
+}
+
+/* Project detail videos section */
+.project-detail-section.event-detail-talks-section .project-detail-section-title-img {
+  margin-bottom: 36px;
+}
+
+.project-detail-section-title-fallback {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f2f4f6;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 36px;
+}
+
+/* ─── Narrow phones (≤512px): tighter horizontal rhythm, event-style talks & metrics ─── */
+@media (max-width: 512px) {
+  .project-detail-page .project-detail-hero-back {
+    font-size: 14px;
+  }
+
+  .project-detail-page .project-detail-hero-tagline {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  /* Match listing/events hero metrics feel: compact rows, value + label, stronger label tracking */
+  .project-detail-page .project-detail-highlights {
+    padding: 20px 24px 0;
+    box-sizing: border-box;
+  }
+
+  .project-detail-page .project-detail-highlights-inner {
+    width: min(var(--content-max), 100%);
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: minmax(0, 1.16fr) minmax(0, 0.84fr);
+    column-gap: 32px;
+    row-gap: 10px;
+    min-width: 0;
+    overflow-x: visible;
+  }
+
+  .project-detail-page .project-detail-highlights-item {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .project-detail-page .project-detail-highlights-value {
+    width: auto;
+    min-width: 0;
+    flex-shrink: 0;
+    font-size: clamp(26px, 7vw, 34px);
+    text-shadow:
+      0 0 1px rgba(0, 0, 0, 0.9),
+      0 2px 18px rgba(0, 0, 0, 0.72),
+      0 4px 36px rgba(0, 0, 0, 0.5);
+  }
+
+  .project-detail-page .project-detail-highlights-label-group {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    line-height: 1.25;
+    flex: 0 1 auto;
+    min-width: min-content;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  /* Main detail column: 24px gutters (+8px vs 16px); contribute/feedback stay edge-to-edge */
+  .project-detail-page .content-shell.content-shell--with-padding.project-detail-body {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .project-detail-page .project-detail-contribute-section {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+  .project-detail-page .project-detail-feedback-section {
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+  }
+
+  .project-detail-page .project-detail-contribute-inner {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .project-detail-page .project-detail-mission-links-mission .event-detail-prose {
+    padding-bottom: 0;
+  }
+
+  /* LINKS column: tighter top spacing vs ≤768 (was ~28px effective; title img also had large margin-top) */
+  .project-detail-page .event-detail-links-col.project-detail-mission-links-links {
+    padding-top: 16px;
+    box-sizing: border-box;
+  }
+
+  .project-detail-page .project-detail-mission-links-links > .project-detail-section-title-img {
+    margin-top: 0;
+  }
+
+  .project-detail-page .project-detail-screenshot-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-detail-page .project-detail-screenshot-trigger {
+    flex: 0 0 auto;
+  }
+
+  /* Talks: same single-column treatment as event detail ≤511px */
+  .project-detail-page .event-detail-talks-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-detail-page .event-detail-talk-card {
+    min-width: 0;
+  }
+
+  .project-detail-page .event-detail-talk-thumb {
+    aspect-ratio: 16 / 10;
+  }
+
+  /* Match event-detail mobile talk typography (no .event-detail-page scope on project) */
+  .project-detail-page .event-detail-talk-speaker {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .project-detail-page .event-detail-talk-role {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+
+  .project-detail-page .event-detail-talk-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .project-detail-page .project-detail-feedback-form-row {
+    padding-top: 0;
+  }
+
+  .project-detail-page .event-detail-articles-section .event-detail-article-card {
+    padding: 12px 0;
+  }
+
+  .project-detail-page .event-detail-articles-section .event-detail-article-perex {
+    font-size: 12px;
+    line-height: 1.55;
+  }
+
+  .project-detail-page .event-detail-articles-section .event-detail-article-date {
+    font-size: 12px;
+  }
+}
+
+/*
+ * Very narrow viewports: global about (≤399px) caps team avatars with max-height 96px while
+ * project-detail (≤768) can leave width larger → ellipse. Force one dimension + aspect-ratio.
+ */
+@media (max-width: 399px) {
+  .project-detail-page .project-detail-team-section .about-team-grid .about-team-member img {
+    width: min(96px, 100%);
+    height: auto;
+    min-width: 0;
+    min-height: 0;
+    max-width: none;
+    max-height: none;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+}

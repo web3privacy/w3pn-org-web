@@ -1,0 +1,86 @@
+hero:
+  logo: /projects/blur-tool.png
+  title: Photo Anonymity Blur Tool
+  tagline: Tool for anonymizing faces and sensitive content in images. Open source.
+  ctaLabel: VIEW ON GITHUB
+  ctaHref: https://github.com/web3privacy/blur-tool
+  metrics:
+    - value: Open
+      label: SOURCE
+    - value: Images
+      label: SUPPORTED
+mission:
+  text: |
+    The Blur Tool helps anonymize faces and sensitive content in photos. Useful for
+    privacy-preserving documentation and reporting.
+  readMoreHref: https://github.com/web3privacy/blur-tool
+links:
+  github: https://github.com/web3privacy/blur-tool
+features:
+  - title: Anonymize images
+    description: Blur faces and sensitive content.
+    link: https://github.com/web3privacy/blur-tool
+    linkLabel: GitHub
+articles:
+  - href: https://web3privacy.info/news
+    title: Photo Anonymity Blur Tool – Latest Updates
+    date: '2025'
+    excerpt: Curated privacy news and ecosystem updates.
+    thumbnail: https://picsum.photos/400/200?random=art1
+  - href: https://web3privacy.info/news
+    title: Privacy Ecosystem Report
+    date: '2024'
+    excerpt: Annual report on Web3 privacy trends and projects.
+    thumbnail: https://picsum.photos/400/200?random=art2
+roadmap:
+  - quarter: Q1 2026
+    title: New features
+    description: Expanding Photo Anonymity Blur Tool with community feedback.
+  - quarter: Q2 2026
+    title: Integration
+    description: Extended integrations and documentation.
+  - quarter: Q3 2026
+    title: Ecosystem growth
+    description: Partnerships and community tools.
+testimonials:
+  - name: Community Member
+    role: Privacy Advocate
+    quote: Photo Anonymity Blur Tool is a valuable resource for the privacy community.
+    avatar: https://i.pravatar.cc/120?img=6
+  - name: Developer
+    role: Web3 Builder
+    quote: Essential tool for privacy-focused development.
+    avatar: https://i.pravatar.cc/120?img=7
+contribute:
+  text: Contribute to the blur tool on GitHub.
+  links:
+    - label: GitHub
+      href: https://github.com/web3privacy/blur-tool
+  ctaLabel: VIEW ON GITHUB
+  ctaHref: https://github.com/web3privacy/blur-tool
+team:
+  - name: Core Contributor
+    role: Lead
+    avatar: https://i.pravatar.cc/120?img=8
+  - name: Community Lead
+    role: Operations
+    avatar: https://i.pravatar.cc/120?img=9
+partners:
+  - name: Web3 Privacy Now
+    logo: /projects/portal.png
+    href: https://web3privacy.info
+    description: Community partner
+  - name: Ethereum Foundation
+    logo: /projects/portal.png
+    href: https://ethereum.org
+    description: Ecosystem partner
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Photo Anonymity Blur Tool]
+screenshots:
+  - src: https://picsum.photos/800/450?random=proj1
+    alt: Screenshot
+    caption: Project overview
+  - src: https://picsum.photos/800/450?random=proj2
+    alt: Screenshot
+    caption: Features

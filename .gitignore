@@ -1,0 +1,17 @@
+node_modules
+.next
+all-images
+tsconfig.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.w3pn-data/
+data/admin/audit-log.jsonl
+data/org/mailing-list.json
+public/images/resources/source-files/

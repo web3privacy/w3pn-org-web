@@ -1,0 +1,44 @@
+hero:
+  logo: /images/projects/items/cypherpunk-launchpad/icon/project-cypherpunk-launchpad.webp
+  title: Cypherpunk Launchpad
+  tagline: An initiative supporting early-stage privacy projects with structure and visibility.
+  ctaLabel: OPEN REPOSITORY
+  ctaHref: https://github.com/web3privacy/Cypherpunk-Launchpad
+  metrics: []
+mission:
+  text: >-
+    Cypherpunk Launchpad is an initiative aimed at supporting early-stage privacy projects by providing structure and
+    visibility.
+
+
+    It is designed to help ideas transition into real-world applications, contributing to the growth of the privacy
+    ecosystem.
+  readMoreHref: https://github.com/web3privacy/Cypherpunk-Launchpad
+links:
+  github: https://github.com/web3privacy/Cypherpunk-Launchpad
+contribute:
+  text: Explore the repository, contribute ideas, and help early privacy projects move from concept to execution.
+  links:
+    - label: GitHub
+      href: https://github.com/web3privacy/Cypherpunk-Launchpad
+  ctaLabel: OPEN REPOSITORY
+  ctaHref: https://github.com/web3privacy/Cypherpunk-Launchpad
+feedback:
+  email: web3privacynow@protonmail.com
+  subjectPrefix: Feedback [Cypherpunk Launchpad]
+sections:
+  highlights: false
+  missionLinks: true
+  screenshots: false
+  features: false
+  articles: false
+  roadmap: false
+  testimonials: false
+  contribute: true
+  feedback: true
+  team: true
+  partners: false
+team:
+  - name: Peter
+    role: Marketing
+    avatar: /images/projects/shared/team/peter.webp

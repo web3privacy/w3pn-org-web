@@ -1,0 +1,38 @@
+headerImageUrl: /images/events/items/co25ftc/header/co25ftc.webp
+heroBackgroundImageUrl: /images/events/items/co25ftc/header/co25ftc-cover.webp
+links:
+  custom:
+    - label: Register
+      url: https://lu.ma/ftc-berlin-2025
+    - label: Event Website
+      url: https://www.fundingthecommons.io/berlin-2025
+location:
+  name: Engelnest
+  address: Wilhelm-Kabus-Str. 24, 10829 Berlin
+  city: Berlin
+  country: DE
+  website: https://engelnest.de
+contributors:
+  enabled: true
+  items:
+    - name: PG
+      role: Web3Privacy Now
+      handle: PG_CDG
+      avatar: /images/events/shared/header/pg.webp
+sections:
+  topicsLinks: true
+  speakers: false
+  schedule: false
+  experience: false
+  location: true
+  contributors: true
+  gallery: false
+  videos: false
+  articles: false
+  sponsors: false
+  eventMap: false
+  faq: false
+  tickets: false
+topics:
+  content: This collaboration took place in Berlin during Funding the Commons.
+  enabled: true
