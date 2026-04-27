@@ -2,6 +2,8 @@
  * News/articles data loader. Reads markdown articles from data/news/articles/,
  * parses frontmatter, applies overrides from index.yaml/news-user.yaml,
  * and provides CRUD helpers for the admin interface.
+ *
+ * On self-hosted VPS, canonical news data may live under W3PN_DATA_ROOT/news/.
  */
 
 import fs from "node:fs";
@@ -10,6 +12,7 @@ import yaml from "js-yaml";
 import type { Article, NewsData } from "@/types/news";
 import { loadYaml } from "@/lib/yaml-utils";
 import { getArticleDisplayImageUrl } from "@/lib/org/article-preview";
+import { getPackageDataPath, getReadableDataPath, getWritableDataPath } from "@/lib/runtime-paths";
 
 function parseFrontmatter(raw: string): { data: Record<string, unknown>; content: string } {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
@@ -23,10 +26,16 @@ function parseFrontmatter(raw: string): { data: Record<string, unknown>; content
   return { data: parsed, content: match[2]?.trim() ?? "" };
 }
 
-const NEWS_DIR = path.join(process.cwd(), "data", "news");
-const ARTICLES_DIR = path.join(NEWS_DIR, "articles");
-const INDEX_FILE = path.join(NEWS_DIR, "index.yaml");
-const USER_INDEX_FILE = path.join(NEWS_DIR, "news-user.yaml");
+const PACKAGE_NEWS_DIR = getPackageDataPath("news");
+const PACKAGE_ARTICLES_DIR = path.join(PACKAGE_NEWS_DIR, "articles");
+const WRITABLE_NEWS_DIR = getWritableDataPath("news");
+const WRITABLE_ARTICLES_DIR = path.join(WRITABLE_NEWS_DIR, "articles");
+const INDEX_FILE = getReadableDataPath("news", "index.yaml");
+const USER_INDEX_FILE = getWritableDataPath("news", "news-user.yaml");
+
+function getReadableArticlesDir(): string {
+  return fs.existsSync(WRITABLE_ARTICLES_DIR) ? WRITABLE_ARTICLES_DIR : PACKAGE_ARTICLES_DIR;
+}
 
 function parseArticleFromMarkdown(filePath: string): Article | null {
   if (!fs.existsSync(filePath)) return null;
@@ -36,11 +45,10 @@ function parseArticleFromMarkdown(filePath: string): Article | null {
     const id = (fm.id as string) || path.basename(filePath, ".md");
     const link = (fm.link as string) || "";
     let imageUrl = (fm.imageUrl as string) || "";
-    if (!link && !imageUrl) return null; // Skip invalid
+    if (!link && !imageUrl) return null;
     let title = (fm.title as string) || id;
     let perex = (fm.perex as string) || "";
     if (title.includes("---") || title.length < 5) title = `Week in the Privacy News ${id}`;
-    // Skip metadata-like values (e.g. ---curator, paragraph metadata from import)
     const metadataLike = /^---\s*curator|^---\s*paragraph|^curator:|^paragraph:|^published:|^exactDate:|^links:/i;
     if (metadataLike.test(perex) || perex.includes("--- curator")) {
       perex = "";
@@ -94,11 +102,12 @@ function parseArticleFromMarkdown(filePath: string): Article | null {
 }
 
 function loadArticlesFromDir(): Article[] {
-  if (!fs.existsSync(ARTICLES_DIR)) return [];
-  const files = fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith(".md"));
+  const articlesDir = getReadableArticlesDir();
+  if (!fs.existsSync(articlesDir)) return [];
+  const files = fs.readdirSync(articlesDir).filter((f) => f.endsWith(".md"));
   const articles: Article[] = [];
   for (const f of files) {
-    const a = parseArticleFromMarkdown(path.join(ARTICLES_DIR, f));
+    const a = parseArticleFromMarkdown(path.join(articlesDir, f));
     if (a && a.date) articles.push(a);
   }
   return articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -136,14 +145,11 @@ export function loadNewsData(): NewsData {
   return { articles, featuredProjectIds, donationTiers };
 }
 
-/** Load all articles including unpublished (for admin) */
 export function loadNewsDataForAdmin(): NewsData & { articles: Article[] } {
   const index = loadYaml<IndexSchema>(INDEX_FILE, {});
   const userIndex = loadYaml<IndexSchema>(USER_INDEX_FILE, {});
   const overrides = { ...index.articleOverrides, ...userIndex.articleOverrides };
-  const articles = loadArticlesFromDir().map((a) =>
-    mergeArticleWithOverrides(a, overrides)
-  );
+  const articles = loadArticlesFromDir().map((a) => mergeArticleWithOverrides(a, overrides));
   const featuredProjectIds = userIndex.featuredProjectIds ?? index.featuredProjectIds ?? [];
   const donationTiers = userIndex.donationTiers ?? index.donationTiers ?? [];
   return { articles, featuredProjectIds, donationTiers };
@@ -154,7 +160,6 @@ export function getArticleById(id: string): Article | undefined {
   return data.articles.find((a) => a.id === id);
 }
 
-/** Get article by id including unpublished (for admin) */
 export function getArticleByIdForAdmin(id: string): Article | undefined {
   const data = loadNewsDataForAdmin();
   return data.articles.find((a) => a.id === id);
@@ -173,30 +178,41 @@ export function saveNewsUserIndex(data: IndexSchema): void {
   );
 }
 
-function getArticleMarkdownPath(id: string): string | null {
-  const p = path.join(ARTICLES_DIR, `${id}.md`);
-  if (fs.existsSync(p)) return p;
-  const files = fs.existsSync(ARTICLES_DIR) ? fs.readdirSync(ARTICLES_DIR) : [];
-  const match = files.find((f) => f.endsWith(".md") && path.basename(f, ".md") === id);
-  return match ? path.join(ARTICLES_DIR, match) : null;
+function getReadableArticleMarkdownPath(id: string): string | null {
+  const writable = path.join(WRITABLE_ARTICLES_DIR, `${id}.md`);
+  if (fs.existsSync(writable)) return writable;
+  const packaged = path.join(PACKAGE_ARTICLES_DIR, `${id}.md`);
+  if (fs.existsSync(packaged)) return packaged;
+
+  for (const dir of [WRITABLE_ARTICLES_DIR, PACKAGE_ARTICLES_DIR]) {
+    const files = fs.existsSync(dir) ? fs.readdirSync(dir) : [];
+    const match = files.find((f) => f.endsWith(".md") && path.basename(f, ".md") === id);
+    if (match) return path.join(dir, match);
+  }
+  return null;
+}
+
+function getWritableArticleMarkdownPath(id: string): string {
+  return path.join(WRITABLE_ARTICLES_DIR, `${id}.md`);
 }
 
 export function updateArticleMarkdown(
   id: string,
   updates: Partial<Pick<Article, "title" | "perex" | "link" | "imageUrl" | "date" | "author" | "tags">> & { content?: string }
 ): boolean {
-  const filePath = getArticleMarkdownPath(id);
-  if (!filePath) return false;
-  const raw = fs.readFileSync(filePath, "utf8");
+  const readablePath = getReadableArticleMarkdownPath(id);
+  if (!readablePath) return false;
+  const raw = fs.readFileSync(readablePath, "utf8");
   const { data: fm, content } = parseFrontmatter(raw);
   const { content: newContent, ...fmUpdates } = updates;
   const nextFm = { ...fm, ...fmUpdates };
+  const frontYaml = yaml.dump(nextFm, { lineWidth: -1, noRefs: true });
+  const writePath = getWritableArticleMarkdownPath(id);
+  fs.mkdirSync(path.dirname(writePath), { recursive: true });
   if (newContent !== undefined) {
-    const frontYaml = yaml.dump(nextFm, { lineWidth: -1, noRefs: true });
-    fs.writeFileSync(filePath, `---\n${frontYaml}---\n\n${newContent}\n`, "utf8");
+    fs.writeFileSync(writePath, `---\n${frontYaml}---\n\n${newContent}\n`, "utf8");
   } else {
-    const frontYaml = yaml.dump(nextFm, { lineWidth: -1, noRefs: true });
-    fs.writeFileSync(filePath, `---\n${frontYaml}---\n\n${content || ""}\n`, "utf8");
+    fs.writeFileSync(writePath, `---\n${frontYaml}---\n\n${content || ""}\n`, "utf8");
   }
   return true;
 }
@@ -211,7 +227,6 @@ function slugify(text: string): string {
     .replace(/^-|-$/g, "") || "article";
 }
 
-/** Create a new article .md file. Returns the new article id or null. */
 export function createArticleMarkdown(data: {
   id?: string;
   title: string;
@@ -225,8 +240,8 @@ export function createArticleMarkdown(data: {
     (data.id && data.id.trim()) ||
     `${dateStr}-${slugify(data.title).slice(0, 40)}`;
   const safeId = id.replace(/[^a-zA-Z0-9-_]/g, "-");
-  const filePath = path.join(ARTICLES_DIR, `${safeId}.md`);
-  if (fs.existsSync(filePath)) return null;
+  if (getReadableArticleMarkdownPath(safeId)) return null;
+  const filePath = getWritableArticleMarkdownPath(safeId);
   const frontmatter = {
     id: safeId,
     title: data.title.trim(),
@@ -244,10 +259,6 @@ export function createArticleMarkdown(data: {
   };
   const frontYaml = yaml.dump(frontmatter, { lineWidth: -1, noRefs: true });
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(
-    filePath,
-    `---\n${frontYaml}---\n\n${(data.content ?? "").trim()}\n`,
-    "utf8"
-  );
+  fs.writeFileSync(filePath, `---\n${frontYaml}---\n\n${(data.content ?? "").trim()}\n`, "utf8");
   return safeId;
 }

@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Check, Share2 } from "lucide-react";
 import { useGalleryPointerSwipe } from "@/hooks/use-gallery-pointer-swipe";
 import { useLightboxIntrinsicCssVars } from "@/hooks/use-lightbox-intrinsic-css-vars";
+import { absoluteUrl } from "@/lib/site-config";
 
 type Content = Record<string, unknown>;
 
@@ -12,6 +14,8 @@ type ResourceAsset = {
   thumbnailUrl?: string;
   previewUrl?: string;
   downloadUrl?: string;
+  /** When present, preferred over preview for share when there is no direct download URL */
+  fullSizeUrl?: string;
   description?: string;
 };
 
@@ -78,6 +82,87 @@ function getResourceSurfaceVariant(asset?: ResourceAsset): ResourceSurfaceVarian
   return "default";
 }
 
+function trimUrl(raw: string | undefined): string | null {
+  const t = raw?.trim();
+  return t ? t : null;
+}
+
+/**
+ * Path to share: direct download (PDF, zip, source file) when set, otherwise largest image variant.
+ */
+function getResourceShareSourcePath(asset: ResourceAsset): string | null {
+  const dl = trimUrl(asset.downloadUrl);
+  if (dl) return dl;
+  const full = trimUrl(asset.fullSizeUrl);
+  if (full) return full;
+  const prev = trimUrl(asset.previewUrl);
+  if (prev) return prev;
+  return trimUrl(asset.thumbnailUrl);
+}
+
+function getResourceShareAbsoluteUrl(asset: ResourceAsset): string | null {
+  const path = getResourceShareSourcePath(asset);
+  if (!path) return null;
+  return absoluteUrl(path);
+}
+
+function ResourceShareButton({
+  url,
+  variant = "thumb",
+}: {
+  url: string;
+  variant?: "thumb" | "lightbox";
+}) {
+  const [copied, setCopied] = useState(false);
+  const onClick = useCallback(
+    async (e: React.MouseEvent) => {
+      e.preventDefault();
+      e.stopPropagation();
+      try {
+        await navigator.clipboard.writeText(url);
+        setCopied(true);
+        window.setTimeout(() => setCopied(false), 2000);
+      } catch {
+        try {
+          const ta = document.createElement("textarea");
+          ta.value = url;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "fixed";
+          ta.style.left = "-9999px";
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+          setCopied(true);
+          window.setTimeout(() => setCopied(false), 2000);
+        } catch {
+          /* ignore */
+        }
+      }
+    },
+    [url]
+  );
+  const cls =
+    variant === "lightbox"
+      ? "resources-lightbox-share"
+      : "resources-thumb-card-share";
+  return (
+    <button
+      type="button"
+      className={cls}
+      onClick={onClick}
+      aria-label={copied ? "Link copied" : "Copy link to this file"}
+      title={copied ? "Copied" : "Copy link"}
+    >
+      {copied ? (
+        <Check size={variant === "lightbox" ? 16 : 14} strokeWidth={2.5} aria-hidden />
+      ) : (
+        <Share2 size={variant === "lightbox" ? 16 : 14} strokeWidth={2} aria-hidden />
+      )}
+    </button>
+  );
+}
+
 function AssetThumbnail({
   asset,
   onOpen,
@@ -92,6 +177,7 @@ function AssetThumbnail({
   const hasThumb = !!asset.thumbnailUrl && !imgError;
   const isPhoto = /\.(jpg|jpeg|png|webp)$/i.test(thumbSrc) && surfaceVariant === "default";
   const downloadHref = asset.downloadUrl ?? asset.thumbnailUrl ?? "";
+  const shareUrl = getResourceShareAbsoluteUrl(asset);
 
   return (
     <div
@@ -124,17 +210,22 @@ function AssetThumbnail({
         {asset.name && (
           <span className="resources-thumb-card-name">{asset.name}</span>
         )}
-        {downloadHref && (
-          <a
-            href={downloadHref}
-            download
-            target="_blank"
-            rel="noreferrer noopener"
-            className="resources-thumb-card-dl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            Download
-          </a>
+        {(downloadHref || shareUrl) && (
+          <div className="resources-thumb-card-actions">
+            {downloadHref && (
+              <a
+                href={downloadHref}
+                download
+                target="_blank"
+                rel="noreferrer noopener"
+                className="resources-thumb-card-dl"
+                onClick={(e) => e.stopPropagation()}
+              >
+                Download
+              </a>
+            )}
+            {shareUrl && <ResourceShareButton url={shareUrl} variant="thumb" />}
+          </div>
         )}
       </div>
     </div>
@@ -213,6 +304,7 @@ function AssetLightbox({
   const hasNext = currentIndex < assets.length - 1;
   const previewSrc = asset?.previewUrl ?? asset?.downloadUrl ?? asset?.thumbnailUrl ?? "";
   const surfaceVariant = getResourceSurfaceVariant(asset);
+  const shareUrl = asset ? getResourceShareAbsoluteUrl(asset) : null;
   const { imgStyle, onImageLoad } = useLightboxIntrinsicCssVars(`${currentIndex}-${previewSrc}`);
 
   const onSwipePrev = useCallback(() => {
@@ -293,35 +385,40 @@ function AssetLightbox({
         </div>
 
         <div className="resources-lightbox-footer">
-          <span className="resources-lightbox-counter">
-            {currentIndex + 1} / {assets.length}
-          </span>
-          {asset.name && (
-            <span className="resources-lightbox-name">{asset.name}</span>
-          )}
-          {asset.downloadUrl ? (
-            <a
-              href={asset.downloadUrl}
-              download
-              className="resources-lightbox-download"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {DOWNLOAD_SVG}
-              Download
-            </a>
-          ) : previewSrc ? (
-            <a
-              href={previewSrc}
-              download
-              className="resources-lightbox-download"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {DOWNLOAD_SVG}
-              Download
-            </a>
-          ) : null}
+          <div className="resources-lightbox-footer-main">
+            <span className="resources-lightbox-counter">
+              {currentIndex + 1} / {assets.length}
+            </span>
+            {asset.name && (
+              <span className="resources-lightbox-name">{asset.name}</span>
+            )}
+          </div>
+          <div className="resources-lightbox-footer-actions">
+            {shareUrl && <ResourceShareButton url={shareUrl} variant="lightbox" />}
+            {asset.downloadUrl ? (
+              <a
+                href={asset.downloadUrl}
+                download
+                className="resources-lightbox-download"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {DOWNLOAD_SVG}
+                Download
+              </a>
+            ) : previewSrc ? (
+              <a
+                href={previewSrc}
+                download
+                className="resources-lightbox-download"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {DOWNLOAD_SVG}
+                Download
+              </a>
+            ) : null}
+          </div>
         </div>
       </div>
 

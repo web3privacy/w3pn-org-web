@@ -595,6 +595,30 @@ defaultContent:
           title: CONGRESS II. BUENOS AIRES
           description: Congress in Buenos Aires
         - year: '2026'
+          quarter: Q2
+          title: PRAGUE MEETUP
+          description: Open source & public goods during ETHPrague week
+        - year: '2026'
+          quarter: Q2
+          title: ROME MEETUP
+          description: Cryptography & public goods at Urbe Hub
+        - year: '2026'
+          quarter: Q2
+          title: CLUJ MEETUP
+          description: Grassroots movements at Insomnia
+        - year: '2026'
+          quarter: Q2
+          title: NEO-CYPHERPUNK SUMMIT BERLIN
+          description: Full-day summit at Funkhaus Berlin
+        - year: '2026'
+          quarter: Q3
+          title: AMSTERDAM MEETUP
+          description: Half-day on open source & public goods
+        - year: '2026'
+          quarter: Q3
+          title: TOKYO MEETUP
+          description: Half-day on open source & public goods
+        - year: '2026'
           quarter: Q4
           title: CONGRESS III. MUMBAI
           description: Congress in Mumbai
@@ -986,7 +1010,6 @@ defaultContent:
         - /images/site-shared/general-gallery/selection-022.webp
         - /images/site-shared/general-gallery/selection-023.webp
         - /images/site-shared/general-gallery/selection-024.webp
-        - /images/site-shared/general-gallery/selection-025.webp
         - /images/site-shared/general-gallery/selection-026.webp
         - /images/site-shared/general-gallery/selection-027.webp
         - /images/site-shared/general-gallery/selection-028.webp

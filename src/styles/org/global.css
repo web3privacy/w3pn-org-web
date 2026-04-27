@@ -7101,7 +7101,7 @@ html:has(.org-web-root) body {
 
 .events-hero-gallery-track {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
   /* Gaps via margin + calc flex-basis so translateX(% of track) stays aligned with one thumb step */
   --hero-gallery-gap: 8px;
   --loop-len: 1;
@@ -7124,11 +7124,19 @@ html:has(.org-web-root) body {
   box-sizing: border-box;
   --events-hero-gallery-item-w:
     calc((100% - (max(var(--loop-len, 1), 1) - 1) * var(--hero-gallery-gap)) / max(var(--loop-len, 1), 1));
-  flex: 0 0 var(--events-hero-gallery-item-w);
+  /* JS sets --events-hero-thumb-px on the track (ResizeObserver) to avoid flex/% rounding drift. */
+  --events-hero-thumb-w: var(--events-hero-thumb-px, var(--events-hero-gallery-item-w));
+  --events-hero-gallery-item-h:
+    min(clamp(120px, 11vw, 160px), var(--events-hero-thumb-w));
+  flex: none;
+  width: var(--events-hero-thumb-w);
+  max-width: var(--events-hero-thumb-w);
   margin-right: var(--hero-gallery-gap);
   aspect-ratio: unset;
   /* Wide desktop: overridden below 1025px */
-  height: min(clamp(120px, 11vw, 160px), var(--events-hero-gallery-item-w));
+  height: var(--events-hero-gallery-item-h);
+  min-height: var(--events-hero-gallery-item-h);
+  max-height: var(--events-hero-gallery-item-h);
   overflow: hidden;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
@@ -7138,17 +7146,15 @@ html:has(.org-web-root) body {
   display: block;
   position: relative;
   line-height: 0;
+  min-width: 0;
 }
 
 /* Below 512px: square thumbs; flex-start so height follows aspect-ratio, not a stretched track line. */
 @media (max-width: 511px) {
-  .events-hero-gallery-track {
-    align-items: flex-start;
-  }
-
   .events-hero-gallery-item {
     aspect-ratio: 1 / 1;
     height: auto;
+    min-height: 0;
     max-height: none;
   }
 }
@@ -7156,27 +7162,31 @@ html:has(.org-web-root) body {
 /* Narrow hero gallery heights for ≥512px (matches EventsHero slot breakpoints). */
 @media (min-width: 512px) and (max-width: 640px) {
   .events-hero-gallery-item {
-    height: min(clamp(96px, 18vw, 120px), var(--events-hero-gallery-item-w));
+    --events-hero-gallery-item-h:
+      min(clamp(96px, 18vw, 120px), var(--events-hero-thumb-w));
   }
 }
 
 @media (min-width: 641px) and (max-width: 767px) {
   .events-hero-gallery-item {
-    height: min(clamp(96px, 14vw, 120px), var(--events-hero-gallery-item-w));
+    --events-hero-gallery-item-h:
+      min(clamp(96px, 14vw, 120px), var(--events-hero-thumb-w));
   }
 }
 
 /* 768–1024px: 96–120px */
 @media (min-width: 768px) and (max-width: 1024px) {
   .events-hero-gallery-item {
-    height: min(clamp(96px, 12vw, 120px), var(--events-hero-gallery-item-w));
+    --events-hero-gallery-item-h:
+      min(clamp(96px, 12vw, 120px), var(--events-hero-thumb-w));
   }
 }
 
 /* 1025px+: taller strip on large viewports */
 @media (min-width: 1025px) {
   .events-hero-gallery-item {
-    height: min(clamp(120px, 11vw, 160px), var(--events-hero-gallery-item-w));
+    --events-hero-gallery-item-h:
+      min(clamp(120px, 11vw, 160px), var(--events-hero-thumb-w));
   }
 }
 
@@ -7184,12 +7194,15 @@ html:has(.org-web-root) body {
   margin-right: 0;
 }
 
-.events-hero-gallery-item img {
+.events-hero-gallery-item-img {
   display: block;
   width: 100%;
   height: 100%;
+  max-width: none;
   object-fit: cover;
   object-position: center;
+  user-select: none;
+  pointer-events: none;
 }
 
 .events-hero-gallery-arrow:hover:not(:disabled) {
@@ -9348,6 +9361,35 @@ html:has(.org-web-root) body {
   opacity: 0.7;
 }
 
+.resources-thumb-card-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+}
+
+.resources-thumb-card-share {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+  line-height: 0;
+  transition: color 0.2s, background 0.2s;
+}
+
+.resources-thumb-card-share:hover {
+  color: #70ff88;
+  background: rgba(112, 255, 136, 0.08);
+}
+
 .resources-empty-category {
   color: rgba(255, 255, 255, 0.4);
   font-size: 14px;
@@ -9511,8 +9553,47 @@ html:has(.org-web-root) body {
   padding: 10px 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.07);
   background: #0d0d0d;
-  height: 52px;
+  min-height: 52px;
   box-sizing: border-box;
+}
+
+.resources-lightbox-footer-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
+}
+
+.resources-lightbox-footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.resources-lightbox-share {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  line-height: 0;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.resources-lightbox-share:hover {
+  background: rgba(112, 255, 136, 0.12);
+  border-color: rgba(112, 255, 136, 0.35);
+  color: #70ff88;
 }
 
 .resources-lightbox-name {

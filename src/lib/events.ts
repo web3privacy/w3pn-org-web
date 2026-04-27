@@ -1,17 +1,15 @@
 /**
  * Loads event data from YAML files in data/events/. Merges base events (index.yaml)
  * with user overrides (events-user.yaml), then filters out hidden IDs (events-visibility.yaml).
+ *
+ * On self-hosted VPS, the canonical runtime copy may live under W3PN_DATA_ROOT/events/.
  */
 
-import path from "node:path";
 import type { Event, EventsData } from "@/types/events";
-import { getAppPackageRoot } from "@/lib/app-package-root";
-import { getWritableDataPath } from "@/lib/runtime-paths";
+import { getReadableDataPath, getWritableDataPath } from "@/lib/runtime-paths";
 import { loadYaml } from "@/lib/yaml-utils";
 
-const ROOT_DIR = getAppPackageRoot();
-const EVENTS_DIR = path.join(ROOT_DIR, "data", "events");
-const INDEX_FILE = path.join(EVENTS_DIR, "index.yaml");
+const INDEX_FILE = getReadableDataPath("events", "index.yaml");
 const USER_FILE = getWritableDataPath("events", "events-user.yaml");
 const VISIBILITY_FILE = getWritableDataPath("events", "events-visibility.yaml");
 

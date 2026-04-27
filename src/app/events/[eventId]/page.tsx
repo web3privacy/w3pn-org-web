@@ -43,8 +43,8 @@ function buildEventDescription(eventId: string, event: EventItem | null, detail:
   return [title, date ? `on ${date}` : null, city ? `in ${city}` : null]
     .filter(Boolean)
     .join(" ")
-    .replace(title, `${title} is a ${type.toLowerCase()} by Web3Privacy Now`)
-    || `Explore the ${eventId} event by Web3Privacy Now.`;
+    .replace(title, `${title} is a ${type.toLowerCase()} on privacy, digital rights, and public goods`)
+    || `Explore the ${eventId} event.`;
 }
 
 function stripMarkdownLink(text: string | undefined): string | undefined {

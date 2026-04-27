@@ -23,6 +23,8 @@ Reference for which org-web admin areas edit which files on disk, and which publ
 - Events are loaded only from `data/events/**`; `public/org/events.json` is no longer part of the runtime path.
 - On Vercel, write operations are blocked by read-only filesystem constraints. Persistent admin writes require local Node or a writable server.
 - When `ADMIN_PASSWORD` is set, admin pages and admin APIs require authentication via `/admin/login`.
+- On VPS, set `W3PN_DATA_ROOT` and seed the full `data/` tree there once if you want runtime content to survive future git deploys unchanged. Otherwise untouched files can still be read from the repo fallback.
+- The About gallery upload path under `public/images/about-us/sections/about/assets/gallery` must not be mounted from an empty shared directory, or the gallery URLs will return `404`.
 
 ## Legacy note
 

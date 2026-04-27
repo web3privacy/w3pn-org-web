@@ -6,6 +6,12 @@ type Member = { avatar?: string; name?: string; role?: string; href?: string };
 
 const TEAM_PLACEHOLDER = (i: number) => `https://picsum.photos/200/200?random=team${i}`;
 
+function teamLinkLabel(url: string): string {
+  if (/github\.com/i.test(url)) return "GitHub";
+  if (/x\.com|twitter\.com/i.test(url)) return "X";
+  return "Link";
+}
+
 /** Paths like /projects/explorer.png are project logos, not person avatars – use placeholder */
 function isProjectAsset(path: string | undefined): boolean {
   if (!path) return false;
@@ -36,7 +42,7 @@ export function ProjectDetailTeam({ team }: { team: Member[] | undefined }) {
               {m.href && (
                 <p>
                   <a href={m.href} target="_blank" rel="noopener noreferrer">
-                    GitHub
+                    {teamLinkLabel(m.href)}
                   </a>
                 </p>
               )}

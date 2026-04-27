@@ -61,9 +61,9 @@ team:
     avatar: /images/events/shared/header/coinmandeer-color.png
     href: https://github.com/coinmandeer
   - name: Humbaba
-    role: Contributor
-    avatar: https://github.com/Humbaba.png?size=240
-    href: https://github.com/Humbaba
+    role: Project Manager
+    avatar: /images/site-shared/profiles/dubbed.webp
+    href: https://x.com/RecursiveBeing
   - name: Mykola
     role: Executive Director
     avatar: /images/events/shared/header/mykola.webp

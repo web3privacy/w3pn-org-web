@@ -1,5 +1,7 @@
 "use client";
 
+import { useLayoutEffect } from "react";
+import { consumeScrollAfterLayout, PROJECTS_SCROLL_KEY } from "@/lib/scroll-memory";
 import { ProjectsHero } from "./projects/ProjectsHero";
 import { ProjectsByCategory } from "./projects/ProjectsByCategory";
 
@@ -23,6 +25,10 @@ export function OrgProjectsContent({
   categoryOrder,
   categoryLabels,
 }: OrgProjectsContentProps) {
+  useLayoutEffect(() => {
+    consumeScrollAfterLayout(PROJECTS_SCROLL_KEY);
+  }, []);
+
   return (
     <main style={{ width: "100%", minHeight: "100vh" }} className="projects-page landing-root">
       <div className="content-shell content-shell--with-padding" style={{ paddingBottom: 0 }}>

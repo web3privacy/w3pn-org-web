@@ -261,7 +261,7 @@
   date: '2026-09-18'
   city: Tokyo
   country: jp
-  title: Web3Privacy now Tokyo meetup
+  title: Tokyo meetup
   place-address: Tokyo, Japan
   confirmed: true
   status: upcoming
@@ -285,7 +285,7 @@
   date: '2026-09-01'
   city: Amsterdam
   country: nl
-  title: Web3Privacy now Amsterdam meetup
+  title: Amsterdam meetup
   place-address: Amsterdam, Netherlands
   confirmed: true
   status: upcoming
@@ -638,7 +638,7 @@
   date: '2026-05-12'
   city: Cluj-Napoca
   country: ro
-  title: Web3Privacy now Cluj meetup
+  title: Cluj Meetup
   place: '[Insomnia](https://www.google.com/maps/search/?api=1&query=Insomnia%2C+Str.+Universit%C4%83%C8%9Bii+2%2C+400091+Cluj-Napoca%2C+Romania)'
   place-address: Insomnia, Str. Universității 2, 400091 Cluj-Napoca, Romania
   confirmed: true
@@ -665,7 +665,7 @@
   date: '2026-05-08'
   city: Rome
   country: it
-  title: Web3Privacy now Rome meetup
+  title: Rome meetup
   place: '[Urbe Hub](https://www.google.com/maps/search/?api=1&query=Urbe+Hub%2C+Largo+Dino+Frisullo%2C+00153+Roma+RM%2C+Italy)'
   place-address: Urbe Hub, Largo Dino Frisullo, 00153 Roma RM, Italy
   confirmed: true
@@ -698,7 +698,7 @@
   date: '2026-05-07'
   city: Prague
   country: cz
-  title: Web3Privacy now Prague meetup
+  title: Prague meetup
   place: '[Kampus Hybernska / Circular Hub](https://www.google.com/maps/search/?api=1&query=Kampus+Hybernska%2C+Hybernsk%C3%A1+998%2F4%2C+Nov%C3%A9+M%C4%9Bsto%2C+110+00+Praha-Praha+1%2C+Czechia)'
   place-address: Kampus Hybernska, Hybernská 998/4, Nové Město, 110 00 Praha-Praha 1, Czechia
   confirmed: true

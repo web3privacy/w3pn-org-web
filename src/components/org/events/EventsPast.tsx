@@ -1,9 +1,6 @@
 "use client";
 
-import { useState } from "react";
 import { EventCardOrg } from "./EventCardOrg";
-
-const PAGE_SIZE = 10;
 
 type Event = {
   id: string;
@@ -29,14 +26,9 @@ export function EventsPast({
   overrides?: Record<string, string>;
   details?: Record<string, EventDetail>;
 }) {
-  const [showCount, setShowCount] = useState(PAGE_SIZE);
-
   if (!events || events.length === 0) return null;
 
-  const displayed = events.slice(0, showCount);
-  const hasMore = events.length > showCount;
-
-  const byYear = displayed.reduce<Record<string, Event[]>>((acc, e) => {
+  const byYear = events.reduce<Record<string, Event[]>>((acc, e) => {
     const y = e.date ? new Date(e.date).getFullYear() : "Other";
     if (!acc[y]) acc[y] = [];
     acc[y].push(e);
@@ -58,17 +50,6 @@ export function EventsPast({
           </div>
         </div>
       ))}
-      {hasMore && (
-        <div className="events-past-cta">
-          <button
-            type="button"
-            className="primary-btn"
-            onClick={() => setShowCount((n) => n + PAGE_SIZE)}
-          >
-            SHOW MORE EVENTS
-          </button>
-        </div>
-      )}
     </section>
   );
 }

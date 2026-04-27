@@ -1,5 +1,4 @@
-import path from "node:path";
-import { getAppPackageRoot } from "@/lib/app-package-root";
+import { getReadableDataPath } from "@/lib/runtime-paths";
 import { loadYaml } from "@/lib/yaml-utils";
 
 export interface VideoCatalogEntry {
@@ -15,7 +14,7 @@ interface VideoCatalogFile {
   videos: VideoCatalogEntry[];
 }
 
-const CATALOG_PATH = path.join(getAppPackageRoot(), "data", "media", "videos.yaml");
+const CATALOG_PATH = getReadableDataPath("media", "videos.yaml");
 
 let _cache: Map<string, VideoCatalogEntry> | null = null;
 

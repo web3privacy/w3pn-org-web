@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { passthroughImageLoader } from "@/lib/passthrough-image-loader";
 import { getCountryName, getEventTypeLabel, getEventTitle } from "@/lib/org/events-constants";
+import { saveScrollPosition, EVENTS_SCROLL_KEY } from "@/lib/scroll-memory";
 
 function stripMarkdownLink(text: string): string {
   if (!text || typeof text !== "string") return text;
@@ -89,6 +90,8 @@ export function EventCardOrg({
       <div className="event-card-org-inner">
         <Link
           href={profileHref}
+          onPointerDownCapture={() => saveScrollPosition(EVENTS_SCROLL_KEY)}
+          onClick={() => saveScrollPosition(EVENTS_SCROLL_KEY)}
           className="event-card-org-main-link"
           style={{ display: "contents", textDecoration: "none", color: "inherit" }}
         >

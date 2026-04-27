@@ -1,8 +1,10 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useLayoutEffect, useState, useMemo } from "react";
 import { useOrgContent } from "@/lib/org/OrgContentContext";
 import { isUpcoming, sortEventsByDate } from "@/lib/org/events-constants";
+import { readEventsListSessionCache, writeEventsListSessionCache } from "@/lib/org/events-list-session-cache";
+import { consumeScrollAfterLayout, EVENTS_SCROLL_KEY } from "@/lib/scroll-memory";
 import { EventsHero } from "./events/EventsHero";
 import { EventsFilters } from "./events/EventsFilters";
 import { EventsUpcoming } from "./events/EventsUpcoming";
@@ -66,6 +68,18 @@ export function OrgEventsContent() {
   const details = eventsState.details;
   const error = eventsState.error;
 
+  useLayoutEffect(() => {
+    const cached = readEventsListSessionCache(featuredKey);
+    if (!cached) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- sync sessionStorage rehydration before paint (back from detail)
+    setEventsState({
+      events: cached.events as EventItem[],
+      details: cached.details as Record<string, EventDetail>,
+      error: null,
+      loadedKey: featuredKey,
+    });
+  }, [featuredKey]);
+
   useEffect(() => {
     let cancelled = false;
     fetch("/api/org/events")
@@ -77,14 +91,12 @@ export function OrgEventsContent() {
       })
       .then((data: { events?: EventItem[]; details?: Record<string, EventDetail> }) => {
         if (cancelled) return;
-        let list = data.events ?? [];
-        if (Array.isArray(featuredIds) && featuredIds.length > 0) {
-          const set = new Set(featuredIds);
-          list = list.filter((e) => set.has(e.id));
-        }
+        const list = data.events ?? [];
+        const nextDetails = data.details ?? {};
+        writeEventsListSessionCache(featuredKey, list, nextDetails);
         setEventsState({
           events: list,
-          details: data.details ?? {},
+          details: nextDetails,
           error: null,
           loadedKey: featuredKey,
         });
@@ -104,14 +116,21 @@ export function OrgEventsContent() {
     };
   }, [featuredIds, featuredKey]);
 
+  useEffect(() => {
+    if (loading) return;
+    consumeScrollAfterLayout(EVENTS_SCROLL_KEY);
+  }, [loading]);
+
   const filtered = useMemo(() => {
     let list = events;
     if (countryFilter.length > 0) {
-      const set = new Set(countryFilter.map((c) => c.toLowerCase()));
-      list = list.filter((e) => set.has((e.country ?? "").toLowerCase()));
+      const code = countryFilter[0].toLowerCase();
+      list = list.filter((e) => (e.country ?? "").toLowerCase() === code);
     }
     return list;
   }, [events, countryFilter]);
+
+  const locationFiltered = countryFilter.length > 0;
 
   const { upcoming, past } = useMemo(() => {
     const up = sortEventsByDate(
@@ -181,7 +200,7 @@ export function OrgEventsContent() {
           ) : (
             <>
               <EventsUpcoming events={upcoming} overrides={overrides} details={details} />
-              <EventsFeaturedBlock featured={eventsPageConfig.featured} />
+              {!locationFiltered && <EventsFeaturedBlock featured={eventsPageConfig.featured} />}
               <EventsPast events={past} overrides={overrides} details={details} />
             </>
           )}

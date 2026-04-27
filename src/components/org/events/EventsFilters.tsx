@@ -90,12 +90,14 @@ export function EventsFilters({
     return `${countryFilter.length} locations`;
   }, [countryFilter]);
 
-  const toggleCountry = useCallback(
+  /** Single-select: one country, or empty for all. Re-tap active country clears filter. */
+  const selectCountry = useCallback(
     (code: string) => {
-      const next = countryFilter.includes(code)
-        ? countryFilter.filter((c) => c !== code)
-        : [...countryFilter, code];
-      onCountryFilterChange(next);
+      const normalized = code.toLowerCase();
+      const isOnlySelected =
+        countryFilter.length === 1 && countryFilter[0].toLowerCase() === normalized;
+      onCountryFilterChange(isOnlySelected ? [] : [normalized]);
+      setDesktopMoreOpen(false);
     },
     [countryFilter, onCountryFilterChange]
   );
@@ -105,11 +107,11 @@ export function EventsFilters({
       if (code === null) {
         onCountryFilterChange([]);
       } else {
-        toggleCountry(code);
+        selectCountry(code);
       }
       setSheetOpen(false);
     },
-    [onCountryFilterChange, toggleCountry]
+    [onCountryFilterChange, selectCountry]
   );
 
   const recalculateDesktopLayout = useCallback(() => {
@@ -264,7 +266,7 @@ export function EventsFilters({
               key={code}
               type="button"
               className={`events-filter-pill events-filter-pill-flag ${countryFilter.includes(code) ? "is-active" : ""}`}
-              onClick={() => toggleCountry(code)}
+              onClick={() => selectCountry(code)}
             >
               <LocationFilterIcon code={code} />
               {getCountryName(code)}
@@ -304,7 +306,7 @@ export function EventsFilters({
                       role="option"
                       aria-selected={countryFilter.includes(code)}
                       className={`events-filter-overflow-item events-filter-pill-flag ${countryFilter.includes(code) ? "is-active" : ""}`}
-                      onClick={() => toggleCountry(code)}
+                      onClick={() => selectCountry(code)}
                     >
                       <LocationFilterIcon code={code} />
                       {getCountryName(code)}

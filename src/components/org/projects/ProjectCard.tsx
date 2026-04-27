@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { passthroughImageLoader } from "@/lib/passthrough-image-loader";
+import { saveScrollPosition, PROJECTS_SCROLL_KEY } from "@/lib/scroll-memory";
 
 const ACCENT = "#70ff88";
 
@@ -82,6 +83,10 @@ export function ProjectCard({
     return <ProjectCardCategoryRow project={project} />;
   }
   return <ProjectCardDefault project={project} />;
+}
+
+function handleProjectCardClick() {
+  saveScrollPosition(PROJECTS_SCROLL_KEY);
 }
 
 function getDisplayUrl(project: Project): string {
@@ -310,6 +315,8 @@ function ProjectCardEducation({ project }: { project: Project }) {
   return (
     <Link
       href={cardHref}
+      onPointerDownCapture={handleProjectCardClick}
+      onClick={handleProjectCardClick}
       className="project-card-hit"
       style={{ display: "block", height: "100%", textDecoration: "none", color: "inherit" }}
     >
@@ -438,6 +445,8 @@ function ProjectCardCategoryRow({ project }: { project: Project }) {
   return (
     <Link
       href={cardHref}
+      onPointerDownCapture={handleProjectCardClick}
+      onClick={handleProjectCardClick}
       className="project-card-hit"
       style={{
         flex: 1,
@@ -575,6 +584,8 @@ function ProjectCardInfrastructureRow({ project }: { project: Project }) {
   return (
     <Link
       href={cardHref}
+      onPointerDownCapture={handleProjectCardClick}
+      onClick={handleProjectCardClick}
       className="project-card-hit"
       style={{
         flex: 1,
@@ -710,6 +721,8 @@ function ProjectCardInfrastructure({ project }: { project: Project }) {
   return (
     <Link
       href={cardHref}
+      onPointerDownCapture={handleProjectCardClick}
+      onClick={handleProjectCardClick}
       className="project-card-hit"
       style={{ display: "block", height: "100%", textDecoration: "none", color: "inherit" }}
     >
@@ -820,6 +833,8 @@ function ProjectCardDefault({ project }: { project: Project }) {
   return (
     <Link
       href={cardHref}
+      onPointerDownCapture={handleProjectCardClick}
+      onClick={handleProjectCardClick}
       className="project-card-hit"
       style={{ display: "block", height: "100%", textDecoration: "none", color: "inherit" }}
     >

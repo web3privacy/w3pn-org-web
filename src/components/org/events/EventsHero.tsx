@@ -83,6 +83,7 @@ export function EventsHero({ hero }: { hero: Hero | null | undefined }) {
   const [bgSwapMode, setBgSwapMode] = useState(0);
   const bgSwapTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const galleryRef = useRef<HTMLDivElement>(null);
+  const galleryTrackRef = useRef<HTMLDivElement>(null);
 
   const galleryImages = hero?.galleryImages;
   const backgroundImage = hero?.backgroundImage;
@@ -137,6 +138,42 @@ export function EventsHero({ hero }: { hero: Hero | null | undefined }) {
   const loopImages = useMemo(() => (totalSlides > 0 ? [...images, ...images] : []), [images, totalSlides]);
   const loopLen = loopImages.length;
   const slotsCeil = Math.ceil(galleryVisibleSlots);
+
+  /**
+   * Pixel-perfect thumb width: mirrors CSS `calc((100% - (loopLen-1)*gap)/loopLen)` on the track,
+   * but avoids flex/% rounding drift (thumbs skewing width toward the end of the strip).
+   */
+  useLayoutEffect(() => {
+    if (typeof window === "undefined") return undefined;
+    const gallery = galleryRef.current;
+    const track = galleryTrackRef.current;
+    if (!gallery || !track || loopLen <= 0) return undefined;
+
+    const apply = () => {
+      const trackW = track.getBoundingClientRect().width;
+      if (!Number.isFinite(trackW) || trackW <= 0) return;
+      const gapStr = window.getComputedStyle(track).getPropertyValue("--hero-gallery-gap").trim();
+      const gap = Number.parseFloat(gapStr);
+      const gapPx = Number.isFinite(gap) && gap > 0 ? gap : 8;
+      const thumbPx = (trackW - (loopLen - 1) * gapPx) / loopLen;
+      if (Number.isFinite(thumbPx) && thumbPx > 0.5) {
+        track.style.setProperty("--events-hero-thumb-px", `${thumbPx}px`);
+      } else {
+        track.style.removeProperty("--events-hero-thumb-px");
+      }
+    };
+
+    apply();
+    const ro = new ResizeObserver(apply);
+    ro.observe(gallery);
+    window.addEventListener("resize", apply);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener("resize", apply);
+      track.style.removeProperty("--events-hero-thumb-px");
+    };
+  }, [loopLen, galleryVisibleSlots]);
+
   const maxSlide = Math.max(0, loopLen - slotsCeil);
   const boundedSlideIndex = Math.min(Math.max(0, slideIndex), maxSlide);
 
@@ -298,6 +335,7 @@ export function EventsHero({ hero }: { hero: Hero | null | undefined }) {
             </button>
             <div ref={galleryRef} className="events-hero-gallery" {...swipeHandlers}>
               <div
+                ref={galleryTrackRef}
                 className={`events-hero-gallery-track${galleryInstant ? " events-hero-gallery-track--instant" : ""}`}
                 onTransitionEnd={onGalleryTransitionEnd}
                 style={{
@@ -317,7 +355,13 @@ export function EventsHero({ hero }: { hero: Hero | null | undefined }) {
                     onClick={() => setLightboxIndex(i % totalSlides)}
                     aria-label="View image fullscreen"
                   >
-                    <img src={src} alt="" loading={i < slotsCeil ? "eager" : "lazy"} />
+                    <img
+                      className="events-hero-gallery-item-img"
+                      src={src}
+                      alt=""
+                      loading={i < slotsCeil ? "eager" : "lazy"}
+                      draggable={false}
+                    />
                   </button>
                 ))}
               </div>

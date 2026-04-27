@@ -16,6 +16,7 @@ sudo mkdir -p /var/lib/w3pn-uploads/images/site-shared/admin-uploads
 sudo mkdir -p /var/lib/w3pn-uploads/images/projects/uploads
 sudo mkdir -p /var/lib/w3pn-uploads/images/donate/uploads
 sudo mkdir -p /var/lib/w3pn-uploads/images/about-us/sections/about/assets/gallery
+sudo mkdir -p /var/lib/w3pn-uploads/images/resources/source-files
 ```
 
 ## 2. Give the app user write access
@@ -52,6 +53,26 @@ Behavior:
 
 This means you do not have to pre-copy the whole `data/` tree before first boot.
 
+If you want the VPS copy to stay authoritative across future git deploys, seed the full canonical data tree once:
+
+```bash
+cp -an /opt/w3pn-org-web/repo/data/. /var/lib/w3pn-data/
+```
+
+Why this matters:
+
+- unchanged files would otherwise still be read from the repo fallback
+- a later git pull could silently change those fallback files underneath the running site
+
+Safe refresh rule after upstream adds new canonical files:
+
+- merge only missing files into `/var/lib/w3pn-data`
+- do not overwrite files that already exist there
+
+```bash
+cp -an /opt/w3pn-org-web/repo/data/. /var/lib/w3pn-data/
+```
+
 ## 4. Keep uploaded images under `public/images/**`
 
 Uploads still use the existing public URLs and still need to be reachable inside the release at these paths:
@@ -61,6 +82,7 @@ Uploads still use the existing public URLs and still need to be reachable inside
 - `public/images/projects/uploads`
 - `public/images/donate/uploads`
 - `public/images/about-us/sections/about/assets/gallery`
+- `public/images/resources/source-files`
 
 Recommended deployment pattern:
 
@@ -84,9 +106,32 @@ ln -s /var/lib/w3pn-uploads/images/donate/uploads public/images/donate/uploads
 
 rm -rf public/images/about-us/sections/about/assets/gallery
 ln -s /var/lib/w3pn-uploads/images/about-us/sections/about/assets/gallery public/images/about-us/sections/about/assets/gallery
+
+rm -rf public/images/resources/source-files
+ln -s /var/lib/w3pn-uploads/images/resources/source-files public/images/resources/source-files
 ```
 
 This keeps the editable paths under `public/images/**` while making them survive new releases.
+
+Important large-file note:
+
+- keep very large downloadable archives out of the image build whenever possible
+- mount `public/images/resources/source-files` from `/var/lib/w3pn-uploads/...` instead
+- add that path to `.dockerignore` so Docker does not pull multi-GB artifacts into the build context
+
+Important gallery mount note:
+
+- if you bind-mount `public/images/about-us/sections/about/assets/gallery` from an empty shared directory, it masks the built-in About gallery shipped with the app image
+- the result is a live page with correct `img src` values but `404` responses for the gallery assets
+- seed the shared gallery directory before first boot, or restart the app after seeding it
+
+Example seed:
+
+```bash
+mkdir -p /var/lib/w3pn-uploads/images/about-us/sections/about/assets/gallery
+cp -an /opt/w3pn-org-web/repo/public/images/about-us/sections/about/assets/gallery/. /var/lib/w3pn-uploads/images/about-us/sections/about/assets/gallery/
+docker compose restart w3pn-web
+```
 
 ## 5. Add self-hosted Plausible config
 
