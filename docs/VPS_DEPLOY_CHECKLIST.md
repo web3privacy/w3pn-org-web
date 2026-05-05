@@ -118,6 +118,35 @@ Important large-file note:
 - keep very large downloadable archives out of the image build whenever possible
 - mount `public/images/resources/source-files` from `/var/lib/w3pn-uploads/...` instead
 - add that path to `.dockerignore` so Docker does not pull multi-GB artifacts into the build context
+- on the VPS, do not keep a second full copy of `public/images/resources/source-files` inside the repo checkout
+- after the shared directory has been seeded, replace the repo copy with a symlink to `/var/lib/w3pn-uploads/images/resources/source-files`
+
+Example:
+
+```bash
+rm -rf /opt/w3pn-org-web/repo/public/images/resources/source-files
+ln -s /var/lib/w3pn-uploads/images/resources/source-files /opt/w3pn-org-web/repo/public/images/resources/source-files
+```
+
+Why this matters:
+
+- it avoids keeping an extra multi-GB duplicate on the server
+- it reduces the chance of future deploy/build slowdowns caused by large local artifacts
+- it keeps the repo checkout aligned with the persistent runtime path
+
+Build hygiene note:
+
+- avoid `docker compose build --no-cache` for routine deploys unless you are actively debugging a cache issue
+- if disk usage grows after repeated builds, prefer pruning BuildKit cache instead of deleting runtime data
+
+Useful cleanup commands:
+
+```bash
+docker builder prune -af
+docker image prune -af
+apt-get clean
+rm -rf /var/lib/apt/lists/*
+```
 
 Important gallery mount note:
 

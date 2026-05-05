@@ -20,7 +20,7 @@ export const DONATION_ASSETS: DonationAsset[] = [
   {
     id: "bitcoin",
     name: "Bitcoin",
-    address: "bc1qfacmh9rqhh3j3xayxzga9xrgas894zfe2v37rz",
+    address: "bc1qxf8f646j0khvllu3l4wa4779s70tvu68ze2pdu",
     color: "#f7931a",
   },
   {

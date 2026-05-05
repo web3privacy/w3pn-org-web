@@ -21,7 +21,7 @@ This address can be used for donations on Optimism, Arbitrum, BSC, Base and othe
 
 ## Bitcoin
 
-`bc1qfacmh9rqhh3j3xayxzga9xrgas894zfe2v37rz`
+`bc1qxf8f646j0khvllu3l4wa4779s70tvu68ze2pdu`
 
 
 ## Monero
